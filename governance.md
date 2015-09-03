@@ -260,7 +260,7 @@ at an Institutional Partner.
 
 With these definitions, an Institutional Partner is any recognized legal entity
 in the United States or elsewhere that employs at least 1 Institutional
-Contributor of Institutional Council Member. Institutional Partners can be
+Contributor or Institutional Council Member. Institutional Partners can be
 for-profit or non-profit entities.
 
 Institutions become eligible to become an Institutional Partner by employing
@@ -275,7 +275,7 @@ institution becomes eligible for Institutional Partnership, the Steering
 Council must nominate and approve the Partnership.
 
 If an existing Institutional Partner no longer has a contributing employee,
-they will be given a 1 year grace period for remaining employees to begin
+they will be given a one-year grace period for remaining employees to begin
 contributing.
 
 An Institutional Partner is free to pursue funding for their work on The
