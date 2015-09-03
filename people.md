@@ -25,12 +25,11 @@ Steering Council
 NumFOCUS Subcommittee
 ---------------------
 
-- Fernando Perez
 - Brian Granger
-- Thomas Kluyver
+- Fernando Perez
 - Matthias Bussonnier
-- Stefan van der Walt (Stefan is currently the non-council member of
-  the committee)
+- Stefan van der Walt (non-council member)
+- Thomas Kluyver
 
 Institutional Partners
 ======================
