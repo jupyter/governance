@@ -5,4 +5,4 @@ The purpose of this repository is to formalize the governance process that the I
 ## Table of Contents
 
 * [Main Governance Document](governance.md)
-* [People and Institutions](people.md)
+* [Current Steering Council and Institutional Partners](people.md)

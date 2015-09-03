@@ -1,7 +1,4 @@
-# People in the governance structure
-
-This document lists the current people and institutions involved in
-the governance.
+# Steering Council and Institutional Partners
 
 Benevolent Dictator for Life
 ============================
