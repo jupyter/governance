@@ -1,5 +1,11 @@
 # Main Governance Document
 
+The official version of this document, along with a list of
+individuals and institutions in the roles defined in the governance
+section below, is contained in The Project Governance Repository at:
+
+[https://github.com/jupyter/governance](https://github.com/jupyter/governance)
+
 The Project
 ===========
 
