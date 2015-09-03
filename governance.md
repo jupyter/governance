@@ -265,23 +265,25 @@ Council Member who contributes to the project as part of their official duties
 at an Institutional Partner.
 
 With these definitions, an Institutional Partner is any recognized legal entity
-in the United States or elsewhere that employs at least 1 Institutional
+in the United States or elsewhere that employs at least one Institutional
 Contributor or Institutional Council Member. Institutional Partners can be
 for-profit or non-profit entities.
 
-Institutions become eligible to become an Institutional Partner by employing
-individuals who actively contribute to The Project as part of their official
-duties. To state this another way, the only way for a Partner to influence the
-project is by actively contributing to the open development of the project, in
-equal terms to any other member of the community of Contributors and Council
-Members. Merely using Jupyter/IPython Software or Services in institutional
-context do not allow an entity to become an Institutional Partner. Financial
-gifts do not enable an entity to become an Institutional Partner. Once an
-institution becomes eligible for Institutional Partnership, the Steering
-Council must nominate and approve the Partnership.
+Institutions become eligible to become an Institutional Partner by
+employing individuals who actively contribute to The Project as part
+of their official duties. To state this another way, the only way for
+an Institutional Partner to influence the project is by actively
+contributing to the open development of the project, on equal terms
+with any other member of the community of Contributors and Council
+Members. Merely using Jupyter/IPython Software or Services in an
+institutional context does not allow an entity to become an
+Institutional Partner. Financial gifts do not enable an entity to
+become an Institutional Partner. Once an institution becomes eligible
+for Institutional Partnership, the Steering Council must nominate and
+approve the Partnership.
 
 If an existing Institutional Partner no longer has a contributing employee,
-they will be given a one-year grace period for remaining employees to begin
+they will be given a one-year grace period for other employees to begin
 contributing.
 
 An Institutional Partner is free to pursue funding for their work on The
@@ -297,7 +299,7 @@ this situation, that part of the Partner’s work will not be under the
 Jupyter/IPython umbrella and cannot use the Project trademarks in a way that
 suggests a formal relationship.
 
-To acknowledge institutional contributions there are two level of Institutional
+To acknowledge institutional contributions, there are two level of Institutional
 Partners, with associated benefits:
 
 **Tier 1** = an institution with at least one Institutional Council Member
@@ -312,7 +314,7 @@ Partners, with associated benefits:
     Contributors or Council Members.
 -   Ability to influence the project through the participation of their Council
     Member.
--   Council Members invited to bi-annual Jupyter/IPython Developer Meeting.
+-   Council Members are invited to the bi-annual Jupyter/IPython Developer Meeting.
 
 **Tier 2** = an institution with at least one Institutional Contributor
 
