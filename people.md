@@ -34,27 +34,17 @@ NumFOCUS Subcommittee
 Institutional Partners
 ======================
 
-Institutional Council and Institutional Contributors are noted with
-each institution.
-
 Tier 1
 ------
 
-- [Bloomberg](http://www.bloomberg.com/)
-  - Jason Grout (Council)
-  - Sylvain Corlay (Contributor)
-- [Cal Poly](http://www.calpoly.edu/)
-  - Brian Granger (Council)
-- [Continuum Analytics](http://continuum.io/)
-  - Damian Avila (Council)
-- [UC Berkeley](http://www.berkeley.edu/)
-  - Fernando Pérez (Council)
-- [Rackspace](http://www.rackspace.com/)
-  - Kyle Kelley (Council)
+Institutional Council members are noted with each institution.
+
+- [Bloomberg](http://www.bloomberg.com/) (Jason Grout)
+- [Cal Poly](http://www.calpoly.edu/) (Brian Granger)
+- [Continuum Analytics](http://continuum.io/) (Damian Avila)
+- [UC Berkeley](http://www.berkeley.edu/) (Fernando Perez)
+- [Rackspace](http://www.rackspace.com/) (Kyle Kelley)
 
 Tier 2
 ------
 - [Google](https://www.google.com/)
-  - Kester Tong
-  - Kayur Patel
-  - Mark Sandler
