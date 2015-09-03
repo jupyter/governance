@@ -1,79 +1,110 @@
 # Jupyter Incubation Process
 
-Incubation is the process by which new Jupyter Subprojects are created and evaluated for inclusion in the main Jupyter organization. In this context a Subproject is a GitHub repository with a development team that follows the Jupyter governance and contribution model. The goals of the incubation process are:
+Incubation is the process by which new Jupyter Subprojects are created and evaluated for
+inclusion in the main Jupyter organization. In this context a Subproject is a GitHub
+repository with a development team that follows the Jupyter governance and contribution model.
+The goals of the incubation process are:
 
-* Contributors can quickly and easily get their code exposed to the Jupyter community while complying with corporate contribution restrictions.
-* Contributors can work with the community and gather feedback that will help them develop and refine a clear and concise integration proposal.
-* The broader user community can easily distinguish between stable core project feature functions and what is on the docket for potential future integration.
-* Enables the core development team to assess the readiness an applicability of proposed technologies against a backdrop of the broader project design efforts. 
-* Allows the core team to re-evaluate existing jupyter org repos to determine if any need to be moved to jupyter-incubator.
+
+* Contributors can quickly and easily get their code exposed to the Jupyter community while
+  complying with corporate contribution restrictions.
+* Contributors can work with the community and gather feedback that will help them develop and
+  refine a clear and concise integration proposal.
+* The broader community can easily distinguish between stable, officially supported
+  and maintained Subprojects in the main GitHub organization and new efforts that are
+  emerging and being developed for future inclusion.
+* Enables the core development team to assess the readiness and applicability of proposed
+  technologies against a backdrop of the broader project design efforts.
+* Allows the community and Steering Council to re-evaluate existing Subprojects in the main
+  jupyter GitHub organizations to determine if any need to be moved to jupyter-incubator.
+* Allow the community to make sure that Subprojects develop into something that is
+  appropriate to become an officially supported and maintained part of the project.
+
 
 ## Proposal for incubation
 
-A subproject enter into incubation by submitting a proposal for incubation. This process is designed to be lightweight and quick:
+A Subproject enters into incubation by submitting a proposal for incubation. This process is
+designed to be lightweight and quick:
 
-1. The proposers should fill out incubation application by sumitting a pull request to the
+1. The proposers must fill out incubation application by sumitting a pull request to the
    jupyter-incubator/proposals repository.
-2. The proposed subproject must have a mentor/sponsor/champion who is an active Steering 
+2. Proposers must announce their intent to the community with a post to the main Jupyter
+   list.
+2. The proposed Subproject must have a mentor/sponsor/champion who is an active Steering
    Council member.
-3. The proposal for incubation will be discussed by the community and approved or rejected
-   by the consensus of the Steering Council.
-4. If approved the proposal PR will be merged, if rejected, it will be closed.
+3. The proposal for incubation will be discussed by the community and approved or rejected by
+   the consensus of the Steering Council.
+4. If approved, the proposal pull request will be merged, if rejected, it will be closed.
+
 
 ## Incubation period
 
-Once a project has become an incubation subproject, the following steps will be taken:
+Once a project has become an incubation Subproject, the following steps will be taken:
 
 1. A GitHub repo will be created under the jupyter-incubator organization
-2. A GitHub team will created with read/write accees to the repo, including the
+2. A GitHub team will be created with read/write access to the repo, including the
    mentor/sponsor/champion.
-3. Standard Jupyter LICENSE file will be added to the repo.
+3. The standard Jupyter LICENSE file will be added to the repo.
+4. A member of the Steering Council will announce the newly incubated Subproject on the
+   main Jupyter list.
 
-The goal of the incubation period is to demonstrate that the subproject is going to take off
+The goal of the incubation period is to demonstrate that the Subproject is going to develop an
 with an active developer and user community. There is no particular length of time required,
 but most projects will be in incubation for at least 6 months to 1 year.
 
 ## Proposal for graduation from incubation
 
-When a incubating subproject graduates, it becomes an official part of Project Jupter and
-is moved to the jupyter GitHub organization.
+When an incubating Subproject graduates, it becomes an officialy supported and maintained part
+of Project Jupter and is moved to the jupyter GitHub organization. When it is moved over, it
+also starts to be developed according to the Jupyter governance and contribution model that is
+documented in this governance document.
 
-To graduate from the incubation period, a subproject should submit a second pull request
-against the jupyter-incubator/proposals repo that completes the second half of the incubator
-proposal.
+To graduate from the incubation period, the following process will be used:
 
-* Initiated by a second PR against the proposals repo that finishes the rest of the application.
-* Requires consensus of the Steering Council.
-* Three outcomes
-  - More incubation with recommendations
-  - Voluntary retiremet.
-  - Forced termination.
-  - Gradution as a new core project.
-  - Integration into existing core project.
+1. The Subproject team should submit a second pull request against the
+   jupyter-incubator/proposals repository that completes the second half of the incubator
+   proposal.
+2. The proposal for graduation will be discussd by the community.
+3. A recommendation will be made by the consensus of the Steering Council.
+
+The possible recommendations of the Steering Council wil be:
+
+* Further incubation with recommendations on steps the team can take to prepare for future
+  graduation.
+* Forced termination. In this case, incubating Subproject will be shut down and removed
+  from the incubation repository. This option will be used if the Steering Council thinks
+  the Subproject has stopped progressing or will never be appropriate for graduation.
+* Integration into an existing official Suproject.
+* Graduattion into a new official Subproject.
 
 ## Criteria for graduation
 
-The following criteria will be used in evaluating subprojects for graduation.
+The following criteria will be used in evaluating Subprojects for graduation.
 
 * Active developer community that offers a sustainable model for future development.
 * Active user community.
-* Solid software engineering with docs on readthedocs, tests, Travis.
-* Demonstrates continuing growth and development.
+* Solid software engineering with documentation and tests hosted with appropriate
+  technologies (readthedoc, Travis are examples of technologies that can be used).
+* Demonstrates continued growth and development.
 * Integration with the rest of the project.
-* Willingness to submit to the Jupyter governance model.
-* Well defined scope
-* Well packaged (pip, conda, npm, bower, docker)
+* Willingness to submit to the Jupyter governance and contribution model.
+* Well-defined scope.
+* Well packaged using appropriate technologies such as pip, conda, npm, bower, docker, etc.
 
 ## Graduation
 
-* Transfer GitHub repo over to jupyter org.
-* Make team for the project.
+When a project graduates from incubation into a new official Subproject, the following steps
+will be taken:
 
+1. Transfer the GitHub repo over to the main `jupyter` GitHub organization.
+2. Make a new GitHub team for the Subproject.
+3. Email the main Jupyter list with an announcement about the new Subproject.
 
 ## Questions
 
-* Do we want to introduce the idea of a repository/subproject maintainer?
-* 
+* Do we want to introduce the idea of a repository/Subproject maintainer?
+* Which repo do we want to use for the incubator proposals?
+* Mentor? Sponsor? Champion?
 
 
 
