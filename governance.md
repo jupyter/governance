@@ -36,6 +36,9 @@ Here is a list of the current Contributors to the main IPython repository:
 
 [https://github.com/ipython/ipython/graphs/contributors](https://github.com/ipython/ipython/graphs/contributors)
 
+There are also many other Contributors listed in the logs of other repositories of
+the Jupyter and IPython projects.
+
 The Project Community consists of all Contributors and Users of the Project.
 Contributors work on behalf of and are responsible to the larger Project
 Community and we strive to keep the barrier between Contributors and Users as
