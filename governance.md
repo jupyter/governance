@@ -214,7 +214,7 @@ most of the time, and explicit BDFL intervention is sought only if the
 committee disagrees with that delegate’s decision and no resolution is possible
 within the team. This is different from a BDFL delegate for a specific decision
 (or a recusal situation), where the BDFL is literally giving up his/her
-authority to someone else in full.  It’s more like what Linus T. uses with his
+authority to someone else in full. It’s more like what Linus Torvalds uses with his
 “lieutenants” model.
 
 ### NumFOCUS Subcommittee
