@@ -12,9 +12,9 @@ developed openly and hosted on public GitHub repositories under the ipython and
 jupyter GitHub organizations. Examples of Project Software include the IPython
 Notebook, the IPython Terminal, IPython.parallel, the Jupyter Hub, etc. The
 Services run by the Project consist of public websites and web-services that
-are hosted under the jupyter.org or ipython.org domains. The Services Examples
+are hosted under the jupyter.org or ipython.org domains. The Services Examples
 of Project Services include the Jupyter and IPython websites
-([http://jupyter.org](http://jupyter.org) and
+([http://jupyter.org](http://jupyter.org) and
 [http://ipython.org](http://ipython.org)), nbviewer
 ([https://nbviewer.ipython.org](https://nbviewer.ipython.org)) and the Jupyter
 coLaboratory
@@ -41,7 +41,7 @@ low as possible.
 
 The Project is formally affiliated with the 501c3 NumFOCUS Foundation
 ([http://numfocus.org](http://numfocus.org)), which serves as its fiscal
-sponsor, may hold project trademarks and other intellectual property, helps
+sponsor, may hold project trademarks and other intellectual property, helps
 manage project donations and acts as a parent legal entity. NumFOCUS is the
 only legal entity that has a formal relationship with the project (see
 Institutional Partners section below).
@@ -59,13 +59,13 @@ The foundations of Project governance are:
 
 Traditionally, Project leadership was provided by a BDFL (Fernando Perez) and
 subset of Contributors, called Core Developers, whose active and consistent
-contributions have been recognized by their receiving “commit rights” to the
+contributions have been recognized by their receiving “commit rights” to the
 Project GitHub repositories. In general all Project decisions are made through
-consensus among the Core Developers with input from the Community. The BDFL
+consensus among the Core Developers with input from the Community. The BDFL
 can, but rarely chooses to, override the Core Developers and make a final
 decision on a matter.
 
-While this approach has served us well, as the Project grows and faces more
+While this approach has served us well, as the Project grows and faces more
 legal and financial decisions and interacts with other institutions, we see a
 need for a more formal governance model. Moving forward The Project leadership
 will consist of a BDFL and Steering Council. We view this governance model as
@@ -81,7 +81,7 @@ decisions for The Project. As Benevolent, the BDFL, in practice chooses to
 defer that authority to the consensus of the community discussion channels and
 the Steering Council (see below). It is expected, and in the past has been the
 case, that the BDFL will only rarely assert his/her final authority. Because
-rarely used, we refer to BDFL’s final authority as a “special” or  “overriding”
+rarely used, we refer to BDFL’s final authority as a “special” or “overriding”
 vote. When it does occur, the BDFL override typically happens in situations
 where there is a deadlock in the Steering Council or if the Steering Council
 asks the BDFL to make a decision on a specific matter. To ensure the
@@ -91,7 +91,7 @@ of the Steering Council (see below) and may delegate his/her authority on a
 particular decision or set of decisions to any other Council member at his/her
 discretion.
 
-The BDFL can appointing his/her successor, but it is expected that the Steering
+The BDFL can appointing his/her successor, but it is expected that the Steering
 Council would be consulted on this decision. If the BDFL is unable to appoint a
 successor, the Steering Council will make a suggestion or suggestions to the
 Main NumFOCUS Board. While the Steering Council and Main NumFOCUS Board will
@@ -162,7 +162,7 @@ given a grace period of one year. If they don’t return to active participation
 within that time period they will be removed by vote of the Council without
 further grace period. All former Council members can be considered for
 membership again at any time in the future, like any other Project Contributor.
- Retired Council members will be listed on the project website, acknowledging
+ Retired Council members will be listed on the project website, acknowledging
 the period during which they were active in the Council.
 
 The Council reserves the right to eject current Members, other than the BDFL,
@@ -186,21 +186,21 @@ Council any conflict of interest they may have. Members with a conflict of
 interest in a particular issue may participate in Council discussions on that
 issue, but must recuse themselves from voting on the issue. If the BDFL has
 recused his/herself for a particular decision, they will appoint a substitute
-BDFL for that decision.
+BDFL for that decision.
 
 ### Private communications of the Council
 
 Unless specifically required, all Council discussions and activities will be
 public and done in collaboration and discussion with the Project Contributors
 and Community. The Council will have a private mailing list that will be used
-sparingly and only when a specific matter requires privacy.  When private
+sparingly and only when a specific matter requires privacy. When private
 communications and decisions are needed, the Council will do its best to
 summarize those to the Community after eliding personal/private/sensitive
 information that should not be posted to the public internet.
 
 ### Subcommittees
 
-The Council can create subcommittees that provide leadership and guidance for
+The Council can create subcommittees that provide leadership and guidance for
 specific aspects of the project. Like the Council as a whole, subcommittees
 should conduct their business in an open and public manner unless privacy is
 specifically called for. Private subcommittee communications should happen on
@@ -237,7 +237,7 @@ interactions with NumFOCUS.
 
 As of September 2014, the NumFOCUS Subcommittee is composed of: Fernando Perez,
 Brian Granger, Thomas Kluyver, Matthias Bussonnier and Stefan van der Walt.
- Stefan is currently the non-council member.
+ Stefan is currently the non-council member.
 
 Institutional Partners and Funding
 ==================================
@@ -252,7 +252,7 @@ Partners.
 
 An Institutional Contributor is any individual Project Contributor who
 contributes to the project as part of their official duties at an Institutional
-Partner. Likewise, an Institutional Council Member is any Project Steering
+Partner. Likewise, an Institutional Council Member is any Project Steering
 Council Member who contributes to the project as part of their official duties
 at an Institutional Partner.
 
