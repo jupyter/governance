@@ -8,16 +8,18 @@ affiliated with the 501c3 NumFocus Foundation. The goal of The Project is to
 develop open source software and deploy open and public websites and services
 for reproducible, exploratory and interactive computing. The Software developed
 by The Project is released under the BSD (or similar) open source license,
-developed openly and hosted on public GitHub repositories under the ipython and
-jupyter GitHub organizations. Examples of Project Software include the IPython
-Notebook, the IPython Terminal, IPython.parallel, the Jupyter Hub, etc. The
-Services run by the Project consist of public websites and web-services that
-are hosted under the jupyter.org or ipython.org domains. The Services Examples
-of Project Services include the Jupyter and IPython websites
+developed openly and hosted in public GitHub repositories under the
+[IPython GitHub organization](https://github.com/ipython) and the
+[Jupyter GitHub organization](https://github.com/jupyter). Examples of
+Project Software include the IPython Notebook, the IPython Terminal,
+IPython.parallel, the Jupyter Hub, etc. The Services run by the
+Project consist of public websites and web-services that are hosted
+under the jupyter.org or ipython.org domains. The Services Examples of
+Project Services include the Jupyter and IPython websites
 ([http://jupyter.org](http://jupyter.org) and
 [http://ipython.org](http://ipython.org)), nbviewer
-([https://nbviewer.ipython.org](https://nbviewer.ipython.org)) and the Jupyter
-coLaboratory
+([https://nbviewer.ipython.org](https://nbviewer.ipython.org)) and the
+Jupyter coLaboratory
 ([https://colaboratory.jupyter.org](https://colaboratory.jupyter.org)).
 
 The Project is developed by a team of distributed developers, called
