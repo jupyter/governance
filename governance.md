@@ -240,9 +240,6 @@ interactions with NumFOCUS.
     contracting work (including the reportee, i.e. the reportee + 1 is the
     max). This avoids effective majorities resting on one person.
 
-As of September 2014, the NumFOCUS Subcommittee is composed of: Fernando Perez,
-Brian Granger, Thomas Kluyver, Matthias Bussonnier and Stefan van der Walt.
- Stefan is currently the non-council member.
 
 Institutional Partners and Funding
 ==================================
@@ -311,20 +308,8 @@ Partners, with associated benefits:
     Member.
 -   Council Members invited to bi-annual Jupyter/IPython Developer Meeting.
 
-Existing **Tier 1** level Institutional Partners:
-
--   UC Berkeley (Fernando Pérez, Min Ragan-Kelley, Thomas Kluyver)
--   Cal Poly (Brian Granger)
--   Rackspace (Kyle Kelley)
--   Continuum Analytics (Damian Avila)
-
 **Tier 2** = an institution with at least one Institutional Contributor
 
 -   Same benefits as Tier 1 level Partners, but:
 -   Only Institutional Contributors are invited to the Institutional Partners
     Workshop and bi-annual Jupyter/IPython Developer Meeting.
-
-Existing **Tier 2** Partners:
-
--   Bloomberg (Jason Grout, Sylvain Corlay)
--   Google (Kester Tong, Kayur Patel, Mark Sandler)
