@@ -321,3 +321,19 @@ Partners, with associated benefits:
 -   Same benefits as Tier 1 level Partners, but:
 -   Only Institutional Contributors are invited to the Institutional Partners
     Workshop and bi-annual Jupyter/IPython Developer Meeting.
+
+
+Changing the Governance
+=======================
+
+Changes to the governance documents are proposed via a GitHub pull
+request to The Project's governance documents GitHub repository at
+[https://github.com/jupyter/governance](https://github.com/jupyter/governance).
+After a period of public comment and review, a Steering Council Member
+proposes to the Steering Council that the pull request be merged
+(accepting the proposed changes) or proposes that the pull request be
+closed without merging (rejecting the proposed changes).  The Member
+should list the commit range proposed for acceptance or rejection and
+briefly summarize the pull request.  A majority vote from the Steering
+Council is needed to carry out the action.  The BDFL has authority to
+override the vote.
