@@ -1,6 +1,6 @@
 # Jupyter Incubation Process
 
-Incubation is the process by which new Jupyter Subprojects can be created and evaluated for
+Incubation is a process by which new Jupyter Subprojects can be created and evaluated for
 inclusion in the main Jupyter organization. In this context a Subproject is a GitHub
 repository with a development team that follows the Jupyter governance and contribution model.
 
