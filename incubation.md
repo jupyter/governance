@@ -1,13 +1,33 @@
 # Jupyter Incubation Process
 
-Incubation is the process by which new Jupyter Subprojects are created and evaluated for
-inclusion in the main Jupyter organization. In this context a Subproject is a GitHub
-repository with a development team that follows the Jupyter governance and contribution model.
+Incubation is the process by which certain types of new Jupyter Subprojects are created and
+evaluated for inclusion in the main Jupyter organization. In this context a Subproject is a
+GitHub repository with a development team that follows the Jupyter governance and contribution
+model.
+
+The incubation process doesn't apply to all new Subprojects, only those with the following
+characteristics:
+
+* Significant unanswered technical questions that required exploration.
+* Entirely new directions, scopes or ideas that haven't been vetted with the community.
+* Significant, already existing code bases where it is not clear how the project will
+  integrate with the rest of Jupyter.
+ 
+Most importantly, the incubation process does not apply to new Subprojects that are
+created in the natural development of existing officially supported Subproject in the
+main jupyter GitHub organization.
+
+If there are questions about whether the incubation process applies to a given Subproject,
+interested parties should simply start a discussion on the main Jupyter list to get community
+and Steering Council feedback. The most important question in making this determination is
+this: is there broad agreement in the community and Steering Council that we are undertaking
+this activity in an official capacity. If this agreement exists, Steering Council members can
+immediately create new offcial subprojects in the main Jupyter organization.
+
 The goals of the incubation process are:
 
-
 * Contributors can quickly and easily get their code exposed to the Jupyter community while
-  complying with corporate contribution restrictions.
+  complying with individual and organizational contribution restrictions.
 * Contributors can work with the community and gather feedback that will help them develop and
   refine a clear and concise integration proposal.
 * The broader community can easily distinguish between stable, officially supported
