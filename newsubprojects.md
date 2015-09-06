@@ -1,4 +1,4 @@
-# New subproject process
+# New Subproject Process
 
 Project Jupyter is organized as a set of Subprojects that are each a GitHub repository with a
 development team that follows the Jupyter governance, license and contribution model. Officially supported and maintained subprojects are hosted on the [jupyter](https://github.com/jupyter) GitHub orgnization. This document describes the process by which new Subprojects are created in or moved to the Jupyter organization.
