@@ -1,5 +1,11 @@
 # Main Governance Document
 
+The official version of this document, along with a list of
+individuals and institutions in the roles defined in the governance
+section below, is contained in The Project Governance Repository at:
+
+[https://github.com/jupyter/governance](https://github.com/jupyter/governance)
+
 The Project
 ===========
 
@@ -8,16 +14,18 @@ affiliated with the 501c3 NumFocus Foundation. The goal of The Project is to
 develop open source software and deploy open and public websites and services
 for reproducible, exploratory and interactive computing. The Software developed
 by The Project is released under the BSD (or similar) open source license,
-developed openly and hosted on public GitHub repositories under the ipython and
-jupyter GitHub organizations. Examples of Project Software include the IPython
-Notebook, the IPython Terminal, IPython.parallel, the Jupyter Hub, etc. The
-Services run by the Project consist of public websites and web-services that
-are hosted under the jupyter.org or ipython.org domains. The Services Examples
-of Project Services include the Jupyter and IPython websites
-([http://jupyter.org](http://jupyter.org) and
+developed openly and hosted in public GitHub repositories under the
+[IPython GitHub organization](https://github.com/ipython) and the
+[Jupyter GitHub organization](https://github.com/jupyter). Examples of
+Project Software include the IPython Notebook, the IPython Terminal,
+IPython.parallel, the Jupyter Hub, etc. The Services run by the
+Project consist of public websites and web-services that are hosted
+under the jupyter.org or ipython.org domains. The Services Examples of
+Project Services include the Jupyter and IPython websites
+([http://jupyter.org](http://jupyter.org) and
 [http://ipython.org](http://ipython.org)), nbviewer
-([https://nbviewer.ipython.org](https://nbviewer.ipython.org)) and the Jupyter
-coLaboratory
+([https://nbviewer.ipython.org](https://nbviewer.ipython.org)) and the
+Jupyter coLaboratory
 ([https://colaboratory.jupyter.org](https://colaboratory.jupyter.org)).
 
 The Project is developed by a team of distributed developers, called
@@ -34,6 +42,9 @@ Here is a list of the current Contributors to the main IPython repository:
 
 [https://github.com/ipython/ipython/graphs/contributors](https://github.com/ipython/ipython/graphs/contributors)
 
+There are also many other Contributors listed in the logs of other repositories of
+the Jupyter and IPython projects.
+
 The Project Community consists of all Contributors and Users of the Project.
 Contributors work on behalf of and are responsible to the larger Project
 Community and we strive to keep the barrier between Contributors and Users as
@@ -41,7 +52,7 @@ low as possible.
 
 The Project is formally affiliated with the 501c3 NumFOCUS Foundation
 ([http://numfocus.org](http://numfocus.org)), which serves as its fiscal
-sponsor, may hold project trademarks and other intellectual property, helps
+sponsor, may hold project trademarks and other intellectual property, helps
 manage project donations and acts as a parent legal entity. NumFOCUS is the
 only legal entity that has a formal relationship with the project (see
 Institutional Partners section below).
@@ -59,13 +70,13 @@ The foundations of Project governance are:
 
 Traditionally, Project leadership was provided by a BDFL (Fernando Perez) and
 subset of Contributors, called Core Developers, whose active and consistent
-contributions have been recognized by their receiving “commit rights” to the
+contributions have been recognized by their receiving “commit rights” to the
 Project GitHub repositories. In general all Project decisions are made through
-consensus among the Core Developers with input from the Community. The BDFL
+consensus among the Core Developers with input from the Community. The BDFL
 can, but rarely chooses to, override the Core Developers and make a final
 decision on a matter.
 
-While this approach has served us well, as the Project grows and faces more
+While this approach has served us well, as the Project grows and faces more
 legal and financial decisions and interacts with other institutions, we see a
 need for a more formal governance model. Moving forward The Project leadership
 will consist of a BDFL and Steering Council. We view this governance model as
@@ -81,7 +92,7 @@ decisions for The Project. As Benevolent, the BDFL, in practice chooses to
 defer that authority to the consensus of the community discussion channels and
 the Steering Council (see below). It is expected, and in the past has been the
 case, that the BDFL will only rarely assert his/her final authority. Because
-rarely used, we refer to BDFL’s final authority as a “special” or  “overriding”
+rarely used, we refer to BDFL’s final authority as a “special” or “overriding”
 vote. When it does occur, the BDFL override typically happens in situations
 where there is a deadlock in the Steering Council or if the Steering Council
 asks the BDFL to make a decision on a specific matter. To ensure the
@@ -91,7 +102,7 @@ of the Steering Council (see below) and may delegate his/her authority on a
 particular decision or set of decisions to any other Council member at his/her
 discretion.
 
-The BDFL can appointing his/her successor, but it is expected that the Steering
+The BDFL can appointing his/her successor, but it is expected that the Steering
 Council would be consulted on this decision. If the BDFL is unable to appoint a
 successor, the Steering Council will make a suggestion or suggestions to the
 Main NumFOCUS Board. While the Steering Council and Main NumFOCUS Board will
@@ -162,7 +173,7 @@ given a grace period of one year. If they don’t return to active participation
 within that time period they will be removed by vote of the Council without
 further grace period. All former Council members can be considered for
 membership again at any time in the future, like any other Project Contributor.
- Retired Council members will be listed on the project website, acknowledging
+ Retired Council members will be listed on the project website, acknowledging
 the period during which they were active in the Council.
 
 The Council reserves the right to eject current Members, other than the BDFL,
@@ -186,21 +197,21 @@ Council any conflict of interest they may have. Members with a conflict of
 interest in a particular issue may participate in Council discussions on that
 issue, but must recuse themselves from voting on the issue. If the BDFL has
 recused his/herself for a particular decision, they will appoint a substitute
-BDFL for that decision.
+BDFL for that decision.
 
 ### Private communications of the Council
 
 Unless specifically required, all Council discussions and activities will be
 public and done in collaboration and discussion with the Project Contributors
 and Community. The Council will have a private mailing list that will be used
-sparingly and only when a specific matter requires privacy.  When private
+sparingly and only when a specific matter requires privacy. When private
 communications and decisions are needed, the Council will do its best to
 summarize those to the Community after eliding personal/private/sensitive
 information that should not be posted to the public internet.
 
 ### Subcommittees
 
-The Council can create subcommittees that provide leadership and guidance for
+The Council can create subcommittees that provide leadership and guidance for
 specific aspects of the project. Like the Council as a whole, subcommittees
 should conduct their business in an open and public manner unless privacy is
 specifically called for. Private subcommittee communications should happen on
@@ -214,7 +225,7 @@ most of the time, and explicit BDFL intervention is sought only if the
 committee disagrees with that delegate’s decision and no resolution is possible
 within the team. This is different from a BDFL delegate for a specific decision
 (or a recusal situation), where the BDFL is literally giving up his/her
-authority to someone else in full.  It’s more like what Linus T. uses with his
+authority to someone else in full. It’s more like what Linus Torvalds uses with his
 “lieutenants” model.
 
 ### NumFOCUS Subcommittee
@@ -235,9 +246,6 @@ interactions with NumFOCUS.
     contracting work (including the reportee, i.e. the reportee + 1 is the
     max). This avoids effective majorities resting on one person.
 
-As of September 2014, the NumFOCUS Subcommittee is composed of: Fernando Perez,
-Brian Granger, Thomas Kluyver, Matthias Bussonnier and Stefan van der Walt.
- Stefan is currently the non-council member.
 
 Institutional Partners and Funding
 ==================================
@@ -252,28 +260,30 @@ Partners.
 
 An Institutional Contributor is any individual Project Contributor who
 contributes to the project as part of their official duties at an Institutional
-Partner. Likewise, an Institutional Council Member is any Project Steering
+Partner. Likewise, an Institutional Council Member is any Project Steering
 Council Member who contributes to the project as part of their official duties
 at an Institutional Partner.
 
 With these definitions, an Institutional Partner is any recognized legal entity
-in the United States or elsewhere that employs at least 1 Institutional
-Contributor of Institutional Council Member. Institutional Partners can be
+in the United States or elsewhere that employs at least one Institutional
+Contributor or Institutional Council Member. Institutional Partners can be
 for-profit or non-profit entities.
 
-Institutions become eligible to become an Institutional Partner by employing
-individuals who actively contribute to The Project as part of their official
-duties. To state this another way, the only way for a Partner to influence the
-project is by actively contributing to the open development of the project, in
-equal terms to any other member of the community of Contributors and Council
-Members. Merely using Jupyter/IPython Software or Services in institutional
-context do not allow an entity to become an Institutional Partner. Financial
-gifts do not enable an entity to become an Institutional Partner. Once an
-institution becomes eligible for Institutional Partnership, the Steering
-Council must nominate and approve the Partnership.
+Institutions become eligible to become an Institutional Partner by
+employing individuals who actively contribute to The Project as part
+of their official duties. To state this another way, the only way for
+an Institutional Partner to influence the project is by actively
+contributing to the open development of the project, on equal terms
+with any other member of the community of Contributors and Council
+Members. Merely using Jupyter/IPython Software or Services in an
+institutional context does not allow an entity to become an
+Institutional Partner. Financial gifts do not enable an entity to
+become an Institutional Partner. Once an institution becomes eligible
+for Institutional Partnership, the Steering Council must nominate and
+approve the Partnership.
 
 If an existing Institutional Partner no longer has a contributing employee,
-they will be given a 1 year grace period for remaining employees to begin
+they will be given a one-year grace period for other employees to begin
 contributing.
 
 An Institutional Partner is free to pursue funding for their work on The
@@ -289,7 +299,7 @@ this situation, that part of the Partner’s work will not be under the
 Jupyter/IPython umbrella and cannot use the Project trademarks in a way that
 suggests a formal relationship.
 
-To acknowledge institutional contributions there are two level of Institutional
+To acknowledge institutional contributions, there are two level of Institutional
 Partners, with associated benefits:
 
 **Tier 1** = an institution with at least one Institutional Council Member
@@ -304,22 +314,10 @@ Partners, with associated benefits:
     Contributors or Council Members.
 -   Ability to influence the project through the participation of their Council
     Member.
--   Council Members invited to bi-annual Jupyter/IPython Developer Meeting.
-
-Existing **Tier 1** level Institutional Partners:
-
--   UC Berkeley (Fernando Pérez, Min Ragan-Kelley, Thomas Kluyver)
--   Cal Poly (Brian Granger)
--   Rackspace (Kyle Kelley)
--   Continuum Analytics (Damian Avila)
+-   Council Members are invited to the bi-annual Jupyter/IPython Developer Meeting.
 
 **Tier 2** = an institution with at least one Institutional Contributor
 
 -   Same benefits as Tier 1 level Partners, but:
 -   Only Institutional Contributors are invited to the Institutional Partners
     Workshop and bi-annual Jupyter/IPython Developer Meeting.
-
-Existing **Tier 2** Partners:
-
--   Bloomberg (Jason Grout, Sylvain Corlay)
--   Google (Kester Tong, Kayur Patel, Mark Sandler)
