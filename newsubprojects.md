@@ -1,7 +1,7 @@
 # New Subproject Process
 
 Project Jupyter is organized as a set of Subprojects that are each a GitHub repository with a
-development team that follows the Jupyter governance, license and contribution model. Officially supported and maintained subprojects are hosted on the [jupyter](https://github.com/jupyter) GitHub orgnization. This document describes the process by which new Subprojects are created in or moved to the Jupyter organization.
+development team that follows the Jupyter governance, license and contribution model. Officially supported and maintained Subprojects are hosted on the [jupyter](https://github.com/jupyter) GitHub orgnization. This document describes the process by which new Subprojects are created in or moved to the Jupyter organization.
 
 There are two ways that new Subprojects are created:
 
@@ -18,15 +18,16 @@ Subproject. Subprojects should:
 * Have an active developer community that offers a sustainable model for future development.
 * Have an active user community.
 * Use solid software engineering with documentation and tests hosted with appropriate
-  technologies ([Read The Docs](https://readthedocs.org/), [Travis](https://travis-ci.org/)
+  technologies ([Read The Docs](https://readthedocs.org/) and [Travis](https://travis-ci.org/)
   are examples of technologies that can be used).
 * Demonstrate continued growth and development.
 * Integrate well with other official Subprojects.
 * Be developed according to the Jupyter governance and contribution model that is documented
   [here](https://github.com/jupyter/governance).
 * Have a well-defined scope.
-* Be well packaged using appropriate technologies such as pip, conda, npm, bower, docker, etc.
-* Not canibalize or fork an existing official subproject.
+* Be packaged using appropriate technologies such as pip, conda, npm, bower, docker, etc.
+
+As a general guideline, we support improving existing Subprojects over incorporating competing Subprojects in the Project.
 
 The most important question in evaluating subprojects for incorporation as official Subprojects
 is this: is there broad agreement in the community and Steering Council that we are going to
@@ -44,16 +45,16 @@ creation is minimal and informal: Steering Council members should be in consensu
 Subproject's creation and notify the main Jupyter list of its creation.
 
 
-## Incorporation of an existing, external subproject
+## Incorporation of an existing, external Subproject
 
 In other cases, Subprojects proposed for incorporation will have existed for some time outside the
 official Jupyter organization. This section describes the incorporation process for these existing,
 external subprojects. This process applies to Subprojects that have incubated under the
 `jupyter-incubatror` GitHub organization (see below), Subprojects developed under other GitHub
-organizations or even Subprojects developed in other public version control systems.
+organizations or even Subprojects developed in other public version control systems (we have to be able to view and discuss the code openly to evaluate it).
 
 When a Subproject is incorporated, it becomes an officialy supported and maintained part
-of Project Jupter and is moved to the [jupyter](https://github.com/jupyter) GitHub organization.
+of Project Jupyter and is moved to the [jupyter](https://github.com/jupyter) GitHub organization.
 
 
 ### Proposal for incorporation
@@ -64,18 +65,18 @@ following proposal process will be used:
 1. The Subproject team should submit a pull request against the
    [jupyter/enhancement-proposals](https://github.com/jupyter/enhancement-proposals) repository
    with an enhancement proposal for including the subproject in the main Jupyter organization. 
-   The enchancement proposal should describe how the Subproject meets each of the above criteria.
+   The enhancement proposal should describe how the Subproject meets each of the above criteria.
 2. The proposal for incorporation will be discussed by the community using that pull request.
 3. A recommendation will be made by the consensus of the Steering Council.
 
-The possible recommendations of the Steering Council wil be:
+The possible recommendations of the Steering Council will be:
 
 * Integration into an existing official Suproject.
 * Incorporation as a new official Subproject.
 * Further internal or external incubation (see below) with recommendations on steps the team can
   take to prepare for future incorporation.
 * Rejection. This option will be used if the Steering Council thinks the proposed Subproject is not
-  progressing or will never be appropriate for graduation. If a rejected Subproject has been
+  progressing or will never be appropriate for incorporation. If a rejected Subproject has been
   incubating under the [jupyter-incubator](https://github.com/jupyter-incubator) GitHub
   organization, its repository will be removed from that organization after a transition period.
 
@@ -88,23 +89,25 @@ steps will be taken:
 1. The repository will be transfered over to the main Jupyter GitHub organization.
 2. A GitHub team will be created for the Subproject, with the Subproject team having
    read/write permissions on the Subproject repository.
-3. The team will send an Email the main Jupyter list with an announcement about the new
+3. The team will send an email to the main Jupyter list with an announcement about the new
    Subproject.
 4. The standard Jupyter LICENSE file will be added to the repository.
+5. Copyright notices in individual files should be updated to the standard form described
+   in our LICENSE files.
 
 
 ## Incubation of subprojects
 
 Incubation refers to the process of a Subproject initially being developed outside the official
-Jupypter organization. Incubation is recommended for new Subprojects with the following
+Jupyter organization. Incubation is recommended for new Subprojects with the following
 characteristics:
 
 * Significant unanswered technical questions or uncertainties that require exploration.
 * Entirely new directions, scopes or ideas that haven't been vetted with the community.
-* Significant, already existing code bases where it is not clear how the project will
+* Significant, already existing code bases where it is not clear how the Subproject will
   integrate with the rest of Jupyter.
 
-Incubation also allows the broader community can easily distinguish between stable, officially
+Incubation also allows the broader community to easily distinguish between stable, officially
 supported and maintained Subprojects in the main GitHub organization and new efforts that are
 emerging and being developed for future inclusion.
 
@@ -123,15 +126,10 @@ The goals of the incubation in the [jupyter-incubator](https://github.com/jupyte
 
 * Contributors can quickly and easily get their code exposed to the Jupyter community while
   complying with individual and organizational contribution restrictions.
-* Contributors can work with the community and gather feedback that will help them develop and
-  refine a clear and concise integration proposal.
-* Contributors can get feedback early and often from the Steering Council and community.
-* Enables the core development team to assess the readiness and applicability of proposed
-  technologies against a backdrop of the broader project design efforts.
-* Allow the community and Steering Council to re-evaluate existing Subprojects in the main
-  jupyter GitHub organizations to determine if any need to be moved to jupyter-incubator.
-* Allow the community to make sure that Subprojects develop into something that is
-  appropriate to become an officially supported and maintained part of the project.
+* Contributors can work with the community and Steering Council and gather feedback early and often
+  that will help them develop and refine a clear and concise integration proposal.
+* Allow the community to distinguish between officially supported Subprojects and experimental
+  Subprojects pursued by members of the community.
 
 ### Proposal for incubation
 
@@ -139,10 +137,10 @@ A Subproject team can initiate the [jupyter-incubator](https://github.com/jupyte
 incubation process by submitting a proposal for incubation. This process is designed to be
 lightweight and quick:
 
-1. The proposers must fill out incubation application by sumitting a pull request to the
+1. The proposers must fill out an incubation application by sumitting a pull request to the
    [jupyter-incubator/proposals](https://github.com/jupyter-incubator/proposals) repository.
 2. Proposers must announce their intent to the community with a post to the main Jupyter
-   list.
+   mailing list.
 2. The proposed Subproject must have an Advocate who is an active Steering Council member.
 3. The proposal for incubation will be discussed by the community and approved or rejected by
    the consensus of the Steering Council.
@@ -163,8 +161,9 @@ taken:
    main Jupyter list.
 
 The goal of the incubation period is to demonstrate that the Subproject is going to develop an
-with an active developer and user community. There is no particular length of time required,
-but most projects will be in incubation for at least 6 months to 1 year.
+active developer and user community. There is no particular length of time required for incubation,
+but it is expected that most Subprojects will be in incubation for at least six months to one year.
+
 
 ## External incubation
 
