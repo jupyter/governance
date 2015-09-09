@@ -5,11 +5,11 @@ development team that follows the Jupyter governance, license and contribution m
 
 There are two ways that new Subprojects are created:
 
-1. Direct subproject creation.
-2. Incorporation of an existing, external subproject.
+1. Direct Subproject creation.
+2. Incorporation of an existing external Subproject.
 
 
-## Criteria for official subprojects
+## Criteria for official Subprojects
 
 The following criteria will be used in evaluating Subprojects for incorporation into the official
 Jupyter organization. These apply to any Subproject, regardless of who is developing the
@@ -29,14 +29,14 @@ Subproject. Subprojects should:
 
 As a general guideline, we support improving existing Subprojects over incorporating competing Subprojects in the Project.
 
-The most important question in evaluating subprojects for incorporation as official Subprojects
+The most important question in evaluating Subprojects for incorporation as official Subprojects
 is this: is there broad agreement in the community and Steering Council that we are going to
 develop and maintain the Subproject in an official capacity?
 
 The two paths for official Subproject creation are now detailed.
 
 
-## Direct subproject creation
+## Direct Subproject creation
 
 In some cases, Steering Council members can immediately create new official Subprojects in the main
 Jupyter organization. This option will be used when the new Subproject is clearly part of the
@@ -45,13 +45,14 @@ creation is minimal and informal: Steering Council members should be in consensu
 Subproject's creation and notify the main Jupyter list of its creation.
 
 
-## Incorporation of an existing, external Subproject
+## Incorporation of an existing external Subproject
 
-In other cases, Subprojects proposed for incorporation will have existed for some time outside the
-official Jupyter organization. This section describes the incorporation process for these existing,
-external subprojects. This process applies to Subprojects that have incubated under the
-`jupyter-incubatror` GitHub organization (see below), Subprojects developed under other GitHub
-organizations or even Subprojects developed in other public version control systems (we have to be able to view and discuss the code openly to evaluate it).
+In other cases, Subprojects proposed for incorporation will have existed and been developed as
+open-source software for some time outside the official Jupyter organization. This section describes
+the incorporation process for these existing external Subprojects. This process applies to
+Subprojects that have incubated under the `jupyter-incubator` GitHub organization (see below),
+Subprojects developed under other GitHub organizations or Subprojects developed as open-source
+software in other public venues.
 
 When a Subproject is incorporated, it becomes an officialy supported and maintained part
 of Project Jupyter and is moved to the [jupyter](https://github.com/jupyter) GitHub organization.
@@ -59,12 +60,12 @@ of Project Jupyter and is moved to the [jupyter](https://github.com/jupyter) Git
 
 ### Proposal for incorporation
 
-For an existing, external Subproject to be incorporated into the main Jupyter organization, the
+For an existing external Subproject to be incorporated into the main Jupyter organization, the
 following proposal process will be used:
 
 1. The Subproject team should submit a pull request against the
    [jupyter/enhancement-proposals](https://github.com/jupyter/enhancement-proposals) repository
-   with an enhancement proposal for including the subproject in the main Jupyter organization. 
+   with an enhancement proposal for including the Subproject in the main Jupyter organization. 
    The enhancement proposal should describe how the Subproject meets each of the above criteria.
 2. The proposal for incorporation will be discussed by the community using that pull request.
 3. A recommendation will be made by the consensus of the Steering Council.
@@ -83,7 +84,7 @@ The possible recommendations of the Steering Council will be:
 
 ### Incorporation
 
-When an existing, external Subproject is incorporated as a new official Subproject, the following
+When an existing external Subproject is incorporated as a new official Subproject, the following
 steps will be taken:
 
 1. The repository will be transfered over to the main Jupyter GitHub organization.
@@ -96,7 +97,7 @@ steps will be taken:
    in our LICENSE files.
 
 
-## Incubation of subprojects
+## Incubation of Subprojects
 
 Incubation refers to the process of a Subproject initially being developed outside the official
 Jupyter organization. Incubation is recommended for new Subprojects with the following
@@ -141,17 +142,19 @@ lightweight and quick:
    [jupyter-incubator/proposals](https://github.com/jupyter-incubator/proposals) repository.
 2. Proposers must announce their intent to the community with a post to the main Jupyter
    mailing list.
-2. The proposed Subproject must have an Advocate who is an active Steering Council member.
-3. The proposal for incubation will be discussed by the community and approved or rejected by
+3. The proposed Subproject must have an Advocate who is an active Steering Council member. The role
+   of the Advocate is to introduce the Subproject team to the Jupyter community and help them through
+   incubation processes. While the Advocate may be involved in the actual development and design
+   of the Subproject, that is not required.
+4. The proposal for incubation will be discussed by the community and approved or rejected by
    the consensus of the Steering Council.
-4. If approved, the proposal pull request will be merged, if rejected, it will be closed.
+5. If approved, the proposal pull request will be merged, if rejected, it will be closed.
 
 ### Incubation period
 
 Once a Subproject is approved for incubation in the
 [jupyter-incubator](https://github.com/jupyter-incubator) organization, the following steps will be
 taken:
-
 
 1. A GitHub repo will be created under the jupyter-incubator organization
 2. A GitHub team will be created with read/write access to the repo, including the
@@ -167,16 +170,9 @@ but it is expected that most Subprojects will be in incubation for at least six 
 
 ## External incubation
 
-Incubation outside the [jupyter-incubator](https://github.com/jupyter-incubator) organization is
-also possible. In this case, there is no process. Any individual or organization can simply create
-a new project on their own personal GitHub (or other VCS) repository and develop it as they see
-fit. This is a very common pattern in the broader open source community; someone starts out
-developing something in their own personal GitHub organization, and later, after the project
-matures, it is transfered and incorporated into a larger GitHub organization.
-
-If an externally created and incubated subproject wants to become part of the official Jupyter
+Incubation outside the [jupyter-incubator](https://github.com/jupyter-incubator) organization is also
+possible. In this case, there is no formal process. Any individual or organization can simply create
+a new project on their own personal GitHub (or other VCS) repository and develop it as they see fit.
+If such an externally created and incubated Subproject wants to become part of the official Jupyter
 organization, the criteria listed at the top of this document must be satisfied and the same
 incorporation process must be followed.
-
-
-
