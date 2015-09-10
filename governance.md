@@ -341,5 +341,5 @@ minimum of 80% of the Steering Council must vote and at least 2/3 of
 the votes must be positive to carry out the proposed action (fractions
 of a vote rounded up to the nearest integer). Since the BDFL holds
 ultimate authority in The Project, the BDFL has authority to act alone
-in accepting or rejecting proposals or overriding Steering Council
+in accepting or rejecting changes or overriding Steering Council
 decisions.
