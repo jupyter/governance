@@ -92,7 +92,8 @@ steps will be taken:
    read/write permissions on the Subproject repository.
 3. The team will send an email to the main Jupyter list with an announcement about the new
    Subproject.
-4. The standard Jupyter LICENSE file will be added to the repository.
+4. The standard Jupyter [LICENSE](https://github.com/jupyter/governance/LICENSE.md) file that
+   is maintained in this governance repository will be added to the repository.
 5. Copyright notices in individual files should be updated to the standard form described
    in our LICENSE files.
 
@@ -156,10 +157,11 @@ Once a Subproject is approved for incubation in the
 [jupyter-incubator](https://github.com/jupyter-incubator) organization, the following steps will be
 taken:
 
-1. A GitHub repo will be created under the jupyter-incubator organization
-2. A GitHub team will be created with read/write access to the repo, including the
+1. A GitHub repository will be created under the jupyter-incubator organization
+2. A GitHub team will be created with read/write access to the repository, including the
    Advocate.
-3. The standard Jupyter LICENSE file will be added to the repository.
+4. The standard Jupyter [LICENSE](https://github.com/jupyter/governance/LICENSE.md) file that
+   is maintained in this governance repository will be added to the new repository.
 4. A member of the Steering Council will announce the newly incubated Subproject on the
    main Jupyter list.
 
