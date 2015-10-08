@@ -7,3 +7,7 @@ The purpose of this repository is to formalize the governance process that the I
 * [Main Governance Document](governance.md)
 * [Current Steering Council and Institutional Partners](people.md)
 * [New Subproject Process](newsubprojects.md)
+
+## License of Governance Documents
+
+To the extent possible under law, Project Jupyter has waived all copyright and related or neighboring rights to the Project Jupyter Governance documents, in accordance with the Creative Commons [CC0 license](http://creativecommons.org/publicdomain/zero/1.0/). This work is published from the United States.  See the LICENSE.md file in this repository for details.
