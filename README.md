@@ -6,7 +6,7 @@ The purpose of this repository is to formalize the governance process that the I
 
 * [Main Governance Document](governance.md)
 * [Current Steering Council and Institutional Partners](people.md)
-* [New Subproject Process](newsubprojects.md)
+* [New Subproject Incubation Process](newsubprojects.md)
 
 ## License of Governance Documents
 
