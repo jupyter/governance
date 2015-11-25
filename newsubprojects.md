@@ -133,6 +133,24 @@ The goals of the incubation in the [jupyter-incubator](https://github.com/jupyte
 * Allow the community to distinguish between officially supported Subprojects and experimental
   Subprojects pursued by members of the community.
 
+
+#### Repository management policy for incubator projects
+
+Projects may from time to time want to create new repositories to explore
+various ideas.  The basic policy for this is the following:
+
+* If the project is named `foo`, it can create new repositories named `foo-X`
+  without asking for further authorization.  The project can decide whether to
+  announce the repo on the broader Jupyter channels or not if it thinks there
+  is sufficient interest (obviously these repos are still public and open to
+  participation by all).
+
+* If the project would like to create a repo named `bar` (a top-level name that
+  someone else might potentially be interested in), it should post to the main
+  Jupyter list.  The proposal will be discussed with the assumption that,
+  unless someone raises a serious objection, these requests will be approved as
+  propmptly as possible.
+
 ### Proposal for incubation
 
 A Subproject team can initiate the [jupyter-incubator](https://github.com/jupyter-incubator)
