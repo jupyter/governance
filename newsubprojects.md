@@ -178,7 +178,7 @@ taken:
 1. A GitHub repository will be created under the jupyter-incubator organization
 2. A GitHub team will be created with read/write access to the repository, including the
    Advocate.
-4. The standard Jupyter [LICENSE](https://raw.githubusercontent.com/jupyter/governance/master/LICENSE.md) file that
+4. The standard Jupyter [LICENSE](https://raw.githubusercontent.com/jupyter/governance/master/projectlicense.md) file that
    is maintained in this governance repository will be added to the new repository.
 4. A member of the Steering Council will announce the newly incubated Subproject on the
    main Jupyter list.
