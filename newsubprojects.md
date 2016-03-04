@@ -68,7 +68,9 @@ following proposal process will be used:
    with an enhancement proposal for including the Subproject in the main Jupyter organization. 
    The enhancement proposal should describe how the Subproject meets each of the above criteria.
 2. The proposal for incorporation will be discussed by the community using that pull request.
-3. A recommendation will be made by the consensus of the Steering Council.
+3. A recommendation will be made by the consensus of the Steering Council (SC).
+
+**Timeline:** the SC should make every effort to reach a decision promptly.  If there is active discussion and feedback about the proposal, that should be allowed to proceed and voices be heard.  But once the discussion stops, the SC should take no longer than a week to offer its recommendation.  In any event, there should be no more than one month between the submission of the proposal and the SC recommendation: if no consensus can be reached in a month, that should indicate that the project isn't ready for inclusion yet.
 
 The possible recommendations of the Steering Council will be:
 
