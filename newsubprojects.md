@@ -70,7 +70,17 @@ following proposal process will be used:
 2. The proposal for incorporation will be discussed by the community using that pull request.
 3. A recommendation will be made by the consensus of the Steering Council (SC).
 
-**Timeline:** the SC should make every effort to reach a decision promptly.  If there is active discussion and feedback about the proposal, that should be allowed to proceed and voices be heard.  But once the discussion stops, the SC should take no longer than a week to offer its recommendation.  In any event, there should be no more than one month between the submission of the proposal and the SC recommendation: if no consensus can be reached in a month, that should indicate that the project isn't ready for inclusion yet.
+**Timeline:** the SC should make every effort to reach a decision promptly. If
+there is active discussion and feedback about the proposal, that should be
+allowed to proceed and voices be heard.  But to avoid unnecessary delays waiting for everyone to vote, the following guideline should be used:
+
+* upon proposal, allow a week for potential objections (explicit agreement
+  welcome, of course). If no objections, treat silence as agreement.
+
+* if a month goes by and there's continued, active disagreement, that should be
+  treated as a strong signal that the project isn't ready to graduate (BDFL
+  pronouncement could still be used to make an acceptance call if judged
+  necessary).
 
 The possible recommendations of the Steering Council will be:
 
