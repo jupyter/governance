@@ -17,6 +17,7 @@ Steering Council
 - Kyle Kelley
 - Matthias Bussionnier
 - Min Ragan-Kelley
+- Sylvain Corlay
 - Thomas Kluyver
 
 NumFOCUS Subcommittee
@@ -36,7 +37,7 @@ Tier 1
 
 Institutional Council members are noted with each institution.
 
-- [Bloomberg](http://www.bloomberg.com/) (Jason Grout)
+- [Bloomberg](http://www.bloomberg.com/) (Jason Grout, Sylvain Corlay)
 - [Cal Poly](http://www.calpoly.edu/) (Brian Granger)
 - [Continuum Analytics](http://continuum.io/) (Damian Avila)
 - [UC Berkeley](http://www.berkeley.edu/) (Fernando Perez)
