@@ -15,7 +15,7 @@ Steering Council
 - Jessica Hamrick
 - Jonathan Frederic
 - Kyle Kelley
-- Matthias Bussionnier
+- Matthias Bussonnier
 - Min Ragan-Kelley
 - Sylvain Corlay
 - Thomas Kluyver
