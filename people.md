@@ -37,7 +37,7 @@ Institutional Council members are noted with each institution.
 - [Cal Poly](http://www.calpoly.edu/) (Brian Granger)
 - [Continuum Analytics](http://continuum.io/) (Damian Avila)
 - [UC Berkeley](http://www.berkeley.edu/) (Fernando Perez)
-- [Rackspace](http://www.rackspace.com/) (Kyle Kelley)
+- [Netflix](http://www.netflix.com/) (Kyle Kelley)
 - [MaxPoint](http://maxpoint.com/) (Peter Parente)
 
 ### Tier 2
