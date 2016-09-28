@@ -17,6 +17,7 @@ Fernando Perez is the Benevolent Dictator for Life (BDFL).
 - Min Ragan-Kelley
 - Sylvain Corlay
 - Thomas Kluyver
+- Peter Parente
 
 ### NumFOCUS Subcommittee
 
@@ -37,6 +38,7 @@ Institutional Council members are noted with each institution.
 - [Continuum Analytics](http://continuum.io/) (Damian Avila)
 - [UC Berkeley](http://www.berkeley.edu/) (Fernando Perez)
 - [Rackspace](http://www.rackspace.com/) (Kyle Kelley)
+- [MaxPoint](http://maxpoint.com/) (Peter Parente)
 
 ### Tier 2
 
