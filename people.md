@@ -20,6 +20,7 @@ Fernando Perez is the Benevolent Dictator for Life (BDFL).
 - Peter Parente
 - Carol Willing
 - Steven Silvester
+- Paul Ivanov
 
 ### NumFOCUS Subcommittee
 
@@ -35,7 +36,7 @@ Fernando Perez is the Benevolent Dictator for Life (BDFL).
 
 Institutional Council members are noted with each institution.
 
-- [Bloomberg](http://www.bloomberg.com/) (Jason Grout)
+- [Bloomberg](http://www.bloomberg.com/) (Jason Grout, Paul Ivanov)
 - [Cal Poly](http://www.calpoly.edu/) (Brian Granger, Carol Willing)
 - [Continuum Analytics](http://continuum.io/) (Damian Avila, Steven Silvester)
 - [UC Berkeley](http://www.berkeley.edu/) (Fernando Perez)
