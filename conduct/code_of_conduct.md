@@ -17,20 +17,20 @@ and the communities in which we participate.
 
 This code applies equally to founders, developers, mentors and new
 community members, in all spaces managed by Project Jupyter. This
-includes the mailing lists, our GitHub organizations, our gitter rooms,
+includes the mailing lists, our GitHub organizations, our chat rooms,
 in-person events, and any other forums created by the project team. In
 addition, violations of this code outside these spaces may affect a
 person's ability to participate within them.
 
 If you believe someone is violating the code of conduct, we ask that you
 report it by emailing
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filing out
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out
 [this form](https://goo.gl/forms/sJzOIie3zde9M71T2). For more details
 please see our Reporting Guidelines.
 
 By embracing the following principles, guidelines and actions to follow
 or avoid, you will help us make Jupyter a welcoming and productive
-commun(conduct_faq.md).
+community.
 If that doesn't answer your questions, feel free to contact us at
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org).
 
