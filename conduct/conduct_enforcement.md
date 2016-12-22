@@ -5,6 +5,7 @@ Committee. It's used when we respond to an issue to make sure we're consistent
 and fair. It should be considered an internal document, but we're publishing it
 publicly in the interests of transparency.
 
+
 ## The Code of Conduct Committee
 
 All responses to reports of conduct violations will be managed by a Code of
@@ -29,9 +30,10 @@ involved to get a more complete account of events.
 
 The committee will then review the incident and determine, to the best of their
 ability:
+
 * What happened
 * Whether this event constitutes a Code of Conduct violation
-* Who, if anyone, was the bad actor
+* Who, if anyone, was responsible for the violation
 * Whether this is an ongoing situation, and there is a threat to anyone's
   physical safety
 
@@ -39,10 +41,15 @@ This information will be collected in writing, and whenever possible the group's
 deliberations will be recorded and retained (i.e. chat transcripts, email
 discussions, recorded voice conversations, etc).
 
+It is important to retain an archive of all activities of this committe to
+ensure consistency in behavior and provide institutional memory for the
+project.
+
 The Code of Conduct Committee should aim to have a resolution agreed upon within
 one week. In the event that a resolution can't be determined in that time, the
 committee will respond to the reporter(s) with an update and projected timeline
 for resolution.
+
 
 ## Acting Unilaterally
 
@@ -58,6 +65,7 @@ behalf of the Jupyter Steering Council.
 
 In situations where an individual committee member acts unilaterally, they must
 report their actions to the committee for review within 24 hours.
+
 
 ## Resolutions
 
@@ -99,8 +107,10 @@ Finally, the committee will make a report to the Jupyter Steering Council (as
 well as the Jupyter core team in the event of an ongoing resolution, such as a
 ban).
 
-The committee will never publicly discuss the issue; all public statements will
-be made by the Jupyter Steering Council.
+The committee will never publicly discuss the issue; all public statements
+(aside from the responses listed above if those are on public channels) will be
+made by the Jupyter Steering Council.
+
 
 ## Conflicts of Interest
 
