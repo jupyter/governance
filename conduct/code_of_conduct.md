@@ -6,7 +6,7 @@ from all over the world. Your involvement helps us to further our
 mission and to create an open platform that serves a broad range of
 communities, from research and education, to journalism, industry and
 beyond. This diversity is one of our biggest strengths, but it can also
-lead to communication issues and conflicts. To that end, we have a few
+lead to communication issues and conflicts. Therefore, we have a few
 ground rules we ask that our community members adhere to.
 
 Fundamentally, we are committed to providing a productive,
