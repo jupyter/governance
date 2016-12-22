@@ -12,14 +12,16 @@ overheard. They may involve other event staff to ensure your report is managed
 properly. This can be uncomfortable, but we'll handle it respectfully and you
 can bring someone to support you.
 
-**Email**: Send a message to [*conduct@jupyter.org*](mailto:conduct@jupyter.org)
-and/or local organizer’s email
+**Email**: Send a message to
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org) and/or local organizer’s
+email (best to do both to ensure both prompt local response and that the
+regular committee is immediately in the loop).
 
 Our team will help you contact hotel/venue security, local law enforcement,
 local support services, provide escorts, or otherwise assist you to feel safe
 for the duration of the event.
 
-These Items will be provided per event:
+Contact information for the following will be provided per event:
 
 * Email: [*conduct@jupyter.org*](mailto:conduct@jupyter.org), and/or local
   organizer
@@ -43,5 +45,5 @@ These Items will be provided per event:
   hostile for any participants.
 
 You also have the option of following the reporting procedure for the online
-community found [here](https://goo.gl/forms/sJzOIie3zde9M71T2). Just be warned
+community found [here](https://goo.gl/forms/sJzOIie3zde9M71T2). Just be aware
 the response and action may not be as prompt.
