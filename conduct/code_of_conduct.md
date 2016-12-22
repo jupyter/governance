@@ -73,10 +73,9 @@ You can file a report by emailing
 information on reporting in-person at an event, please see our Reporting
 Guidelines.
 
-You have the option to keep your report anonymous or request that we
-follow up with you directly. Note that we cannot follow up on an
-anonymous report, but we will take appropriate action to prevent a
-recurrence.
+The online form gives you the option to keep your report anonymous or request
+that we follow up with you directly. While we cannot follow up on an anonymous
+report, we will take appropriate action to prevent a recurrence.
 
 
 ## Enforcement
@@ -86,8 +85,8 @@ Manual*](enforcement.md).
 
 Original text courtesy of the [*Speak
 Up!*](http://web.archive.org/web/20141109123859/http://speakup.io/coc.html)
-and [*Django*](https://www.djangoproject.com/conduct/) Projects,
-modified by Project Jupyter.
+and [*Django*](https://www.djangoproject.com/conduct) Projects,
+modified by Project Jupyter.  We are grateful to those projects for contributing these materials under open licensing terms for us to easily reuse.
 
 All content on this page is licensed under a [*Creative Commons
 Attribution*](http://creativecommons.org/licenses/by/3.0/) license.
