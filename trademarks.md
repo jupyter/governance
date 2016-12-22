@@ -139,3 +139,6 @@ The following rules apply to the use of trademarks in each of these classes.
     Any other commercial uses require prior written permission from Project Jupyter.
     See the [brand guidelines][].
 
+
+[brand guidelines]: https://github.com/jupyter/design/tree/master/brandguide
+[Jupyter Trademarks Committee]: mailto:jupyter-trademarks@googlegroups.com
