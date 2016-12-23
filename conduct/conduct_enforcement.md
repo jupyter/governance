@@ -84,11 +84,10 @@ Possible responses may include:
   chat room for a gitter chat room violation; email for an email violation,
   etc.). The group may choose to publish this message elsewhere for
   documentation purposes.
-* An imposed vacation (i.e. asking someone to "take a week off" from a mailing
-  list or gitter chat room). The committee chair will communicate this
-  "vacation" to the individual(s). They'll be asked to take this vacation
-  voluntarily, but if they don't agree then a temporary ban may be imposed to
-  enforce this vacation.
+* A "mutually agreed upon hiatus" where the committee asks the individual to
+  temporarily refrain from community participation. If the individual chooses
+  not to take a temporary break voluntarily, the committee may issue a
+  "mandatory cooling off period".
 * A permanent or temporary ban from some or all Jupyter spaces (mailing lists,
   gitter.im, etc.). The group will maintain records of all such bans so that
   they may be reviewed in the future or otherwise maintained.
