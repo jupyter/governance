@@ -109,7 +109,7 @@ ban).
 
 The committee will never publicly discuss the issue; all public statements
 (aside from the responses listed above if those are on public channels) will be
-made by the Jupyter Steering Council.
+made by the chair of the Code of Conduct Committee or the Jupyter Steering Council.
 
 
 ## Conflicts of Interest
