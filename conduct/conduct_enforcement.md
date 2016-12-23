@@ -18,7 +18,7 @@ will review membership on a regular basis.
 
 ## How the committee will respond to reports
 
-When a report is sent to the committee they will immediately reply to the report
+When a report is sent to the committee they will immediately reply to the reporter
 to confirm receipt. This reply must be sent within 24 hours, and the group
 should strive to respond much quicker than that.
 
@@ -41,7 +41,7 @@ This information will be collected in writing, and whenever possible the group's
 deliberations will be recorded and retained (i.e. chat transcripts, email
 discussions, recorded voice conversations, etc).
 
-It is important to retain an archive of all activities of this committe to
+It is important to retain an archive of all activities of this committee to
 ensure consistency in behavior and provide institutional memory for the
 project.
 
