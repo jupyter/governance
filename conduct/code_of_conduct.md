@@ -37,28 +37,59 @@ If that doesn't answer your questions, feel free to contact us at
 
 1. **Be friendly and patient**.
 
-1. **Be welcoming**. We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to, members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, physical appearance, family status, political belief, technological or professional choices, academic discipline, religion, mental ability, and physical ability.
+2. **Be welcoming**. We strive to be a community that welcomes and supports
+   people of all backgrounds and identities. This includes, but is not limited
+   to, members of any race, ethnicity, culture, national origin, color,
+   immigration status, social and economic class, educational level, sex, sexual
+   orientation, gender identity and expression, age, physical appearance, family
+   status, political belief, technological or professional choices, academic
+   discipline, religion, mental ability, and physical ability.
 
-1. **Be considerate**. Your work will be used by other people, and you in turn will depend on the work of others. Any decision you take will affect users and colleagues, and you should take those consequences into account when making decisions. Remember that we're a world-wide community. You may be communicating with someone with a different primary language or cultural background.
+3. **Be considerate**. Your work will be used by other people, and you in turn
+   will depend on the work of others. Any decision you take will affect users
+   and colleagues, and you should take those consequences into account when
+   making decisions. Remember that we're a world-wide community. You may be
+   communicating with someone with a different primary language or cultural
+   background.
 
-1. **Be respectful**. Not all of us will agree all the time, but disagreement is no excuse for poor behavior or poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It’s important to remember that a community where people feel uncomfortable or threatened is not a productive one.
+4. **Be respectful**. Not all of us will agree all the time, but disagreement is
+   no excuse for poor behavior or poor manners. We might all experience some
+   frustration now and then, but we cannot allow that frustration to turn into a
+   personal attack. It’s important to remember that a community where people
+   feel uncomfortable or threatened is not a productive one.
 
-1. **Be careful in the words that you choose**. Be kind to others. Do not insult or put down other community members. Harassment and other exclusionary behavior are not acceptable. This includes, but is not limited to:
+5. **Be careful in the words that you choose**. Be kind to others. Do not insult
+   or put down other community members. Harassment and other exclusionary
+   behavior are not acceptable. This includes, but is not limited to:
    * Violent threats or violent language directed against another person
    * Discriminatory jokes and language
    * Posting sexually explicit or violent material
-   * Posting (or threatening to post) other people's personally identifying information ("doxing")
+   * Posting (or threatening to post) other people's personally identifying
+     information ("doxing")
    * Personal insults, especially those using racist or sexist terms
    * Unwelcome sexual attention
    * Advocating for, or encouraging, any of the above behavior
-   * Repeated harassment of others. In general, if someone asks you to stop, then stop
+   * Repeated harassment of others. In general, if someone asks you to stop,
+     then stop
 
-1. **Moderate your expectations**. Many in our community volunteer their time. They are probably not purposefully ignoring issues, refusing to engage in discussion, avoiding features, etc. but often just unavailable.
+6. **Moderate your expectations**. Many in our community volunteer their time.
+   They are probably not purposefully ignoring issues, refusing to engage in
+   discussion, avoiding features, etc. but often just unavailable.
 
-1. **When we disagree, try to understand why**. Disagreements, both social and technical, happen all the time and Jupyter is no exception. It is important that we resolve disagreements and differing views constructively. Remember that we’re different. The strength of Jupyter comes from its varied community that includes people from a wide range of backgrounds. Different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn’t mean they’re wrong. Don’t forget that it is human to err and blaming each other doesn’t get us anywhere. Instead, focus on helping to resolve issues and learning from mistakes.
+7. **When we disagree, try to understand why**. Disagreements, both social and
+   technical, happen all the time and Jupyter is no exception. It is important
+   that we resolve disagreements and differing views constructively. Remember
+   that we’re different. The strength of Jupyter comes from its varied community
+   that includes people from a wide range of backgrounds. Different people have
+   different perspectives on issues. Being unable to understand why someone
+   holds a viewpoint doesn’t mean they’re wrong. Don’t forget that it is human
+   to err and blaming each other doesn’t get us anywhere. Instead, focus on
+   helping to resolve issues and learning from mistakes.
 
-1. **A simple apology can go a long way**.  It can often de-escalate a situation, and telling
-someone that you are sorry is act of empathy that doesn’t automatically imply an admission of guilt (Canada has turned [*this notion into law*](http://www.theloop.ca/canadians-love-to-say-sorry-so-much-we-had-to-make-this-law/)).
+8. **A simple apology can go a long way**. It can often de-escalate a situation,
+   and telling someone that you are sorry is act of empathy that doesn’t
+   automatically imply an admission of guilt (Canada has turned
+   [*this notion into law*](http://www.theloop.ca/canadians-love-to-say-sorry-so-much-we-had-to-make-this-law/)).
 
 
 ## Reporting
