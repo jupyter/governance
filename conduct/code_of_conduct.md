@@ -75,7 +75,7 @@ Guidelines.
 
 The online form gives you the option to keep your report anonymous or request
 that we follow up with you directly. While we cannot follow up on an anonymous
-report, we will take appropriate action to prevent a recurrence.
+report, we will take appropriate action.
 
 
 ## Enforcement
