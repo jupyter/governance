@@ -37,10 +37,9 @@ hours (and will aim for much quicker than that).
 The working group will immediately meet to review the incident and determine:
 * What happened
 * Whether this event constitutes a Code of Conduct violation
-* Who the bad actor was
+* Who the individual(s) involved were
 * Whether this is an ongoing situation, or if there is a threat to anyone's
   physical safety
-
 
 If this is determined to be an ongoing incident or a threat to physical safety,
 the committee's immediate priority will be to protect everyone involved. This
