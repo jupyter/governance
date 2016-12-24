@@ -46,30 +46,9 @@ the committee's immediate priority will be to protect everyone involved. This
 means we may delay an "official" response until we believe that the situation
 has ended and that everyone is physically safe.
 
-Once the Code of Conduct Committee has a complete account of the events they
-will make a decision as to how to respond.
-
-Responses may include:
-
-* No action (if we determine no violation occurred)
-* A private reprimand from the Code of Conduct Committee to the individual(s)
-  involved
-* A public reprimand
-* An imposed vacation (for example: asking someone to "take a week off" from a
-  mailing list, GitHub, etc.)
-* A temporary or permanent ban from some or all Jupyter spaces
-* A request for a public or private apology
-* We'll respond within one week to the person who filed the report with either a
-  resolution or an explanation of why the situation is not yet resolved
-
-Once we've determined our final action, we'll contact the original reporter to
-let them know what action (if any) we'll be taking. We'll take into account
-feedback from the reporter on the appropriateness of our response, but we don't
-guarantee we'll act on it.
-
-Finally, the Code of Conduct Committee will make a report on the situation to
-the Jupyter Steering Council. The council may choose to publish a report of the
-incident.
+The CoC committee will then follow the
+[standard procedure][conduct_enforcement.md#Resolutions] to arrive at and
+communicate a resolution.
 
 ## Appealing the Code of Conduct Committee’s Response
 
