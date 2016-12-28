@@ -5,6 +5,13 @@ Committee. It's used when we respond to an issue to make sure we're consistent
 and fair. It should be considered an internal document, but we're publishing it
 publicly in the interests of transparency.
 
+Enforcing the code of conduct with punitive measures or reprimands is an
+extreme action that we'd like not to take lightly. We hope to apply only in
+rare case for well out of bound behavior or repeated offence. We are aware that
+users may be of different cultural background and languages and may miss-step
+in some community by mistake. We'll remind you that you are out of bound –
+without holding grudges – before taking any actions when alleged violation are
+in a gray area.
 
 ## The Code of Conduct Committee
 
@@ -18,9 +25,9 @@ will review membership on a regular basis.
 
 ## How the committee will respond to reports
 
-When a report is sent to the committee they will immediately reply to the reporter
-to confirm receipt. This reply must be sent within 24 hours, and the group
-should strive to respond much quicker than that.
+When a report is sent to the committee they will immediately reply to the
+reporter to confirm receipt. This reply must be sent within 24 hours, and the
+group should strive to respond much quicker than that.
 
 See the [Reporting Guidelines](*conduct_reporting_online.md*) for details of
 what reports should contain. If a report doesn't contain enough information, the
@@ -75,7 +82,13 @@ the Steering Council for resolution.
 
 Possible responses may include:
 
-* Taking no further action (if we determine no violation occurred).
+* Taking no further action
+  - if we determine no violations have occurred.
+  - if the matter has been resolved publicly while the committee was
+    considering responses.
+* Remind publicly, and point out that some behavior/actions/language have been
+  judge inappropriate and why in the current context, or can but hurtful to
+  some people, requesting the community to self-adjust.
 * A private reprimand from the committee to the individual(s) involved. In this
   case, the group chair will deliver that reprimand to the individual(s) over
   email, cc'ing the group.
@@ -108,7 +121,8 @@ ban).
 
 The committee will never publicly discuss the issue; all public statements
 (aside from the responses listed above if those are on public channels) will be
-made by the chair of the Code of Conduct Committee or the Jupyter Steering Council.
+made by the chair of the Code of Conduct Committee or the Jupyter Steering
+Council.
 
 
 ## Conflicts of Interest
