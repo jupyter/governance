@@ -59,18 +59,26 @@ guidelines in mind:
 **Mediation:** voluntary, informal mediation is a tool at our disposal.  In
 contexts such as when two or more parties have all escalated to the point of
 inappropriate behavior (something sadly common in human conflict), it may be
-useful to facilitate a mediation process. This is just an example, and
-mediation may be considered in all cases; if the Committee thinks mediation can
-be useful, it must first:
+useful to facilitate a mediation process. This is only an example: the
+Committee can consider mediation in any case, mindful that the process is meant
+to be strictly voluntary and no party can be pressured to participate. If the
+Committee suggests mediation, it should:
 
 * Find a candidate for mediator.
-* Obtain the agreement of the reporter(s).
+* Obtain the agreement of the reporter(s). The reporter(s) have complete
+  freedom to decline the mediation idea, or to propose an alternate mediator.
 * Obtain the agreement of the reported person(s).
-* Settle on the mediator: any party can propose a different mediator than the
-  suggested candidate, but only if common agreement is reached on all terms can
+* Settle on the mediator: while parties can propose a different mediator than
+  the suggested candidate, only if common agreement is reached on all terms can
   the process move forward.
+* Establish a timeline for mediation to complete, ideally within two weeks.
 
-If all parties agree, a timeline for mediation should be established, ideally to complete within two weeks.  The mediator will engage with all the parties and seek a resolution that is satisfactory to all.  Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps.  The Committee will then evaluate these results (whether satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
+The mediator will engage with all the parties and seek a resolution that is
+satisfactory to all.  Upon completion, the mediator will provide a report
+(vetted by all parties to the process) to the Committee, with recommendations
+on further steps.  The Committee will then evaluate these results (whether
+satisfactory resolution was achieved or not) and decide on any additional
+action deemed necessary.
 
 
 ## How the committee will respond to reports
@@ -88,11 +96,11 @@ involved to get a more complete account of events.
 The committee will then review the incident and determine, to the best of their
 ability:
 
-* What happened
-* Whether this event constitutes a Code of Conduct violation
-* Who are the responsible party(ies)
+* What happened.
+* Whether this event constitutes a Code of Conduct violation.
+* Who are the responsible party(ies).
 * Whether this is an ongoing situation, and there is a threat to anyone's
-  physical safety
+  physical safety.
 
 This information will be collected in writing, and whenever possible the group's
 deliberations will be recorded and retained (i.e. chat transcripts, email
