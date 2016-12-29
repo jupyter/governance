@@ -35,6 +35,15 @@ it will apply both in community spaces and at our events.
 In practice, this means mailing lists, the various Jupyter channels, and Jupyter
 events.
 
+### What happens if someone violates the Code of Conduct?
+
+We are all stewards of our community, and are encouraged to participate in ways
+that defend the values highlighted in this document and help others understand
+when their actions go against these values (by engaging them and directing them
+to this document if necessary). If that doesn't work, or if you need more help,
+you can contact conduct@jupyter.org. For more details please see our [Reporting
+Guidelines](*conduct_reporting_online.md*).
+
 ### What about events funded by Project Jupyter?
 
 This Code of Conduct will also cover any events that Jupyter funds.
@@ -45,13 +54,6 @@ events take steps to protect the physical and mental security of their
 participants.
 
 Event organizers will enforce the Code of Conduct.
-
-### What happens if someone violates the Code of Conduct?
-
-Our intent is that the anyone in the community can stand up for this code, and
-direct people who are unaware to this document. If that doesn't work, or if you
-need more help, you can contact conduct@jupyter.org. For more details please see
-our [Reporting Guidelines](*conduct_reporting_online.md*).
 
 ### Why do we need a Code of Conduct? Everyone knows not to be a jerk.
 
