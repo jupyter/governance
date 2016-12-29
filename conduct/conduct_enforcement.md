@@ -158,10 +158,11 @@ Possible responses may include:
   chat room for a gitter chat room violation; email for an email violation,
   etc.). The group may choose to publish this message elsewhere for
   documentation purposes.
-* A request for a public or private apology. The chair will deliver this
-  request. The committee may, if it chooses, attach "strings" to this request:
-  for example, the group may ask a violator to apologize in order to retain
-  one’s membership on a mailing list.
+* A request for a public or private apology, assuming the reporter agrees to
+  this idea: they may at their discretion refuse futher contact with the
+  violator. The chair will deliver this request. The committee may, if it
+  chooses, attach "strings" to this request: for example, the group may ask a
+  violator to apologize in order to retain one’s membership on a mailing list.
 * A "mutually agreed upon hiatus" where the committee asks the individual to
   temporarily refrain from community participation. If the individual chooses
   not to take a temporary break voluntarily, the committee may issue a
