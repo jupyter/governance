@@ -154,10 +154,11 @@ Possible responses may include:
   case, the group chair will deliver that reprimand to the individual(s) over
   email, cc'ing the group.
 * A public reprimand. In this case, the committee chair will deliver that
-  reprimand in the same venue that the violation occurred (i.e. in the gitter
-  chat room for a gitter chat room violation; email for an email violation,
-  etc.). The group may choose to publish this message elsewhere for
-  documentation purposes.
+  reprimand in the same venue that the violation occurred, within the limits of
+  practicality. E.g., the original mailing list for an email violation, but a
+  for a chat room discussion where the person/context may be gone, they can be
+  reached by other means. The group may choose to publish this message
+  elsewhere for documentation purposes.
 * A request for a public or private apology, assuming the reporter agrees to
   this idea: they may at their discretion refuse futher contact with the
   violator. The chair will deliver this request. The committee may, if it
