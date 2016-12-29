@@ -2,26 +2,76 @@
 
 This is the enforcement manual followed by Jupyter's Code of Conduct
 Committee. It's used when we respond to an issue to make sure we're consistent
-and fair. It should be considered an internal document, but we're publishing it
-publicly in the interests of transparency.
-
-Enforcing the code of conduct with punitive measures or reprimands is an
-extreme action that we'd like not to take lightly. We hope to apply only in
-rare case for well out of bound behavior or repeated offence. We are aware that
-users may be of different cultural background and languages and may miss-step
-in some community by mistake. We'll remind you that you are out of bound –
-without holding grudges – before taking any actions when alleged violation are
-in a gray area.
+and fair.
 
 ## The Code of Conduct Committee
 
 All responses to reports of conduct violations will be managed by a Code of
-Conduct Committee ("the committee").
+Conduct Committee ("the committee"), currently comprised of [*note:* still gathering volunteers, this will be filled in as they become available and prior to final upload into the rendered site]:
 
-The Jupyter Steering Council will establish this committee, comprised of at
-least five members. One member will be designated chair of the group and will be
-responsible for all reports back to the Steering Council. The Steering Council
-will review membership on a regular basis.
+* Person One foo@email (Chair of the Committee)
+* ...
+* Person Five bar@email
+
+The Jupyter Steering Council will approve the members of this committee,
+comprised of five members. The members will be drawn from our entire community,
+and we intend that it *not* be only Steering Council members: anyone who is
+actively engaged with Jupyter can propose to join this committee (we'll
+explicitly solicit volunteers when short of five members).  One member will be
+designated chair of the group and will be responsible for all reports back to
+the Steering Council.
+
+
+## Enforcement guidelines and principles
+
+Enforcing the Code of Conduct impacts our community today and for the future.
+It's an action that we do not take lightly. When reviewing enforcement
+measures, the Code of Conduct Committee will keep the following values and
+guidelines in mind:
+
+* Act in a personal manner rather than impersonal.  The Committee can engage
+  the parties to understand the situation, while respecting the privacy and any
+  necessary confidentiality of reporters.  But sometimes it is necessary to communicate with one or more individuals directly: the Committee's goal is to improve the health of our community rather than only produce a formal decision.
+
+* Emphasize empathy for individuals rather than judging behavior, avoiding
+  binary labels of "good" and "bad/evil". Overt, clear-cut agression and
+  harrassment exists and will be addressed unambiguously.  But many scenarios
+  that can prove challenging to resolve are those where normal disagreements
+  devolve into inappropriate behavior from multiple parties.  Understanding the
+  full context and finding a path that re-engages all is hard, but ultimately
+  the most productive for our community.
+
+* Increase engagement in good discussion practice.
+
+* Be mindful of the needs of new members: provide them with explicit support
+  and consideration, with the aim of increasing participation from
+  underrepresented groups in particular.
+
+* Individuals come from different cultural backgrounds and native languages.
+  While lack of intent to harm is not an excuse, try to identify an honest
+  misunderstanding caused by a non-native speaker and help them understand the
+  issue and how to change.  Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
+
+* Our actions will reflect compassion for all individuals. We will seek to
+  understand, to educate, and, as necessary, take action.
+
+
+**Mediation:** voluntary, informal mediation is a tool at our disposal.  In
+contexts such as when two or more parties have all escalated to the point of
+inappropriate behavior (something sadly common in human conflict), it may be
+useful to facilitate a mediation process. This is just an example, and
+mediation may be considered in all cases; if the Committee thinks mediation can
+be useful, it must first:
+
+* Find a candidate for mediator.
+* Obtain the agreement of the reporter(s).
+* Obtain the agreement of the reported person(s).
+* Settle on the mediator: any party can propose a different mediator than the
+  suggested candidate, but only if common agreement is reached on all terms can
+  the process move forward.
+
+If all parties agree, a timeline for mediation should be established, ideally to complete within two weeks.  The mediator will engage with all the parties and seek a resolution that is satisfactory to all.  Upon completion, the mediator will provide a report (vetted by all parties to the process) to the Committee, with recommendations on further steps.  The Committee will then evaluate these results (whether satisfactory resolution was achieved or not) and decide on any additional action deemed necessary.
+
 
 ## How the committee will respond to reports
 
@@ -40,7 +90,7 @@ ability:
 
 * What happened
 * Whether this event constitutes a Code of Conduct violation
-* Who, if anyone, was responsible for the violation
+* Who are the responsible party(ies)
 * Whether this is an ongoing situation, and there is a threat to anyone's
   physical safety
 
@@ -50,7 +100,13 @@ discussions, recorded voice conversations, etc).
 
 It is important to retain an archive of all activities of this committee to
 ensure consistency in behavior and provide institutional memory for the
-project.
+project.  To assist in this, the default channel of discussion for this
+committee will be a private mailing list accessible to current and future
+members of the committee as well as members of the Steering Council upon
+justified request. Only in exceptional circumstances should the committee
+deliberate outside this list (e.g. if a committee member is the target of a
+report).  In such cases, it should still provide a suitable summary of the
+discussion to the list.
 
 The Code of Conduct Committee should aim to have a resolution agreed upon within
 one week. In the event that a resolution can't be determined in that time, the
@@ -58,7 +114,7 @@ committee will respond to the reporter(s) with an update and projected timeline
 for resolution.
 
 
-## Acting Unilaterally
+## Incident Response and Committee Actions
 
 If the act is ongoing, or involves a threat to anyone's safety (e.g. threats of
 violence), any committee member may act immediately (before reaching consensus)
@@ -73,6 +129,8 @@ behalf of the Jupyter Steering Council.
 In situations where an individual committee member acts unilaterally, they must
 report their actions to the committee for review within 24 hours.
 
+At events where no Committee members may be present, an event organizer will act as their delegate.  They will forward any reports to the Committee, as well as a summary of any action them may have taken during the event.
+
 
 ## Resolutions
 
@@ -80,12 +138,15 @@ The committee must agree on a resolution by consensus. If the group cannot reach
 consensus and deadlocks for over a week, the group will turn the matter over to
 the Steering Council for resolution.
 
+
 Possible responses may include:
 
 * Taking no further action
   - if we determine no violations have occurred.
   - if the matter has been resolved publicly while the committee was
     considering responses.
+* Coordinating voluntary mediation: if all involved parties agree, the
+  Committee may facilitate a mediation process as detailed above.
 * Remind publicly, and point out that some behavior/actions/language have been
   judge inappropriate and why in the current context, or can but hurtful to
   some people, requesting the community to self-adjust.
@@ -97,6 +158,10 @@ Possible responses may include:
   chat room for a gitter chat room violation; email for an email violation,
   etc.). The group may choose to publish this message elsewhere for
   documentation purposes.
+* A request for a public or private apology. The chair will deliver this
+  request. The committee may, if it chooses, attach "strings" to this request:
+  for example, the group may ask a violator to apologize in order to retain
+  one’s membership on a mailing list.
 * A "mutually agreed upon hiatus" where the committee asks the individual to
   temporarily refrain from community participation. If the individual chooses
   not to take a temporary break voluntarily, the committee may issue a
@@ -104,10 +169,6 @@ Possible responses may include:
 * A permanent or temporary ban from some or all Jupyter spaces (mailing lists,
   gitter.im, etc.). The group will maintain records of all such bans so that
   they may be reviewed in the future or otherwise maintained.
-* A request for a public or private apology. The chair will deliver this
-  request. The committee may, if it chooses, attach "strings" to this request:
-  for example, the group may ask a violator to apologize in order to retain
-  one’s membership on a mailing list.
 
 Once a resolution is agreed upon, but before it is enacted, the committee will
 contact the original reporter and any other affected parties and explain the
