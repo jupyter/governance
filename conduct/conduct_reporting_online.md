@@ -56,3 +56,7 @@ Only permanent resolutions (such as bans) may be appealed. To appeal a decision
 of the Code of Conduct Committee, contact the Jupyter Steering Council at
 [*steeringcouncil@jupyter.org*](mailto:steeringcouncil@jupyter.org) with your
 appeal and they will review the case.
+
+The Committee should discuss the appeal considering any additional information
+not originally available and provide a resolution within two weeks.  If more
+time is required, it should inform the appealant within that timeframe.
