@@ -137,7 +137,7 @@ behalf of the Jupyter Steering Council.
 In situations where an individual committee member acts unilaterally, they must
 report their actions to the committee for review within 24 hours.
 
-At events where no Committee members may be present, an event organizer will act as their delegate.  They will forward any reports to the Committee, as well as a summary of any action them may have taken during the event.
+At events where no Committee members may be present, an event organizer will act as their delegate.  They will forward any reports to the Committee, as well as a summary of any action they may have taken during the event.
 
 
 ## Resolutions
