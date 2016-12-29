@@ -13,13 +13,12 @@ Conduct Committee ("the committee"), currently comprised of [*note:* still gathe
 * ...
 * Person Five bar@email
 
-The Jupyter Steering Council will approve the members of this committee,
-comprised of five members. The members will be drawn from our entire community,
-and we intend that it *not* be only Steering Council members: anyone who is
-actively engaged with Jupyter can propose to join this committee (we'll
-explicitly solicit volunteers when short of five members).  One member will be
-designated chair of the group and will be responsible for all reports back to
-the Steering Council.
+The Jupyter Steering Council will approve the members of this five person
+committee. The members will be drawn from our entire community, and we intend
+that it *not* be only Steering Council members: anyone who is actively engaged
+with Jupyter can propose to join this committee (we'll explicitly solicit
+volunteers when short of five members).  One member will be designated chair of
+the group and will be responsible for all reports back to the Steering Council.
 
 
 ## Enforcement guidelines and principles
@@ -31,7 +30,10 @@ guidelines in mind:
 
 * Act in a personal manner rather than impersonal.  The Committee can engage
   the parties to understand the situation, while respecting the privacy and any
-  necessary confidentiality of reporters.  But sometimes it is necessary to communicate with one or more individuals directly: the Committee's goal is to improve the health of our community rather than only produce a formal decision.
+  necessary confidentiality of reporters.  However, sometimes it is necessary
+  to communicate with one or more individuals directly: the Committee's goal is
+  to improve the health of our community rather than only produce a formal
+  decision.
 
 * Emphasize empathy for individuals rather than judging behavior, avoiding
   binary labels of "good" and "bad/evil". Overt, clear-cut agression and
@@ -41,16 +43,20 @@ guidelines in mind:
   full context and finding a path that re-engages all is hard, but ultimately
   the most productive for our community.
 
-* Increase engagement in good discussion practice.
+* Help increase engagement in good discussion practice: try to identify where
+  discussion may have broken down and provide actionable information, pointers
+  and resources that can help enact positive change on these points.
 
 * Be mindful of the needs of new members: provide them with explicit support
   and consideration, with the aim of increasing participation from
   underrepresented groups in particular.
 
 * Individuals come from different cultural backgrounds and native languages.
-  While lack of intent to harm is not an excuse, try to identify an honest
-  misunderstanding caused by a non-native speaker and help them understand the
-  issue and how to change.  Complex discussion in a foreign language can be very intimidating, and we want to grow our diversity also across nationalities and cultures.
+  While lack of intent to harm is not an excuse, try to identify any honest
+  misunderstandings caused by a non-native speaker and help them understand the
+  issue and how to change.  Complex discussion in a foreign language can be
+  very intimidating, and we want to grow our diversity also across
+  nationalities and cultures.
 
 * Our actions will reflect compassion for all individuals. We will seek to
   understand, to educate, and, as necessary, take action.
@@ -64,7 +70,7 @@ Committee can consider mediation in any case, mindful that the process is meant
 to be strictly voluntary and no party can be pressured to participate. If the
 Committee suggests mediation, it should:
 
-* Find a candidate for mediator.
+* Find a candidate who can serve as a mediator.
 * Obtain the agreement of the reporter(s). The reporter(s) have complete
   freedom to decline the mediation idea, or to propose an alternate mediator.
 * Obtain the agreement of the reported person(s).
@@ -102,19 +108,17 @@ ability:
 * Whether this is an ongoing situation, and there is a threat to anyone's
   physical safety.
 
-This information will be collected in writing, and whenever possible the group's
-deliberations will be recorded and retained (i.e. chat transcripts, email
-discussions, recorded voice conversations, etc).
+This information will be collected in writing, and whenever possible the
+group's deliberations will be recorded and retained (i.e. chat transcripts,
+email discussions, recorded conference calls, summaries of voice conversations,
+etc).
 
 It is important to retain an archive of all activities of this committee to
 ensure consistency in behavior and provide institutional memory for the
 project.  To assist in this, the default channel of discussion for this
 committee will be a private mailing list accessible to current and future
 members of the committee as well as members of the Steering Council upon
-justified request. Only in exceptional circumstances should the committee
-deliberate outside this list (e.g. if a committee member is the target of a
-report).  In such cases, it should still provide a suitable summary of the
-discussion to the list.
+justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there's a good record of the process.
 
 The Code of Conduct Committee should aim to have a resolution agreed upon within
 one week. In the event that a resolution can't be determined in that time, the

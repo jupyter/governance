@@ -100,15 +100,14 @@ that doesn't answer your questions, feel free to contact us at
 
 8. **A simple apology can go a long way**. It can often de-escalate a situation,
    and telling someone that you are sorry is act of empathy that doesn’t
-   automatically imply an admission of guilt (Canada has turned
-   [*this notion into law*](http://www.theloop.ca/canadians-love-to-say-sorry-so-much-we-had-to-make-this-law/)).
+   automatically imply an admission of guilt.
 
 
 ## Reporting
 
-If someone makes you or any other contributor feel unsafe or unwelcome,
-please report this in a timely manner. Code of conduct violations reduce
-the value of the community for everyone and we take them seriously.
+If you believe someone is violating the code of conduct, please report this in
+a timely manner. Code of conduct violations reduce the value of the community
+for everyone and we take them seriously.
 
 You can file a report by emailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filing out
