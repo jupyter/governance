@@ -1,19 +1,40 @@
-
 # Project Jupyter Code of Conduct and Community Guidelines
 
 Project Jupyter is an engaged and respectful community made up of people
 from all over the world. Your involvement helps us to further our
 mission and to create an open platform that serves a broad range of
 communities, from research and education, to journalism, industry and
-beyond. This diversity is one of our biggest strengths, but it can also
-lead to communication issues and conflicts. Therefore, we have a few
-ground rules we ask that our community members adhere to.
+beyond.
 
-Fundamentally, we are committed to providing a productive,
-harassment-free environment for everyone. Rather than considering this
-code an exhaustive list of things that you can’t do, take it in the
-spirit it is intended - a guide to make it easier to enrich all of us
-and the communities in which we participate.
+Naturally, this implies diversity of ideas and perspectives on often complex
+problems. Disagreement and healthy discussion of conflicting viewpoints is
+welcome: the best solutions to hard problems rarely come from a single angle.
+But disagreement is not an excuse for aggression: humans tend to take
+disagreement personally and easily drift into behavior that ultimately degrades
+a community. This is particularly acute with online communication across
+language and cultural gaps, where many cues of human behavior are unavailable.
+So, we are outlining here a set of principles and processes to support a
+healthy community in the face of these challenges.
+
+Fundamentally, we are committed to fostering a productive, harassment-free
+environment for everyone. Rather than considering this code an exhaustive list
+of things that you can’t do, take it in the spirit it is intended - a guide to
+make it easier to enrich all of us and the communities in which we participate.
+
+Importantly: as a member of our community, *you are also a steward of these
+values*.  Not all problems need to be resolved via formal processes, and often
+a quick, friendly but clear word on an online forum or in person can help
+resolve a misunderstanding and de-escalate things.
+
+However, sometimes these informal processes may be inadequate: they fail to
+work, there is urgency or risk to someone, nobody is intervening publicly and
+you don't feel comfortable speaking in public, etc.  For these or other
+reasons, structured follow-up may be necessary and here we provide the means
+for that: we welcome reports by emailing
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out [this
+form](https://goo.gl/forms/sJzOIie3zde9M71T2). For more details please see our
+Reporting Guidelines (for [online](conduct_reporting_online.md) and
+[in-person](conduct_reporting_events.md) contexts).
 
 This code applies equally to founders, developers, mentors and new
 community members, in all spaces managed by Project Jupyter. This
@@ -22,16 +43,9 @@ in-person events, and any other forums created by the project team. In
 addition, violations of this code outside these spaces may affect a
 person's ability to participate within them.
 
-If you believe someone is violating the code of conduct, we ask that you
-report it by emailing
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out
-[this form](https://goo.gl/forms/sJzOIie3zde9M71T2). For more details
-please see our Reporting Guidelines.
-
-By embracing the following principles, guidelines and actions to follow
-or avoid, you will help us make Jupyter a welcoming and productive
-community.
-If that doesn't answer your questions, feel free to contact us at
+By embracing the following principles, guidelines and actions to follow or
+avoid, you will help us make Jupyter a welcoming and productive community. If
+that doesn't answer your questions, feel free to contact us at
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org).
 
 
@@ -72,19 +86,16 @@ If that doesn't answer your questions, feel free to contact us at
    * Repeated harassment of others. In general, if someone asks you to stop,
      then stop
 
-6. **Moderate your expectations**. Many in our community volunteer their time.
-   They are probably not purposefully ignoring issues, refusing to engage in
-   discussion, avoiding features, etc. but often just unavailable.
+6. **Moderate your expectations**. Many in our community volunteer their time
+   and/or have multiple responsibilities. It's unlikely they are purposefully
+   ignoring issues, refusing to engage in discussion, avoiding features, etc.
+   Chances are, they need to attend to other aspects of their lives.
 
 7. **When we disagree, try to understand why**. Disagreements, both social and
-   technical, happen all the time and Jupyter is no exception. It is important
-   that we resolve disagreements and differing views constructively. Remember
-   that we’re different. The strength of Jupyter comes from its varied community
-   that includes people from a wide range of backgrounds. Different people have
-   different perspectives on issues. Being unable to understand why someone
-   holds a viewpoint doesn’t mean they’re wrong. Don’t forget that it is human
-   to err and blaming each other doesn’t get us anywhere. Instead, focus on
-   helping to resolve issues and learning from mistakes.
+   technical, happen all the time and Jupyter is no exception.  Try to
+   understand where others are coming from, as seeing a question from their
+   viewpoint may help find a new path forward.  And don’t forget that it
+   is human to err: blaming each other doesn’t get us anywhere, while we can learn from mistakes to find better solutions.
 
 8. **A simple apology can go a long way**. It can often de-escalate a situation,
    and telling someone that you are sorry is act of empathy that doesn’t
