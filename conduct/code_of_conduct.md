@@ -94,8 +94,9 @@ that doesn't answer your questions, feel free to contact us at
 7. **When we disagree, try to understand why**. Disagreements, both social and
    technical, happen all the time and Jupyter is no exception.  Try to
    understand where others are coming from, as seeing a question from their
-   viewpoint may help find a new path forward.  And don’t forget that it
-   is human to err: blaming each other doesn’t get us anywhere, while we can learn from mistakes to find better solutions.
+   viewpoint may help find a new path forward.  And don’t forget that it is
+   human to err: blaming each other doesn’t get us anywhere, while we can learn
+   from mistakes to find better solutions.
 
 8. **A simple apology can go a long way**. It can often de-escalate a situation,
    and telling someone that you are sorry is act of empathy that doesn’t
