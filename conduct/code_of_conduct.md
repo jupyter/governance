@@ -36,12 +36,12 @@ form](https://goo.gl/forms/sJzOIie3zde9M71T2). For more details please see our
 Reporting Guidelines (for [online](conduct_reporting_online.md) and
 [in-person](conduct_reporting_events.md) contexts).
 
-This code applies equally to founders, developers, mentors and new
-community members, in all spaces managed by Project Jupyter. This
-includes the mailing lists, our GitHub organizations, our chat rooms,
-in-person events, and any other forums created by the project team. In
-addition, violations of this code outside these spaces may affect a
-person's ability to participate within them.
+This code applies equally to founders, developers, mentors and new community
+members, in all spaces managed by Project Jupyter (including IPython). This
+includes the mailing lists, our GitHub organizations, our chat rooms, in-person
+events, and any other forums created by the project team. In addition,
+violations of this code outside these spaces may affect a person's ability to
+participate within them.
 
 By embracing the following principles, guidelines and actions to follow or
 avoid, you will help us make Jupyter a welcoming and productive community. If
