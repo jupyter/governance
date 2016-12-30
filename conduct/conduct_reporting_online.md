@@ -2,12 +2,11 @@
 
 If you believe someone is violating the code of conduct we ask that you report
 it to Project Jupyter by emailing
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by completing the
-following form [this form](https://goo.gl/forms/sJzOIie3zde9M71T2). All reports
-will be kept confidential. In some cases we may determine that a public
-statement will need to be made. If that's the case, the identities of all
-involved will remain confidential unless those individuals instruct us
-otherwise.
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by completing [this
+form](https://goo.gl/forms/sJzOIie3zde9M71T2). All reports will be kept
+confidential. In some cases we may determine that a public statement will need
+to be made. If that's the case, the identities of all involved will remain
+confidential unless those individuals instruct us otherwise.
 
 If you believe anyone is in physical danger, please notify appropriate law
 enforcement first. If you are unsure what law enforcement agency is appropriate,
