@@ -52,9 +52,6 @@ communicate a resolution.
 
 ## Appealing the Code of Conduct Committee’s Response
 
-All 'access control' responses can be appealed (temporary or permanent bans,
-access to repositories, etc.), but not those that involve only communication.
-
 To appeal a decision of the Code of Conduct Committee, contact the Jupyter
 Steering Council at
 [*steeringcouncil@jupyter.org*](mailto:steeringcouncil@jupyter.org) with your
