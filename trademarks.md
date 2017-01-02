@@ -42,7 +42,7 @@ We do not want these trademarks to be used:
 
 - to refer to any other events, software, or services
 - in a way that is misleading or may imply association of third-party events, software, or services with Project Jupyter
-- in ways that confuse the community as to whether the Project Jupyter is open source and free to use
+- in ways that confuse the community as to whether the software created by Project Jupyter is open source and free to use
 
 
 ## Uses that Never Require Approval
@@ -66,7 +66,8 @@ No explicit approval is needed for these uses as long as
 We understand that not everyone (including ourselves) can afford to give away merchandise in sufficient quantities to meet demand.
 Because of this we would love help from the community in creating an official place to purchase Jupyter branded
 merchandise with the profits going back to the project through NumFOCUS.
-If you are interested in helping out with this please get in touch with us on the Jupyter Google Group.
+If you are interested in helping out with this please get in touch with us on
+the [Jupyter Google Group][].
 Offering Jupyter branded merchandise for sale without explicit approval is not permitted.
 
 
@@ -92,7 +93,11 @@ This may not be removed or obscured and must always be included with the logo.
 This requirement is waived in all contexts where such marks are not normally included: email, online discussion, non-graphical advertisements (when permitted), and academic papers.
 We encourage the use of the symbol whenever possible, but recognize that many non-commercial and informal uses will omit it.
 
-0. If the word "Jupyter" or the Jupyter logos are used in certain contexts, the following statement should accompany its use: "Jupyter" and the Jupyter logos are trademarks or registered trademarks of NumFOCUS, used by ___________ with permission from the Foundation.
+0. If the word "Jupyter" or the Jupyter logos are used in certain contexts,
+    the following statement should accompany its use:
+    
+    > "Jupyter" and the Jupyter logos are trademarks or registered trademarks of NumFOCUS,
+    > used by ___________ with permission.
 
 0. For websites and documentation this can be on a "legal statements" page.
     For brochures and published articles, this statement is optional.
@@ -140,5 +145,12 @@ The following rules apply to the use of trademarks in each of these classes.
     See the [brand guidelines][].
 
 
+## Acknowledgments
+
+This document is derived from the [Python Software Foundation trademark policy][PSF-trademarks].
+
+
 [brand guidelines]: https://github.com/jupyter/design/tree/master/brandguide
 [Jupyter Trademarks Committee]: mailto:jupyter-trademarks@googlegroups.com
+[Jupyter Google Group]: https://groups.google.com/forum/#!forum/jupyter
+[PSF-trademarks]: https://www.python.org/psf/trademarks/
