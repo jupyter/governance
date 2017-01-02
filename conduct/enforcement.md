@@ -93,7 +93,7 @@ When a report is sent to the committee they will immediately reply to the
 reporter to confirm receipt. This reply must be sent within 24 hours, and the
 group should strive to respond much quicker than that.
 
-See the [Reporting Guidelines](*conduct_reporting_online.md*) for details of
+See the [Reporting Guidelines](*reporting_online.md*) for details of
 what reports should contain. If a report doesn't contain enough information, the
 committee will obtain all relevant data before acting. The committee is
 empowered to act on the Steering Council’s behalf in contacting any individuals
@@ -118,7 +118,9 @@ ensure consistency in behavior and provide institutional memory for the
 project.  To assist in this, the default channel of discussion for this
 committee will be a private mailing list accessible to current and future
 members of the committee as well as members of the Steering Council upon
-justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there's a good record of the process.
+justified request. If the Committee finds the need to use off-list
+communications (e.g. phone calls for early/rapid response), it should in all
+cases summarize these back to the list so there's a good record of the process.
 
 The Code of Conduct Committee should aim to have a resolution agreed upon within
 one week. In the event that a resolution can't be determined in that time, the

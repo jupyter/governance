@@ -46,7 +46,7 @@ means we may delay an "official" response until we believe that the situation
 has ended and that everyone is physically safe.
 
 The CoC committee will then follow the
-[standard procedure][conduct_enforcement.md#Resolutions] to arrive at and
+[standard procedure][enforcement.md#Resolutions] to arrive at and
 communicate a resolution.
 
 
