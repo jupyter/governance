@@ -26,6 +26,10 @@ information:
 * If you believe this incident is ongoing
 * Any other information you believe we should have
 
+*Note:* with anonymous reports, there are inherent limits in our ability to do
+follow-up or collect additional information.  Hence we suggest that if you
+would like to remain anonymous, you at least create a throw-away email address
+without your real name.
 
 ## What happens after you file a report?
 
