@@ -63,4 +63,4 @@ appeal and they will review the case.
 
 The Steering Council will gather all relevant information from the Committee
 and provide a resolution within two weeks.  If more time is required, it should
-inform the appealant within that timeframe.
+inform the appellant within that time frame.

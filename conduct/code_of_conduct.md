@@ -99,7 +99,7 @@ that doesn't answer your questions, feel free to contact us at
    from mistakes to find better solutions.
 
 8. **A simple apology can go a long way**. It can often de-escalate a situation,
-   and telling someone that you are sorry is act of empathy that doesn’t
+   and telling someone that you are sorry is an act of empathy that doesn’t
    automatically imply an admission of guilt.
 
 

@@ -37,8 +37,8 @@ guidelines in mind:
   decision.
 
 * Emphasize empathy for individuals rather than judging behavior, avoiding
-  binary labels of "good" and "bad/evil". Overt, clear-cut agression and
-  harrassment exists and will be addressed unambiguously.  But many scenarios
+  binary labels of "good" and "bad/evil". Overt, clear-cut aggression and
+  harassment exists and will be addressed unambiguously.  But many scenarios
   that can prove challenging to resolve are those where normal disagreements
   devolve into inappropriate behavior from multiple parties.  Understanding the
   full context and finding a path that re-engages all is hard, but ultimately
@@ -172,7 +172,7 @@ Possible responses may include:
   email, cc'ing the group.
 * A public reprimand. In this case, the committee chair will deliver that
   reprimand in the same venue that the violation occurred, within the limits of
-  practicality. E.g., the original mailing list for an email violation, but a
+  practicality. E.g., the original mailing list for an email violation, but
   for a chat room discussion where the person/context may be gone, they can be
   reached by other means. The group may choose to publish this message
   elsewhere for documentation purposes.
