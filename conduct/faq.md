@@ -46,12 +46,12 @@ Guidelines](*reporting_online.md*).
 
 ### What about events funded by Project Jupyter?
 
-This Code of Conduct will also cover any events that Jupyter funds.
+This Code of Conduct will also cover any events that Project Jupyter funds.
 
-The project requires that any events it funds have policies and procedures in
-place for handling harassment. It's especially important to us that real-life
-events take steps to protect the physical and mental security of their
-participants.
+The project requires that any events Project Jupyter funds have policies and
+procedures in place for handling harassment. It's especially important to us
+that real-life events take steps to protect the physical and mental security of
+their participants.
 
 Event organizers will enforce the Code of Conduct.
 

@@ -13,7 +13,7 @@ But disagreement is not an excuse for aggression: humans tend to take
 disagreement personally and easily drift into behavior that ultimately degrades
 a community. This is particularly acute with online communication across
 language and cultural gaps, where many cues of human behavior are unavailable.
-So, we are outlining here a set of principles and processes to support a
+We are outlining here a set of principles and processes to support a
 healthy community in the face of these challenges.
 
 Fundamentally, we are committed to fostering a productive, harassment-free

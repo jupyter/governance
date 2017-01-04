@@ -13,7 +13,7 @@ properly. This can be uncomfortable, but we'll handle it respectfully and you
 can bring someone to support you.
 
 **Email**: Send a message to
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org) and/or local organizer’s
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org) and/or a local organizer’s
 email (best to do both to ensure both prompt local response and that the
 regular committee is immediately in the loop).
 
@@ -23,7 +23,7 @@ for the duration of the event.
 
 Contact information for the following will be provided per event:
 
-* Email: [*conduct@jupyter.org*](mailto:conduct@jupyter.org), and/or local
+* Email: [*conduct@jupyter.org*](mailto:conduct@jupyter.org), and/or a local
   organizer
 * Conference organizer mobile number
 * Venue security

@@ -7,7 +7,8 @@ and fair.
 ## The Code of Conduct Committee
 
 All responses to reports of conduct violations will be managed by a Code of
-Conduct Committee ("the committee"), currently comprised of [*note:* still gathering volunteers, this will be filled in as they become available and prior to final upload into the rendered site]:
+Conduct Committee ("the committee"), currently comprised of
+[*note:* still gathering volunteers, this will be filled in as they become available and prior to final upload into the rendered site]:
 
 * Person One foo@email (Chair of the Committee)
 * ...
@@ -143,7 +144,9 @@ behalf of the Jupyter Steering Council.
 In situations where an individual committee member acts unilaterally, they must
 report their actions to the committee for review within 24 hours.
 
-At events where no Committee members may be present, an event organizer will act as their delegate.  They will forward any reports to the Committee, as well as a summary of any action they may have taken during the event.
+At events where no Committee members may be present, an event organizer will act
+as their delegate. They will forward any reports to the Committee, as well as a
+summary of any action they may have taken during the event.
 
 
 ## Resolutions
@@ -162,7 +165,7 @@ Possible responses may include:
 * Coordinating voluntary mediation: if all involved parties agree, the
   Committee may facilitate a mediation process as detailed above.
 * Remind publicly, and point out that some behavior/actions/language have been
-  judge inappropriate and why in the current context, or can but hurtful to
+  judged inappropriate and why in the current context, or can but hurtful to
   some people, requesting the community to self-adjust.
 * A private reprimand from the committee to the individual(s) involved. In this
   case, the group chair will deliver that reprimand to the individual(s) over
@@ -174,7 +177,7 @@ Possible responses may include:
   reached by other means. The group may choose to publish this message
   elsewhere for documentation purposes.
 * A request for a public or private apology, assuming the reporter agrees to
-  this idea: they may at their discretion refuse futher contact with the
+  this idea: they may at their discretion refuse further contact with the
   violator. The chair will deliver this request. The committee may, if it
   chooses, attach "strings" to this request: for example, the group may ask a
   violator to apologize in order to retain one’s membership on a mailing list.
