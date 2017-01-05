@@ -161,7 +161,7 @@ The following rules apply to the use of trademarks in each of these classes.
   Allowed when referring to use with or suitability for Jupyter.
   For commercial products, contact the Jupyter Trademark Committee for permission.
 - Use of the word "Jupyter" in company names --
-  Allowed only by prior written permission from Jupyter.
+  Allowed only by prior written permission from the Jupyter Trademark Committee.
 - Use of the word "Jupyter" when redistributing Jupyter software as part of
   a freely distributed application -- Allowed.
   If the standard version of the Jupyter software is modified,
