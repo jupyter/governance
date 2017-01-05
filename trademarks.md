@@ -4,6 +4,20 @@
 We are actively working on this document.
 Sections that are completed should be considered to be accepted and active.**
 
+The goal of this document is to clarify what is allowed when using the Jupyter trademarks,
+especially clarifying what is explicitly allowed without the need for approval.
+The gist is a very permissive policy:
+
+- If you are using the Jupyter name or a Jupyter logo to refer to Jupyter, that is generally allowed, and you don't need to ask permission.
+- If you are using a Jupyter logo, please use an unmodified version from the [brand guidelines][].
+
+See the [Uses that Never Require Approval](#uses-that-never-require-approval)
+section for the details in most common cases,
+and feel free to get in touch with the [Jupyter Trademarks Committee][] if you have any further questions.
+
+This document is based on the [Python Software Foundation trademark policy][PSF-trademarks],
+so if you are familiar with use of Python and its logo and trademarks,
+these guidelines are quite similar.
 
 ## Introduction
 
