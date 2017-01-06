@@ -16,7 +16,7 @@ Jupyter remains a tool that is by and for researchers.
 
 Given this focus on research, the ongoing academic careers of many Jupyter
 contributors, and our desire to have an impact on computing research, it is
-important for us to author and publish peer-review papers on Jupyter itself.
+important for us to author and publish peer-reviewed papers on Jupyter itself.
 Authoring these papers in the context of a large, open-source community
 presents a number of differences compared to many research collaborations.
 
@@ -36,7 +36,7 @@ general principles in mind:
 * **Openness.** The process of authoring papers should be open in the same way
   as the rest of the project's work. Thus, all of our papers are written in the
   public on GitHub.
-* **Accountability.** Being an author on a paper is a priviledge, but also
+* **Accountability.** Being an author on a paper is a privilege, but also
   involves responsibilities. The concrete processes described below elucidate
   these responsibilities.
 
@@ -56,7 +56,9 @@ following author ordering policy:
 
 Listing the first author as "Project Jupyter" is important as it means that in
 abbreviated citations, the author list will be "Project Jupyter, et al." rather
-than artificially showing the first alphabetical author's name.
+than artificially showing the first alphabetical author's name. This is common
+practice in academic field such as high energy physics where there are large
+numbers of authors on papers.
 
 ## Process for Journal of Open Source Software (JOSS)
 
@@ -170,7 +172,7 @@ Because of these factors, the process is slightly different.
 
 The authorship criteria for non-JOSS papers is slightly different than for JOSS
 in that all authors are expected to actively participate in the writing and
-editing of the paper:
+editing of the paper.
 
 Our authorship criteria for papers are derived from those of the
 [ICMJE](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/d
@@ -189,19 +191,16 @@ efining-the-role-of-authors-and-contributors.html#two):
 Anyone who satisfies and is willing to accept these responsibilities and
 commitments is welcome to be an author on any of our publications.
 
+The second of these responsibilities implies that all authors will actively
+participate in the writing of the manuscript. We recognize that not all
+co-authors will contribute equally and in the same way to the writing of a
+paper. Furthermore, for papers with large numbers of co-authors, we expect the
+main writing will be done by a smaller group of co-authors, with other
+co-authors contributing to editing work and discussions. However, in all cases active participation in some manner is still required.
+
 ### Process
 
 Before creating the detailed process for authoring non-JOSS papers, we want to
 try out the above process for JOSS papers and see how it should be modified for
 longer form papers. In general, we expect to closely follow the process used in
 the SymPy project to author [this paper](https://github.com/sympy/sympy-paper).
-
-
-
-
-
- 
-
-
-
-  
