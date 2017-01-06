@@ -133,6 +133,11 @@ participate. Usually this will include at least two emails:
 * Email the main Jupyter Google Group to include folks not listed in the Git
   log.
 
+In addition, the Coordinator should send personal emails to individuals, such
+as students, who are new to writing academic publications, explaining why we
+are writing a paper, and encouraging them to participate. These personal emails
+should cc the individual's mentor or advisor if applicable.
+
 Both of these emails should include:
 
 * A verbatim copy of the above JOSS authorship criteria;
