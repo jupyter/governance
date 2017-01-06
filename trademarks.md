@@ -99,6 +99,9 @@ please contact the [Jupyter Trademarks Committee][].
 
 ### Use of the Jupyter trademark on merchandise
 
+Using the Jupyter trademarks *to refer to* Jupyter on merchandise for your own products using the Jupyter trademarks is covered by the
+[Uses that Never Require Approval](#uses-that-never-require-approval) above.
+
 We encourage use of the Jupyter trademarks (logo and word mark) on stickers, hats, mugs, t-shirts,
 and other physical merchandise to promote the project and the broader open-source ecosystem.
 No explicit approval is needed for these uses as long as
