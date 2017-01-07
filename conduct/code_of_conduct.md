@@ -1,4 +1,4 @@
-# Project Jupyter Code of Conduct and Community Guidelines
+# Project Jupyter Code of Conduct
 
 Project Jupyter is an engaged and respectful community made up of people
 from all over the world. Your involvement helps us to further our
@@ -44,9 +44,9 @@ violations of this code outside these spaces may affect a person's ability to
 participate within them.
 
 By embracing the following principles, guidelines and actions to follow or
-avoid, you will help us make Jupyter a welcoming and productive community. If
-that doesn't answer your questions, feel free to contact us at
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org).
+avoid, you will help us make Jupyter a welcoming and productive community. Feel
+free to contact the Code of Conduct Committee at
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org) with any questions.
 
 
 1. **Be friendly and patient**.
@@ -86,10 +86,9 @@ that doesn't answer your questions, feel free to contact us at
    * Repeated harassment of others. In general, if someone asks you to stop,
      then stop
 
-6. **Moderate your expectations**. Many in our community volunteer their time
-   and/or have multiple responsibilities. It's unlikely they are purposefully
-   ignoring issues, refusing to engage in discussion, avoiding features, etc.
-   Chances are, they need to attend to other aspects of their lives.
+6. **Moderate your expectations**. Please respect that community members choose
+   how they spend their time in the project. A thoughtful question about your
+   expectations is preferable to demands for another person's time.
 
 7. **When we disagree, try to understand why**. Disagreements, both social and
    technical, happen all the time and Jupyter is no exception.  Try to

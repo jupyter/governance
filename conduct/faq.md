@@ -32,8 +32,8 @@ of Conduct when in "official" Jupyter spaces. This code has been adopted by both
 the Jupyter Steering Council and JupyterDay/JupyterCon events. That means that
 it will apply both in community spaces and at our events.
 
-In practice, this means mailing lists, the various Jupyter channels, and Jupyter
-events.
+In practice, Jupyter spaces include mailing lists, various communication
+channels, and events.
 
 ### What happens if someone violates the Code of Conduct?
 

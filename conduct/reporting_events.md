@@ -5,9 +5,10 @@ You can make a personal report by:
 **Phone**: Provided at beginning of your event. This phone number will be
 monitored for the duration of the event.
 
-**In Person**: Contact a staff member, identified by STAFF badges.
+**In Person**: Contact a staff member. Staff members should be clearly
+identified in an event (for example, with special staff badges or shirts).
 
-When taking a personal report, our staff will ensure you are safe and cannot be
+When taking a personal report, event staff will ensure you are safe and cannot be
 overheard. They may involve other event staff to ensure your report is managed
 properly. This can be uncomfortable, but we'll handle it respectfully and you
 can bring someone to support you.
@@ -18,8 +19,8 @@ email (best to do both to ensure both prompt local response and that the
 regular committee is immediately in the loop).
 
 Our team will help you contact hotel/venue security, local law enforcement,
-local support services, provide escorts, or otherwise assist you to feel safe
-for the duration of the event.
+local support (which could include services and transportation as available), or
+otherwise respectfully assist you to feel safe for the duration of the event.
 
 Contact information for the following will be provided per event:
 

@@ -199,9 +199,8 @@ Finally, the committee will make a report to the Jupyter Steering Council (as
 well as the Jupyter core team in the event of an ongoing resolution, such as a
 ban).
 
-The committee will never publicly discuss the issue; all public statements
-(aside from the responses listed above if those are on public channels) will be
-made by the chair of the Code of Conduct Committee or the Jupyter Steering
+The committee will never publicly discuss the issue; all public statements will
+be made by the chair of the Code of Conduct Committee or the Jupyter Steering
 Council.
 
 
