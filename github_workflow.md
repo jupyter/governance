@@ -1,7 +1,7 @@
 # GitHub Milestone and Issue Workflow
 
 This purpose of this document is to describe our development workflow on
-GitHub, in particular, how we use milestones and issue. We recognize that our
+GitHub; in particular, how we use milestones and issues. We recognize that our
 many subprojects may use variations of these ideas. This particular workflow is
 based on the practices from the JupyterLab repo
 (https://github.com/jupyterlab/jupyterlab) and are optional for Jupyter
@@ -24,7 +24,7 @@ releases of a subproject (https://github.com/jupyterlab/jupyterlab/milestones).
 * Subprojects should have a `No Action` milestone to indicate issues or pull
   requests that were closed with no action or work being performed. In general
   we try to close issues/PRs with this milestone.
-* The only time an issue should have no milestone is early on in the triag
+* The only time an issue should have no milestone is early on in the triage
   process when it still has the `status:Needs Info` label.
 
 ## Labels
@@ -58,7 +58,7 @@ types:
 
 Guidelines:
 
-* Each issue or pull reuest should have only one `type:` prefixed label.
+* Each issue or pull request should have only one `type:` prefixed label.
 * Limiting ourselves to these four types allows us to query our issues in a 
   structural and relational manner.
 
