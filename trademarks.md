@@ -4,9 +4,10 @@
 We are actively working on this document.
 Sections that are completed should be considered to be accepted and active.**
 
-The goal of this document is to clarify what is allowed when using the Jupyter trademarks,
-especially clarifying what is explicitly allowed without the need for approval.
-The gist is a very permissive policy:
+This document's goal is to clarify allowed uses of the Jupyter trademarks.
+We wish to implement a very permissive policy that legally protects the trademarks
+while encouraging the community to liberally use the trademarks.
+In general:
 
 - If you are using the Jupyter name or a Jupyter logo to refer to Jupyter, that is generally allowed, and you don't need to ask permission.
 - If you are using a Jupyter logo, please use an unmodified version from the [brand guidelines][].
