@@ -1,34 +1,36 @@
 # Steering Council and Institutional Partners
 
+Names are followed by GitHub usernames.
+
 ## Benevolent Dictator for Life
 
-Fernando Perez is the Benevolent Dictator for Life (BDFL).
+Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
 
 ## Steering Council
 
-- Brian Granger
-- Damian Avila
-- Fernando Perez
-- Jason Grout
-- Jessica Hamrick
-- Jonathan Frederic
-- Kyle Kelley
-- Matthias Bussonnier
-- Min Ragan-Kelley
-- Sylvain Corlay
-- Thomas Kluyver
-- Peter Parente
-- Carol Willing
-- Steven Silvester
-- Paul Ivanov
+- Brian Granger, @ellisonbg
+- Damian Avila, @damianavila
+- Fernando Perez, @fperez
+- Jason Grout, @jasongrout
+- Jessica Hamrick, @jhamrick
+- Jonathan Frederic, @jdfreder
+- Kyle Kelley, @rgbkrk
+- Matthias Bussonnier, @carreau
+- Min Ragan-Kelley, @minrk
+- Sylvain Corlay, @sylvaincorlay
+- Thomas Kluyver, @takluyver
+- Peter Parente, @parente
+- Carol Willing, @willingc
+- Steven Silvester, @blink1073
+- Paul Ivanov, @ivanov
 
 ### NumFOCUS Subcommittee
 
-- Brian Granger
-- Fernando Perez
-- Matthias Bussonnier
-- Stefan van der Walt (non-council member)
-- Thomas Kluyver
+- Brian Granger, @ellisonbg
+- Fernando Perez, @fperez
+- Matthias Bussonnier, @carreau
+- Stefan van der Walt (non-council member), @stefanv
+- Thomas Kluyver, @takluyver
 
 ## Institutional Partners
 
