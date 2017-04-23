@@ -16,10 +16,10 @@ This document describes the process by which new Subprojects are created in or
 moved to these organizations from other locations. There are two ways that new
 Subprojects are created:
 
-1. [Direct Subproject creation](#Direct-Subproject-creation)
+1. [Direct Subproject creation](#direct-subproject-creation)
     * e.g., when contributors to an existing Subproject decide to create a new
       Git repository for related but separable code
-2. [Incorporation of an existing external Subproject](#Incorporation-of-an-existing-external-Subproject)
+2. [Incorporation of an existing external Subproject](#incorporation-of-an-existing-external-subproject)
     * e.g., when contributors to a project in
       [github.com/jupyter-incubator](https://github.com/jupyter-incubator)
       submit a proposal for incorporation into one of the official Jupyter
