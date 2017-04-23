@@ -8,10 +8,12 @@ hosted under the following GitHub organizations:
 * [github.com/jupyter](https://github.com/jupyter)
 * [github.com/jupyterhub](https://github.com/jupyterhub)
 * [github.com/jupyterlab](https://github.com/jupyterlab)
+* [github.com/jupyter-resources](https://github.com/jupyter-resources)
 * [github.com/jupyter-widgets](https://github.com/jupyter-widgets)
+* [github.com/ipython](https://github.com/ipython)
 
 This document describes the process by which new Subprojects are created in or
-moved to these repositories from other locations. There are two ways that new
+moved to these organizations from other locations. There are two ways that new
 Subprojects are created:
 
 1. [Direct Subproject creation](#Direct-Subproject-creation)
