@@ -36,17 +36,19 @@ color. This unstructured nature, makes it difficult to organize work
 effectively. To address, this challenge, we are started to use a more formal
 label schema/taxonomy.
 
-First, every label should have one of four prefixes:
+### Internal-facing Labels
 
-1. `type:`
-2. `component:`
-3. `cat:`
-4. `status:`
+Typically, every label should have one of four prefixes:
+
+[1. `type:`](`type:`)
+[2. `component:`](`component:`)
+[3. `cat:`](`cat:`)
+[4. `status:`](`status:`)
 
 All issues of a given prefix should have the same color to make visual
 identification easy.
 
-### `type:`
+#### `type:`
 
 The `type:` prefix indicates the type of issue or pull request. There are four
 types:
@@ -62,7 +64,7 @@ Guidelines:
 * Limiting ourselves to these four types allows us to query our issues in a 
   structural and relational manner.
 
-### `component:`
+#### `component:`
 
 The `component:` prefix indicates the component or part of the software the
 issue is related to. Thus, on the JupyterLab repository, we have labels such as:
@@ -85,7 +87,7 @@ Guidelines:
   usually it will be a small number.
 * Each subproject will have its own unique set of `component:` labels.
 
-### `cat:`
+#### `cat:`
 
 The `cat:` prefix indicates the "category" of the issue. The category is sort of
 mixin to the `component:` label to indicate cross-cutting categories such as:
@@ -94,7 +96,6 @@ mixin to the `component:` label to indicate cross-cutting categories such as:
 * `cat:Design and UX`
 * `cat:Documentation`
 * `cat:Examples`
-* `cat:New Contributor`
 * `cat:Settings`
 
 Guidelines:
@@ -103,13 +104,12 @@ Guidelines:
 * Each subproject will have its own unique set of `cat:` labels, but effort
   should be taken to use common names.
 
-### `status:`
+#### `status:`
 
 The `status:` prefix indicates the status of the issue or pull request, such as:
 
 * `status:Blocked`
 * `status:Duplicate`
-* `status:Help Wanted`
 * `status:Inactive`
 * `status:Needs Discussion`
 * `status:Needs Info`
@@ -123,6 +123,14 @@ Guidelines:
 * A single issue or pull request can have multiple `status:` labels.
 * Subprojects should use ths standard set of `status:` labels, but are free to
   add additional ones.
+
+### External-facing Labels
+
+For outside open source initiatives from [GitHub](https://help.github.com/articles/finding-open-source-projects-on-github/) and events such as [Hacktoberfest](https://hacktoberfest.digitalocean.com/) or [Write/Speak/Code](http://www.writespeakcode.com/), organizations often request a specific name for contributor-friendly issues.
+
+Across [GitHub](https://help.github.com/articles/about-labels/), `good first issue` is the common label for beginner-friendly issues.  `help wanted` indicates interest in external help from the community on an issue.
+
+Additional labels such as `hacktoberfest` are based on open source initiatives for which we'd like additional help.
 
 ## Structured queries 
 
