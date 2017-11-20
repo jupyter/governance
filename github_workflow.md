@@ -115,7 +115,6 @@ The `status:` prefix indicates the status of the issue or pull request, such as:
 * `status:Needs Info`
 * `status:Needs Review`
 * `status:Needs User Testing`
-* `status:Wont Fix`
 * `status:Work in Progress`
 
 Guidelines:
