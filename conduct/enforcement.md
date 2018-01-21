@@ -7,20 +7,12 @@ and fair.
 ## The Code of Conduct Committee
 
 All responses to reports of conduct violations will be managed by a Code of
-Conduct Committee ("the committee"), currently comprised of
-[*note:* still gathering volunteers, this will be filled in as they become available and prior to final upload into the rendered site]:
-
-* Person One foo@email (Chair of the Committee)
-* ...
-* Person Five bar@email
-
-The Jupyter Steering Council will approve the members of this five person
-committee. The members will be drawn from our entire community, and we intend
-that it *not* be only Steering Council members: anyone who is actively engaged
-with Jupyter can propose to join this committee (we'll explicitly solicit
-volunteers when short of five members).  One member will be designated chair of
-the group and will be responsible for all reports back to the Steering Council.
-
+Conduct Committee ("the committee"). The Code of Conduct Committee is current
+the Jupyter Steering Council. The Steering Council may appoint a subcommittee or
+consult with outside parties in its handling of particular Code of Coduct cases.
+If a Code of Conduct violation report is initiated against a member of the
+Steering Council, that individual will not participate in the enforcement
+process or decisions.
 
 ## Enforcement guidelines and principles
 
