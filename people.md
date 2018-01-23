@@ -13,7 +13,6 @@ Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
 - Fernando Perez, @fperez
 - Jason Grout, @jasongrout
 - Jessica Hamrick, @jhamrick
-- Jonathan Frederic, @jdfreder
 - Kyle Kelley, @rgbkrk
 - Matthias Bussonnier, @carreau
 - Min Ragan-Kelley, @minrk
@@ -23,6 +22,10 @@ Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
 - Carol Willing, @willingc
 - Steven Silvester, @blink1073
 - Paul Ivanov, @ivanov
+
+### Retired steering council members
+
+- Jonathan Frederic, @jdfreder
 
 ### NumFOCUS Subcommittee
 
