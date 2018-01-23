@@ -10,7 +10,7 @@ The Project
 ===========
 
 The Jupyter/IPython Project (The Project) is an open source software project
-affiliated with the 501c3 NumFocus Foundation. The goal of The Project is to
+affiliated with the 501c3 NumFOCUS Foundation. The goal of The Project is to
 develop open source software and deploy open and public websites and services
 for reproducible, exploratory and interactive computing. The Software developed
 by The Project is released under the BSD (or similar) open source license,
