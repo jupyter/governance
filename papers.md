@@ -78,8 +78,7 @@ All such paper should use the process described herein.
 ### JOSS authorship criteria
 
 Our authorship criteria for JOSS papers are derived from those of the
-[ICMJE](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/d
-efining-the-role-of-authors-and-contributors.html#two):
+[ICMJE](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html#two):
 
 * Substantial contributions to the conception, design, or implementation of
   software; this includes coding, visual design, documentation, testing,
