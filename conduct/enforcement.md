@@ -1,26 +1,21 @@
 # Jupyter Code of Conduct - Enforcement Manual
 
-This is the enforcement manual followed by Jupyter's Code of Conduct
-Committee. It's used when we respond to an issue to make sure we're consistent
-and fair.
+This is the enforcement manual followed by Jupyter's Code of Conduct Committee.
+It's used when we respond to an incident to make sure we are consistent and
+fair.
 
 ## The Code of Conduct Committee
 
 All responses to reports of conduct violations will be managed by a Code of
-Conduct Committee ("the committee"), currently comprised of
-[*note:* still gathering volunteers, this will be filled in as they become available and prior to final upload into the rendered site]:
+Conduct Committee ("the committee"). The Jupyter Steering Council is responsible
+for vetting and appointing the Code of Conduct Committee. During periods where
+a separate Code of Conduct Committee is not appointed or is not available
+to handle a code of conduct report promptly, the Jupyter Steering Council
+will serve as the interim Code of Conduct Committee.
 
-* Person One foo@email (Chair of the Committee)
-* ...
-* Person Five bar@email
-
-The Jupyter Steering Council will approve the members of this five person
-committee. The members will be drawn from our entire community, and we intend
-that it *not* be only Steering Council members: anyone who is actively engaged
-with Jupyter can propose to join this committee (we'll explicitly solicit
-volunteers when short of five members).  One member will be designated chair of
-the group and will be responsible for all reports back to the Steering Council.
-
+If a Code of Conduct report involves a member of the Steering Council or Code of
+Conduct Committee, that member will not participate in the investigation or any
+decisions related to that report.
 
 ## Enforcement guidelines and principles
 
