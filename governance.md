@@ -191,8 +191,8 @@ interests include, but are not limited to:
     outside of The Project that may influence their work on The Project.
 -   Access to proprietary information of their employer that could potentially
     leak into their work with the Project.
--   An issue where the person privately gains an advantage, but The Project
-    has no gain or suffers a disadvantage.
+-   An issue where the person privately gains an advantage from The Project
+    resources, but The Project has no gain or suffers a disadvantage.
 
 All members of the Council, BDFL included, shall disclose to the rest of the
 Council any conflict of interest they may have. Members with a conflict of
