@@ -79,7 +79,7 @@ Subprojects that have incubated under the `jupyter-incubator` GitHub organizatio
 Subprojects developed under other GitHub organizations, or Subprojects developed as open-source
 software in other public venues.
 
-When a Subproject is incorporated, it becomes an officialy supported and maintained part
+When a Subproject is incorporated, it becomes an officially supported and maintained part
 of Project Jupyter and is moved to one of the GitHub organizations noted at the top of
 this document
 
