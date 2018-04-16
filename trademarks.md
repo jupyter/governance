@@ -138,8 +138,7 @@ Although many uses of Jupyter's trademarks are governed by more specific rules,
 which appear in the examples below,
 the following basic guidelines apply to almost any use of Jupyter's trademarks.
 
-0. The Jupyter trademarks are not currently registered.
-    (We will post an update to this policy if they are registered later.)
+0. The Jupyter trademarks are registered.
     These marks should be used in accordance with the Jupyter [brand guidelines][],
     and should be accompanied by a symbol for unregistered trademarks: "(TM)" or a small TM "™".
     This may not be removed or obscured and must always be included with the logo.
