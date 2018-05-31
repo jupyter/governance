@@ -179,8 +179,7 @@ in that all authors are expected to actively participate in the writing and
 editing of the paper.
 
 Our authorship criteria for papers are derived from those of the
-[ICMJE](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/d
-efining-the-role-of-authors-and-contributors.html#two):
+[ICMJE](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html#two):
 
 * Substantial contributions to the conception, design, or implementation of
   software; this includes coding, visual design, documentation, testing,
