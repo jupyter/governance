@@ -22,8 +22,8 @@ IPython.parallel, the Jupyter Hub, etc. The Services run by the
 Project consist of public websites and web-services that are hosted
 under the jupyter.org or ipython.org domains. The Services Examples of
 Project Services include the Jupyter and IPython websites
-([http://jupyter.org](http://jupyter.org) and
-[http://ipython.org](http://ipython.org)), nbviewer
+([https://jupyter.org](https://jupyter.org) and
+[https://ipython.org](https://ipython.org)), nbviewer
 ([https://nbviewer.ipython.org](https://nbviewer.ipython.org)) and the
 Jupyter coLaboratory
 ([https://colaboratory.jupyter.org](https://colaboratory.jupyter.org)).
@@ -51,7 +51,7 @@ Community and we strive to keep the barrier between Contributors and Users as
 low as possible.
 
 The Project is formally affiliated with the 501c3 NumFOCUS Foundation
-([http://numfocus.org](http://numfocus.org)), which serves as its fiscal
+([https://numfocus.org](https://numfocus.org)), which serves as its fiscal
 sponsor, may hold project trademarks and other intellectual property, helps
 manage project donations and acts as a parent legal entity. NumFOCUS is the
 only legal entity that has a formal relationship with the project (see
