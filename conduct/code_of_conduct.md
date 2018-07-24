@@ -56,7 +56,7 @@ free to contact the Code of Conduct Committee at
    to, members of any race, ethnicity, culture, national origin, color,
    immigration status, social and economic class, educational level, sex, sexual
    orientation, gender identity and expression, age, physical appearance, family
-   status, political belief, technological or professional choices, academic
+   status, technological or professional choices, academic
    discipline, religion, mental ability, and physical ability.
 
 3. **Be considerate**. Your work will be used by other people, and you in turn
