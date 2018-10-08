@@ -23,6 +23,8 @@ Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
 - Carol Willing, @willingc
 - Steven Silvester, @blink1073
 - Paul Ivanov, @ivanov
+- Afshin Darian, @afshin
+- M Pacer, @mpacer
 
 ### Retired steering council members
 
