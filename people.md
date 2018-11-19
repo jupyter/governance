@@ -53,6 +53,7 @@ Institutional Council members are noted with each institution.
 - [Two Sigma](https://www.twosigma.com/) (Afshin Darian)
 - [UC Berkeley](https://www.berkeley.edu/) (Fernando Perez)
 - [Valassis](https://www.valassis.com/) (Peter Parente)
+- [UC merced](https://www.ucmerced.edu/) (Matthias Bussonnier)
 
 ### Tier 2
 
