@@ -148,10 +148,10 @@ To become eligible for being a Steering Council Member an individual must be a
 Project Contributor who has produced contributions that are substantial in
 quality and quantity, and sustained over at least one year. Potential Council
 Members are nominated by existing Council members and voted upon by the
-existing Council after asking if the potential Member is interested and willing
-to serve in that capacity. The Council will be initially formed from the set of
-existing Core Developers who, as of late 2014, have been significantly active
-over the last year.
+existing Council. Based on a successful vote, the newly elected Member is
+invited to serve in that capacity. The Council will be initially formed from
+the set of existing Core Developers who, as of late 2014, have been
+significantly active over the last year.
 
 When considering potential Members, the Council will look at candidates with a
 comprehensive view of their contributions. This will include but is not limited
