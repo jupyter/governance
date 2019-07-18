@@ -1,9 +1,5 @@
 # Trademark Usage Policy
 
-**The following is a draft of the Jupyter Trademark Usage Policy.
-We are actively working on this document.
-Sections that are completed should be considered to be accepted and active.**
-
 This document's goal is to clarify allowed uses of the Jupyter trademarks.
 We wish to implement a very permissive policy that legally protects the trademarks
 while encouraging the community to liberally use the trademarks.
