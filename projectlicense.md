@@ -32,26 +32,17 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## About the Jupyter Development Team
+## Explanation of Project Jupyter copyright policy
 
-The Jupyter Development Team is the set of all contributors to the Jupyter project.
-This includes all of the Jupyter Subprojects, which are the different repositories
-under the [jupyter](https://github.com/jupyter/) GitHub organization.
-
-The core team that coordinates development on GitHub can be found here:
-https://github.com/jupyter/.
-
-## Our copyright policy
-
-Jupyter uses a shared copyright model. Each contributor maintains copyright
-over their contributions to Jupyter. But, it is important to note that these
-contributions are typically only changes to the repositories. Thus, the Jupyter
-source code, in its entirety is not the copyright of any single person or
-institution.  Instead, it is the collective copyright of the entire Jupyter
-Development Team.  If individual contributors want to maintain a record of what
-changes/contributions they have specific copyright on, they should indicate
-their copyright in the commit message of the change, when they commit the
-change to one of the Jupyter repositories.
+Project Jupyter uses a shared copyright model. Each contributor maintains
+copyright over their contributions to Project Jupyter. These contributions are
+typically only changes to the repositories. Thus, Project Jupyter source code,
+in its entirety, is not the copyright of any single person or institution.
+Instead, Project Jupyter source code is the collective copyright of its
+contributors. If individual contributors want to maintain a record of what
+changes or contributions they have specific copyright on, they should indicate
+their copyright in the commit message of the change when they commit the
+change to one of the Project Jupyter repositories.
 
 With this in mind, the following banner should be used in any source code file
 to indicate the copyright and license terms:
