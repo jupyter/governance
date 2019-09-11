@@ -32,7 +32,7 @@ Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
 
 ### NumFOCUS Subcommittee
 
-- Brian Granger, @ellisonbg
+- Ana Rulvalcaba, @Ruv7
 - Fernando Perez, @fperez
 - Matthias Bussonnier, @carreau
 - Stefan van der Walt (non-council member), @stefanv
