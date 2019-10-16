@@ -1,6 +1,7 @@
 # Jupyter Code of Conduct - Enforcement Manual
 
-This is the enforcement manual followed by Jupyter's Code of Conduct Committee.
+This is the enforcement manual followed by Jupyter's core contributors,
+as well as Jupyter's Code of Conduct Committee.
 It's used when we respond to an incident to make sure we are consistent and
 fair.
 
@@ -81,6 +82,28 @@ satisfactory to all.  Upon completion, the mediator will provide a report
 on further steps.  The Committee will then evaluate these results (whether
 satisfactory resolution was achieved or not) and decide on any additional
 action deemed necessary.
+
+
+## Acting unilaterally
+
+In some cases, individuals may violate the CoC in online or in-person situations.
+If any community member deems the action to be harmful to the community,
+they may act immediately, before reaching consensus, to diffuse the situation.
+In ongoing situations, any member may at their discretion employ any of the
+tools available in this enforcement manual, including bans and blocks online,
+or removal from a physical space.
+
+If the incident involves physical danger, or involves a threat to anyone's safety
+(e.g. threats of violence), any member of the community may -- and should -- act
+unilaterally to protect the safety of any community member.
+This can include contacting law enforcement (or other local personnel) and
+speaking on behalf of the Jupyter Project.
+
+In situations where an individual community member acts unilaterally,
+they must inform the Code of Conduct committee as soon as possible,
+and report their actions for review by e-mailing
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org)*reporting_online.md*)
+within 24 hours.
 
 
 ## How the committee will respond to reports
