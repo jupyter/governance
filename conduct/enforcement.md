@@ -88,7 +88,7 @@ action deemed necessary.
 
 In some cases, individuals may violate the CoC in online or in-person situations.
 If any community member deems the action to be harmful to the community,
-they may act immediately, before reaching consensus, to diffuse the situation.
+they may act immediately, before reaching consensus, to defuse the situation.
 In ongoing situations, any member may at their discretion employ any of the
 tools available in this enforcement manual, including bans and blocks online,
 or removal from a physical space.
