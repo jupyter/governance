@@ -89,15 +89,18 @@ action deemed necessary.
 In some cases, individuals may violate the CoC in online or in-person situations.
 If any community member deems the action to be harmful to the community,
 they may act immediately, before reaching consensus, to defuse the situation.
-In ongoing situations, any member may at their discretion employ any of the
-tools available in this enforcement manual, including bans and blocks online,
-or removal from a physical space.
+This includes actions directed at the situation, rather than at an individual, such
+as locking a thread, *temporarily* suspending a user's account in the
+community forum, calling a meeting break, or generally engaging in actions
+aimed at de-escalating the situation.
+If the action is ongoing or requires a response directed at a specific individual,
+then the incident should be reported to the CoC committee.
 
 If the incident involves physical danger, or involves a threat to anyone's safety
 (e.g. threats of violence), any member of the community may -- and should -- act
 unilaterally to protect the safety of any community member.
-This can include contacting law enforcement (or other local personnel) and
-speaking on behalf of the Jupyter Project.
+This can include contacting law enforcement, other members of the Jupyter community,
+r other local personnel that are present.
 
 In situations where an individual community member acts unilaterally,
 they must inform the Code of Conduct committee as soon as possible,
