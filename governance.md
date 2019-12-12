@@ -102,7 +102,7 @@ of the Steering Council (see below) and may delegate his/her authority on a
 particular decision or set of decisions to any other Council member at his/her
 discretion.
 
-The BDFL can appointing his/her successor, but it is expected that the Steering
+The BDFL can appoint his/her successor, but it is expected that the Steering
 Council would be consulted on this decision. If the BDFL is unable to appoint a
 successor, the Steering Council will make a suggestion or suggestions to the
 Main NumFOCUS Board. While the Steering Council and Main NumFOCUS Board will
@@ -173,7 +173,7 @@ given a grace period of one year. If they don’t return to active participation
 within that time period they will be removed by vote of the Council without
 further grace period. All former Council members can be considered for
 membership again at any time in the future, like any other Project Contributor.
- Retired Council members will be listed on the project website, acknowledging
+Retired Council members will be listed on the project website, acknowledging
 the period during which they were active in the Council.
 
 The Council reserves the right to eject current Members, other than the BDFL,
