@@ -111,7 +111,7 @@ they may act immediately to defuse the situation.
 This includes actions directed at the situation, rather than at an individual, such
 as locking a thread, *temporarily* suspending a user's account in the
 community forum, calling a meeting break, or generally engaging in actions
-aimed at de-escalating the situation.
+de-escalate the situation.
 If the action is ongoing or requires a response directed at a specific individual,
 then the incident should be [reported to the CoC committee](#Reporting).
 
