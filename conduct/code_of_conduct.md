@@ -123,7 +123,7 @@ or other local personnel that are present.
 
 In situations where an individual community member acts unilaterally,
 they must inform the Code of Conduct committee as soon as possible,
-and report their actions for review by e-mailing
+by e-mailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org)*reporting_online.md*)
 within 24 hours.
 
