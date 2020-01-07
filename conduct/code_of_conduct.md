@@ -115,7 +115,7 @@ de-escalate the situation. Follow-up your actions by
 [reporting the incident to the CoC committee](#Reporting).
 
 If the incident involves physical danger, or involves a threat to anyone's safety
-(e.g. threats of violence), any member of the community may -- and should -- act
+(such as threats of violence), any member of the community may -- and should -- act
 unilaterally to protect the safety of any community member.
 This can include contacting law enforcement, other members of the Jupyter community,
 or other local personnel that are present.
