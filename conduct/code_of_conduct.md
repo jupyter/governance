@@ -39,7 +39,8 @@ Reporting Guidelines (for [online](reporting_online.md) and
 This code applies equally to founders, developers, mentors and new community
 members, in all spaces managed by Project Jupyter (including IPython). This
 includes the mailing lists, our GitHub organizations, our chat rooms, in-person
-events, community forum, and any other forums created by the project team. In addition,
+events, the [Discourse community forum](https://discourse.jupyter.org),
+and any other forums created by the project team. In addition,
 violations of this code outside these spaces may affect a person's ability to
 participate within them.
 
