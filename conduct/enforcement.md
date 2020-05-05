@@ -82,7 +82,6 @@ on further steps.  The Committee will then evaluate these results (whether
 satisfactory resolution was achieved or not) and decide on any additional
 action deemed necessary.
 
-
 ## How the committee will respond to reports
 
 When a report is sent to the committee they will immediately reply to the

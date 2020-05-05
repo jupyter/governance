@@ -39,15 +39,17 @@ Reporting Guidelines (for [online](reporting_online.md) and
 This code applies equally to founders, developers, mentors and new community
 members, in all spaces managed by Project Jupyter (including IPython). This
 includes the mailing lists, our GitHub organizations, our chat rooms, in-person
-events, and any other forums created by the project team. In addition,
+events, the [Discourse community forum](https://discourse.jupyter.org),
+and any other forums created by the project team. In addition,
 violations of this code outside these spaces may affect a person's ability to
 participate within them.
+
+## Expected behavior
 
 By embracing the following principles, guidelines and actions to follow or
 avoid, you will help us make Jupyter a welcoming and productive community. Feel
 free to contact the Code of Conduct Committee at
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org) with any questions.
-
 
 1. **Be friendly and patient**.
 
@@ -100,6 +102,30 @@ free to contact the Code of Conduct Committee at
 8. **A simple apology can go a long way**. It can often de-escalate a situation,
    and telling someone that you are sorry is an act of empathy that doesn’t
    automatically imply an admission of guilt.
+
+
+## Responding to inappropriate behavior
+
+In some cases, individuals may violate the CoC in online or in-person situations.
+If any community member deems the action to be harmful to the community,
+they may act immediately to defuse the situation.
+This includes actions directed at the situation, rather than at an individual, such
+as locking a thread, *temporarily* suspending a user's account in the
+community forum, calling a meeting break, or generally acting to
+de-escalate the situation. Follow-up your actions by
+[reporting the incident to the CoC committee](#Reporting).
+
+If the incident involves physical danger, or involves a threat to anyone's safety
+(such as threats of violence), any member of the community may -- and should -- act
+unilaterally to protect the safety of any community member.
+This can include contacting law enforcement, other members of the Jupyter community,
+or other local personnel that are present.
+
+In situations where an individual community member acts unilaterally,
+they must inform the Code of Conduct committee as soon as possible,
+by e-mailing
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org)*reporting_online.md*)
+within 24 hours.
 
 
 ## Reporting
