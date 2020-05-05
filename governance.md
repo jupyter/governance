@@ -343,6 +343,6 @@ are limited in time to 4 weeks after the vote is initiated. At the end of 4
 weeks, the proposal passes if 2/3 of the votes are in favor (fractions of a
 vote rounded up to the nearest integer); otherwise the proposal is rejected and
 the PR is closed. Prior to the four-week limit, if 80% of the Steering Council
-has voted in favor, the proposal passes. Since the BDFL holds ultimate
+has voted  and 2/3 of the votes are in favor, the proposal passes. Since the BDFL holds ultimate
 authority in The Project, the BDFL has authority to act alone in accepting or
 rejecting changes or overriding Steering Council decisions.
