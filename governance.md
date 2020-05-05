@@ -338,10 +338,11 @@ Council that the changes be ratified and the pull request merged
 (accepting the proposed changes) or proposes that the pull request be
 closed without merging (rejecting the proposed changes).  The Member
 should state the final commit hash in the pull request being proposed
-for acceptance or rejection and briefly summarize the pull request. A
-minimum of 80% of the Steering Council must vote and at least 2/3 of
-the votes must be positive to carry out the proposed action (fractions
-of a vote rounded up to the nearest integer). Since the BDFL holds
-ultimate authority in The Project, the BDFL has authority to act alone
-in accepting or rejecting changes or overriding Steering Council
-decisions.
+for acceptance or rejection and briefly summarize the pull request. All votes
+are limited in time to 4 weeks after the vote is initiated. At the end of 4
+weeks, the proposal passes if 2/3 of the votes are in favor (fractions of a
+vote rounded up to the nearest integer); otherwise the proposal is rejected and
+the PR is closed. Prior to the four-week limit, if 80% of the Steering Council
+has voted in favor, the proposal passes. Since the BDFL holds ultimate
+authority in The Project, the BDFL has authority to act alone in accepting or
+rejecting changes or overriding Steering Council decisions.
