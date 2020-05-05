@@ -75,3 +75,14 @@ Jupyter is discussed using language inappropriate for general channels then
 nobody's stopping you. We respect your right to establish whatever codes of
 conduct you want in the spaces that belong to you. Please honor this Code of
 Conduct in our spaces.
+
+### English is not my native language. I'm concerned that I may say or write words that when translated may inadvertently offend someone and prompt a Code of Conduct report. How can the committee help?
+
+We understand that individuals come from different cultural backgrounds and native languages. We
+empathize that complex discussion in a foreign language can be intimidating, and we wish to encourage
+diversity across nationalities and cultures.
+
+In the case of a report for verbal or written communication that does not include violation of physical
+boundaries or personal safety, the committee will strongly consider the high likelihood the verbal or
+written miscommunication is due to language translation instead of malicious intent. We expect that
+individuals also consider this likelihood before filing a report. 
