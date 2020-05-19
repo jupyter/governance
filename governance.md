@@ -6,8 +6,8 @@ section below, is contained in The Project Governance Repository at:
 
 [https://github.com/jupyter/governance](https://github.com/jupyter/governance)
 
-The Project
-===========
+## The Project
+
 
 The Jupyter/IPython Project (The Project) is an open source software project
 affiliated with the 501c3 NumFOCUS Foundation. The goal of The Project is to
@@ -57,8 +57,7 @@ manage project donations and acts as a parent legal entity. NumFOCUS is the
 only legal entity that has a formal relationship with the project (see
 Institutional Partners section below).
 
-Governance
-==========
+## Governance
 
 This section describes the governance and leadership model of The Project.
 
@@ -83,8 +82,7 @@ will consist of a BDFL and Steering Council. We view this governance model as
 the formalization of what we are already doing, rather than a change in
 direction.
 
-BDFL
-----
+### BDFL
 
 The Project will have a BDFL (Benevolent Dictator for Life), who is currently
 Fernando Perez. As Dictator, the BDFL has the authority to make all final
@@ -109,8 +107,7 @@ Main NumFOCUS Board. While the Steering Council and Main NumFOCUS Board will
 work together closely on the BDFL selection process, the Main NUMFOCUS Board
 will make the final decision.
 
-Steering Council
-----------------
+### Steering Council
 
 The Project will have a Steering Council that consists of Project Contributors
 who have produced contributions that are substantial in quality and quantity,
@@ -142,7 +139,7 @@ In particular, the Council may:
 -   Make decisions when regular community discussion doesn’t produce consensus
     on an issue in a reasonable time frame.
 
-### Council membership
+#### Council membership
 
 To become eligible for being a Steering Council Member an individual must be a
 Project Contributor who has produced contributions that are substantial in
@@ -180,7 +177,7 @@ The Council reserves the right to eject current Members, other than the BDFL,
 if they are deemed to be actively harmful to the project’s well-being, and
 attempts at communication and conflict resolution have failed.
 
-### Conflict of interest
+#### Conflict of interest
 
 It is expected that the BDFL and Council Members will be employed at a wide
 range of companies, universities and non-profit organizations. Because of this,
@@ -201,7 +198,7 @@ issue, but must recuse themselves from voting on the issue. If the BDFL has
 recused his/herself for a particular decision, they will appoint a substitute
 BDFL for that decision.
 
-### Private communications of the Council
+#### Private communications of the Council
 
 Unless specifically required, all Council discussions and activities will be
 public and done in collaboration and discussion with the Project Contributors
@@ -211,7 +208,7 @@ communications and decisions are needed, the Council will do its best to
 summarize those to the Community after eliding personal/private/sensitive
 information that should not be posted to the public internet.
 
-### Subcommittees
+#### Subcommittees
 
 The Council can create subcommittees that provide leadership and guidance for
 specific aspects of the project. Like the Council as a whole, subcommittees
@@ -230,7 +227,7 @@ within the team. This is different from a BDFL delegate for a specific decision
 authority to someone else in full. It’s more like what Linus Torvalds uses with his
 “lieutenants” model.
 
-### NumFOCUS Subcommittee
+#### NumFOCUS Subcommittee
 
 The Council will maintain one narrowly focused subcommittee to manage its
 interactions with NumFOCUS.
@@ -249,8 +246,7 @@ interactions with NumFOCUS.
     max). This avoids effective majorities resting on one person.
 
 
-Institutional Partners and Funding
-==================================
+## Institutional Partners and Funding
 
 The BDFL and Steering Council are the primary leadership for the project. No
 outside institution, individual or legal entity has the ability to own,
@@ -325,8 +321,7 @@ Partners, with associated benefits:
     Workshop and bi-annual Jupyter/IPython Developer Meeting.
 
 
-Changing the Governance Documents
-=================================
+## Changing the Governance Documents
 
 Changes to the governance documents are submitted via a GitHub pull
 request to The Project's governance documents GitHub repository at

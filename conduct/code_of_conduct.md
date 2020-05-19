@@ -33,8 +33,8 @@ reasons, structured follow-up may be necessary and here we provide the means
 for that: we welcome reports by emailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out [this
 form](https://goo.gl/forms/sJzOIie3zde9M71T2). For more details please see our
-Reporting Guidelines (for [online](reporting_online.md) and
-[in-person](reporting_events.md) contexts).
+Reporting Guidelines (for [online](reporting_online) and
+[in-person](reporting_events) contexts).
 
 This code applies equally to founders, developers, mentors and new community
 members, in all spaces managed by Project Jupyter (including IPython). This
@@ -124,7 +124,7 @@ or other local personnel that are present.
 In situations where an individual community member acts unilaterally,
 they must inform the Code of Conduct committee as soon as possible,
 by e-mailing
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org)*reporting_online.md*)
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org)*reporting_online*)
 within 24 hours.
 
 
@@ -148,7 +148,7 @@ report, we will take appropriate action.
 ## Enforcement
 
 For information on enforcement, please view the [*Enforcement
-Manual*](enforcement.md).
+Manual*](enforcement).
 
 Original text courtesy of the [*Speak
 Up!*](http://web.archive.org/web/20141109123859/http://speakup.io/coc.html)

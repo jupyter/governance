@@ -4,10 +4,10 @@ The purpose of this repository is to formalize the governance process that the I
 
 ## Table of Contents
 
-* [Main Governance Document](governance.md)
-* [Current Steering Council and Institutional Partners](people.md)
-* [New Subproject Incubation Process](newsubprojects.md)
-* [Process for Authoring Jupyter Related Academic Papers](papers.md)
+* [Main Governance Document](governance)
+* [Current Steering Council and Institutional Partners](people)
+* [New Subproject Incubation Process](newsubprojects)
+* [Process for Authoring Jupyter Related Academic Papers](papers)
 
 ## License of Governance Documents
 

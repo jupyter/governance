@@ -1,0 +1,4 @@
+title                       : Jupyter Governance
+author                      : The Jupyter Book community
+copyright                   : "2020" 
+exclude_patterns            : ["LICENSE.md"]  

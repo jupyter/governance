@@ -1,0 +1,17 @@
+file: README
+sections:
+- file: governance
+- file: newsubprojects
+- file: papers
+- file: people
+- file: projectlicense
+- file: trademarks
+- file: conduct/code_of_conduct
+  sections:
+  - file: conduct/enforcement
+  - file: conduct/faq
+  - file: conduct/reporting_events
+  - file: conduct/reporting_online
+  - file: CodeofConductJupyterDay
+  - file: CodeofConductJupyterDayOrganizer
+  
