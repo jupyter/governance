@@ -1,4 +1,8 @@
 title                       : Project Jupyter Governance
-author                      : Project Jupyter
-copyright                   : "2020" 
-exclude_patterns            : ["LICENSE.md"]  
+exclude_patterns            : ["LICENSE.md"]
+copyright: "2015"
+html:
+  extra_footer: |
+    <div class="copyright">
+      Distributed under <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">this CC-0 license.</a>
+    </div>

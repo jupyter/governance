@@ -13,7 +13,7 @@ jobs:
             - cache-pip
 
       - run: |
-          pip install -U "jupyter-book>=0.7.0b"
+          pip install -U git+https://github.com/executablebooks/jupyter-book.git
       - save_cache:
           key: cache-pip
           paths:
