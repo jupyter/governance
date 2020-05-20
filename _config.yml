@@ -1,6 +1,6 @@
 title                       : Project Jupyter Governance
 exclude_patterns            : ["LICENSE.md", "README.md"]
-copyright: "2015"
+copyright: "2015 Project Jupyter"
 html:
   extra_footer: |
     <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
