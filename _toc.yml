@@ -1,12 +1,12 @@
 file: README
 sections:
 - file: governance
+- file: conduct/code_of_conduct
+- file: people
 - file: newsubprojects
 - file: papers
-- file: people
-- file: projectlicense
 - file: trademarks
-- file: conduct/code_of_conduct
+- file: projectlicense
   sections:
   - file: conduct/enforcement
   - file: conduct/faq
