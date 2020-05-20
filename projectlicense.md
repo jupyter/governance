@@ -1,4 +1,4 @@
-# Licensing terms
+# Licensing terms for Project Jupyter code
 
 This project is licensed under the terms of the 3-Clause BSD License (also
 known as New or Revised or Modified BSD License, or the BSD-3-Clause license),
