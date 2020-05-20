@@ -14,7 +14,7 @@ html:
         href="https://jupyter.org">
         <span property="dct:title">Project Jupyter</span></a>
       has waived all copyright and related or neighboring rights to
-      <a href="https://github.com/jupyter/governance"><span property="dct:title">Project Jupyter Governance Documents</span></a>.
+      <a href="https://github.com/jupyter/governance"><span property="dct:title">Project Jupyter Governance documents</span></a>.
     This work is published from:
     <span property="vcard:Country" datatype="dct:ISO3166"
           content="US" about="https://jupyter.org">
