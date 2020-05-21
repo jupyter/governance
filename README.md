@@ -32,5 +32,5 @@ cd path/to/this/repo
 jupyter-book build .
 ```
 
-The resulting website will be in `_build/html`, which you can explore by double-clicking
+The resulting website will be in `_build/html`, which you can explore by opening
 any of the `.html` files that are created.
