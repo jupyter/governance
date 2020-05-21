@@ -1,6 +1,6 @@
 title                       : Project Jupyter Governance
 exclude_patterns            : ["LICENSE.md", "README.md"]
-copyright: "2015"
+copyright: ""
 html:
   extra_footer: |
     <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
@@ -20,3 +20,7 @@ html:
           content="US" about="https://jupyter.org">
       United States</span>.
     </p>
+
+sphinx:
+  config:
+    html_show_copyright: false
