@@ -8,23 +8,25 @@ Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
 
 ## Steering Council
 
-- Brian Granger, @ellisonbg
-- Damian Avila, @damianavila
-- Fernando Perez, @fperez
-- Jason Grout, @jasongrout
-- Jessica Hamrick, @jhamrick
-- Kyle Kelley, @rgbkrk
-- Matthias Bussonnier, @carreau
-- Min Ragan-Kelley, @minrk
-- Sylvain Corlay, @sylvaincorlay
-- Thomas Kluyver, @takluyver
-- Peter Parente, @parente
-- Ana Rulvalcaba, @Ruv7
-- Carol Willing, @willingc
-- Steven Silvester, @blink1073
-- Paul Ivanov, @ivanov
-- Afshin Darian, @afshin
-- M Pacer, @mpacer
+Alphabetical by first name:
+
+- Brian Granger, @ellisonbg (Founding member, 2014)
+- Damian Avila, @damianavila (Founding member, 2014)
+- Fernando Perez, @fperez (Founding member, 2014)
+- Jason Grout, @jasongrout (2015)
+- Jessica Hamrick, @jhamrick (2015)
+- Kyle Kelley, @rgbkrk (Founding member, 2014)
+- Matthias Bussonnier, @carreau (Founding member, 2014)
+- Min Ragan-Kelley, @minrk (Founding member, 2014)
+- Sylvain Corlay, @sylvaincorlay (2016)
+- Thomas Kluyver, @takluyver (Founding member, 2014)
+- Peter Parente, @parente (2016)
+- Ana Rulvalcaba, @Ruv7 (2018)
+- Carol Willing, @willingc (2017)
+- Steven Silvester, @blink1073 (2016)
+- Paul Ivanov, @ivanov (2016)
+- Afshin Darian, @afshin (2018)
+- M Pacer, @mpacer (2018)
 
 ### Retired steering council members
 
