@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>JupyterDay Code of Conduct &#8212; Project Jupyter Governance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/mystnb.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="JupyterDay Organizer Code of Conduct" href="CodeofConductJupyterDayOrganizer.html" />
+    <link rel="prev" title="Project Jupyter Code of Conduct - Reporting Guide - Online Community" href="conduct/reporting_online.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Project Jupyter Governance</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="intro.html">Project Jupyter Governance</a>
+  </li>
+  <li class="">
+    <a href="governance.html">Main Governance Document</a>
+  </li>
+  <li class="active">
+    <a href="conduct/code_of_conduct.html">Project Jupyter Code of Conduct</a>
+  <ul class="nav sidenav_l2">
+    <li class="">
+      <a href="conduct/enforcement.html">Jupyter Code of Conduct - Enforcement Manual</a>
+    </li>
+    <li class="">
+      <a href="conduct/faq.html">Project Jupyter Code of Conduct - Frequently Asked Questions</a>
+    </li>
+    <li class="">
+      <a href="conduct/reporting_events.html">Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events</a>
+    </li>
+    <li class="">
+      <a href="conduct/reporting_online.html">Project Jupyter Code of Conduct - Reporting Guide - Online Community</a>
+    </li>
+    <li class="active">
+      <a href="">JupyterDay Code of Conduct</a>
+    </li>
+    <li class="">
+      <a href="CodeofConductJupyterDayOrganizer.html">JupyterDay Organizer Code of Conduct</a>
+    </li>
+  </ul>
+  </li>
+  <li class="">
+    <a href="people.html">Steering Council and Institutional Partners</a>
+  </li>
+  <li class="">
+    <a href="newsubprojects.html">New Subproject Process</a>
+  </li>
+  <li class="">
+    <a href="papers.html">Process for Authoring Jupyter Related Academic Papers</a>
+  </li>
+  <li class="">
+    <a href="trademarks.html">Trademark Usage Policy</a>
+  </li>
+  <li class="">
+    <a href="projectlicense.html">Licensing terms for Project Jupyter code</a>
+  </li>
+</ul>
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="_sources/CodeofConductJupyterDay.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Edit this page -->
+        
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#enforcement" class="nav-link">Enforcement</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#reporting" class="nav-link">Reporting</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#anonymous-report" class="nav-link">Anonymous Report</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#personal-report" class="nav-link">Personal Report</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="jupyterday-code-of-conduct">
+<h1>JupyterDay Code of Conduct<a class="headerlink" href="#jupyterday-code-of-conduct" title="Permalink to this headline">¶</a></h1>
+<p>Project Jupyter is an engaged and respectful community made up of people from
+all over the world. Your involvement helps us to further our mission and
+create an open platform that serves a broad range of communities, from
+research and education to journalism, industry and beyond.</p>
+<p>At Project Jupyter and JupyterDay, we are committed to providing a
+harassment-free conference experience for everyone, regardless of gender,
+sexual orientation, disability, physical appearance, body size, race, or
+religion. Conference organizers will not tolerate harassment of participants
+in any form. Sexual language and imagery is not appropriate for any part of
+the conference venue, including talks.</p>
+<p>Be kind to others. Do not insult or put down other attendees. Behave
+professionally. Remember that harassment and sexist, racist, or
+exclusionary jokes are not appropriate for Project Jupyter events.</p>
+<p>Attendees violating these rules may be asked to leave the conference without
+a refund at the sole discretion of the conference organizers.</p>
+<p>Harassment includes, but is not limited to:</p>
+<ul class="simple">
+<li><p>Offensive verbal comments related to race, ethnicity, culture, national
+origin, color, immigration status, social and economic class, educational
+level, sexual orientation, gender, gender identity and expression, age,
+physical appearance, family status, religion, and mental
+and physical disability.</p></li>
+<li><p>Sexual images in public spaces</p></li>
+<li><p>Deliberate intimidation, stalking, or following</p></li>
+<li><p>Harassing photography or recording</p></li>
+<li><p>Sustained disruption of talks or other events</p></li>
+<li><p>Inappropriate physical contact</p></li>
+<li><p>Unwelcome sexual attention</p></li>
+<li><p>Advocating for, or encouraging, any of the above behavior</p></li>
+</ul>
+<p>By following the guidelines above and consistently and fairly resolving
+any complaints we can make attending JupyterDay a welcoming event.</p>
+<div class="section" id="enforcement">
+<h2>Enforcement<a class="headerlink" href="#enforcement" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Participants asked to stop any harassing behavior are expected to comply
+immediately.</p></li>
+<li><p>If a participant engages in harassing behavior, event organizers retain
+the right to take any actions to keep the event a welcoming environment
+for all participants. This includes warning the offender or expulsion
+from the conference with no refund.</p></li>
+<li><p>Event organizers may take action to remedy or set right anything designed
+to, or with the clear impact of, disrupting the event or making the
+environment hostile for any participants.</p></li>
+</ul>
+</div>
+<div class="section" id="reporting">
+<h2>Reporting<a class="headerlink" href="#reporting" title="Permalink to this headline">¶</a></h2>
+<p>If someone makes you or any other conference participant feel unsafe or
+unwelcome, please report this as soon as possible. Code of conduct
+violations reduce the value of our event for everyone and we take them seriously.</p>
+<div class="section" id="anonymous-report">
+<h3>Anonymous Report<a class="headerlink" href="#anonymous-report" title="Permalink to this headline">¶</a></h3>
+<p>You can file an anonymous report here: http://goo.gl/forms/aQ8Wz4slfa</p>
+<p>We can’t follow up on an anonymous report with you directly, but we will take
+whatever action is necessary to prevent a recurrence.</p>
+</div>
+<div class="section" id="personal-report">
+<h3>Personal Report<a class="headerlink" href="#personal-report" title="Permalink to this headline">¶</a></h3>
+<p>You can make a personal report by:</p>
+<p><strong>Phone: Call or message:</strong> [Insert Phone] This phone number will be monitored
+for the duration of the event.</p>
+<p><strong>In Person:</strong> Contact a staff member, identified by STAFF badges.</p>
+<p>When taking a personal report, our staff will ensure you are safe and cannot
+be overheard. They may involve other event staff to ensure your report is
+managed properly. This can be uncomfortable, but we’ll handle it respectfully
+and you can bring someone to support you.</p>
+<p><strong>Email:</strong> Send a message to projectjupyter&#64;gmail.com and/or [insert local organizer email]</p>
+<p>Our team will help you contact hotel/venue security, local law enforcement,
+local support services, provide escorts, or otherwise assist you to feel safe
+for the duration of the event.</p>
+<ul class="simple">
+<li><p><strong>Email:</strong> projectjupyter&#64;gmail.com, [insert local organizer email]</p></li>
+<li><p><strong>Conference organizer mobile:</strong></p></li>
+<li><p><strong>Venue security:</strong></p></li>
+<li><p><strong>Law enforcement:</strong></p></li>
+<li><p><strong>Local sexual assault hot line:</strong></p></li>
+<li><p><strong>Non-emergency medical (e.g., urgent care, day clinic):</strong></p></li>
+<li><p><strong>Taxi:</strong></p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="conduct/reporting_online.html" title="previous page">Project Jupyter Code of Conduct - Reporting Guide - Online Community</a>
+    <a class='right-next' id="next-link" href="CodeofConductJupyterDayOrganizer.html" title="next page">JupyterDay Organizer Code of Conduct</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          <div class="extra_footer">
+            <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+    href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+    href="https://jupyter.org">
+    <span property="dct:title">Project Jupyter</span></a>
+  has waived all copyright and related or neighboring rights to
+  <a href="https://github.com/jupyter/governance"><span property="dct:title">Project Jupyter Governance documents</span></a>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://jupyter.org">
+  United States</span>.
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>

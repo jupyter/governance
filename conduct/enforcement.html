@@ -1,0 +1,444 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jupyter Code of Conduct - Enforcement Manual &#8212; Project Jupyter Governance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/mystnb.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Project Jupyter Code of Conduct - Frequently Asked Questions" href="faq.html" />
+    <link rel="prev" title="Project Jupyter Code of Conduct" href="code_of_conduct.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Project Jupyter Governance</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="../intro.html">Project Jupyter Governance</a>
+  </li>
+  <li class="">
+    <a href="../governance.html">Main Governance Document</a>
+  </li>
+  <li class="active">
+    <a href="code_of_conduct.html">Project Jupyter Code of Conduct</a>
+  <ul class="nav sidenav_l2">
+    <li class="active">
+      <a href="">Jupyter Code of Conduct - Enforcement Manual</a>
+    </li>
+    <li class="">
+      <a href="faq.html">Project Jupyter Code of Conduct - Frequently Asked Questions</a>
+    </li>
+    <li class="">
+      <a href="reporting_events.html">Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events</a>
+    </li>
+    <li class="">
+      <a href="reporting_online.html">Project Jupyter Code of Conduct - Reporting Guide - Online Community</a>
+    </li>
+    <li class="">
+      <a href="../CodeofConductJupyterDay.html">JupyterDay Code of Conduct</a>
+    </li>
+    <li class="">
+      <a href="../CodeofConductJupyterDayOrganizer.html">JupyterDay Organizer Code of Conduct</a>
+    </li>
+  </ul>
+  </li>
+  <li class="">
+    <a href="../people.html">Steering Council and Institutional Partners</a>
+  </li>
+  <li class="">
+    <a href="../newsubprojects.html">New Subproject Process</a>
+  </li>
+  <li class="">
+    <a href="../papers.html">Process for Authoring Jupyter Related Academic Papers</a>
+  </li>
+  <li class="">
+    <a href="../trademarks.html">Trademark Usage Policy</a>
+  </li>
+  <li class="">
+    <a href="../projectlicense.html">Licensing terms for Project Jupyter code</a>
+  </li>
+</ul>
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="../_sources/conduct/enforcement.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Edit this page -->
+        
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#the-code-of-conduct-committee" class="nav-link">The Code of Conduct Committee</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#enforcement-guidelines-and-principles" class="nav-link">Enforcement guidelines and principles</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#how-the-committee-will-respond-to-reports" class="nav-link">How the committee will respond to reports</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#incident-response-and-committee-actions" class="nav-link">Incident Response and Committee Actions</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#resolutions" class="nav-link">Resolutions</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#conflicts-of-interest" class="nav-link">Conflicts of Interest</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="jupyter-code-of-conduct-enforcement-manual">
+<h1>Jupyter Code of Conduct - Enforcement Manual<a class="headerlink" href="#jupyter-code-of-conduct-enforcement-manual" title="Permalink to this headline">¶</a></h1>
+<p>This is the enforcement manual followed by Jupyter’s Code of Conduct Committee.
+It’s used when we respond to an incident to make sure we are consistent and
+fair.</p>
+<div class="section" id="the-code-of-conduct-committee">
+<h2>The Code of Conduct Committee<a class="headerlink" href="#the-code-of-conduct-committee" title="Permalink to this headline">¶</a></h2>
+<p>All responses to reports of conduct violations will be managed by a Code of
+Conduct Committee (“the committee”). The Jupyter Steering Council is responsible
+for vetting and appointing the Code of Conduct Committee. During periods where
+a separate Code of Conduct Committee is not appointed or is not available
+to handle a code of conduct report promptly, the Jupyter Steering Council
+will serve as the interim Code of Conduct Committee.</p>
+<p>If a Code of Conduct report involves a member of the Steering Council or Code of
+Conduct Committee, that member will not participate in the investigation or any
+decisions related to that report.</p>
+</div>
+<div class="section" id="enforcement-guidelines-and-principles">
+<h2>Enforcement guidelines and principles<a class="headerlink" href="#enforcement-guidelines-and-principles" title="Permalink to this headline">¶</a></h2>
+<p>Enforcing the Code of Conduct impacts our community today and for the future.
+It’s an action that we do not take lightly. When reviewing enforcement
+measures, the Code of Conduct Committee will keep the following values and
+guidelines in mind:</p>
+<ul class="simple">
+<li><p>Act in a personal manner rather than impersonal.  The Committee can engage
+the parties to understand the situation, while respecting the privacy and any
+necessary confidentiality of reporters.  However, sometimes it is necessary
+to communicate with one or more individuals directly: the Committee’s goal is
+to improve the health of our community rather than only produce a formal
+decision.</p></li>
+<li><p>Emphasize empathy for individuals rather than judging behavior, avoiding
+binary labels of “good” and “bad/evil”. Overt, clear-cut aggression and
+harassment exists and will be addressed unambiguously.  But many scenarios
+that can prove challenging to resolve are those where normal disagreements
+devolve into inappropriate behavior from multiple parties.  Understanding the
+full context and finding a path that re-engages all is hard, but ultimately
+the most productive for our community.</p></li>
+<li><p>Help increase engagement in good discussion practice: try to identify where
+discussion may have broken down and provide actionable information, pointers
+and resources that can help enact positive change on these points.</p></li>
+<li><p>Be mindful of the needs of new members: provide them with explicit support
+and consideration, with the aim of increasing participation from
+underrepresented groups in particular.</p></li>
+<li><p>Individuals come from different cultural backgrounds and native languages.
+While lack of intent to harm is not an excuse, try to identify any honest
+misunderstandings caused by a non-native speaker and help them understand the
+issue and how to change.  Complex discussion in a foreign language can be
+very intimidating, and we want to grow our diversity also across
+nationalities and cultures.</p></li>
+<li><p>Our actions will reflect compassion for all individuals. We will seek to
+understand, to educate, and, as necessary, take action.</p></li>
+</ul>
+<p><strong>Mediation:</strong> voluntary, informal mediation is a tool at our disposal.  In
+contexts such as when two or more parties have all escalated to the point of
+inappropriate behavior (something sadly common in human conflict), it may be
+useful to facilitate a mediation process. This is only an example: the
+Committee can consider mediation in any case, mindful that the process is meant
+to be strictly voluntary and no party can be pressured to participate. If the
+Committee suggests mediation, it should:</p>
+<ul class="simple">
+<li><p>Find a candidate who can serve as a mediator.</p></li>
+<li><p>Obtain the agreement of the reporter(s). The reporter(s) have complete
+freedom to decline the mediation idea, or to propose an alternate mediator.</p></li>
+<li><p>Obtain the agreement of the reported person(s).</p></li>
+<li><p>Settle on the mediator: while parties can propose a different mediator than
+the suggested candidate, only if common agreement is reached on all terms can
+the process move forward.</p></li>
+<li><p>Establish a timeline for mediation to complete, ideally within two weeks.</p></li>
+</ul>
+<p>The mediator will engage with all the parties and seek a resolution that is
+satisfactory to all.  Upon completion, the mediator will provide a report
+(vetted by all parties to the process) to the Committee, with recommendations
+on further steps.  The Committee will then evaluate these results (whether
+satisfactory resolution was achieved or not) and decide on any additional
+action deemed necessary.</p>
+</div>
+<div class="section" id="how-the-committee-will-respond-to-reports">
+<h2>How the committee will respond to reports<a class="headerlink" href="#how-the-committee-will-respond-to-reports" title="Permalink to this headline">¶</a></h2>
+<p>When a report is sent to the committee they will immediately reply to the
+reporter to confirm receipt. This reply must be sent within 24 hours, and the
+group should strive to respond much quicker than that.</p>
+<p>See the <a class="reference internal" href="reporting_online.html"><span class="doc">Reporting Guidelines</span></a> for details of
+what reports should contain. If a report doesn’t contain enough information, the
+committee will obtain all relevant data before acting. The committee is
+empowered to act on the Steering Council’s behalf in contacting any individuals
+involved to get a more complete account of events.</p>
+<p>The committee will then review the incident and determine, to the best of their
+ability:</p>
+<ul class="simple">
+<li><p>What happened.</p></li>
+<li><p>Whether this event constitutes a Code of Conduct violation.</p></li>
+<li><p>Who are the responsible party(ies).</p></li>
+<li><p>Whether this is an ongoing situation, and there is a threat to anyone’s
+physical safety.</p></li>
+</ul>
+<p>This information will be collected in writing, and whenever possible the
+group’s deliberations will be recorded and retained (i.e. chat transcripts,
+email discussions, recorded conference calls, summaries of voice conversations,
+etc).</p>
+<p>It is important to retain an archive of all activities of this committee to
+ensure consistency in behavior and provide institutional memory for the
+project.  To assist in this, the default channel of discussion for this
+committee will be a private mailing list accessible to current and future
+members of the committee as well as members of the Steering Council upon
+justified request. If the Committee finds the need to use off-list
+communications (e.g. phone calls for early/rapid response), it should in all
+cases summarize these back to the list so there’s a good record of the process.</p>
+<p>The Code of Conduct Committee should aim to have a resolution agreed upon within
+one week. In the event that a resolution can’t be determined in that time, the
+committee will respond to the reporter(s) with an update and projected timeline
+for resolution.</p>
+</div>
+<div class="section" id="incident-response-and-committee-actions">
+<h2>Incident Response and Committee Actions<a class="headerlink" href="#incident-response-and-committee-actions" title="Permalink to this headline">¶</a></h2>
+<p>If the act is ongoing, or involves a threat to anyone’s safety (e.g. threats of
+violence), any committee member may act immediately (before reaching consensus)
+to address the situation. In ongoing situations, any member may decide to employ
+any of the tools available to the committee, including bans and blocks.</p>
+<p>If the incident involves physical danger, any member of the committee may – and
+should – act unilaterally to protect the safety of those involved. This can
+include contacting law enforcement (or other local personnel) and speaking on
+behalf of the Jupyter Steering Council.</p>
+<p>In situations where an individual committee member acts unilaterally, they must
+report their actions to the committee for review within 24 hours.</p>
+<p>At events where no Committee members may be present, an event organizer will act
+as their delegate. They will forward any reports to the Committee, as well as a
+summary of any action they may have taken during the event.</p>
+</div>
+<div class="section" id="resolutions">
+<h2>Resolutions<a class="headerlink" href="#resolutions" title="Permalink to this headline">¶</a></h2>
+<p>The committee must agree on a resolution by consensus. If the group cannot reach
+consensus and deadlocks for over a week, the group will turn the matter over to
+the Steering Council for resolution.</p>
+<p>Possible responses may include:</p>
+<ul class="simple">
+<li><p>Taking no further action</p>
+<ul>
+<li><p>if we determine no violations have occurred.</p></li>
+<li><p>if the matter has been resolved publicly while the committee was
+considering responses.</p></li>
+</ul>
+</li>
+<li><p>Coordinating voluntary mediation: if all involved parties agree, the
+Committee may facilitate a mediation process as detailed above.</p></li>
+<li><p>Remind publicly, and point out that some behavior/actions/language have been
+judged inappropriate and why in the current context, or can but hurtful to
+some people, requesting the community to self-adjust.</p></li>
+<li><p>A private reprimand from the committee to the individual(s) involved. In this
+case, the group chair will deliver that reprimand to the individual(s) over
+email, cc’ing the group.</p></li>
+<li><p>A public reprimand. In this case, the committee chair will deliver that
+reprimand in the same venue that the violation occurred, within the limits of
+practicality. E.g., the original mailing list for an email violation, but
+for a chat room discussion where the person/context may be gone, they can be
+reached by other means. The group may choose to publish this message
+elsewhere for documentation purposes.</p></li>
+<li><p>A request for a public or private apology, assuming the reporter agrees to
+this idea: they may at their discretion refuse further contact with the
+violator. The chair will deliver this request. The committee may, if it
+chooses, attach “strings” to this request: for example, the group may ask a
+violator to apologize in order to retain one’s membership on a mailing list.</p></li>
+<li><p>A “mutually agreed upon hiatus” where the committee asks the individual to
+temporarily refrain from community participation. If the individual chooses
+not to take a temporary break voluntarily, the committee may issue a
+“mandatory cooling off period”.</p></li>
+<li><p>A permanent or temporary ban from some or all Jupyter spaces (mailing lists,
+gitter.im, etc.). The group will maintain records of all such bans so that
+they may be reviewed in the future or otherwise maintained.</p></li>
+</ul>
+<p>Once a resolution is agreed upon, but before it is enacted, the committee will
+contact the original reporter and any other affected parties and explain the
+proposed resolution. The committee will ask if this resolution is acceptable,
+and must note feedback for the record. However, the committee is not required to
+act on this feedback.</p>
+<p>Finally, the committee will make a report to the Jupyter Steering Council (as
+well as the Jupyter core team in the event of an ongoing resolution, such as a
+ban).</p>
+<p>The committee will never publicly discuss the issue; all public statements will
+be made by the chair of the Code of Conduct Committee or the Jupyter Steering
+Council.</p>
+</div>
+<div class="section" id="conflicts-of-interest">
+<h2>Conflicts of Interest<a class="headerlink" href="#conflicts-of-interest" title="Permalink to this headline">¶</a></h2>
+<p>In the event of any conflict of interest, a committee member must immediately
+notify the other members, and recuse themselves if necessary.</p>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="code_of_conduct.html" title="previous page">Project Jupyter Code of Conduct</a>
+    <a class='right-next' id="next-link" href="faq.html" title="next page">Project Jupyter Code of Conduct - Frequently Asked Questions</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          <div class="extra_footer">
+            <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+    href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+    href="https://jupyter.org">
+    <span property="dct:title">Project Jupyter</span></a>
+  has waived all copyright and related or neighboring rights to
+  <a href="https://github.com/jupyter/governance"><span property="dct:title">Project Jupyter Governance documents</span></a>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://jupyter.org">
+  United States</span>.
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="../_static/js/index.js"></script>
+    
+  </body>
+</html>

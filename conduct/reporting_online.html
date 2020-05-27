@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project Jupyter Code of Conduct - Reporting Guide - Online Community &#8212; Project Jupyter Governance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/mystnb.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="JupyterDay Code of Conduct" href="../CodeofConductJupyterDay.html" />
+    <link rel="prev" title="Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events" href="reporting_events.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Project Jupyter Governance</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="../intro.html">Project Jupyter Governance</a>
+  </li>
+  <li class="">
+    <a href="../governance.html">Main Governance Document</a>
+  </li>
+  <li class="active">
+    <a href="code_of_conduct.html">Project Jupyter Code of Conduct</a>
+  <ul class="nav sidenav_l2">
+    <li class="">
+      <a href="enforcement.html">Jupyter Code of Conduct - Enforcement Manual</a>
+    </li>
+    <li class="">
+      <a href="faq.html">Project Jupyter Code of Conduct - Frequently Asked Questions</a>
+    </li>
+    <li class="">
+      <a href="reporting_events.html">Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events</a>
+    </li>
+    <li class="active">
+      <a href="">Project Jupyter Code of Conduct - Reporting Guide - Online Community</a>
+    </li>
+    <li class="">
+      <a href="../CodeofConductJupyterDay.html">JupyterDay Code of Conduct</a>
+    </li>
+    <li class="">
+      <a href="../CodeofConductJupyterDayOrganizer.html">JupyterDay Organizer Code of Conduct</a>
+    </li>
+  </ul>
+  </li>
+  <li class="">
+    <a href="../people.html">Steering Council and Institutional Partners</a>
+  </li>
+  <li class="">
+    <a href="../newsubprojects.html">New Subproject Process</a>
+  </li>
+  <li class="">
+    <a href="../papers.html">Process for Authoring Jupyter Related Academic Papers</a>
+  </li>
+  <li class="">
+    <a href="../trademarks.html">Trademark Usage Policy</a>
+  </li>
+  <li class="">
+    <a href="../projectlicense.html">Licensing terms for Project Jupyter code</a>
+  </li>
+</ul>
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="../_sources/conduct/reporting_online.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Edit this page -->
+        
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#what-happens-after-you-file-a-report" class="nav-link">What happens after you file a report?</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#appealing-the-code-of-conduct-committees-response" class="nav-link">Appealing the Code of Conduct Committee’s Response</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="project-jupyter-code-of-conduct-reporting-guide-online-community">
+<h1>Project Jupyter Code of Conduct - Reporting Guide - Online Community<a class="headerlink" href="#project-jupyter-code-of-conduct-reporting-guide-online-community" title="Permalink to this headline">¶</a></h1>
+<p>If you believe someone is violating the code of conduct we ask that you report
+it to Project Jupyter by emailing
+<a class="reference external" href="mailto:conduct&#37;&#52;&#48;jupyter&#46;org"><em>conduct<span>&#64;</span>jupyter<span>&#46;</span>org</em></a> or by completing <a class="reference external" href="https://goo.gl/forms/sJzOIie3zde9M71T2">this
+form</a>. All reports will be kept
+confidential. In some cases we may determine that a public statement will need
+to be made. If that’s the case, the identities of all involved will remain
+confidential unless those individuals instruct us otherwise.</p>
+<p>If you believe anyone is in physical danger, please notify appropriate law
+enforcement first. If you are unsure what law enforcement agency is appropriate,
+please include this in your report and we will attempt to notify them.</p>
+<p>If you choose to email instead of using the form, please include the following
+information:</p>
+<ul class="simple">
+<li><p>Your contact info (not required, if you would like to remain anonymous please
+use the form)</p></li>
+<li><p>Names (real, nicknames, or pseudonyms) of any individuals involved. If there
+were other witnesses besides you, try to include them as well</p></li>
+<li><p>When and where the incident occurred. Please be as specific as possible.</p></li>
+<li><p>Your account of what occurred. If there is a publicly available record (e.g. a
+mailing list archive or GitHub/gitter.im) please include a link</p></li>
+<li><p>Any extra context you believe exists for the incident</p></li>
+<li><p>If you believe this incident is ongoing</p></li>
+<li><p>Any other information you believe we should have</p></li>
+</ul>
+<p><em>Note:</em> with anonymous reports, there are inherent limits in our ability to do
+follow-up or collect additional information.  Hence we suggest that if you
+would like to remain anonymous, you at least create a throw-away email address
+without your real name.</p>
+<div class="section" id="what-happens-after-you-file-a-report">
+<h2>What happens after you file a report?<a class="headerlink" href="#what-happens-after-you-file-a-report" title="Permalink to this headline">¶</a></h2>
+<p>You will receive an email from the Project Jupyter Code of Conduct Committee
+acknowledging receipt immediately. We promise to acknowledge receipt within 24
+hours (and will aim for much quicker than that).</p>
+<p>The working group will immediately meet to review the incident and determine:</p>
+<ul class="simple">
+<li><p>What happened</p></li>
+<li><p>Whether this event constitutes a Code of Conduct violation</p></li>
+<li><p>Who the individual(s) involved were</p></li>
+<li><p>Whether this is an ongoing situation, or if there is a threat to anyone’s
+physical safety</p></li>
+</ul>
+<p>If this is determined to be an ongoing incident or a threat to physical safety,
+the committee’s immediate priority will be to protect everyone involved. This
+means we may delay an “official” response until we believe that the situation
+has ended and that everyone is physically safe.</p>
+<p>The Code of Conduct committee will then follow the
+[standard procedure][enforcement.md#Resolutions] to arrive at and
+communicate a resolution.</p>
+</div>
+<div class="section" id="appealing-the-code-of-conduct-committees-response">
+<h2>Appealing the Code of Conduct Committee’s Response<a class="headerlink" href="#appealing-the-code-of-conduct-committees-response" title="Permalink to this headline">¶</a></h2>
+<p>To appeal a decision of the Code of Conduct Committee, contact the Jupyter
+Steering Council at
+<a class="reference external" href="mailto:steeringcouncil&#37;&#52;&#48;jupyter&#46;org"><em>steeringcouncil<span>&#64;</span>jupyter<span>&#46;</span>org</em></a> with your
+appeal and they will review the case.</p>
+<p>The Steering Council will gather all relevant information from the Committee
+and provide a resolution within two weeks.  If more time is required, it should
+inform the appellant within that time frame.</p>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="reporting_events.html" title="previous page">Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events</a>
+    <a class='right-next' id="next-link" href="../CodeofConductJupyterDay.html" title="next page">JupyterDay Code of Conduct</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          <div class="extra_footer">
+            <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+    href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+    href="https://jupyter.org">
+    <span property="dct:title">Project Jupyter</span></a>
+  has waived all copyright and related or neighboring rights to
+  <a href="https://github.com/jupyter/governance"><span property="dct:title">Project Jupyter Governance documents</span></a>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://jupyter.org">
+  United States</span>.
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="../_static/js/index.js"></script>
+    
+  </body>
+</html>

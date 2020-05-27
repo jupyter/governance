@@ -1,0 +1,471 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Process for Authoring Jupyter Related Academic Papers &#8212; Project Jupyter Governance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/mystnb.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Trademark Usage Policy" href="trademarks.html" />
+    <link rel="prev" title="New Subproject Process" href="newsubprojects.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Project Jupyter Governance</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="intro.html">Project Jupyter Governance</a>
+  </li>
+  <li class="">
+    <a href="governance.html">Main Governance Document</a>
+  </li>
+  <li class="">
+    <a href="conduct/code_of_conduct.html">Project Jupyter Code of Conduct</a>
+  </li>
+  <li class="">
+    <a href="people.html">Steering Council and Institutional Partners</a>
+  </li>
+  <li class="">
+    <a href="newsubprojects.html">New Subproject Process</a>
+  </li>
+  <li class="active">
+    <a href="">Process for Authoring Jupyter Related Academic Papers</a>
+  </li>
+  <li class="">
+    <a href="trademarks.html">Trademark Usage Policy</a>
+  </li>
+  <li class="">
+    <a href="projectlicense.html">Licensing terms for Project Jupyter code</a>
+  </li>
+</ul>
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="_sources/papers.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Edit this page -->
+        
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#principles" class="nav-link">Principles</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#author-ordering" class="nav-link">Author ordering</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#process-for-journal-of-open-source-software-joss" class="nav-link">Process for Journal of Open Source Software (JOSS)</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#joss-authorship-criteria" class="nav-link">JOSS authorship criteria</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#joss-process" class="nav-link">JOSS process</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h4">
+            <a href="#someone-agrees-to-be-the-coordinator-for-a-paper" class="nav-link">1. Someone agrees to be the Coordinator for a paper</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h4">
+            <a href="#open-an-issue-and-announce-the-writing-of-the-paper" class="nav-link">2. Open an issue and announce the writing of the paper</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h4">
+            <a href="#draft-the-paper-in-the-repository" class="nav-link">3. Draft the paper in the repository</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h4">
+            <a href="#email-potential-authors" class="nav-link">3. Email potential authors</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h4">
+            <a href="#final-submission" class="nav-link">4. Final submission</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#process-for-traditional-academic-papers" class="nav-link">Process for traditional academic papers</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#authorship-criteria" class="nav-link">Authorship criteria</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#process" class="nav-link">Process</a>
+        </li>
+    
+            </ul>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="process-for-authoring-jupyter-related-academic-papers">
+<h1>Process for Authoring Jupyter Related Academic Papers<a class="headerlink" href="#process-for-authoring-jupyter-related-academic-papers" title="Permalink to this headline">¶</a></h1>
+<p>This document describes the processes used to author Jupyter related academic
+papers, which are typically submitted to peer-reviewed journals. This does not
+include talks and posters submitted to conferences unless the conference also
+publishes written proceedings.</p>
+<p>On one hand, the primary focus of Project Jupyter is on producing open-source
+software. We are very much focused on writing code that delights our users. On
+the other hand, Jupyter (and IPython) emerged out of an acadmic setting, where
+research and peer-reviwed publications are a primary focus. To this day, many
+of our core contributors have academic positions and active research programs.
+This emphasis is also reflected in the usage of Jupyter across all areas of
+scientific research. Thus, in spite of a focus on writing software for users,
+Jupyter remains a tool that is by and for researchers.</p>
+<p>Given this focus on research, the ongoing academic careers of many Jupyter
+contributors, and our desire to have an impact on computing research, it is
+important for us to author and publish peer-reviewed papers on Jupyter itself.
+Authoring these papers in the context of a large, open-source community
+presents a number of differences compared to many research collaborations.</p>
+<div class="section" id="principles">
+<h2>Principles<a class="headerlink" href="#principles" title="Permalink to this headline">¶</a></h2>
+<p>We have tried to create a process for authoring papers with the following
+general principles in mind:</p>
+<ul class="simple">
+<li><p><strong>Inclusivity and generosity in authorship.</strong> Hundreds of individuals have
+contributed to the different Jupyter subprojects. These contributions span
+code, design, documentation, discussions, giving talks/tutorials, etc. We
+want to be generous in extending authorship privileges and responsibilities
+to as many of these contributors as possible.</p></li>
+<li><p><strong>Clear, explicit criteria for authorship.</strong> While being generous, we want
+have concrete, specific and auditable criteria for including individuals as
+authors.</p></li>
+<li><p><strong>Openness.</strong> The process of authoring papers should be open in the same way
+as the rest of the project’s work. Thus, all of our papers are written in the
+public on GitHub.</p></li>
+<li><p><strong>Accountability.</strong> Being an author on a paper is a privilege, but also
+involves responsibilities. The concrete processes described below elucidate
+these responsibilities.</p></li>
+</ul>
+<p>We expect to author and submit papers to different types of journals. Different
+journals will have slightly different concrete processes that appropriately
+embody these principles.</p>
+</div>
+<div class="section" id="author-ordering">
+<h2>Author ordering<a class="headerlink" href="#author-ordering" title="Permalink to this headline">¶</a></h2>
+<p>In some academic fields, author ordering is used to implicitly communicate the level and significance of the individual’s contributions. We strongly feel this
+is misleading and misguided. Because of this, all Jupyter papers will use the
+following author ordering policy:</p>
+<ul class="simple">
+<li><p>The first author will be listed as “Project Jupyter”;</p></li>
+<li><p>Individual authors will follow in alphabetical order; and</p></li>
+<li><p>An explicit statement about the ordering will be included in the paper.</p></li>
+</ul>
+<p>Listing the first author as “Project Jupyter” is important as it means that in
+abbreviated citations, the author list will be “Project Jupyter, et al.” rather
+than artificially showing the first alphabetical author’s name. This is common
+practice in academic field such as high energy physics where there are large
+numbers of authors on papers.</p>
+</div>
+<div class="section" id="process-for-journal-of-open-source-software-joss">
+<h2>Process for Journal of Open Source Software (JOSS)<a class="headerlink" href="#process-for-journal-of-open-source-software-joss" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="http://joss.theoj.org/">Journal of Open Source Software</a> (JOSS) is a
+peer-reviewed, developer-friendly journal for research related software. JOSS
+is unique in that:</p>
+<ul class="simple">
+<li><p>Each paper is associated with a single GitHub repository;</p></li>
+<li><p>The primary research artifact in the software itself; and</p></li>
+<li><p>The paper itself is a relatively brief markdown file in the software’s GitHub
+repository, deferring details of the software to its own documentation.</p></li>
+</ul>
+<p>It is our intention to publish a JOSS paper for each of our main, user-focused
+subprojects (Notebook, JupyterLab, JupyterHub, nbconvert, ipywidgets, etc.).
+All such paper should use the process described herein.</p>
+<div class="section" id="joss-authorship-criteria">
+<h3>JOSS authorship criteria<a class="headerlink" href="#joss-authorship-criteria" title="Permalink to this headline">¶</a></h3>
+<p>Our authorship criteria for JOSS papers are derived from those of the
+<a class="reference external" href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html#two">ICMJE</a>:</p>
+<ul class="simple">
+<li><p>Substantial contributions to the conception, design, or implementation of
+software; this includes coding, visual design, documentation, testing,
+discussions and other such contributions; AND</p></li>
+<li><p>Final approval of the version to be published; AND</p></li>
+<li><p>Agreement to be accountable for all aspects of the work in ensuring that
+questions related to the accuracy or integrity of any part of the work are
+appropriately investigated and resolved.</p></li>
+</ul>
+<p>Anyone who satisfies and is willing to accept these responsibilities and commitments is welcome to be an author on any of our JOSS publications.</p>
+</div>
+<div class="section" id="joss-process">
+<h3>JOSS process<a class="headerlink" href="#joss-process" title="Permalink to this headline">¶</a></h3>
+<p>The following process should be used to author any Jupyter related JOSS paper:</p>
+<div class="section" id="someone-agrees-to-be-the-coordinator-for-a-paper">
+<h4>1. Someone agrees to be the Coordinator for a paper<a class="headerlink" href="#someone-agrees-to-be-the-coordinator-for-a-paper" title="Permalink to this headline">¶</a></h4>
+<p>A single JOSS paper will be associated with a single Jupyter repository. The
+Coordinator will usually be a senior project contributor, Steering Council
+member, or leader of that subproject.</p>
+<p>The role of the Coordinator is to implement this process for that paper. They
+do not have to write the JOSS paper themselves, but they will work with the
+community to organize the writing of the paper.</p>
+</div>
+<div class="section" id="open-an-issue-and-announce-the-writing-of-the-paper">
+<h4>2. Open an issue and announce the writing of the paper<a class="headerlink" href="#open-an-issue-and-announce-the-writing-of-the-paper" title="Permalink to this headline">¶</a></h4>
+<p>The Coordinator should open an issue to organize the writing of the paper on
+that repository and then announce to the Jupyter Google Group that the paper is
+being worked on and that anyone can contribute (with a link to the issue).</p>
+</div>
+<div class="section" id="draft-the-paper-in-the-repository">
+<h4>3. Draft the paper in the repository<a class="headerlink" href="#draft-the-paper-in-the-repository" title="Permalink to this headline">¶</a></h4>
+<p>At this point, the Coordinator should organize the writing of the actual paper.</p>
+<p>The <a class="reference external" href="http://joss.theoj.org/about">JOSS Author Guidelines</a> detail the format and
+requirements of a JOSS paper. In general this will involve creating a <code class="docutils literal notranslate"><span class="pre">paper</span></code>
+subdirectory in the root of the repository with two files: <code class="docutils literal notranslate"><span class="pre">paper.md</span></code> and
+<code class="docutils literal notranslate"><span class="pre">paper.bib</span></code>. The paper should be written using our standard processes for pull
+requests and code review.</p>
+</div>
+<div class="section" id="email-potential-authors">
+<h4>3. Email potential authors<a class="headerlink" href="#email-potential-authors" title="Permalink to this headline">¶</a></h4>
+<p>Once a final draft of the paper has been merged into the repository, the
+Coordinator should email all potential authors of the paper, inviting them to
+participate. Usually this will include at least two emails:</p>
+<ul class="simple">
+<li><p>Individually email all contributors listed in the Git log of the repository.
+This list can be generated using the Git command <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span> <span class="pre">--all</span> <span class="pre">--format='%cN</span> <span class="pre">&lt;%cE&gt;'</span> <span class="pre">|</span> <span class="pre">sort</span> <span class="pre">-u</span></code>.</p></li>
+<li><p>Email the main Jupyter Google Group to include folks not listed in the Git
+log.</p></li>
+</ul>
+<p>In addition, the Coordinator should send personal emails to individuals, such
+as students, who are new to writing academic publications, explaining why we
+are writing a paper, and encouraging them to participate. These personal emails
+should cc the individual’s mentor or advisor if applicable.</p>
+<p>Both of these emails should include:</p>
+<ul class="simple">
+<li><p>A verbatim copy of the above JOSS authorship criteria;</p></li>
+<li><p>A description the tasks each individual needs complete to be an author on the
+paper;</p></li>
+<li><p>A concrete deadline for completing those tasks (at least 2 weeks out); and</p></li>
+<li><p>A link to the paper’s markdown file in the repository.</p></li>
+</ul>
+<p>The tasks each individual needs to complete are as follows:</p>
+<ul class="simple">
+<li><p>Create an account on <a class="reference external" href="http://orcid.org/">ORCID</a>.</p></li>
+<li><p>Submit a PR to the repository adding their name, ORCID id, and affiliation to
+the paper;</p></li>
+<li><p>Provide any edits to the content of the paper;</p></li>
+<li><p>In the comment of the PR, briefly describe their contributions to the work;
+and</p></li>
+<li><p>In the comment of the PR, provide verification that they have read the paper
+and agree to its publication.</p></li>
+</ul>
+<p>As the deadline approaches, the Coordinator should remind potential authors to
+complete their tasks.</p>
+</div>
+<div class="section" id="final-submission">
+<h4>4. Final submission<a class="headerlink" href="#final-submission" title="Permalink to this headline">¶</a></h4>
+<p>Once the deadline for authors to complete their tasks has passed, the
+Coordinator should make sure authors are listed in alphabetical order. The
+Coordinator can then submit the paper.</p>
+</div>
+</div>
+<div class="section" id="process-for-traditional-academic-papers">
+<h3>Process for traditional academic papers<a class="headerlink" href="#process-for-traditional-academic-papers" title="Permalink to this headline">¶</a></h3>
+<p>Papers submitted to other (non-JOSS) journals, will usually be longer and take
+a more significant amount of time to author. They will also usually be authored
+in dedicated repository (under the jupyter-resources GitHub organization).
+Because of these factors, the process is slightly different.</p>
+</div>
+<div class="section" id="authorship-criteria">
+<h3>Authorship criteria<a class="headerlink" href="#authorship-criteria" title="Permalink to this headline">¶</a></h3>
+<p>The authorship criteria for non-JOSS papers is slightly different than for JOSS
+in that all authors are expected to actively participate in the writing and
+editing of the paper.</p>
+<p>Our authorship criteria for papers are derived from those of the
+<a class="reference external" href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html#two">ICMJE</a>:</p>
+<ul class="simple">
+<li><p>Substantial contributions to the conception, design, or implementation of
+software; this includes coding, visual design, documentation, testing,
+discussions and other such contributions; AND</p></li>
+<li><p>Drafting the work or revising it critically for important intellectual
+content; AND</p></li>
+<li><p>Final approval of the version to be published; AND</p></li>
+<li><p>Agreement to be accountable for all aspects of the work in ensuring that
+questions related to the accuracy or integrity of any part of the work are
+appropriately investigated and resolved.</p></li>
+</ul>
+<p>Anyone who satisfies and is willing to accept these responsibilities and
+commitments is welcome to be an author on any of our publications.</p>
+<p>The second of these responsibilities implies that all authors will actively
+participate in the writing of the manuscript. We recognize that not all
+co-authors will contribute equally and in the same way to the writing of a
+paper. Furthermore, for papers with large numbers of co-authors, we expect the
+main writing will be done by a smaller group of co-authors, with other
+co-authors contributing to editing work and discussions. However, in all cases active participation in some manner is still required.</p>
+</div>
+<div class="section" id="process">
+<h3>Process<a class="headerlink" href="#process" title="Permalink to this headline">¶</a></h3>
+<p>Before creating the detailed process for authoring non-JOSS papers, we want to
+try out the above process for JOSS papers and see how it should be modified for
+longer form papers. In general, we expect to closely follow the process used in
+the SymPy project to author <a class="reference external" href="https://github.com/sympy/sympy-paper">this paper</a>.</p>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="newsubprojects.html" title="previous page">New Subproject Process</a>
+    <a class='right-next' id="next-link" href="trademarks.html" title="next page">Trademark Usage Policy</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          <div class="extra_footer">
+            <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+    href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+    href="https://jupyter.org">
+    <span property="dct:title">Project Jupyter</span></a>
+  has waived all copyright and related or neighboring rights to
+  <a href="https://github.com/jupyter/governance"><span property="dct:title">Project Jupyter Governance documents</span></a>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://jupyter.org">
+  United States</span>.
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>

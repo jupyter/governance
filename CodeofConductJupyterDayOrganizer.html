@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>JupyterDay Organizer Code of Conduct &#8212; Project Jupyter Governance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/mystnb.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Steering Council and Institutional Partners" href="people.html" />
+    <link rel="prev" title="JupyterDay Code of Conduct" href="CodeofConductJupyterDay.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Project Jupyter Governance</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="intro.html">Project Jupyter Governance</a>
+  </li>
+  <li class="">
+    <a href="governance.html">Main Governance Document</a>
+  </li>
+  <li class="active">
+    <a href="conduct/code_of_conduct.html">Project Jupyter Code of Conduct</a>
+  <ul class="nav sidenav_l2">
+    <li class="">
+      <a href="conduct/enforcement.html">Jupyter Code of Conduct - Enforcement Manual</a>
+    </li>
+    <li class="">
+      <a href="conduct/faq.html">Project Jupyter Code of Conduct - Frequently Asked Questions</a>
+    </li>
+    <li class="">
+      <a href="conduct/reporting_events.html">Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events</a>
+    </li>
+    <li class="">
+      <a href="conduct/reporting_online.html">Project Jupyter Code of Conduct - Reporting Guide - Online Community</a>
+    </li>
+    <li class="">
+      <a href="CodeofConductJupyterDay.html">JupyterDay Code of Conduct</a>
+    </li>
+    <li class="active">
+      <a href="">JupyterDay Organizer Code of Conduct</a>
+    </li>
+  </ul>
+  </li>
+  <li class="">
+    <a href="people.html">Steering Council and Institutional Partners</a>
+  </li>
+  <li class="">
+    <a href="newsubprojects.html">New Subproject Process</a>
+  </li>
+  <li class="">
+    <a href="papers.html">Process for Authoring Jupyter Related Academic Papers</a>
+  </li>
+  <li class="">
+    <a href="trademarks.html">Trademark Usage Policy</a>
+  </li>
+  <li class="">
+    <a href="projectlicense.html">Licensing terms for Project Jupyter code</a>
+  </li>
+</ul>
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="_sources/CodeofConductJupyterDayOrganizer.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Edit this page -->
+        
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#procedures-and-enforcement-guidelines" class="nav-link">Procedures and Enforcement Guidelines</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#warnings" class="nav-link">Warnings</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#presentations" class="nav-link">Presentations</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#taking-reports" class="nav-link">Taking reports</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#expulsion" class="nav-link">Expulsion</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#public-statements" class="nav-link">Public statements</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="jupyterday-organizer-code-of-conduct">
+<h1>JupyterDay Organizer Code of Conduct<a class="headerlink" href="#jupyterday-organizer-code-of-conduct" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="procedures-and-enforcement-guidelines">
+<h2>Procedures and Enforcement Guidelines<a class="headerlink" href="#procedures-and-enforcement-guidelines" title="Permalink to this headline">¶</a></h2>
+<p>The goal of this document is to continually improve the community and create a
+safe and welcoming space for all. Ignoring our guidance or requests for
+compliance will have real consequences, such as being asked to leave the event,
+to ensure attendees feel they are protected. When taking action on any report,
+consider:</p>
+<ul class="simple">
+<li><p>The privacy and protection of the reporter are your first and foremost
+concern.</p></li>
+<li><p>Try to understand context and intent to get the whole picture, but
+note that  lack of intent to harm is not an excuse, and still requires redress
+to the injured party.</p></li>
+<li><p>For language-based issues, find out if the reported party is a native English
+speaker.  It is very easy for a non-native speaker to make an innocent mistake
+they aren’t even aware of, by transliteration or misuse of English words they
+original language.  Non-native speakers will often feel already uncomfortable in
+an English-only environment; approach them with the intention of explaining what
+the problem is.  A change of behavior may still be required, but a clarification
+of the language issue is more likely to produce benefit than purely punitive
+action. Stronger measures can still be  taken if the person continues to engage</p></li>
+</ul>
+</div>
+<div class="section" id="warnings">
+<h2>Warnings<a class="headerlink" href="#warnings" title="Permalink to this headline">¶</a></h2>
+<p>Event Managers/Lead Organizers can issue a verbal warning to a participant that
+their behavior violates the conference’s anti-harassment policy. Make clear to
+the participant that if they ignore the warning their participation in the event
+may not longer be welcome (in other words they may be expelled).</p>
+<p>Warnings should be reported to Ana Ruvalcaba via email ruv7.ana&#64;gmail.com as
+soon as practical. The report should include:</p>
+<ul class="simple">
+<li><p>Identifying information (name/affiliation) of the participant</p></li>
+<li><p>The time you issued the warning</p></li>
+<li><p>The approximate time of the behavior (if different than the time of warning)</p></li>
+<li><p>The behavior that was in violation</p></li>
+<li><p>The circumstances surrounding the incident</p></li>
+<li><p>Your full name</p></li>
+<li><p>Other people involved in the incident</p></li>
+</ul>
+</div>
+<div class="section" id="presentations">
+<h2>Presentations<a class="headerlink" href="#presentations" title="Permalink to this headline">¶</a></h2>
+<p>Presentations, audience comments, or similar events should not be stopped for
+one-time gaffes or minor problems, although Event Managers/Lead Organizers
+should speak to the presenter/audience member afterward. However, Event
+Managers/Lead Organizers should take immediate action to politely and calmly
+stop any presentation/audience comment/event that repeatedly or seriously
+violates the anti-harassment policy. For example, simply say “I’m sorry, this
+presentation/comment is not appropriate and cannot be continued at the present
+time” with no further explanation.</p>
+<p>Coach the speakers so that they are aware that they do not have to tolerate or
+respond to comments/questions which violates our code of conduct during their
+presentation.</p>
+</div>
+<div class="section" id="taking-reports">
+<h2>Taking reports<a class="headerlink" href="#taking-reports" title="Permalink to this headline">¶</a></h2>
+<p>When taking a report from someone experiencing harassment you should record what
+they say and reassure them they are being taken seriously, but avoid making
+specific promises about what actions the organizers will take.</p>
+<p>Ask for information if the reporter has not volunteered it (such as time, place)
+but do not pressure them to provide it if they are reluctant. Even if the report
+lacks important details such as the identity of the person taking the harassing
+actions, it should still be recorded and passed along to the appropriate staff
+member(s).</p>
+<p>If the reporter requests additional support, you may assist them by asking for
+help from conference staff, a trusted person, contact a friend or contact local
+law enforcement. Do not pressure the person submitting the report to take any
+action if they do not wish to do so. Respect the reporter’s privacy by not
+sharing unnecessary details with other staff or conference participants,
+especially individuals who were not involved with the situation or responsible
+for resolving it.</p>
+</div>
+<div class="section" id="expulsion">
+<h2>Expulsion<a class="headerlink" href="#expulsion" title="Permalink to this headline">¶</a></h2>
+<p>A participant may be expelled by the decision of the Lead Organizer/Event
+Manager for whatever reasons they deem sufficient. However, here are some
+general guidelines for when a participant should be expelled:</p>
+<ul class="simple">
+<li><p>A second offense resulting in an additional warning from Event Manager/Lead
+Organizer</p></li>
+<li><p>Continuing to harass after any “No” or “Stop” instruction</p></li>
+<li><p>A pattern of harassing behavior, with or without warnings</p></li>
+<li><p>A single serious offense (e.g., physical violence or groping someone)</p></li>
+<li><p>A single obviously intentional offense (e.g., taking up-skirt photos)</p></li>
+</ul>
+<p>Hotel/venue security and local authorities should be contacted when appropriate.</p>
+</div>
+<div class="section" id="public-statements">
+<h2>Public statements<a class="headerlink" href="#public-statements" title="Permalink to this headline">¶</a></h2>
+<p>As a general rule, conference staff should not make any public statements about
+the behavior of individual people during or after the conference.</p>
+<p>In general, consult with other staff members when possible but act when
+necessary.</p>
+</div>
+</div>
+
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="CodeofConductJupyterDay.html" title="previous page">JupyterDay Code of Conduct</a>
+    <a class='right-next' id="next-link" href="people.html" title="next page">Steering Council and Institutional Partners</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          <div class="extra_footer">
+            <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+    href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+    href="https://jupyter.org">
+    <span property="dct:title">Project Jupyter</span></a>
+  has waived all copyright and related or neighboring rights to
+  <a href="https://github.com/jupyter/governance"><span property="dct:title">Project Jupyter Governance documents</span></a>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://jupyter.org">
+  United States</span>.
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>
