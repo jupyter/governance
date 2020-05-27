@@ -1,4 +1,4 @@
-# JupyterDay Code of Conduct
+# JupyterDay Organizer Code of Conduct
 ## Procedures and Enforcement Guidelines
 
 The goal of this document is to continually improve the community and create a
@@ -8,10 +8,10 @@ to ensure attendees feel they are protected. When taking action on any report,
 consider:
 
 * The privacy and protection of the reporter are your first and foremost
-  concern. 
+  concern.
 * Try to understand context and intent to get the whole picture, but
   note that  lack of intent to harm is not an excuse, and still requires redress
-  to the injured party. 
+  to the injured party.
 * For language-based issues, find out if the reported party is a native English
   speaker.  It is very easy for a non-native speaker to make an innocent mistake
   they aren't even aware of, by transliteration or misuse of English words they
@@ -20,13 +20,13 @@ consider:
   the problem is.  A change of behavior may still be required, but a clarification
   of the language issue is more likely to produce benefit than purely punitive
   action. Stronger measures can still be  taken if the person continues to engage
- 
+
 ## Warnings
 
 Event Managers/Lead Organizers can issue a verbal warning to a participant that
 their behavior violates the conference's anti-harassment policy. Make clear to
 the participant that if they ignore the warning their participation in the event
-may not longer be welcome (in other words they may be expelled). 
+may not longer be welcome (in other words they may be expelled).
 
 Warnings should be reported to Ana Ruvalcaba via email ruv7.ana@gmail.com as
 soon as practical. The report should include:
@@ -57,13 +57,13 @@ presentation.
 
 When taking a report from someone experiencing harassment you should record what
 they say and reassure them they are being taken seriously, but avoid making
-specific promises about what actions the organizers will take. 
+specific promises about what actions the organizers will take.
 
 Ask for information if the reporter has not volunteered it (such as time, place)
 but do not pressure them to provide it if they are reluctant. Even if the report
 lacks important details such as the identity of the person taking the harassing
 actions, it should still be recorded and passed along to the appropriate staff
-member(s). 
+member(s).
 
 If the reporter requests additional support, you may assist them by asking for
 help from conference staff, a trusted person, contact a friend or contact local
@@ -79,7 +79,7 @@ A participant may be expelled by the decision of the Lead Organizer/Event
 Manager for whatever reasons they deem sufficient. However, here are some
 general guidelines for when a participant should be expelled:
 * A second offense resulting in an additional warning from Event Manager/Lead
-  Organizer 
+  Organizer
 * Continuing to harass after any "No" or "Stop" instruction
 * A pattern of harassing behavior, with or without warnings
 * A single serious offense (e.g., physical violence or groping someone)

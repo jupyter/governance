@@ -1,0 +1,16 @@
+file: intro
+sections:
+- file: governance
+- file: conduct/code_of_conduct
+  sections:
+  - file: conduct/enforcement
+  - file: conduct/faq
+  - file: conduct/reporting_events
+  - file: conduct/reporting_online
+  - file: CodeofConductJupyterDay
+  - file: CodeofConductJupyterDayOrganizer
+- file: people
+- file: newsubprojects
+- file: papers
+- file: trademarks
+- file: projectlicense
