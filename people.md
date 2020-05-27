@@ -44,16 +44,16 @@ Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
 
 Institutional Council members are noted with each institution.
 
-- [Anaconda](https://www.anaconda.com/) (Damian Avila)
+- [Amazon Web Services](https://aws.amazon.com/) (Brian Granger, Steven Silvester)
 - [Bloomberg](https://www.bloomberg.com/) (Jason Grout, Paul Ivanov)
-- [Cal Poly](https://www.calpoly.edu/) (Ana Ruvalcaba, Brian Granger, Carol Willing)
-- [JPMorgan Chase](https://www.jpmorganchase.com/) (Steven Silvester)
+- [Cal Poly](https://www.calpoly.edu/) (Ana Ruvalcaba)
 - [Netflix](https://www.netflix.com/) (Kyle Kelley, M Pacer)
 - [QuantStack](http://quantstack.net/) (Sylvain Corlay)
+- [QuanSight](https://www.quansight.com/) (Matthias Bussonnier, Carol Willing)
 - [Two Sigma](https://www.twosigma.com/) (Afshin Darian)
 - [UC Berkeley](https://www.berkeley.edu/) (Fernando Perez)
+- [University of Michigan](https://www.si.umich.edu/) (Damian Avila)
 - [Thorn](https://thorn.org/) (Peter Parente)
-- [UC merced](https://www.ucmerced.edu/) (Matthias Bussonnier)
 
 ### Tier 2
 
