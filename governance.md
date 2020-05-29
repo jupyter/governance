@@ -326,7 +326,7 @@ Partners, with associated benefits:
 Changes to the governance documents are submitted via a GitHub pull
 request to The Project's governance documents GitHub repository at
 [https://github.com/jupyter/governance](https://github.com/jupyter/governance).
-There are two phases to the voting process:
+There are two phases to the process:
 
 **The discussion phase** begins when the person first opens a pull-request. During
 this time, *the pull-request must be in a draft state*.
