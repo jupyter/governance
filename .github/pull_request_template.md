@@ -30,4 +30,4 @@ The discussion phase is meant to gather input and multiple perspectives from the
 Make sure that the community has had an opportunity to weigh in on
 the change **before calling a vote**. A good rule of thumb is to ask several steering council
 members if they believe that it is time for a vote, and to let at least one person review
-the pull request for structural quality and type-os.
+the pull request for structural quality and typos.
