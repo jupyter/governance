@@ -328,20 +328,21 @@ request to The Project's governance documents GitHub repository at
 [https://github.com/jupyter/governance](https://github.com/jupyter/governance).
 There are two phases to the process:
 
-**The discussion phase** begins when the person first opens a pull-request. During
-this time, *the pull-request must be in a draft state*.
-The pull request is refined in response to public comment and
-review, with the goal being consensus in the community.
+**The discussion phase** begins when the person first opens a pull-request.
+During this time, *the pull-request must be in a draft state*. The pull
+request is refined in response to public comment and review, with the goal
+being consensus in the community.
 
-The pull request author may *call a vote* when they believe enough feedback and
-iteration has occurred. This is triggered by moving the pull request from the
-*draft state* to an *active state*. This triggers the voting phase.
+The pull request author may *call a vote* when they believe enough feedback
+and iteration has occurred. This is triggered by moving the pull request from
+the *draft state* to an *active state*. This triggers the voting phase.
 
-**The voting phase** begins when the PR enters an active state. The proposed changes
-in the pull request are frozen, and may not be substantively modified after voting
-has begun. During the voting phase, the Steering Council
-votes on whether the changes are ratified and the pull request merged (accepting the proposed changes) or
-that the pull request be closed without merging (rejecting the proposed changes).
+**The voting phase** begins when the PR enters an active state. The proposed
+changes in the pull request are frozen, and may not be substantively modified
+after voting has begun. During the voting phase, the Steering Council votes on
+whether the changes are ratified and the pull request merged (accepting the
+proposed changes) or that the pull request be closed without merging
+(rejecting the proposed changes).
 
 All votes are limited in time to 4 weeks after the voting phase begins. At the end of 4
 weeks, the proposal passes if 2/3 of the votes are in favor (fractions of a
