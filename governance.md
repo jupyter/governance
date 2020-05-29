@@ -339,9 +339,7 @@ iteration has occurred. This is triggered by moving the pull request from the
 
 **The voting phase** begins when the PR enters an active state. The proposed changes
 in the pull request are frozen, and may not be substantively modified after voting
-has begun. If the author (or a steering council member) wishes to substantively change
-the proposed changes, they should close the pull request and re-start the process
-with a new pull request. During the voting phase, the Steering Council
+has begun. During the voting phase, the Steering Council
 votes on whether the changes are ratified and the pull request merged (accepting the proposed changes) or
 that the pull request be closed without merging (rejecting the proposed changes).
 
