@@ -6,7 +6,7 @@ as possible.
 
 Please answer the following questions along with your proposed change:
 
-**Background or context to help other understand the change.**
+**Background or context to help others understand the change.**
 
 **A brief summary of the change.**
 
