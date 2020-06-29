@@ -25,7 +25,7 @@
     <script src="_static/copybutton.js"></script>
     <script src="_static/mystnb.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -64,9 +64,6 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   
   <ul class="nav sidenav_l1">
-  <li class="">
-    <a href="intro.html">Project Jupyter Governance</a>
-  </li>
   <li class="">
     <a href="governance.html">Main Governance Document</a>
   </li>
@@ -113,10 +110,6 @@
 
  <!-- To handle the deprecated key -->
 
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
 </div>
 
 
@@ -131,35 +124,43 @@
     </div>
     <div class="col pl-2 topbar-main">
         
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
             <i class="fas fa-bars"></i>
             <i class="fas fa-arrow-left"></i>
             <i class="fas fa-arrow-up"></i>
         </button>
         
         <div class="dropdown-buttons-trigger">
-            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
 
-            
-            <div class="dropdown-buttons">
-                <!-- ipynb file if we had a myst markdown file -->
-                
-                <!-- Download raw file -->
-                <a class="dropdown-buttons" href="_sources/CodeofConductJupyterDay.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
-                <!-- Download PDF via print -->
-                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
-            </div>
-            
-        </div>
-
-        <!-- Edit this page -->
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
         
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/CodeofConductJupyterDay.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
 
         <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
 
         <!-- Launch buttons -->
-        
+
     </div>
     <div class="d-none d-md-block col-md-2 bd-toc show">
 <div class="tocsection onthispage pt-5 pb-3">
@@ -300,6 +301,8 @@ for the duration of the event.</p>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
+        
+          By The Jupyter Book community<br/>
         
           <div class="extra_footer">
             <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">

@@ -25,7 +25,7 @@
     <script src="_static/copybutton.js"></script>
     <script src="_static/mystnb.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .secondtoggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -64,9 +64,6 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   
   <ul class="nav sidenav_l1">
-  <li class="">
-    <a href="intro.html">Project Jupyter Governance</a>
-  </li>
   <li class="active">
     <a href="">Main Governance Document</a>
   </li>
@@ -93,10 +90,6 @@
 
  <!-- To handle the deprecated key -->
 
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
 </div>
 
 
@@ -111,35 +104,43 @@
     </div>
     <div class="col pl-2 topbar-main">
         
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
             <i class="fas fa-bars"></i>
             <i class="fas fa-arrow-left"></i>
             <i class="fas fa-arrow-up"></i>
         </button>
         
         <div class="dropdown-buttons-trigger">
-            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
 
-            
-            <div class="dropdown-buttons">
-                <!-- ipynb file if we had a myst markdown file -->
-                
-                <!-- Download raw file -->
-                <a class="dropdown-buttons" href="_sources/governance.md.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.md</button></a>
-                <!-- Download PDF via print -->
-                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
-            </div>
-            
-        </div>
-
-        <!-- Edit this page -->
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
         
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/governance.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
 
         <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
 
         <!-- Launch buttons -->
-        
+
     </div>
     <div class="d-none d-md-block col-md-2 bd-toc show">
 <div class="tocsection onthispage pt-5 pb-3">
@@ -511,15 +512,21 @@ Workshop and bi-annual Jupyter/IPython Developer Meeting.</p></li>
 <p>Changes to the governance documents are submitted via a GitHub pull
 request to The Project’s governance documents GitHub repository at
 <a class="reference external" href="https://github.com/jupyter/governance">https://github.com/jupyter/governance</a>.
-The pull request is then refined in response to public comment and
-review, with the goal being consensus in the community.  After this
-open period, a Steering Council Member proposes to the Steering
-Council that the changes be ratified and the pull request merged
-(accepting the proposed changes) or proposes that the pull request be
-closed without merging (rejecting the proposed changes).  The Member
-should state the final commit hash in the pull request being proposed
-for acceptance or rejection and briefly summarize the pull request. All votes
-are limited in time to 4 weeks after the vote is initiated. At the end of 4
+There are two phases to the process:</p>
+<p><strong>The discussion phase</strong> begins when the person first opens a pull-request.
+During this time, <em>the pull-request must be in a draft state</em>. The pull
+request is refined in response to public comment and review, with the goal
+being consensus in the community.</p>
+<p>The pull request author may <em>call a vote</em> when they believe enough feedback
+and iteration has occurred. This is triggered by moving the pull request from
+the <em>draft state</em> to an <em>active state</em>. This triggers the voting phase.</p>
+<p><strong>The voting phase</strong> begins when the PR enters an active state. The proposed
+changes in the pull request are frozen, and may not be substantively modified
+after voting has begun. During the voting phase, the Steering Council votes on
+whether the changes are ratified and the pull request merged (accepting the
+proposed changes) or that the pull request be closed without merging
+(rejecting the proposed changes).</p>
+<p>All votes are limited in time to 4 weeks after the voting phase begins. At the end of 4
 weeks, the proposal passes if 2/3 of the votes are in favor (fractions of a
 vote rounded up to the nearest integer); otherwise the proposal is rejected and
 the PR is closed. Prior to the four-week limit, if at least 80% of the Steering Council
@@ -545,6 +552,8 @@ rejecting changes or overriding Steering Council decisions.</p>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
+        
+          By The Jupyter Book community<br/>
         
           <div class="extra_footer">
             <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
