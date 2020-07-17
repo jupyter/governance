@@ -86,7 +86,7 @@ this document.
 
 ### Proposal for incorporation
 
-If concensus for adoption within a given Jupyter organization's team is straightforward and the above criteria are met,
+If consensus for adoption within a given Jupyter organization's team is straightforward and the above criteria are met,
 a project may be adopted immediately.
 Such consensus may be established by creating an Issue on the given organization's `team-compass` repository.
 If more discussion is needed,
