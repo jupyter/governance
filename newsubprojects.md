@@ -81,13 +81,16 @@ software in other public venues.
 
 When a Subproject is incorporated, it becomes an officially supported and maintained part
 of Project Jupyter and is moved to one of the GitHub organizations noted at the top of
-this document
+this document.
 
 
 ### Proposal for incorporation
 
-For an existing external Subproject to be incorporated into one of the main Jupyter organizations,
-the following proposal process will be used:
+If concensus for adoption within a given Jupyter organization's team is straightforward and the above criteria are met,
+a project may be adopted immediately.
+Such consensus may be established by creating an Issue on the given organization's `team-compass` repository.
+If more discussion is needed,
+the following more formal proposal process will be used:
 
 1. The Subproject team should submit a pull request against the
    [jupyter/enhancement-proposals](https://github.com/jupyter/enhancement-proposals) repository
@@ -125,7 +128,7 @@ The possible recommendations of the Steering Council will be:
 When an existing external Subproject is incorporated as a new official Subproject, the following
 steps will be taken:
 
-1. The repository will be transfered over to one of the main Jupyter GitHub organizations.
+1. The repository will be transferred over to one of the main Jupyter GitHub organizations.
 2. A GitHub team will be created for the Subproject, with the Subproject team having
    read/write permissions on the Subproject repository.
 3. The team will send an email to the main Jupyter list with an announcement about the new
