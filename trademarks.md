@@ -89,13 +89,15 @@ In those cases, you may use the word "Jupyter" or the unaltered logos to indicat
 without our prior approval.
 This is true both for non-commercial and commercial uses.
 
-Use of stills, videos and screenshots of the Jupyter applications (included but
-not limited to: notebook, jupyterLab, jupyterHub, nbconvert, IPython) as well as
-Jupyter Websites are allowed. Any stills, videos, and screenshots of a specific
-notebook document must be permitted by the license governing that particular
-document and are not subject to this approval, Any picture containing a person
-is subject to this person approval. This approval is worldwide, irrevocable, in
-perpetuity, on digital and mobile and for industrial/trade uses.
+Use of stills, videos, and screenshots of the Jupyter applications (including
+but not limited to: Notebook, JupyterLab, JupyterHub, nbconvert, IPython) as
+well as Jupyter websites are allowed. Any stills, videos, and screenshots of a
+specific notebook document, or any other file displayed by the application must
+be permitted by the license governing that particular document and are not
+subject to this approval. This approval is worldwide, irrevocable, and in
+perpetuity both for non-commercial and commercial uses. Any picture containing a
+person is subject to that individual's approval.
+
 
 This clause overrides other clauses of this policy.
 However, if you have any doubts about your intended use of the trademarks,
