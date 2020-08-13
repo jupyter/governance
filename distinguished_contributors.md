@@ -3,7 +3,7 @@
 This document describes the Distinguished Contributors body of the Jupyter Governance Model. Membership in the Distinguished Contributors is meant to recognize the work of community members that have gone above-and-beyond in their work on the project. It is not meant as a means of conveying power or responsibility. A public record of each Distinguished Contributor’s current biography and achievements will be maintained by the members themselves and will be displayed on the Jupyter website.
 ## Rights of Distinguished Contributors
 Distinguished Contributors have the right to elect new Distinguished Contributors. They also have the right to participate in other occasional votes specified by the broader Jupyter Governance Model.
-##Distinguished Contributor membership
+## Distinguished Contributor membership
 ### Criteria for Nominating New Distinguished Contributors
 To be considered for nomination as a Distinguished Contributor a Project Contributor must have produced contributions that are substantial in quality and quantity, and sustained over at least two years. When considering potential Members, the existing Distinguished Contributors will look at nominees with a comprehensive view of their contributions. This will include but is not limited to code, code review, infrastructure work, mailing list and chat participation, community help/building, education and outreach, fundraising, branding, marketing, inclusion and diversity, UX design and research, etc. We are deliberately not setting arbitrary quantitative metrics (like “100 commits in this repo”) to avoid encouraging behavior that plays to the metrics rather than the project’s overall well-being. 
 ### Term length
