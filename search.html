@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search &#8212; Project Jupyter Governance</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
@@ -13,7 +14,8 @@
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
     
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
@@ -24,11 +26,15 @@
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/mystnb.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
     <script src="_static/searchtools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="#" />
@@ -65,33 +71,58 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  
   <ul class="nav sidenav_l1">
-  <li class="">
-    <a href="governance.html">Main Governance Document</a>
-  </li>
-  <li class="">
-    <a href="conduct/code_of_conduct.html">Project Jupyter Code of Conduct</a>
-  </li>
-  <li class="">
-    <a href="people.html">Steering Council and Institutional Partners</a>
-  </li>
-  <li class="">
-    <a href="newsubprojects.html">New Subproject Process</a>
-  </li>
-  <li class="">
-    <a href="papers.html">Process for Authoring Jupyter Related Academic Papers</a>
-  </li>
-  <li class="">
-    <a href="trademarks.html">Trademark Usage Policy</a>
-  </li>
-  <li class="">
-    <a href="projectlicense.html">Licensing terms for Project Jupyter code</a>
-  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Project Jupyter Governance
+  </a>
+ </li>
 </ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="governance.html">
+   Main Governance Document
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="conduct/code_of_conduct.html">
+   Project Jupyter Code of Conduct
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="people.html">
+   Steering Council and Institutional Partners
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="newsubprojects.html">
+   New Subproject Process
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="papers.html">
+   Process for Authoring Jupyter Related Academic Papers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="trademarks.html">
+   Trademark Usage Policy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projectlicense.html">
+   Licensing terms for Project Jupyter code
+  </a>
+ </li>
+</ul>
+
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -133,15 +164,12 @@
         <!-- Launch buttons -->
 
     </div>
+
+    <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
-
-<nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
-    
-    </ul>
-</nav>
-
-
+        <nav id="bd-toc-nav">
+            
+        </nav>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -158,10 +186,8 @@
   </p>
   </div>
   <p>
-    From here you can search these documents. Enter your search
-    words into the box below and click "search". Note that the search
-    function will automatically search for all of the words. Pages
-    containing fewer words won't appear in the result list.
+    Searching for multiple words only shows matches that contain
+    all words.
   </p>
   <form action="" method="get">
     <input type="text" name="q" aria-labelledby="search-documentation" value="" />

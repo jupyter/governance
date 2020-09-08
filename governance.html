@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Governance Document &#8212; Project Jupyter Governance</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
@@ -13,7 +14,8 @@
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
@@ -23,11 +25,15 @@
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/mystnb.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Project Jupyter Code of Conduct" href="conduct/code_of_conduct.html" />
@@ -62,33 +68,58 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  
   <ul class="nav sidenav_l1">
-  <li class="active">
-    <a href="">Main Governance Document</a>
-  </li>
-  <li class="">
-    <a href="conduct/code_of_conduct.html">Project Jupyter Code of Conduct</a>
-  </li>
-  <li class="">
-    <a href="people.html">Steering Council and Institutional Partners</a>
-  </li>
-  <li class="">
-    <a href="newsubprojects.html">New Subproject Process</a>
-  </li>
-  <li class="">
-    <a href="papers.html">Process for Authoring Jupyter Related Academic Papers</a>
-  </li>
-  <li class="">
-    <a href="trademarks.html">Trademark Usage Policy</a>
-  </li>
-  <li class="">
-    <a href="projectlicense.html">Licensing terms for Project Jupyter code</a>
-  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Project Jupyter Governance
+  </a>
+ </li>
 </ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Main Governance Document
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="conduct/code_of_conduct.html">
+   Project Jupyter Code of Conduct
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="people.html">
+   Steering Council and Institutional Partners
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="newsubprojects.html">
+   New Subproject Process
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="papers.html">
+   Process for Authoring Jupyter Related Academic Papers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="trademarks.html">
+   Trademark Usage Policy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projectlicense.html">
+   Licensing terms for Project Jupyter code
+  </a>
+ </li>
+</ul>
+
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -142,66 +173,76 @@
         <!-- Launch buttons -->
 
     </div>
+
+    <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
-<div class="tocsection onthispage pt-5 pb-3">
-    <i class="fas fa-list"></i> On this page
-</div>
-
-<nav id="bd-toc-nav">
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-project">
+   The Project
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#governance">
+   Governance
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bdfl">
+     BDFL
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#steering-council">
+     Steering Council
+    </a>
     <ul class="nav section-nav flex-column">
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#the-project" class="nav-link">The Project</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#governance" class="nav-link">Governance</a><ul class="nav section-nav flex-column">
-                
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#bdfl" class="nav-link">BDFL</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#steering-council" class="nav-link">Steering Council</a><ul class="nav section-nav flex-column">
-                
-        <li class="nav-item toc-entry toc-h4">
-            <a href="#council-membership" class="nav-link">Council membership</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h4">
-            <a href="#conflict-of-interest" class="nav-link">Conflict of interest</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h4">
-            <a href="#private-communications-of-the-council" class="nav-link">Private communications of the Council</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h4">
-            <a href="#subcommittees" class="nav-link">Subcommittees</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h4">
-            <a href="#numfocus-subcommittee" class="nav-link">NumFOCUS Subcommittee</a>
-        </li>
-    
-            </ul>
-        </li>
-    
-            </ul>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#institutional-partners-and-funding" class="nav-link">Institutional Partners and Funding</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#changing-the-governance-documents" class="nav-link">Changing the Governance Documents</a>
-        </li>
-    
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#council-membership">
+       Council membership
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#conflict-of-interest">
+       Conflict of interest
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#private-communications-of-the-council">
+       Private communications of the Council
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#subcommittees">
+       Subcommittees
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#numfocus-subcommittee">
+       NumFOCUS Subcommittee
+      </a>
+     </li>
     </ul>
-</nav>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#institutional-partners-and-funding">
+   Institutional Partners and Funding
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#changing-the-governance-documents">
+   Changing the Governance Documents
+  </a>
+ </li>
+</ul>
 
-
+        </nav>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -536,6 +577,25 @@ rejecting changes or overriding Steering Council decisions.</p>
 </div>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               

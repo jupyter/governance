@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JupyterDay Organizer Code of Conduct &#8212; Project Jupyter Governance</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="_static/css/index.css" rel="stylesheet">
@@ -13,7 +14,8 @@
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
@@ -23,11 +25,15 @@
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/mystnb.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Steering Council and Institutional Partners" href="people.html" />
@@ -62,53 +68,90 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  
   <ul class="nav sidenav_l1">
-  <li class="">
-    <a href="governance.html">Main Governance Document</a>
-  </li>
-  <li class="active">
-    <a href="conduct/code_of_conduct.html">Project Jupyter Code of Conduct</a>
-  <ul class="nav sidenav_l2">
-    <li class="">
-      <a href="conduct/enforcement.html">Jupyter Code of Conduct - Enforcement Manual</a>
-    </li>
-    <li class="">
-      <a href="conduct/faq.html">Project Jupyter Code of Conduct - Frequently Asked Questions</a>
-    </li>
-    <li class="">
-      <a href="conduct/reporting_events.html">Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events</a>
-    </li>
-    <li class="">
-      <a href="conduct/reporting_online.html">Project Jupyter Code of Conduct - Reporting Guide - Online Community</a>
-    </li>
-    <li class="">
-      <a href="CodeofConductJupyterDay.html">JupyterDay Code of Conduct</a>
-    </li>
-    <li class="active">
-      <a href="">JupyterDay Organizer Code of Conduct</a>
-    </li>
-  </ul>
-  </li>
-  <li class="">
-    <a href="people.html">Steering Council and Institutional Partners</a>
-  </li>
-  <li class="">
-    <a href="newsubprojects.html">New Subproject Process</a>
-  </li>
-  <li class="">
-    <a href="papers.html">Process for Authoring Jupyter Related Academic Papers</a>
-  </li>
-  <li class="">
-    <a href="trademarks.html">Trademark Usage Policy</a>
-  </li>
-  <li class="">
-    <a href="projectlicense.html">Licensing terms for Project Jupyter code</a>
-  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Project Jupyter Governance
+  </a>
+ </li>
 </ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="governance.html">
+   Main Governance Document
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="reference internal" href="conduct/code_of_conduct.html">
+   Project Jupyter Code of Conduct
+  </a>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="conduct/enforcement.html">
+     Jupyter Code of Conduct - Enforcement Manual
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="conduct/faq.html">
+     Project Jupyter Code of Conduct - Frequently Asked Questions
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="conduct/reporting_events.html">
+     Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="conduct/reporting_online.html">
+     Project Jupyter Code of Conduct - Reporting Guide - Online Community
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="CodeofConductJupyterDay.html">
+     JupyterDay Code of Conduct
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     JupyterDay Organizer Code of Conduct
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="people.html">
+   Steering Council and Institutional Partners
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="newsubprojects.html">
+   New Subproject Process
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="papers.html">
+   Process for Authoring Jupyter Related Academic Papers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="trademarks.html">
+   Trademark Usage Policy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projectlicense.html">
+   Licensing terms for Project Jupyter code
+  </a>
+ </li>
+</ul>
+
 </nav>
 
  <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
 
 </div>
 
@@ -162,42 +205,47 @@
         <!-- Launch buttons -->
 
     </div>
+
+    <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
-<div class="tocsection onthispage pt-5 pb-3">
-    <i class="fas fa-list"></i> On this page
-</div>
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#procedures-and-enforcement-guidelines">
+   Procedures and Enforcement Guidelines
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#warnings">
+   Warnings
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#presentations">
+   Presentations
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#taking-reports">
+   Taking reports
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#expulsion">
+   Expulsion
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#public-statements">
+   Public statements
+  </a>
+ </li>
+</ul>
 
-<nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#procedures-and-enforcement-guidelines" class="nav-link">Procedures and Enforcement Guidelines</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#warnings" class="nav-link">Warnings</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#presentations" class="nav-link">Presentations</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#taking-reports" class="nav-link">Taking reports</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#expulsion" class="nav-link">Expulsion</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#public-statements" class="nav-link">Public statements</a>
-        </li>
-    
-    </ul>
-</nav>
-
-
+        </nav>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -304,6 +352,25 @@ necessary.</p>
 </div>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
