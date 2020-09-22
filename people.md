@@ -40,6 +40,16 @@ Alphabetical by first name:
 - Stefan van der Walt (non-council member), @stefanv
 - Thomas Kluyver, @takluyver
 
+
+### Trademark Subcommittee
+
+- Brian Granger, @ellisonbg
+- Jason Grout, @jasongrout
+- Min Ragan-Kelley, @minrk
+- Paul Ivanov, @ivanov
+- Tim Geaorge, @tgeorgeux
+- Matthias Bussonnier, @carreau
+
 ## Institutional Partners
 
 ### Tier 1
