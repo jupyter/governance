@@ -1,0 +1,41 @@
+# Decision Making Guide
+
+This document describes how Jupyter’s governing bodies (Board of Directors, Software Steering Council, Software Projects, non-software Working Groups) make decisions. Because individuals often work across multiple decision making groups, all Jupyter governing bodies are expected to follow this approach.
+
+This document provides guidelines but is not meant to be a comprehensive procedure manual. We seek to honor the principles of collaboration, inclusive participation, and agile decision making. If a situation arises that is not explicitly covered by the guidelines in this document, we encourage all teams to find a path forward with decisions, filling in the gaps in formal decision making procedure with adherence to these principles.
+
+## Formal aspects of decision making
+
+The decision making process is intended to balance broad participation of stakeholders with agility. While the size of decision making bodies may vary (e.g. software projects can range from a handful to dozens of decision makers), all need to find this balance.
+
+All official Jupyter projects, working groups, governing bodies, and official initiatives must have a clearly defined, and documented decision making body. Formally, these decision making bodies make decisions using consensus seeking with an option to call a vote to move the decision forward.
+
+Depending on the governing body, decisions may be proposed by members of the decision making body, or by a broader group of stakeholders/contributors.
+
+Decision making, even when it begins with simple informal discussion, starts with consensus seeking. The goal of this discussion phase is to refine the proposal, consider alternatives, weigh trade-offs, and attempt to find informal consensus. The legitimacy of the consensus seeking process is predicated on all stakeholders having their voice heard; teams must be proactive in providing opportunity for all relevant stakeholders to provide input. If the decision making body arrives at informal consensus, they may immediately move to document and enact the decision. This is the consensus seeking phase.
+
+At any time during the consensus seeking phase, any member of the decision making body can call the matter to a vote. When that member (the sponsor) calls the vote, they shall summarize the proposal in its current form. From that point, members have a minimum of 7 days to vote. The governing body may consider longer voting periods as necessary for special circumstances, or shorter periods if all voting members are present. The result will be determined by a simple majority for binary decisions (with no quorum) and ranked choice for multiclass decisions (one among many, or many among many). The sponsor may update the proposal at any point during the voting period, in which case, the voting period will be reset.
+
+The various Jupyter decision making bodies often have vast scopes and members are often busy. As a result, there are typically a subset of members who have the time, interest, and expertise to dive into the details of a given decision. We believe that open, transparent, and time-bound voting with no quorum will enable these ad-hoc, informal subgroups to form spontaneously on a per-decision basis, in a manner that supports our goals of agility and participation. We have found that formal quorums slow decision making substantially, and don’t actually guarantee true participation.
+
+Once a decision has been made during the consensus seeking phase, or by a vote, the decision making body will record the decision in an appropriate location that is as open as possible given the decision and work of the particular body. 
+
+## Guidance for decision makers and those participating in decision making
+
+- We encourage teams to always seek to balance the core guiding principles of this process as stated above: balancing agile decision making with an open and collaborative culture of participation from all relevant stakeholders.
+- During the consensus seeking phase, don’t interpret a lack of participation, discussion, or feedback as consensus or the lack thereof. Dissent can be silent and sometimes people are supportive but busy. 
+- If you are interested in a decision being made, it is your responsibility to encourage voting member/stakeholders/community participation in the decision making process. If you can’t get such participation, you may want to hold off on doing any significant work on the matter.
+- We recognize that a no quorum voting scheme could be mistaken for a low participation voting scheme – that is not our goal. To guard against this, teams should always strive for broad participation.
+- Special guidelines for software projects making decisions:
+  - Add a link to this document in your issue and PR templates along with a link to the decision making body membership (see recommended language below).
+  - Create a “Consensus Seeking” and “Vote” tags to make it easy to find issues/PRs where a decision is being made.
+  - When a vote is called on GitHub, the sponsor should summarize the decision and paste a checklist of the voting members to use in voting in the top entry (description) of the issue/PR.
+  - When communications (in whatever number of channels) point to a discussion that requires a project-wide decision, and before major implementation work starts, a standalone issue should be opened that summarizes the issue, points to relevant prior discussions, and calls for an explicit vote/decision. This issue should be tightly scoped to the relevant decision only, and include the "Vote" tag.
+  - When an implementation of a decision appears in pull request, link to the relevant “Vote” issue.
+  - This decision making process is incompatible with individuals merging their own PRs in most situations.
+- Decision making bodies and those proposing decisions should explicitly distinguish between decisions that are two-way doors (easy to reverse later) and one-way doors (difficult or impossible to reverse later). For one-way doors, teams should carefully weigh alternatives and tradeoffs and take extra care to ensure broad participation and stakeholder input. For two-way doors, teams should feel free to move quickly, without compromising the principles and procedures described herein. 
+- Do not call a vote to short-circuit an ongoing discussion that is still productive in terms of exploring ideas and feedback. Votes should be called only when discussion has reasonably explored the space and stakeholders have had a voice, to clarify if lack of input is consensus or simply folks being busy, or to record key decisions where an explicit vote will be useful (e.g. to signal an important decision to the broader community).
+
+## Language for issue/PR template
+
+Project Jupyter makes decisions using a consensus seeking model. You can read about this model here (link). The decision making body for this project is documented here (link).
