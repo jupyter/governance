@@ -61,3 +61,6 @@ target/
 
 # Docs
 _build
+
+# macOS
+default.profraw
