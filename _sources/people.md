@@ -48,7 +48,7 @@ Alphabetical by first name:
 - Min Ragan-Kelley, @minrk
 - Paul Ivanov, @ivanov
 - Tim Geaorge, @tgeorgeux
-- Matthias Bussonnier, @carreau
+- William Stein, @williamstein
 
 ## Institutional Partners
 
