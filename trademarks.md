@@ -27,7 +27,7 @@ of which Project Jupyter is a part.
 
 The Jupyter logos (in several variants) are trademarks of NumFOCUS as well.
 
-Registration of the trademarks is pending.
+The Jupyter Trademark is registered with the U.S. Patent & Trademark Office.
 
 Derivative word marks referring to Jupyter projects or events,
 such as "JupyterDays," "JupyterLab," "JupyterHub,"
