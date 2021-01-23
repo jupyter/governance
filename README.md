@@ -18,6 +18,17 @@ The governance documents are best-viewed at https://jupyter.org/governance
 
 See [the governance introduction](intro.md) for license information.
 
+## Jupyter organizations
+
+The following organizations on GitHub contain Project Jupyter repos:
+
+- [jupyter](https://github.com/jupyter)
+- [ipython](https://github.com/ipython)
+- [jupyterhub](https://github.com/jupyterhub)
+- [jupyterlab](https://github.com/jupyterlab)
+- [jupyter-widgets](https://github.com/jupyter-widgets)
+- [jupyter-server](https://github.com/jupyter-server)
+
 ## Infrastructure for this repository
 
 The content in this repository is hosted online with `github-pages`, and the HTML
