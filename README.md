@@ -31,6 +31,7 @@ The following organizations on GitHub contain Project Jupyter repos:
 - [jupyter-xeus](https://github.com/jupyter-xeus) See [JEP 44](https://github.com/jupyter/enhancement-proposals/tree/master/44-xeus-incorporation)
 - [voila-dashboards](https://github.com/voila-dashboards) See [JEP 42](https://github.com/jupyter/enhancement-proposals/tree/master/42-voila-incorporation)
 - [binder-examples](https://github.com/binder-examples)
+- [jupyter-resources](https://github.com/jupyter-resources)
 
 ## Infrastructure for this repository
 
