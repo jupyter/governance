@@ -28,6 +28,7 @@ The following organizations on GitHub contain Project Jupyter repos:
 - [jupyterlab](https://github.com/jupyterlab)
 - [jupyter-widgets](https://github.com/jupyter-widgets)
 - [jupyter-server](https://github.com/jupyter-server)
+- [jupyter-xeus](https://github.com/jupyter-xeus)
 
 ## Infrastructure for this repository
 
