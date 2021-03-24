@@ -198,7 +198,7 @@ A Subproject team can initiate the [jupyter-incubator](https://github.com/jupyte
 incubation process by submitting a proposal for incubation. This process is designed to be
 lightweight and quick:
 
-1. The proposers must fill out an incubation application by sumitting a pull request to the
+1. The proposers must fill out an incubation application by submitting a pull request to the
    [jupyter-incubator/proposals](https://github.com/jupyter-incubator/proposals) repository.
 2. Proposers must announce their intent to the community with a post to the main Jupyter
    mailing list.
@@ -208,7 +208,7 @@ lightweight and quick:
    of the Subproject, that is not required.
 4. The proposal for incubation will be discussed by the community and approved or rejected by
    the consensus of the Steering Council.
-5. If approved, the proposal pull request will be merged, if rejected, it will be closed.
+5. If approved, the proposal pull request will be merged. If rejected, it will be closed.
 
 ### Incubation period
 
