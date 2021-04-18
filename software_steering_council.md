@@ -18,7 +18,7 @@ The SSC is responsible for the following:
 - Stewarding discussions and activities beyond JEPs that involve cross-cutting concerns, standards, protocols and other architectural issues that impact the entire project.
 - Owning and managing anything related to security vulnerabilities across the project, including the Jupyter security lists, any private security repositories, etc.
 
-### Shared responsibilities with the BoD
+### Shared responsibilities with the Board of Directors
 
 The SSC and BoD share the responsibility for:
 
