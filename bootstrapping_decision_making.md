@@ -1,6 +1,6 @@
 # Bootstrapping Decision Making Bodies
 
-As the new Jupyter governance model is approved and implemented, one of the tasks that Jupyter Subprojects will have is to establish a formal decision making body. There are a number of challenges associated with this:
+As the new Jupyter governance model is approved and implemented, Jupyter Subprojects will have to establish a formal decision making body. There are a number of challenges associated with this:
 
 - We are moving from an informal model where most Subprojects do not have a formal decision making body, to the formal one described in the Decision Making Guidelines.
 - Most Subprojects do not have a well defined decision making body today.
