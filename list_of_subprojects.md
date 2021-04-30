@@ -17,7 +17,8 @@ The following Jupyter Subprojects have their own formal decision making body tha
   - https://github.com/jupyterhub/binderhub
 - Jupyter Kernels
   - jupyter-xeus (https://github.com/jupyter-xeus/)
-  - IPython (https://github.com/ipython)
+  - IPython (https://github.com/ipython/ipython)
+  - IPykernel (https://github.com/ipython/ipykernel)
 - Jupyter Standards
 - Jupyter Foundations
 
