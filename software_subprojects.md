@@ -6,7 +6,7 @@ Since Project Jupyter promotes open technical standards and interoperability amo
 
 ## Responsibilities of Jupyter Subprojects
 
-Unless the SSC or the Board of Directors says otherwise, Subprojects self-govern as autonomously as possible, while following the overall governance model and processes of Project Jupyter. Specifically, all Subprojects under Jupyter’s governance have the following responsibilities:
+Unless the Software Steering Council (SSC) or the Board of Directors says otherwise, Subprojects self-govern as autonomously as possible, while following the overall governance model and processes of Project Jupyter. Specifically, all Subprojects under Jupyter’s governance have the following responsibilities:
 
 - Adhere to the Jupyter Code of Conduct.
 - Adhere to the [Jupyter Decision Making Guidelines and process](decision_making.md).
