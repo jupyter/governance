@@ -7,14 +7,14 @@ At the highest level, any Github repository under any official Jupyter GitHub or
 The following Jupyter Subprojects have their own formal decision making body that elects and maintains an SSC representative:
 
 - JupyterLab (https://github.com/jupyterlab/jupyterlab)
-- JupyterHub (https://github.com/jupyterhub/jupyterhub)
+- JupyterHub and Binder 
+  - https://github.com/jupyterhub/jupyterhub
+  - https://github.com/jupyterhub/binder
+  - https://github.com/jupyterhub/binderhub
 - Voilà (https://github.com/voila-dashboards/voila)
 - Jupyter Server (https://github.com/jupyter-server/jupyter_server)
 - Jupyter Widgets (https://github.com/jupyter-widgets)
 - Jupyter Notebook (https://github.com/jupyter/notebook)
-- Binder
-  - https://github.com/jupyterhub/binder
-  - https://github.com/jupyterhub/binderhub
 - Jupyter Kernels
   - jupyter-xeus (https://github.com/jupyter-xeus/)
   - IPykernel (https://github.com/ipython/ipykernel)
