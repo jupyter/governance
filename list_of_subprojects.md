@@ -17,10 +17,12 @@ The following Jupyter Subprojects have their own formal decision making body tha
   - https://github.com/jupyterhub/binderhub
 - Jupyter Kernels
   - jupyter-xeus (https://github.com/jupyter-xeus/)
-  - IPython (https://github.com/ipython/ipython)
   - IPykernel (https://github.com/ipython/ipykernel)
-- Jupyter Standards
+- IPython (https://github.com/ipython/ipython)
 - Jupyter Foundations
+- Jupyter Standards
+- Jupyter UX, Design and Branding
+- Jupyter Enterprise
 
 ### Official Subprojects without SSC representation
 
@@ -28,8 +30,8 @@ The following official Jupyter Subprojects are smaller and less active. As such 
 
 - nbdime (https://github.com/jupyter/nbdime)
 - nbgrader (https://github.com/jupyter/nbgrader)
-- QtConsole (https://github.com/jupyter/qtconsole)
 - ipyparallel (https://github.com/ipython/ipyparallel)
+- QtConsole (https://github.com/jupyter/qtconsole). Note that QtConsole today is most actively maintained by the Spyder team; as part of this reorganization we will discuss with them whether it's more appropriate to move the project to be fully under their organization.
 - All other repos not listed above and that don't clearly fall into one of the official Subproject GitHub organizations above.
 
 ## Notes about Official Jupyter Subprojects
