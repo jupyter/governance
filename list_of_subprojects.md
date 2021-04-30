@@ -18,7 +18,7 @@ The following Jupyter Subprojects have their own formal decision making body tha
 - Jupyter Kernels
   - jupyter-xeus (https://github.com/jupyter-xeus/)
   - IPykernel (https://github.com/ipython/ipykernel)
-- IPython (https://github.com/ipython/ipython)
+  - IPython (https://github.com/ipython/ipython)
 - Jupyter Foundations
 - Jupyter Standards
 - Jupyter UX, Design and Branding
