@@ -51,6 +51,7 @@ The Official Jupyter Subprojects document proposes a number of changes to how ou
     - Jupyter Client (https://github.com/jupyter/jupyter_client)
     - Jupyter Notebook Format (https://github.com/jupyter/nbformat)
     - Documentation for other specifications maintained by other Subprojects, such as the Jupyter Widgets message specification, or the Jupyter Server REST APIs.
+    - JEPs repo (https://github.com/jupyter/enhancement-proposals). The entire SSC votes on JEPs, but the standards group is the day-to-day steward of the repo.
 - Jupyter Enterprise
   - A number of Jupyter repositories pertain to enterprise deployments. To consolidate work on these repositories, we propose to establish a new official Subproject called _Jupyter Enterprise_ and create a Github organization named jupyter-enterprise for the work of the Subproject. The following repositories will be moved into this organization:
   - Enterprise Gateway (https://github.com/jupyter/enterprise_gateway)
