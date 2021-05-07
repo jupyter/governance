@@ -47,11 +47,12 @@ The Official Jupyter Subprojects document proposes a number of changes to how ou
   - To consolidate the project’s work on first-party kernels, we propose to establish a new official Subproject called _Jupyter Kernels_ and create a Github organization named jupyter-kernels for the work of the Subproject. All Xeus repositories (https://github.com/jupyter-xeus) will be moved into this organization. This Subproject will also govern the IPython GitHub organization, which will be left in place (https://github.com/ipython).
   - A new decision making body for this organization will be established, and they will elect an SSC delegate.
 - Jupyter Standards
+  - Ultimately, because Jupyter standards are cross-project in nature, they are owned by the SSC. The mechanics of day-to-day management of the JEP repo will be decided by the SSC.
   - There are a number of repositories that encode project-wide standards and protocols. To consolidate work on these repositories, we propose to establish a new official Subproject called Jupyter Standards and create a Github organization named jupyter-standards for the work of the Subproject. The following repositories will be moved into this organization:
     - Jupyter Client (https://github.com/jupyter/jupyter_client)
     - Jupyter Notebook Format (https://github.com/jupyter/nbformat)
     - Documentation for other specifications maintained by other Subprojects, such as the Jupyter Widgets message specification, or the Jupyter Server REST APIs.
-    - JEPs repo (https://github.com/jupyter/enhancement-proposals). The entire SSC votes on JEPs, but the standards group is the day-to-day steward of the repo.
+    - JEPs repo (https://github.com/jupyter/enhancement-proposals).
 - Jupyter Enterprise
   - A number of Jupyter repositories pertain to enterprise deployments. To consolidate work on these repositories, we propose to establish a new official Subproject called _Jupyter Enterprise_ and create a Github organization named jupyter-enterprise for the work of the Subproject. The following repositories will be moved into this organization:
   - Enterprise Gateway (https://github.com/jupyter/enterprise_gateway)
