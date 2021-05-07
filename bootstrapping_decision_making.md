@@ -28,5 +28,6 @@ This framework has the following characteristics:
 
 - By gradually increasing the size of the decision making body one person at a time, the power implicit in this election process is gradually distributed over a larger group of people.
 - At each stage where the new decision making body is considering adding a new person, they can also choose to stop electing additional members. This allows the group to decide on the overall size in an organic, gradual manner.
-- In the spirit of Jupyter always seeking to develop multi-stakeholder governance, this bootstrapping process should try to maximize the participation of individuals from multiple organizations. Specifically, they should when possible alternate across organizations to avoid all initial members of the decision making body belonging to a single organization.
+- The bootstrapping process should address issues of multi-stakeholder governance. Specifically, during bootstrapping, decision making bodies should rotate new members across different organizations to avoid overrepresentation of a single organization.
+- Decision making bodies should be inclusive and as large as necessary to give voice to contributors who are actively working on the subproject or working group.
 - As explained in the SSC document, there will be a working group with an SSC representative focused on issues of Inclusive Community Development. This representative can be a point of contact to assist with any issue regarding inclusion and participation in the creation of the project decision making bodies.
