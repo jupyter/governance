@@ -2,8 +2,6 @@
 
 Software design and development in Project Jupyter is organized into a set of Software Subprojects. These software Subprojects often map onto GitHub repositories/organizations, but that is not strictly required. The lifecycle of Software Subprojects is [described in detail here](newsubprojects.md).
 
-Since Project Jupyter promotes open technical standards and interoperability among components, there is a rich ecosystem of tools developed by third parties that are not under the umbrella of Project Jupyter’s Governance or the Software Steering Council. We strive to maintain open communication with this community, however,this document focuses only on official Jupyter Subprojects.
-
 ## Responsibilities of Jupyter Subprojects
 
 Unless the Software Steering Council (SSC) or the Board of Directors says otherwise, Subprojects self-govern as autonomously as possible, while following the overall governance model and processes of Project Jupyter. Specifically, all Subprojects under Jupyter’s governance have the following responsibilities:
