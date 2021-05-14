@@ -22,7 +22,6 @@ The SSC is responsible for the following:
 
 The SSC and BoD share the responsibility for:
 
-- Updates or amendments to the [Jupyter Code of Conduct](https://jupyter.org/governance/conduct/code_of_conduct.html).
 - Changing the Jupyter Governance model.
 - Creation of new Jupyter Subprojects.
 - Removal of Subprojects from Jupyter.
