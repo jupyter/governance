@@ -10,7 +10,7 @@ As the new Jupyter governance model is approved and implemented, Jupyter Subproj
 - The new governance model and [decision making guide](decision_making.md) is designed to support large, highly participatory decision making bodies. As such, even Subprojects that have a clear decision making body today, may wish to increase the size of that body to include more contributors.
 - Our current governance model (informal consensus by an informal group lacking clear boundaries) does not have an established mechanism for decisions like this. We believe it will be very difficult for Subprojects to elect a formal governing body and pick its size using informal consensus.
 - We wish to avoid each Subproject having layers of meta consensus or voting to establish a process for electing their decision making body.
-- We need to take existing Steering Council members into account. There may be Steering Council members that would like to be on the formal decision making body for a Subproject, even though they have not been active on the Suproject for a period of time.
+- We need to take existing Steering Council members into account. There may be Steering Council members that would like to be on the formal decision making body for a Subproject, even though they have not been active on the Subproject for a period of time.
 
 ## Proposed framework
 
