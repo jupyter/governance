@@ -28,7 +28,7 @@ The bootstrapping process should observe these principles:
 
 This process has the following characteristics:
 
-- By seeding each decision-making body from the Steering Council, we start each process from a clear starting point.
+- By seeding each decision-making body from the current Steering Council, we start each process from a clear starting point.
 - By gradually increasing the size of the decision-making body one person at a time, the power implicit in this election process is gradually distributed over a larger group of people.
 - At each stage where the new decision-making body is considering adding a new person, they can also choose to stop electing additional members. This allows the group to decide on the overall size in an organic, gradual manner.
 - At each step, issues of diversity and inclusion of the representative body are considered.
