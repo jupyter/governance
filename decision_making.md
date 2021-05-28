@@ -40,8 +40,6 @@ While the previous section is prescriptive for all Jupyter teams, the following 
   - When an implementation of a decision appears in pull request, link to the relevant “Vote” issue.
 - Decision making bodies and those proposing decisions should explicitly distinguish between decisions that are two-way doors (easy to reverse later) and one-way doors (difficult or impossible to reverse later). For one-way doors, teams should carefully weigh alternatives and tradeoffs and take extra care to ensure broad participation and stakeholder input. For two-way doors, teams should feel free to move quickly, without compromising the principles and procedures described herein.
 
-reasonably explored the space and stakeholders have had a voice, to clarify if lack of input is consensus or simply folks being busy, or to record key decisions where an explicit vote will be useful (e.g. to signal an important decision to the broader community).
-
 ## Language for issue/PR template
 
 Project Jupyter makes decisions using a consensus seeking model. You can read about this model here (link). The decision making body for this project is documented here (link).
