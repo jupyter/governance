@@ -54,7 +54,7 @@ The Official Jupyter Subprojects document proposes a number of changes to how ou
     - Documentation for other specifications maintained by other Subprojects, such as the Jupyter Widgets message specification, or the Jupyter Server REST APIs.
     - JEPs repo (https://github.com/jupyter/enhancement-proposals).
 - Jupyter Enterprise
-  - A number of Jupyter repositories pertain to enterprise deployments. To consolidate work on these repositories, we propose to establish a new official Subproject called _Jupyter Enterprise_ and create a Github organization named jupyter-enterprise for the work of the Subproject. The following repositories will be moved into this organization:
+  - A number of Jupyter repositories that address the needs of large-scale deployments (meaning use cases that target organizational rather than individual needs, this term is independent of industrial, corporate or non/for-profit applications). To consolidate work on these repositories, we propose to establish a new official Subproject called _Jupyter Enterprise_ and create a Github organization named jupyter-enterprise for the work of the Subproject. The following repositories will be moved into this organization:
   - Enterprise Gateway (https://github.com/jupyter/enterprise_gateway)
   - Kernel Gateway (https://github.com/jupyter/kernel_gateway)
   - Docker stacks (https://github.com/jupyter/docker-stacks)
