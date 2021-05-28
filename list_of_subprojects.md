@@ -21,8 +21,8 @@ The following Jupyter Subprojects have their own formal decision making body tha
   - IPython (https://github.com/ipython/ipython)
 - Jupyter Foundations
 - Jupyter Standards
-- Jupyter UX, Design and Branding
 - Jupyter Enterprise
+- Jupyter Security
 
 ### Official Subprojects without SSC representation
 
