@@ -1,4 +1,4 @@
-# Decision Making Guide
+# Decision-Making Guide
 
 This document describes how Jupyter’s governing bodies make decisions. Because individuals often work across multiple decision-making groups, all Jupyter governing bodies are expected to follow this approach.
 
