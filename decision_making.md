@@ -1,6 +1,6 @@
 # Decision Making Guide
 
-This document describes how Jupyter’s governing bodies (Board of Directors, Software Steering Council, Software Projects, Working Groups) make decisions. Because individuals often work across multiple decision making groups, all Jupyter governing bodies are expected to follow this approach.
+This document describes how Jupyter’s governing bodies make decisions. Because individuals often work across multiple decision-making groups, all Jupyter governing bodies are expected to follow this approach.
 
 We seek to honor the principles of collaboration, inclusive participation, and responsive decision making. Some aspects of this decision making guide are required of all teams. Others are provided as recommendations and are optional. We have clearly noted the optional aspects of decision making below.
 
