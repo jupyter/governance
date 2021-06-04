@@ -30,7 +30,7 @@ All members of a decision-making body are required to participate in at least 2/
 While the previous section is prescriptive for all Jupyter teams, the following are recommended guidelines rather than mandatory procedures.
 
 - Do not call a vote to short-circuit an ongoing discussion that is still productive in terms of exploring ideas and feedback. Votes should be called only when discussion has explored the space and stakeholders have provided input.
-- During the consensus seeking phase, don’t interpret a lack of participation, discussion, or feedback as consensus or the lack thereof. Dissent can be silent and sometimes people are supportive but busy.
+- During the consensus-seeking phase, don’t interpret a lack of participation, discussion, or feedback as approval or disapproval. Dissent can be silent and sometimes people are supportive but busy.
 - If you are interested in a decision being made, it is your responsibility to encourage voting member/stakeholders/community participation in the decision making process. If you can’t get such participation, you may want to hold off on doing any significant work on the matter.
 - Special guidelines for software projects making decisions:
   - Add a link to this document in your issue and PR templates along with a link to the decision-making body membership (see recommended language below).
