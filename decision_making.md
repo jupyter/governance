@@ -12,7 +12,7 @@ The decision-making process is intended to balance broad participation of stakeh
 
 All official Jupyter projects, working groups, governing bodies, and official initiatives must have a clearly-defined and documented decision-making body. Formally, these decision-making bodies make decisions using consensus seeking with an option to call a vote to move the decision forward.
 
-Depending on the governing body, decisions may be proposed by members of the decision making body, or by a broader group of stakeholders/contributors.
+Depending on the governing body, decisions may be proposed by members of the decision-making body or by a broader group of stakeholders/contributors.
 
 **Informal consensus seeking.** Decision making starts with informal consensus seeking. The goal of this discussion phase is to refine the proposal, consider alternatives, weigh trade-offs, and attempt to find informal consensus. The legitimacy of the consensus seeking process is predicated on all stakeholders having their voices heard; teams must be proactive in providing opportunity for all relevant stakeholders to provide input. If the decision making body arrives at informal consensus, they may immediately move to document and enact the decision. This is the consensus seeking phase.
 
