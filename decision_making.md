@@ -34,7 +34,7 @@ While the previous section is prescriptive for all Jupyter teams, the following 
 - If you are interested in a decision being made, it is your responsibility to encourage voting member/stakeholder/community participation in the decision-making process. If you can’t get such participation, you may want to hold off on doing any significant work on the matter.
 - Special guidelines for software projects making decisions:
   - Add a link to this document in your issue and PR templates along with a link to the decision-making body membership (see recommended language below).
-  - Create a “Consensus Seeking” and “Vote” tags to make it easy to find issues/PRs where a decision is being made.
+  - Create “Consensus Seeking” and “Vote” issue tags to make it easy to find issues/PRs where a decision is being made.
   - When a vote is called on GitHub, the sponsor should summarize the decision and paste a checklist of the voting members to use in voting in the top entry (description) of the issue/PR.
   - When communications (in whatever number of channels) point to a discussion that requires a project-wide decision, and before major implementation work starts, a standalone issue should be opened that summarizes the issue, points to relevant prior discussions, and calls for an explicit vote/decision. This issue should be tightly scoped to the relevant decision only, and include the "Vote" tag.
   - When an implementation of a decision appears in pull request, link to the relevant “Vote” issue.
