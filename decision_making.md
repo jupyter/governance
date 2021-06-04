@@ -8,7 +8,7 @@ Finally, the Jupyter Board of Directors may either intervene, or be called upon 
 
 ## Required aspects of decision making
 
-The decision making process is intended to balance broad participation of stakeholders with agility. While the size of decision making bodies may vary (e.g. software projects can range from a handful to dozens of decision makers), all need to find this balance.
+The decision-making process is intended to balance broad participation of stakeholders with agility. While the size of decision-making bodies may vary (e.g., software projects can range from a handful to dozens of decision makers), all need to find this balance.
 
 All official Jupyter projects, working groups, governing bodies, and official initiatives must have a clearly defined, and documented decision making body. Formally, these decision making bodies make decisions using consensus seeking with an option to call a vote to move the decision forward.
 
