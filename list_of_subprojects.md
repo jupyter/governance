@@ -45,7 +45,7 @@ The Official Jupyter Subprojects document proposes a number of changes to how ou
   - We propose that the nbviewer service (only the actual live service) be governed by a working group that reports to the Board of Directors. The reusable part of nbviewer contained (https://github.com/jupyter/nbviewer) will be governed by the Jupyter Enterprise Subproject.
 - Jupyter Kernels
   - To consolidate the project’s work on first-party kernels, we propose to establish a new official Subproject called _Jupyter Kernels_ and create a Github organization named jupyter-kernels for the work of the Subproject. All Xeus repositories (https://github.com/jupyter-xeus) will be moved into this organization. This Subproject will also govern the IPython GitHub organization, which will be left in place (https://github.com/ipython).
-  - A new decision making body for this organization will be established, and they will elect an SSC delegate.
+  - A new decision-making body for this organization will be established, and they will elect an SSC delegate.
 - Jupyter Standards
   - Ultimately, because Jupyter standards are cross-project in nature, they are owned by the SSC. The mechanics of day-to-day management of the JEP repo will be decided by the SSC.
   - There are a number of repositories that encode project-wide standards and protocols. To consolidate work on these repositories, we propose to establish a new official Subproject called Jupyter Standards and create a Github organization named jupyter-standards for the work of the Subproject. The following repositories will be moved into this organization:
