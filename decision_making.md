@@ -39,4 +39,4 @@ While the previous section is prescriptive for all Jupyter teams, the following 
 
 ## Language for issue/PR template
 
-Project Jupyter makes decisions using a consensus-seeking model. You can read about this model here (link). The decision making body for this project is documented here (link).
+Project Jupyter makes decisions using a consensus-seeking model. You can read about this model here (link). The decision-making body for this project is documented here (link).
