@@ -4,7 +4,7 @@ This document describes how Jupyter’s governing bodies make decisions. Because
 
 We seek to honor the principles of collaboration, inclusive participation, and responsive decision making. Some aspects of this decision-making guide are required of all teams. Others are provided as recommendations and are optional. We have clearly noted the optional aspects of decision making below.
 
-Finally, the Jupyter Board of Directors may either intervene, or be called upon by members of a team, in the event that issues arise in the decision making process. This includes, but is not limited to: process ambiguity, violations of the decision making process, mitigating circumstances that require process exceptions, etc.
+Finally, the Jupyter Board of Directors may either intervene, or be called upon by members of a team, in the event that issues arise in the decision-making process. This includes, but is not limited to: process ambiguity, violations of the decision making process, mitigating circumstances that require process exceptions, etc.
 
 ## Required aspects of decision making
 
@@ -26,15 +26,15 @@ Depending on the governing body, decisions may be proposed by members of the dec
 
 While the previous section is prescriptive for all Jupyter teams, the following are recommended guidelines rather than mandatory procedures.
 
-- Do not call a vote to short-circuit an ongoing discussion that is still productive in terms of exploring ideas and feedback. Votes should be called only when discussion has explored the space and stakeholders have provided input.
-- During the consensus-seeking phase, don’t interpret a lack of participation, discussion, or feedback as approval or disapproval. Dissent can be silent and sometimes people are supportive but busy.
-- If you are interested in a decision being made, it is your responsibility to encourage voting member/stakeholder/community participation in the decision-making process. If you can’t get such participation, you may want to hold off on doing any significant work on the matter.
+- Teams should not call a vote to short-circuit an ongoing discussion that is still productive in terms of exploring ideas and feedback. Votes should be called only when discussion has explored the space and stakeholders have provided input.
+- Teams should proactively solicit input from relevant stakeholders and should not assume that silence is consent without attempting to reach out to those individuals.
+- If you are interested in a decision being made, it is your responsibility to encourage voting member/stakeholder/community participation in the decision-making process. If you cannot get such participation, you may want to hold off on doing any significant work on the matter.
 - Special guidelines for software projects making decisions:
   - Add a link to this document in your issue and PR templates along with a link to the decision-making body membership (see recommended language below).
-  - Create “Consensus Seeking” and “Vote” issue tags to make it easy to find issues/PRs where a decision is being made.
+  - Create `seeking consensus`, `vote`, and `decision made` issue labels to make it easy to find issues/PRs where decisions are discussed and resolved.
   - When a vote is called on GitHub, the sponsor should summarize the decision and paste a checklist of the voting members to use in voting in the top entry (description) of the issue/PR.
-  - When communications (in whatever number of channels) point to a discussion that requires a project-wide decision, and before major implementation work starts, a standalone issue should be opened that summarizes the issue, points to relevant prior discussions, and calls for an explicit vote/decision. This issue should be tightly scoped to the relevant decision only, and include the "Vote" tag.
-  - When an implementation of a decision appears in a pull request, link to the relevant “Vote” issue.
+  - When communications (in whatever number of channels) point to a discussion that requires a project-wide decision, and before major implementation work starts, a standalone issue should be opened that summarizes the issue, points to relevant prior discussions, and calls for an explicit vote/decision. This issue should be tightly scoped to the relevant decision only, and include the `vote` label.
+  - When an implementation of a decision appears in a pull request, link to the relevant `vote` issue.
 - Decision-making bodies and those proposing decisions should explicitly distinguish between decisions that are two-way doors (easy to reverse later) and one-way doors (difficult or impossible to reverse later). For one-way doors, teams should carefully weigh alternatives and tradeoffs and take extra care to ensure broad participation and stakeholder input. For two-way doors, teams should feel free to move quickly, without compromising the principles and procedures described herein.
 
 ## Language for issue/PR template
