@@ -8,9 +8,9 @@ Finally, the Jupyter Board of Directors may either intervene, or be called upon 
 
 ## Required aspects of decision making
 
-The decision-making process is intended to balance broad participation of stakeholders with agility. While the size of decision-making bodies may vary (e.g., software projects can range from a handful to dozens of decision makers), all need to find this balance.
+The decision-making process is intended to balance broad participation of stakeholders with agility. While the size of decision-making bodies may vary (e.g., software projects can range from a handful to dozens of decision makers), all need to find this balance. The guidelines below cannot fully capture the role of human judgment and discretion.
 
-All official Jupyter projects, working groups, governing bodies, and official initiatives must have a clearly-defined and documented decision-making body. Formally, these decision-making bodies make decisions using consensus seeking with an option to call a vote to move the decision forward.
+All official Jupyter projects, working groups, governing bodies, and official initiatives must have a clearly-defined and documented decision-making body. Formally, these decision-making bodies make decisions using consensus seeking with an option to call a vote to move the decision forward. All decisions, whether made by informal consensus or by formal vote, may be revisited; however, if a decision-making body finds itself frequently revisting consensus-based decisions, this should be viewed as an indication that the body's understanding of informal consensus may need to be reviewed.
 
 Depending on the governing body, decisions may be proposed by members of the decision-making body or by a broader group of stakeholders/contributors.
 
@@ -22,8 +22,7 @@ Depending on the governing body, decisions may be proposed by members of the dec
 
 All members of a decision-making body are required to participate in at least 2/3 of formal votes of that decision-making body per calendar year (teams can decide how to account for the specifics of this in low-activity projects, etc.). Members that have not met the 2/3 vote participation threshold for a year will automatically be asked to step down at the end of that year. Those individuals remain eligible to rejoin the decision-making body in the future as they become available to participate at the required level. The quorum for all formal votes will be 50% and a "blank" option will always be included, with the "blank" option counting towards the quorum but not included in totals for calculating results.
 
-
-**Recording.** Once a decision has been made during the consensus-seeking phase or by a formal vote, the decision-making body will record the decision in an appropriate location that is as open as possible given the decision and the work of the particular body.
+**Recording.** Once a decision has been made during the consensus-seeking phase or by a formal vote, the decision-making body will record the decision e.g., in Team Compass issues for decision-making bodies whose workflow is on GitHub or other equivalent and publicly visible mechanisms. 
 
 ## Optional aspects of decision making
 
