@@ -1,6 +1,6 @@
 # List of Official Jupyter Subprojects
 
-At the highest level, any Github repository under any official Jupyter GitHub organization is either itself an Official Jupyter Subproject, or is part of an Official Jupyter Subproject. All such Subprojects have all of the privileges and responsibilities detailed in the Software Subprojects of Jupyter governance document. Within the Official Jupyter Subproject designation, there are two types of Subprojects: ones with a formal decision making body and SSC representation, and smaller, less active ones whose decision making body is the SSC itself. This document enumerates Subprojects of these two types.
+At the highest level, any Github repository under any official Jupyter GitHub organization is either itself an Official Jupyter Subproject, or is part of an Official Jupyter Subproject. All such Subprojects have all of the privileges and responsibilities detailed in the Software Subprojects of Jupyter governance document. Within the Official Jupyter Subproject designation, there are two types of Subprojects: ones with a formal decision-making body and SSC representation, and smaller, less active ones whose decision-making body is the SSC itself. This document enumerates Subprojects of these two types.
 
 ### Official Subprojects with SSC representation
 
