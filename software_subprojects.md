@@ -22,7 +22,7 @@ The [Jupyter Incubator GitHub organization](https://github.com/jupyter-incubator
 
 ## SSC Representation
 
-Official Jupyter Software Subprojects that have large and active enough teams to have a standalone, formal Decision Making Body will elect and maintain a single representative to the SSC. The decision making body of each such Subproject is free to set term limits or rotate this responsibility as they see fit.
+Official Jupyter Software Subprojects that have large and active enough teams to have a standalone, formal Decision-Making Body will elect and maintain a single representative to the SSC. The decision-making body of each such Subproject is free to set term limits or rotate this responsibility as they see fit.
 
 There exist two categories of Subprojects that, while operating under Jupyter’s governance, do not have a dedicated delegate to the SSC:
 
