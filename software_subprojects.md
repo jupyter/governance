@@ -26,5 +26,5 @@ Official Jupyter Software Subprojects that have large and active enough teams to
 
 There exist two categories of Subprojects that, while operating under Jupyter’s governance, do not have a dedicated delegate to the SSC:
 
-- There are a number of smaller and/or low-activity Subprojects that don’t have enough active participants to have a standalone decision making body. The SSC itself will be the formal decision making body for these Subprojects when necessary, while otherwise allowing the team to manage its day-to-day activities.
+- There are a number of smaller and/or low-activity Subprojects that don’t have enough active participants to have a standalone decision-making body. The SSC itself will be the formal decision-making body for these Subprojects when necessary, while otherwise allowing the team to manage its day-to-day activities.
 - Projects in the Jupyter Incubator will only acquire official SSC representation if/once they graduate to official Jupyter Subproject status.
