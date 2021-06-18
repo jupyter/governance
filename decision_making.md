@@ -4,7 +4,7 @@ This document describes how Jupyter’s governing bodies make decisions. Because
 
 We seek to honor the principles of collaboration, inclusive participation, and responsive decision making. Some aspects of this decision-making guide are required of all teams. Others are provided as recommendations and are optional. We have clearly noted the optional aspects of decision making below.
 
-Finally, the Jupyter Board of Directors may either intervene, or be called upon by members of a team, in the event that issues arise in the decision-making process. This includes, but is not limited to: process ambiguity, violations of the decision making process, mitigating circumstances that require process exceptions, etc.
+Finally, the Jupyter Board of Directors may either intervene, or be called upon by members of a team, in the event that issues arise in the decision-making process. This includes, but is not limited to: process ambiguity, violations of the decision-making process, mitigating circumstances that require process exceptions, etc.
 
 ## Required aspects of decision making
 
