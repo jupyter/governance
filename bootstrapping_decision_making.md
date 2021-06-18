@@ -17,7 +17,7 @@ The overall principle of this framework is to gradually grow the decision-making
 
 
 1. Jupyter Steering Council members will sign up to each Subproject in which they wish to be on the decision-making body. This forms the initial decision-making body for each Subproject.
-2. The decision-making body uses the new Decision Making Guidelines and the principles below to decide if the next action should be:
+2. The decision-making body uses the new Decision-Making Guidelines and the principles below to decide if the next action should be:
    A. Electing a single new member to the decision-making body, in which case the process proceeds to step 3, or
    B. Stopping electing members, in which case the decision-making body is complete and the process ends.
 3. The current decision-making body elects a single new member using the Decision-Making Guidelines and the principles below, thereby increasing the body's size by one, and proceeds to step 2.
