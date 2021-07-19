@@ -20,7 +20,7 @@ Depending on the governing body, decisions may be proposed by members of the dec
 
 **Voter participation and quorum.** All members of a decision-making body are required to participate in at least 2/3 of formal votes of that decision-making body per calendar year (teams can decide how to account for the specifics of this in low-activity projects, etc.). Members that have not met the 2/3 vote participation threshold for a year will automatically be asked to step down at the end of that year. Those individuals remain eligible to rejoin the decision-making body in the future as they become available to participate at the required level. The quorum for all formal votes will be 50% and a "blank" option will always be included, with the "blank" option counting towards the quorum but not included in totals for calculating results.
 
-**Recording.** Once a decision has been made during the consensus-seeking phase or by a formal vote, the decision-making body will record the decision e.g., in Team Compass issues for decision-making bodies whose workflow is on GitHub or other equivalent and publicly visible mechanisms. 
+**Recording.** Once a decision has been made during the consensus-seeking phase or by a formal vote, the decision-making body will record the decision e.g., in Team Compass issues for decision-making bodies whose workflow is on GitHub or other equivalent and publicly visible mechanisms.
 
 ## Optional aspects of decision making
 
