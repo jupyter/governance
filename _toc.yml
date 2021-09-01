@@ -1,6 +1,7 @@
 file: intro
 sections:
 - file: governance
+- file: communitybuildingcommittee
 - file: distinguished_contributors
 - file: conduct/code_of_conduct
   sections:
