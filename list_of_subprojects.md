@@ -2,7 +2,7 @@
 
 At the highest level, any Github repository under any official Jupyter GitHub organization is either itself an Official Jupyter Subproject, or is part of an Official Jupyter Subproject. All such Subprojects have all of the privileges and responsibilities detailed in the Software Subprojects of Jupyter governance document. Within the Official Jupyter Subproject designation, there are two types of Subprojects: ones with a formal decision-making body and SSC representation, and smaller, less active ones whose decision-making body is the SSC itself. This document enumerates Subprojects of these two types.
 
-### Official Subprojects with SSC representation
+## Official Subprojects with SSC representation
 
 The following Jupyter Subprojects have their own formal decision-making body that elects and maintains an SSC representative:
 
@@ -24,7 +24,7 @@ The following Jupyter Subprojects have their own formal decision-making body tha
 - Jupyter Enterprise
 - Jupyter Security
 
-### Official Subprojects without SSC representation
+## Official Subprojects without SSC representation
 
 The following official Jupyter Subprojects are smaller and less active. As such their formal decision-making body will be the SSC and they will not have an independent SSC delegate. Our expectation is that these smaller teams will basically continue working as they do today, making decisions using the consensus seeking phase of the Jupyter Decision-Making Guidelines. Even though the SSC has decision-making authority over these projects, the SSC delegates all decisions that do not have broad cross-project implications to the Subproject maintainers. In the rare situation that a vote is called, the SSC will serve as the voting body and will consult closely with the Subproject maintainers. If one of these Subprojects grows or becomes more active, the SSC can, at any time, elect a standalone decision-making body for the Subproject, at which point, the Subproject will begin to have an SSC delegate of their own. In all other respects, these Subprojects are full and official Subprojects.
 
