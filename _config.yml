@@ -1,5 +1,5 @@
 title                       : Project Jupyter Governance
-exclude_patterns            : ["LICENSE.md", "README.md"]
+exclude_patterns            : ["LICENSE.md", "README.md", ".github"]
 copyright: ""
 html:
   extra_footer: |
