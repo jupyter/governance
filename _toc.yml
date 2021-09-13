@@ -1,4 +1,5 @@
-file: intro
+format: jb-article
+root: intro
 sections:
 - file: governance
 - file: communitybuildingcommittee
