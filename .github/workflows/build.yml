@@ -1,13 +1,11 @@
+# Build the book and upload it to GitHub Artifacts for inspection in a PR
 name: build
 
 # Run on every pull request
 on:
-  push:
-    branches: master
   pull_request:
     branches: '*'
 
-# This job installs dependencies, build the book, and uploads the built artifact
 jobs:
   build:
     runs-on: ubuntu-latest

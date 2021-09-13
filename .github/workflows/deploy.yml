@@ -1,3 +1,4 @@
+# Deploy the live documentation to our GitHub Pages site
 name: deploy
 
 # Only run this when the master branch changes
@@ -10,6 +11,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    # So that we can write to `gh-pages`
+    permissions:
+      contents: write
+
     steps:
     - uses: actions/checkout@v2
 
