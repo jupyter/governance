@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Licensing terms for Project Jupyter code &#8212; Project Jupyter Governance</title>
+    <title>Decision-Making Guide &#8212; Project Jupyter Governance</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,7 +51,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Trademark Usage Policy" href="trademarks.html" />
+    <link rel="next" title="Bootstrapping Decision-Making Bodies" href="bootstrapping_decision_making.html" />
+    <link rel="prev" title="Main Governance Document" href="governance.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -87,18 +88,18 @@
  </li>
 </ul>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="governance.html">
    Main Governance Document
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="decision_making.html">
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Decision-Making Guide
     </a>
    </li>
@@ -198,8 +199,8 @@
    Trademark Usage Policy
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="projectlicense.html">
    Licensing terms for Project Jupyter code
   </a>
  </li>
@@ -244,7 +245,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/projectlicense.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/decision_making.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -275,8 +276,18 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#explanation-of-project-jupyter-copyright-policy">
-   Explanation of Project Jupyter copyright policy
+  <a class="reference internal nav-link" href="#required-aspects-of-decision-making">
+   Required aspects of decision making
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#optional-aspects-of-decision-making">
+   Optional aspects of decision making
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#language-for-issue-pr-template">
+   Language for issue/PR template
   </a>
  </li>
 </ul>
@@ -290,52 +301,43 @@
         
               <div>
                 
-  <div class="section" id="licensing-terms-for-project-jupyter-code">
-<h1>Licensing terms for Project Jupyter code<a class="headerlink" href="#licensing-terms-for-project-jupyter-code" title="Permalink to this headline">¶</a></h1>
-<p>This project is licensed under the terms of the 3-Clause BSD License (also
-known as New or Revised or Modified BSD License, or the BSD-3-Clause license),
-as follows:</p>
-<p>Copyright (c) YEAR Project Jupyter Contributors.
-All rights reserved.</p>
-<p>Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:</p>
-<ol class="simple">
-<li><p>Redistributions of source code must retain the above copyright notice, this
-list of conditions and the following disclaimer.</p></li>
-<li><p>Redistributions in binary form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation
-and/or other materials provided with the distribution.</p></li>
-<li><p>Neither the name of the copyright holder nor the names of its contributors
-may be used to endorse or promote products derived from this software
-without specific prior written permission.</p></li>
-</ol>
-<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS”
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
-<div class="section" id="explanation-of-project-jupyter-copyright-policy">
-<h2>Explanation of Project Jupyter copyright policy<a class="headerlink" href="#explanation-of-project-jupyter-copyright-policy" title="Permalink to this headline">¶</a></h2>
-<p>Project Jupyter uses a shared copyright model. Each contributor maintains
-copyright over their contributions to Project Jupyter. These contributions are
-typically only changes to the repositories. Thus, Project Jupyter source code,
-in its entirety, is not the copyright of any single person or institution.
-Instead, Project Jupyter source code is the collective copyright of its
-contributors. If individual contributors want to maintain a record of what
-changes or contributions they have specific copyright on, they should indicate
-their copyright in the commit message of the change when they commit the
-change to one of the Project Jupyter repositories.</p>
-<p>With this in mind, the following banner should be used in any source code file
-to indicate the copyright and license terms:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span># Copyright (c) Project Jupyter Contributors.
-# Distributed under the terms of the 3-Clause BSD License.
-</pre></div>
+  <div class="section" id="decision-making-guide">
+<h1>Decision-Making Guide<a class="headerlink" href="#decision-making-guide" title="Permalink to this headline">¶</a></h1>
+<p>This document describes how Jupyter’s governing bodies make decisions. Because individuals often work across multiple decision-making groups, all Jupyter governing bodies are expected to follow this approach.</p>
+<p>We seek to honor the principles of collaboration, inclusive participation, and responsive decision making. Some aspects of this decision-making guide are required of all teams. Others are provided as recommendations and are optional. We have clearly noted the optional aspects of decision making below.</p>
+<p>Finally, the Jupyter Board of Directors may either intervene, or be called upon by members of a team, in the event that issues arise in the decision-making process. This includes, but is not limited to: process ambiguity, violations of the decision-making process, mitigating circumstances that require process exceptions, etc.</p>
+<div class="section" id="required-aspects-of-decision-making">
+<h2>Required aspects of decision making<a class="headerlink" href="#required-aspects-of-decision-making" title="Permalink to this headline">¶</a></h2>
+<p>The decision-making process is intended to balance broad participation of stakeholders with agility. While the size of decision-making bodies may vary (e.g., software projects can range from a handful to dozens of decision makers), all need to find this balance. The guidelines below cannot fully capture the role of human judgment and discretion.</p>
+<p>All official Jupyter projects, working groups, governing bodies, and official initiatives must have a clearly-defined and documented decision-making body. Formally, these decision-making bodies make decisions using consensus seeking with an option to call a vote to move the decision forward. All decisions, whether made by informal consensus or by formal vote, may be revisited; however, if a decision-making body finds itself frequently revisting consensus-based decisions, this should be viewed as an indication that the body’s understanding of informal consensus may need to be reviewed.</p>
+<p>Depending on the governing body, decisions may be proposed by members of the decision-making body or by a broader group of stakeholders/contributors.</p>
+<p><strong>Informal consensus seeking.</strong> Decision making starts with informal consensus seeking through discussion. The goal of this phase is to refine the proposal, consider alternatives, weigh trade-offs, and attempt to find informal consensus. The legitimacy of the consensus-seeking process is predicated on all stakeholders having their voices heard, so teams must be proactive in providing opportunities for all relevant stakeholders to provide input. If the decision-making body arrives at informal consensus, they may immediately move to document and enact the decision. This is the consensus-seeking phase.</p>
+<p><strong>Calling a vote.</strong> When the discussion matures during the consensus-seeking phase, any member of the decision-making body can call the matter to a vote. When that member (the sponsor) calls the vote, they shall summarize the proposal in its current form for the entire decision-making body. After the proposal is seconded by another member of the decision-making body, members have seven days to vote. The governing body may consider longer voting periods as necessary for special circumstances, or <em>shorter periods only if all voting members are present</em>. The decision will be determined by a simple majority of non-blank votes for binary decisions (i.e., approving a proposal) and ranked choice for multi-class decisions (one among many, or several among many). The sponsor may update the proposal at any point during the voting period, in which case the voting period will be reset.</p>
+<p><strong>Voter participation and quorum.</strong> All members of a decision-making body are required to participate in at least 2/3 of formal votes of that decision-making body per calendar year (teams can decide how to account for the specifics of this in low-activity projects, etc.). Members that have not met the 2/3 vote participation threshold for a year will automatically be asked to step down at the end of that year. Those individuals remain eligible to rejoin the decision-making body in the future as they become available to participate at the required level. The quorum for all formal votes will be 50% and a “blank” option will always be included, with the “blank” option counting towards the quorum but not included in totals for calculating results.</p>
+<p><strong>Recording.</strong> Once a decision has been made during the consensus-seeking phase or by a formal vote, the decision-making body will record the decision e.g., in Team Compass issues for decision-making bodies whose workflow is on GitHub or other equivalent and publicly visible mechanisms.</p>
 </div>
+<div class="section" id="optional-aspects-of-decision-making">
+<h2>Optional aspects of decision making<a class="headerlink" href="#optional-aspects-of-decision-making" title="Permalink to this headline">¶</a></h2>
+<p>While the previous section is prescriptive for all Jupyter teams, the following are recommended guidelines rather than mandatory procedures.</p>
+<ul class="simple">
+<li><p>Teams should not call a vote to short-circuit an ongoing discussion that is still productive in terms of exploring ideas and feedback. Votes should be called only when discussion has explored the space and stakeholders have provided input.</p></li>
+<li><p>Teams should proactively solicit input from relevant stakeholders and should not assume that silence is consent without attempting to reach out to those individuals.</p></li>
+<li><p>If you are interested in a decision being made, it is your responsibility to encourage voting member/stakeholder/community participation in the decision-making process. If you cannot get such participation, you may want to hold off on doing any significant work on the matter.</p></li>
+<li><p>Special guidelines for software projects making decisions:</p>
+<ul>
+<li><p>Add a link to this document in your issue and PR templates along with a link to the decision-making body membership (see recommended language below).</p></li>
+<li><p>Create <code class="docutils literal notranslate"><span class="pre">seeking</span> <span class="pre">consensus</span></code>, <code class="docutils literal notranslate"><span class="pre">vote</span></code>, and <code class="docutils literal notranslate"><span class="pre">decision</span> <span class="pre">made</span></code> issue labels to make it easy to find issues/PRs where decisions are discussed and resolved.</p></li>
+<li><p>When a vote is called on GitHub, the sponsor should summarize the decision and paste a checklist of the voting members to use in voting in the top entry (description) of the issue/PR.</p></li>
+<li><p>When communications (in whatever number of channels) point to a discussion that requires a project-wide decision, and before major implementation work starts, a standalone issue should be opened that summarizes the issue, points to relevant prior discussions, and calls for an explicit vote/decision. This issue should be tightly scoped to the relevant decision only, and include the <code class="docutils literal notranslate"><span class="pre">vote</span></code> label.</p></li>
+<li><p>When an implementation of a decision appears in a pull request, link to the relevant <code class="docutils literal notranslate"><span class="pre">vote</span></code> issue.</p></li>
+</ul>
+</li>
+<li><p>Decision-making bodies and those proposing decisions should explicitly distinguish between decisions that are two-way doors (easy to reverse later) and one-way doors (difficult or impossible to reverse later). For one-way doors, teams should carefully weigh alternatives and tradeoffs and take extra care to ensure broad participation and stakeholder input. For two-way doors, teams should feel free to move quickly, without compromising the principles and procedures described herein.</p></li>
+</ul>
+</div>
+<div class="section" id="language-for-issue-pr-template">
+<h2>Language for issue/PR template<a class="headerlink" href="#language-for-issue-pr-template" title="Permalink to this headline">¶</a></h2>
+<p>Project Jupyter makes decisions using a consensus-seeking model. You can read about this model here (link). The decision-making body for this project is documented here (link).</p>
 </div>
 </div>
 
@@ -369,14 +371,23 @@ to indicate the copyright and license terms:</p>
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="trademarks.html" title="previous page">
+        <a class="left-prev" href="governance.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Trademark Usage Policy</p>
+                <p class="prevnext-title">Main Governance Document</p>
             </div>
         </a>
     </div>
+     <div id="next">
+        <a class="right-next" href="bootstrapping_decision_making.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Bootstrapping Decision-Making Bodies</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         

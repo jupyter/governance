@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Licensing terms for Project Jupyter code &#8212; Project Jupyter Governance</title>
+    <title>Bootstrapping Decision-Making Bodies &#8212; Project Jupyter Governance</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,7 +51,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Trademark Usage Policy" href="trademarks.html" />
+    <link rel="next" title="Jupyter Community Building Committee" href="communitybuildingcommittee.html" />
+    <link rel="prev" title="Decision-Making Guide" href="decision_making.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -87,23 +88,23 @@
  </li>
 </ul>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="governance.html">
    Main Governance Document
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="decision_making.html">
      Decision-Making Guide
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="bootstrapping_decision_making.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Bootstrapping Decision-Making Bodies
     </a>
    </li>
@@ -198,8 +199,8 @@
    Trademark Usage Policy
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="projectlicense.html">
    Licensing terms for Project Jupyter code
   </a>
  </li>
@@ -244,7 +245,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/projectlicense.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/bootstrapping_decision_making.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -275,8 +276,8 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#explanation-of-project-jupyter-copyright-policy">
-   Explanation of Project Jupyter copyright policy
+  <a class="reference internal nav-link" href="#proposed-framework">
+   Proposed framework
   </a>
  </li>
 </ul>
@@ -290,52 +291,40 @@
         
               <div>
                 
-  <div class="section" id="licensing-terms-for-project-jupyter-code">
-<h1>Licensing terms for Project Jupyter code<a class="headerlink" href="#licensing-terms-for-project-jupyter-code" title="Permalink to this headline">¶</a></h1>
-<p>This project is licensed under the terms of the 3-Clause BSD License (also
-known as New or Revised or Modified BSD License, or the BSD-3-Clause license),
-as follows:</p>
-<p>Copyright (c) YEAR Project Jupyter Contributors.
-All rights reserved.</p>
-<p>Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:</p>
+  <div class="section" id="bootstrapping-decision-making-bodies">
+<h1>Bootstrapping Decision-Making Bodies<a class="headerlink" href="#bootstrapping-decision-making-bodies" title="Permalink to this headline">¶</a></h1>
+<p>As the new Jupyter governance model is approved and implemented, we are moving from an informal Subproject governance model to a formal model. As part of this process, each Jupyter Subproject will need to establish a formal decision-making body, including deciding its size and who its members are. There are a number of challenges associated with this:</p>
+<ul class="simple">
+<li><p>Most Subprojects do not currently have a well-defined decision process or decision-making body.</p></li>
+<li><p>There is a wide range of Subproject community sizes and activity—some have only a few contributors and infrequent commits, while others have dozens of developers and daily activity.</p></li>
+<li><p>We are proposing to establish new Subprojects for certain areas of Project Jupyter (or combining related areas) that do not have an existing history of informal governance.</p></li>
+<li><p>The new governance model and <a class="reference internal" href="decision_making.html"><span class="doc std std-doc">decision-making guide</span></a> is designed to support large, highly participatory decision-making bodies. As such, even Subprojects that have a clear decision-making body today may wish to increase the size of that body to include more contributors.</p></li>
+<li><p>We wish to avoid each Subproject having layers of meta consensus or voting to establish very different processes for electing their decision-making body.</p></li>
+<li><p>We wish to involve the current Steering Council in forming Subproject decision-making bodies.</p></li>
+</ul>
+<div class="section" id="proposed-framework">
+<h2>Proposed framework<a class="headerlink" href="#proposed-framework" title="Permalink to this headline">¶</a></h2>
+<p>We propose the following framework for Subprojects to establish and bootstrap their formal decision-making bodies. This framework is a suggested process and guiding set of principles that can be adapted to a particular Subproject’s existing circumstances. The Governance Working Group will be available to meet with any Subproject to openly discuss how the Subproject can best use and adapt these ideas to their existing structure and needs.</p>
+<p>The overall principle of this framework is to gradually grow the decision-making body from a trusted, respected, and well-defined group. The process we propose is:</p>
 <ol class="simple">
-<li><p>Redistributions of source code must retain the above copyright notice, this
-list of conditions and the following disclaimer.</p></li>
-<li><p>Redistributions in binary form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation
-and/or other materials provided with the distribution.</p></li>
-<li><p>Neither the name of the copyright holder nor the names of its contributors
-may be used to endorse or promote products derived from this software
-without specific prior written permission.</p></li>
+<li><p>Jupyter Steering Council members will sign up to each Subproject in which they wish to be on the decision-making body. This forms the initial decision-making body for each Subproject.</p></li>
+<li><p>The decision-making body uses the new Decision-Making Guidelines and the principles below to decide if the next action should be:
+A. Electing a single new member to the decision-making body, in which case the process proceeds to step 3, or
+B. Stopping electing members, in which case the decision-making body is complete and the process ends.</p></li>
+<li><p>The current decision-making body elects a single new member using the Decision-Making Guidelines and the principles below, thereby increasing the body’s size by one, and proceeds to step 2.</p></li>
 </ol>
-<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS”
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
-<div class="section" id="explanation-of-project-jupyter-copyright-policy">
-<h2>Explanation of Project Jupyter copyright policy<a class="headerlink" href="#explanation-of-project-jupyter-copyright-policy" title="Permalink to this headline">¶</a></h2>
-<p>Project Jupyter uses a shared copyright model. Each contributor maintains
-copyright over their contributions to Project Jupyter. These contributions are
-typically only changes to the repositories. Thus, Project Jupyter source code,
-in its entirety, is not the copyright of any single person or institution.
-Instead, Project Jupyter source code is the collective copyright of its
-contributors. If individual contributors want to maintain a record of what
-changes or contributions they have specific copyright on, they should indicate
-their copyright in the commit message of the change when they commit the
-change to one of the Project Jupyter repositories.</p>
-<p>With this in mind, the following banner should be used in any source code file
-to indicate the copyright and license terms:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span># Copyright (c) Project Jupyter Contributors.
-# Distributed under the terms of the 3-Clause BSD License.
-</pre></div>
-</div>
+<p>The bootstrapping process should observe these principles:</p>
+<ul class="simple">
+<li><p>To address issues of multi-stakeholder governance, during the process above, successively elected members in step 3 should rotate across different organizations to avoid overrepresentation of a single organization in a stage of the process.</p></li>
+<li><p>Decision-making bodies should be inclusive and as large as necessary to give voice to contributors who are actively working on the Subproject or working group. This should be evaluated in both steps 2 and 3 of the process above.</p></li>
+</ul>
+<p>This process has the following characteristics:</p>
+<ul class="simple">
+<li><p>By seeding each decision-making body from the current Steering Council, we start each process from a clear starting point.</p></li>
+<li><p>By gradually increasing the size of the decision-making body one person at a time, the power implicit in this election process is gradually distributed over a larger group of people.</p></li>
+<li><p>At each stage where the new decision-making body is considering adding a new person, they can also choose to stop electing additional members. This allows the group to decide on the overall size in an organic, gradual manner.</p></li>
+<li><p>At each step, issues of diversity and inclusion of the representative body are considered.</p></li>
+</ul>
 </div>
 </div>
 
@@ -369,14 +358,23 @@ to indicate the copyright and license terms:</p>
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="trademarks.html" title="previous page">
+        <a class="left-prev" href="decision_making.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Trademark Usage Policy</p>
+                <p class="prevnext-title">Decision-Making Guide</p>
             </div>
         </a>
     </div>
+     <div id="next">
+        <a class="right-next" href="communitybuildingcommittee.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Jupyter Community Building Committee</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         
