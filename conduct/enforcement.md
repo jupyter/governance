@@ -1,4 +1,4 @@
-# Jupyter Code of Conduct - Enforcement Manual
+# Enforcement Manual
 
 This is the enforcement manual followed by Jupyter's Code of Conduct Committee.
 It's used when we respond to an incident to make sure we are consistent and

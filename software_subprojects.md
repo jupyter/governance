@@ -1,4 +1,4 @@
-# Software Subprojects of Project Jupyter
+# Software Subprojects
 
 Software design and development in Project Jupyter is organized into a set of Software Subprojects. These software Subprojects often map onto GitHub repositories/organizations, but that is not strictly required. The lifecycle of Software Subprojects is [described in detail here](newsubprojects.md).
 
