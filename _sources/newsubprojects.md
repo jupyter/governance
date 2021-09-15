@@ -1,20 +1,9 @@
 # New Subproject Process
 
-Project Jupyter is organized as a set of Subprojects that are each a GitHub
-repository with a development team that follows the Jupyter governance, license
-and contribution model. Officially supported and maintained Subprojects are
-hosted under the following GitHub organizations:
-
-* [github.com/jupyter](https://github.com/jupyter)
-* [github.com/jupyterhub](https://github.com/jupyterhub)
-* [github.com/jupyterlab](https://github.com/jupyterlab)
-* [github.com/jupyter-resources](https://github.com/jupyter-resources)
-* [github.com/jupyter-widgets](https://github.com/jupyter-widgets)
-* [github.com/ipython](https://github.com/ipython)
-
 This document describes the process by which new Subprojects are created in or
-moved to these organizations from other locations. There are two ways that new
-Subprojects are created:
+moved to these organizations from other locations. For a list of current sub-projects in the Jupyter Community, see [the list of sub-projects](list_of_subprojects.md).
+
+There are two ways that new Subprojects are created:
 
 1. [Direct Subproject creation](#direct-subproject-creation)
     * e.g., when contributors to an existing Subproject decide to create a new

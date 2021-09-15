@@ -1,4 +1,4 @@
-# Main Governance Document
+# Governance of Project Jupyter
 
 The official version of this document, along with a list of
 individuals and institutions in the roles defined in the governance

@@ -1,4 +1,4 @@
-# Jupyter Community Building Committee
+# Community Building Committee
 
 The Jupyter Community Building Committee acts on behalf of the Project Jupyter
 Steering Council with the objective of growing, building, and connecting the
