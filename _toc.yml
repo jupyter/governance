@@ -1,25 +1,37 @@
-format: jb-article
+format: jb-book
 root: intro
-sections:
-- file: governance
-  sections:
+parts:
+- caption: Code of Conduct
+  chapters:
+  - file: conduct/code_of_conduct
+    sections:
+    - file: conduct/enforcement
+    - file: conduct/reporting_online
+
+  - file: CodeofConductJupyterDay
+    sections:
+    - file: CodeofConductJupyterDayOrganizer
+    - file: conduct/reporting_events
+  - file: conduct/faq
+
+- caption: Governance
+  chapters:
+  - file: governance
   - file: decision_making
   - file: bootstrapping_decision_making
-- file: communitybuildingcommittee
-- file: distinguished_contributors
-- file: conduct/code_of_conduct
-  sections:
-  - file: conduct/enforcement
-  - file: conduct/faq
-  - file: conduct/reporting_events
-  - file: conduct/reporting_online
-  - file: CodeofConductJupyterDay
-  - file: CodeofConductJupyterDayOrganizer
-- file: software_subprojects
-  sections:
-  - file: list_of_subprojects
-- file: people
-- file: newsubprojects
-- file: papers
-- file: trademarks
-- file: projectlicense
+
+- caption: Organizational Structure
+  chapters:
+  - file: people
+  - file: communitybuildingcommittee 
+  - file: software_subprojects
+    sections:
+    - file: list_of_subprojects
+    - file: newsubprojects
+  - file: distinguished_contributors
+
+- caption: Organizational Policy
+  chapters:
+  - file: papers
+  - file: trademarks
+  - file: projectlicense
