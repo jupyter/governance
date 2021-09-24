@@ -22,7 +22,7 @@ The following Jupyter Subprojects have their own formal decision-making body tha
 - Jupyter Foundations
 - Jupyter Standards
 - Jupyter Enterprise
-- Jupyter Security
+- Jupyter Security (https://github.com/jupyter/security)
 
 ## Official Subprojects without SSC representation
 
