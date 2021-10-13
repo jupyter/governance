@@ -21,7 +21,7 @@ Alphabetical by first name:
 - Sylvain Corlay, @sylvaincorlay (2016)
 - Thomas Kluyver, @takluyver (Founding member, 2014)
 - Peter Parente, @parente (2016)
-- Ana Rulvalcaba, @Ruv7 (2018)
+- Ana Ruvalcaba, @Ruv7 (2018)
 - Carol Willing, @willingc (2017)
 - Steven Silvester, @blink1073 (2016)
 - Paul Ivanov, @ivanov (2016)
@@ -34,7 +34,7 @@ Alphabetical by first name:
 
 ### NumFOCUS Subcommittee
 
-- Ana Rulvalcaba, @Ruv7
+- Ana Ruvalcaba, @Ruv7
 - Fernando Perez, @fperez
 - Matthias Bussonnier, @carreau
 - Stefan van der Walt (non-council member), @stefanv
@@ -47,8 +47,14 @@ Alphabetical by first name:
 - Jason Grout, @jasongrout
 - Min Ragan-Kelley, @minrk
 - Paul Ivanov, @ivanov
-- Tim Geaorge, @tgeorgeux
+- Tim George, @tgeorgeux
 - William Stein, @williamstein
+
+### Community Building Subcommittee
+
+- Ana Ruvalcaba, @Ruv7
+- Jason Grout, @jasongrout
+- Sylvain Corlay, @sylvaincorlay
 
 ## Institutional Partners
 

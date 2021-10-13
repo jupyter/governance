@@ -40,7 +40,7 @@ files are built with [jupyter-book](https://jupyterbook.org). To build and previ
 these documents locally, install the latest version of Jupyter Book with:
 
 ```
-pip install -U git+https://github.com/executablebooks/jupyter-book.git
+pip install -U jupyter-book
 ```
 
 and build the book with:

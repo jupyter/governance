@@ -1,4 +1,5 @@
-name: deploy-book
+# Deploy the live documentation to our GitHub Pages site
+name: deploy
 
 # Only run this when the master branch changes
 on:
@@ -6,23 +7,34 @@ on:
     branches:
     - master
 
-# This job installs dependencies, build the book, and pushes it to `gh-pages`
+# This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
-  deploy-book:
+  deploy:
     runs-on: ubuntu-latest
+
+    # So that we can write to `gh-pages`
+    permissions:
+      contents: write
+
     steps:
     - uses: actions/checkout@v2
 
     # Install dependencies
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+    - name: Set up Python
+      uses: actions/setup-python@v2
       with:
-        python-version: 3.7
+        python-version: 3.x
+
+    - uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/*.md') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
 
     - name: Install dependencies
       run: |
-        pip install -U git+https://github.com/executablebooks/jupyter-book.git
-
+        pip install jupyter-book
 
     # Build the book
     - name: Build the book

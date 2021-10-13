@@ -1,4 +1,4 @@
-# Project Jupyter Code of Conduct - Frequently Asked Questions
+# Frequently Asked Questions
 
 This FAQ attempts to address common questions and concerns around the Jupyter
 community's Code of Conduct. If you still have questions after reading it,

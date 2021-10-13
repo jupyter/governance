@@ -1,4 +1,4 @@
-# Project Jupyter Code of Conduct - Reporting Guide - Jupyter Events
+# Reporting Guide - Jupyter Events
 
 You can make a personal report by:
 
