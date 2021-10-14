@@ -8,11 +8,14 @@ The following Jupyter Subprojects have their own formal decision-making body tha
 
 - JupyterLab (https://github.com/jupyterlab/jupyterlab)
 - JupyterHub and Binder 
-  - https://github.com/jupyterhub/jupyterhub
-  - https://github.com/jupyterhub/binder
-  - https://github.com/jupyterhub/binderhub
+  - Jupyterhub (https://github.com/jupyterhub/jupyterhub)
+  - Binder (https://github.com/jupyterhub/binder)
+  - BinderHub (https://github.com/jupyterhub/binderhub)
 - Voilà (https://github.com/voila-dashboards/voila)
-- Jupyter Server (https://github.com/jupyter-server/jupyter_server)
+- Jupyter Server
+  - Jupyter Server (https://github.com/jupyter-server/jupyter_server)
+  - Enterprise Gateway (https://github.com/jupyter/enterprise_gateway)
+  - Kernel Gateway (https://github.com/jupyter/kernel_gateway)
 - Jupyter Widgets (https://github.com/jupyter-widgets)
 - Jupyter Notebook (https://github.com/jupyter/notebook)
 - Jupyter Kernels
@@ -21,7 +24,6 @@ The following Jupyter Subprojects have their own formal decision-making body tha
   - IPython (https://github.com/ipython/ipython)
 - Jupyter Foundations
 - Jupyter Standards
-- Jupyter Enterprise
 - Jupyter Security (https://github.com/jupyter/security)
 
 ## Official Subprojects without SSC representation
@@ -30,6 +32,7 @@ The following official Jupyter Subprojects are smaller and less active. As such 
 
 - nbdime (https://github.com/jupyter/nbdime)
 - nbgrader (https://github.com/jupyter/nbgrader)
+- nbviewer (https://github.com/jupyter/nbviewer)
 - ipyparallel (https://github.com/ipython/ipyparallel)
 - QtConsole (https://github.com/jupyter/qtconsole). Note that QtConsole today is most actively maintained by the Spyder team; as part of this reorganization we will discuss with them whether it's more appropriate to move the project to be fully under their organization.
 - All other repos not listed above and that don't clearly fall into one of the official Subproject GitHub organizations above.
@@ -42,7 +45,7 @@ The Official Jupyter Subprojects document proposes a number of changes to how ou
   - In general Jupyter services such as Binder, nbviewer, and the Jupyter website involve legal, financial, and operational matters. As such, we are proposing that the actual services are managed by working groups that report to the Board of Directors, who can provide the needed support and oversight. For example, if we want to hire full or part time staff to maintain or operate these services, the Board of Directors would be responsible for raising funds, hiring, and managing those staff.
   - The JupyterHub and Binder teams have a number of unique considerations. Currently all Binder repositories are under the Jupyterhub organizations, but there is a separate (but highly overlapping team) listed as the Binder team. These teams will need to work out if they would like to each have a formal decision-making body with an SSC representative, or if they would like to have a single team. The Governance Working Group will be available to the JupyterHub and Binder teams to help working through these questions.
   - We propose that the Jupyter website and its repository will be governed by a working group that reports to the Board of Directors.
-  - We propose that the nbviewer service (only the actual live service) be governed by a working group that reports to the Board of Directors. The reusable part of nbviewer contained (https://github.com/jupyter/nbviewer) will be governed by the Jupyter Enterprise Subproject.
+  - We propose that the nbviewer service (only the actual live service) be governed by a working group that reports to the Board of Directors. The reusable part of nbviewer contained (https://github.com/jupyter/nbviewer) will be an official Jupyter Subproject without SCC representation as described above.
 - Jupyter Kernels
   - To consolidate the project’s work on first-party kernels, we propose to establish a new official Subproject called _Jupyter Kernels_ and create a Github organization named jupyter-kernels for the work of the Subproject. All Xeus repositories (https://github.com/jupyter-xeus) will be moved into this organization. This Subproject will also govern the IPython GitHub organization, which will be left in place (https://github.com/ipython).
   - A new decision-making body for this organization will be established, and they will elect an SSC delegate.
@@ -53,12 +56,6 @@ The Official Jupyter Subprojects document proposes a number of changes to how ou
     - Jupyter Notebook Format (https://github.com/jupyter/nbformat)
     - Documentation for other specifications maintained by other Subprojects, such as the Jupyter Widgets message specification, or the Jupyter Server REST APIs.
     - JEPs repo (https://github.com/jupyter/enhancement-proposals).
-- Jupyter Enterprise
-  - A number of Jupyter repositories that address the needs of large-scale deployments (meaning use cases that target organizational rather than individual needs, this term is independent of industrial, corporate or non/for-profit applications). To consolidate work on these repositories, we propose to establish a new official Subproject called _Jupyter Enterprise_ and create a Github organization named jupyter-enterprise for the work of the Subproject. The following repositories will be moved into this organization:
-  - Enterprise Gateway (https://github.com/jupyter/enterprise_gateway)
-  - Kernel Gateway (https://github.com/jupyter/kernel_gateway)
-  - Docker stacks (https://github.com/jupyter/docker-stacks)
-  - Jupyter Notebook Viewer (https://github.com/jupyter/nbviewer)
 - Jupyter Foundations
   - Jupyter’s software has a number of components that serve as a foundation for many other Subprojects. To consolidate work on these repositories, we propose to establish a new official Subproject called _Jupyter Foundations_ and create a Github organization named jupyter-foundations for the work of the Subproject. The following repositories will be moved into this organization:
     - nbconvert (https://github.com/jupyter/nbconvert)
@@ -69,3 +66,4 @@ The Official Jupyter Subprojects document proposes a number of changes to how ou
     - Telemetry (https://github.com/jupyter/telemetry)
     - Traitlets (https://github.com/ipython/traitlets)
     - Jupyter Console (https://github.com/jupyter/jupyter_console)
+    - Docker stacks (https://github.com/jupyter/docker-stacks)

@@ -338,13 +338,19 @@
 <li><p>JupyterLab (<a class="reference external" href="https://github.com/jupyterlab/jupyterlab">https://github.com/jupyterlab/jupyterlab</a>)</p></li>
 <li><p>JupyterHub and Binder</p>
 <ul>
-<li><p><a class="reference external" href="https://github.com/jupyterhub/jupyterhub">https://github.com/jupyterhub/jupyterhub</a></p></li>
-<li><p><a class="reference external" href="https://github.com/jupyterhub/binder">https://github.com/jupyterhub/binder</a></p></li>
-<li><p><a class="reference external" href="https://github.com/jupyterhub/binderhub">https://github.com/jupyterhub/binderhub</a></p></li>
+<li><p>Jupyterhub (<a class="reference external" href="https://github.com/jupyterhub/jupyterhub">https://github.com/jupyterhub/jupyterhub</a>)</p></li>
+<li><p>Binder (<a class="reference external" href="https://github.com/jupyterhub/binder">https://github.com/jupyterhub/binder</a>)</p></li>
+<li><p>BinderHub (<a class="reference external" href="https://github.com/jupyterhub/binderhub">https://github.com/jupyterhub/binderhub</a>)</p></li>
 </ul>
 </li>
 <li><p>Voilà (<a class="reference external" href="https://github.com/voila-dashboards/voila">https://github.com/voila-dashboards/voila</a>)</p></li>
+<li><p>Jupyter Server</p>
+<ul>
 <li><p>Jupyter Server (<a class="reference external" href="https://github.com/jupyter-server/jupyter_server">https://github.com/jupyter-server/jupyter_server</a>)</p></li>
+<li><p>Enterprise Gateway (<a class="reference external" href="https://github.com/jupyter/enterprise_gateway">https://github.com/jupyter/enterprise_gateway</a>)</p></li>
+<li><p>Kernel Gateway (<a class="reference external" href="https://github.com/jupyter/kernel_gateway">https://github.com/jupyter/kernel_gateway</a>)</p></li>
+</ul>
+</li>
 <li><p>Jupyter Widgets (<a class="reference external" href="https://github.com/jupyter-widgets">https://github.com/jupyter-widgets</a>)</p></li>
 <li><p>Jupyter Notebook (<a class="reference external" href="https://github.com/jupyter/notebook">https://github.com/jupyter/notebook</a>)</p></li>
 <li><p>Jupyter Kernels</p>
@@ -356,7 +362,6 @@
 </li>
 <li><p>Jupyter Foundations</p></li>
 <li><p>Jupyter Standards</p></li>
-<li><p>Jupyter Enterprise</p></li>
 <li><p>Jupyter Security (<a class="reference external" href="https://github.com/jupyter/security">https://github.com/jupyter/security</a>)</p></li>
 </ul>
 </div>
@@ -366,6 +371,7 @@
 <ul class="simple">
 <li><p>nbdime (<a class="reference external" href="https://github.com/jupyter/nbdime">https://github.com/jupyter/nbdime</a>)</p></li>
 <li><p>nbgrader (<a class="reference external" href="https://github.com/jupyter/nbgrader">https://github.com/jupyter/nbgrader</a>)</p></li>
+<li><p>nbviewer (<a class="reference external" href="https://github.com/jupyter/nbviewer">https://github.com/jupyter/nbviewer</a>)</p></li>
 <li><p>ipyparallel (<a class="reference external" href="https://github.com/ipython/ipyparallel">https://github.com/ipython/ipyparallel</a>)</p></li>
 <li><p>QtConsole (<a class="reference external" href="https://github.com/jupyter/qtconsole">https://github.com/jupyter/qtconsole</a>). Note that QtConsole today is most actively maintained by the Spyder team; as part of this reorganization we will discuss with them whether it’s more appropriate to move the project to be fully under their organization.</p></li>
 <li><p>All other repos not listed above and that don’t clearly fall into one of the official Subproject GitHub organizations above.</p></li>
@@ -380,7 +386,7 @@
 <li><p>In general Jupyter services such as Binder, nbviewer, and the Jupyter website involve legal, financial, and operational matters. As such, we are proposing that the actual services are managed by working groups that report to the Board of Directors, who can provide the needed support and oversight. For example, if we want to hire full or part time staff to maintain or operate these services, the Board of Directors would be responsible for raising funds, hiring, and managing those staff.</p></li>
 <li><p>The JupyterHub and Binder teams have a number of unique considerations. Currently all Binder repositories are under the Jupyterhub organizations, but there is a separate (but highly overlapping team) listed as the Binder team. These teams will need to work out if they would like to each have a formal decision-making body with an SSC representative, or if they would like to have a single team. The Governance Working Group will be available to the JupyterHub and Binder teams to help working through these questions.</p></li>
 <li><p>We propose that the Jupyter website and its repository will be governed by a working group that reports to the Board of Directors.</p></li>
-<li><p>We propose that the nbviewer service (only the actual live service) be governed by a working group that reports to the Board of Directors. The reusable part of nbviewer contained (<a class="reference external" href="https://github.com/jupyter/nbviewer">https://github.com/jupyter/nbviewer</a>) will be governed by the Jupyter Enterprise Subproject.</p></li>
+<li><p>We propose that the nbviewer service (only the actual live service) be governed by a working group that reports to the Board of Directors. The reusable part of nbviewer contained (<a class="reference external" href="https://github.com/jupyter/nbviewer">https://github.com/jupyter/nbviewer</a>) will be an official Jupyter Subproject without SCC representation as described above.</p></li>
 </ul>
 </li>
 <li><p>Jupyter Kernels</p>
@@ -402,15 +408,6 @@
 </li>
 </ul>
 </li>
-<li><p>Jupyter Enterprise</p>
-<ul>
-<li><p>A number of Jupyter repositories that address the needs of large-scale deployments (meaning use cases that target organizational rather than individual needs, this term is independent of industrial, corporate or non/for-profit applications). To consolidate work on these repositories, we propose to establish a new official Subproject called <em>Jupyter Enterprise</em> and create a Github organization named jupyter-enterprise for the work of the Subproject. The following repositories will be moved into this organization:</p></li>
-<li><p>Enterprise Gateway (<a class="reference external" href="https://github.com/jupyter/enterprise_gateway">https://github.com/jupyter/enterprise_gateway</a>)</p></li>
-<li><p>Kernel Gateway (<a class="reference external" href="https://github.com/jupyter/kernel_gateway">https://github.com/jupyter/kernel_gateway</a>)</p></li>
-<li><p>Docker stacks (<a class="reference external" href="https://github.com/jupyter/docker-stacks">https://github.com/jupyter/docker-stacks</a>)</p></li>
-<li><p>Jupyter Notebook Viewer (<a class="reference external" href="https://github.com/jupyter/nbviewer">https://github.com/jupyter/nbviewer</a>)</p></li>
-</ul>
-</li>
 <li><p>Jupyter Foundations</p>
 <ul>
 <li><p>Jupyter’s software has a number of components that serve as a foundation for many other Subprojects. To consolidate work on these repositories, we propose to establish a new official Subproject called <em>Jupyter Foundations</em> and create a Github organization named jupyter-foundations for the work of the Subproject. The following repositories will be moved into this organization:</p>
@@ -423,6 +420,7 @@
 <li><p>Telemetry (<a class="reference external" href="https://github.com/jupyter/telemetry">https://github.com/jupyter/telemetry</a>)</p></li>
 <li><p>Traitlets (<a class="reference external" href="https://github.com/ipython/traitlets">https://github.com/ipython/traitlets</a>)</p></li>
 <li><p>Jupyter Console (<a class="reference external" href="https://github.com/jupyter/jupyter_console">https://github.com/jupyter/jupyter_console</a>)</p></li>
+<li><p>Docker stacks (<a class="reference external" href="https://github.com/jupyter/docker-stacks">https://github.com/jupyter/docker-stacks</a>)</p></li>
 </ul>
 </li>
 </ul>
