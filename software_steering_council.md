@@ -46,7 +46,3 @@ Each Jupyter Subproject or Working Group with SSC representation is responsible 
 ### Bootstrapping the SSC
 
 The initial Software Steering Council will be created with individuals nominated by each of the major Jupyter Subprojects, as defined by our [official list](list_of_subprojects.md).
-
-## Relationship with the Executive Board
-
-The SSC exercises autonomy in managing its responsibilities. It takes advising and guidance from the Executive Board, but does not report to the Executive Board for any technical decisions. It also works with the Executive Board to make any decisions that must be made jointly (e.g., changes to governance).
