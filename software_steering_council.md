@@ -25,7 +25,7 @@ The SSC and Executive Board share the responsibility for:
 - Changing the Jupyter Governance model.
 - Creation of new Jupyter Subprojects.
 - Removal of Subprojects from Jupyter.
-- Designation of working groups that have a representative on the SSC.
+- Designation of which Working Groups have a representative on the SSC.
 
 ## Membership
 
