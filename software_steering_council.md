@@ -37,7 +37,7 @@ The Software Steering Council is composed of one representative from each of the
 
 ### Term length
 
-There is no term length for SSC membership, as each Jupyter Subproject is in charge of selecting its own representative. Projects are encouraged to define their own expectations around SSC membership tenure, to share SSC membership responsibilities amongst core team members, and to provide mechanisms for healthy rotation that avoid burnout.
+There is no term length for SSC membership, as each Jupyter Subproject is in charge of selecting its own representative. Projects are encouraged to define their own expectations around SSC membership tenure, to share SSC membership responsibilities among core team members, and to provide mechanisms for healthy rotation that avoid burnout.
 
 ### Selecting SSC members
 
