@@ -33,7 +33,7 @@ SSC members are leaders from Jupyter Subprojects that wish to assist the communi
 
 ### Member composition
 
-The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain working groups that have been created by the Executive Board and whose scope has important impact on SSC activities, such as Diversity and Inclusion, Accessibility, and Internationalization.
+The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain Working Groups that have been created by the Executive Board and whose scope has important impact on SSC activities, such as Diversity and Inclusion, Accessibility, and Internationalization.
 
 ### Term length
 
@@ -41,7 +41,7 @@ There is no term length for SSC membership, as each Jupyter Subproject is in cha
 
 ### Selecting SSC members
 
-Each Jupyter Subproject or working group with SSC representation is responsible to nominate a single representative using the Jupyter Decision Making Guidelines.
+Each Jupyter Subproject or Working Group with SSC representation is responsible to nominate a single representative using the Jupyter Decision Making Guidelines.
 
 ### Bootstrapping the SSC
 
