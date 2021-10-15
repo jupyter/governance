@@ -22,18 +22,18 @@ The SSC is responsible for the following:
 
 The SSC and Executive Board share the responsibility for:
 
-- Changing the Jupyter Governance model.
+- Changes to the Jupyter Governance model.
 - Creation of new Jupyter Subprojects.
 - Removal of Subprojects from Jupyter.
 - Designation of which Working Groups have a representative on the SSC.
 
 ## Membership
 
-SSC members are leaders from Jupyter Subprojects that wish to assist the community in sharing information across projects and participate in decision-making that affects many stakeholders in the Jupyter ecosystem. Membership requires active and ongoing participation in the project.
+SSC members are leaders from Jupyter Subprojects that wish to assist the community in sharing information across projects and participate in decision-making that affects many stakeholders in the Jupyter ecosystem. Membership requires active and ongoing participation in Jupyter.
 
 ### Member composition
 
-The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain Working Groups that have been created by the Executive Board and whose scope has important impact on SSC activities, such as Diversity and Inclusion, Accessibility, and Internationalization.
+The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain Working Groups and Standing Committees whose scope has important impact on SSC activities, such as Diversity and Inclusion, Accessibility, and Internationalization.
 
 ### Term length
 
@@ -41,7 +41,7 @@ There is no term length for SSC membership, as each Jupyter Subproject is in cha
 
 ### Selecting SSC members
 
-Each Jupyter Subproject or Working Group with SSC representation is responsible to nominate a single representative using the Jupyter Decision Making Guidelines.
+Each Jupyter Subproject, Working Group, or Standing Committee with SSC representation is responsible to nominate a single representative using the Jupyter Decision Making Guidelines.
 
 ### Bootstrapping the SSC
 
