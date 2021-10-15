@@ -18,9 +18,9 @@ The SSC is responsible for the following:
 - Stewarding discussions and activities beyond JEPs that involve cross-cutting concerns, standards, protocols and other architectural issues that impact the entire project.
 - Owning and managing anything related to security vulnerabilities across the project, including the Jupyter security lists, any private security repositories, etc.
 
-### Shared responsibilities with the Board of Directors
+### Shared responsibilities with the Executive Board
 
-The SSC and BoD share the responsibility for:
+The SSC and Executive Board share the responsibility for:
 
 - Changing the Jupyter Governance model.
 - Creation of new Jupyter Subprojects.
@@ -33,7 +33,7 @@ SSC members are leaders from Jupyter Subprojects that wish to assist the communi
 
 ### Member composition
 
-The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain working groups that have been created by the BoD and whose scope has important impact on SSC activities, such as Diversity and Inclusion, Accessibility, and Internationalization.
+The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain working groups that have been created by the Executive Board and whose scope has important impact on SSC activities, such as Diversity and Inclusion, Accessibility, and Internationalization.
 
 ### Term length
 
@@ -47,6 +47,6 @@ Each Jupyter Subproject or working group with SSC representation is responsible 
 
 The initial Software Steering Council will be created with individuals nominated by each of the major Jupyter Subprojects, as defined by our [official list](list_of_subprojects.md).
 
-## Relationship with the Board of Directors
+## Relationship with the Executive Board
 
-The SSC exercises autonomy in managing its responsibilities. It takes advising and guidance from the Board of Directors, but does not report to the BoD for any technical decisions. It also works with the Board of Directors to make any decisions that must be made jointly (e.g., changes to governance).
+The SSC exercises autonomy in managing its responsibilities. It takes advising and guidance from the Executive Board, but does not report to the Executive Board for any technical decisions. It also works with the Executive Board to make any decisions that must be made jointly (e.g., changes to governance).
