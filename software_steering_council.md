@@ -25,7 +25,7 @@ The SSC and BoD share the responsibility for:
 - Changing the Jupyter Governance model.
 - Creation of new Jupyter Subprojects.
 - Removal of Subprojects from Jupyter.
-- Designation of working groups that have a non-software focus but that carry a representative to the SSC, for specific topics where this is desired. This includes maintaining a working group on Inclusive Community Development; this group's representative can act as a point of contact on issues of Diversity, Inclusion and Community within the SSC and a bridge to the rest of the working group and the Board of Directors.
+- Designation of working groups that have a non-software focus but that carry a representative to the SSC, for specific topics where this is desired.
 
 ## Membership
 
