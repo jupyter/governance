@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Decision-Making Guide &#8212; Project Jupyter Governance</title>
+    <title>Software Steering Council &#8212; Project Jupyter Governance</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,8 +51,6 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Bootstrapping Decision-Making Bodies" href="bootstrapping_decision_making.html" />
-    <link rel="prev" title="Governance of Project Jupyter" href="governance.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -152,14 +150,14 @@
   Governance
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="governance.html">
    Governance of Project Jupyter
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="decision_making.html">
    Decision-Making Guide
   </a>
  </li>
@@ -275,7 +273,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/decision_making.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/software_steering_council.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -306,19 +304,53 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#required-aspects-of-decision-making">
-   Required aspects of decision making
+  <a class="reference internal nav-link" href="#purpose">
+   Purpose
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#optional-aspects-of-decision-making">
-   Optional aspects of decision making
+  <a class="reference internal nav-link" href="#responsibilities">
+   Responsibilities
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sole-responsibilities">
+     Sole responsibilities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#shared-responsibilities-with-the-executive-board">
+     Shared responsibilities with the Executive Board
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#language-for-issue-pr-template">
-   Language for issue/PR template
+  <a class="reference internal nav-link" href="#membership">
+   Membership
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#member-composition">
+     Member composition
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#term-length">
+     Term length
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selecting-ssc-members">
+     Selecting SSC members
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bootstrapping-the-ssc">
+     Bootstrapping the SSC
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -331,43 +363,57 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="decision-making-guide">
-<h1>Decision-Making Guide<a class="headerlink" href="#decision-making-guide" title="Permalink to this headline">¶</a></h1>
-<p>This document describes how Jupyter’s governing bodies make decisions. Because individuals often work across multiple decision-making groups, all Jupyter governing bodies are expected to follow this approach.</p>
-<p>We seek to honor the principles of collaboration, inclusive participation, and responsive decision making. Some aspects of this decision-making guide are required of all teams. Others are provided as recommendations and are optional. We have clearly noted the optional aspects of decision making below.</p>
-<p>Finally, the Jupyter Board of Directors may either intervene, or be called upon by members of a team, in the event that issues arise in the decision-making process. This includes, but is not limited to: process ambiguity, violations of the decision-making process, mitigating circumstances that require process exceptions, etc.</p>
-<div class="section" id="required-aspects-of-decision-making">
-<h2>Required aspects of decision making<a class="headerlink" href="#required-aspects-of-decision-making" title="Permalink to this headline">¶</a></h2>
-<p>The decision-making process is intended to balance broad participation of stakeholders with agility. While the size of decision-making bodies may vary (e.g., software projects can range from a handful to dozens of decision makers), all need to find this balance. The guidelines below cannot fully capture the role of human judgment and discretion.</p>
-<p>All official Jupyter projects, working groups, governing bodies, and official initiatives must have a clearly-defined and documented decision-making body. Formally, these decision-making bodies make decisions using consensus seeking with an option to call a vote to move the decision forward. All decisions, whether made by informal consensus or by formal vote, may be revisited; however, if a decision-making body finds itself frequently revisting consensus-based decisions, this should be viewed as an indication that the body’s understanding of informal consensus may need to be reviewed.</p>
-<p>Depending on the governing body, decisions may be proposed by members of the decision-making body or by a broader group of stakeholders/contributors.</p>
-<p><strong>Informal consensus seeking.</strong> Decision making starts with informal consensus seeking through discussion. The goal of this phase is to refine the proposal, consider alternatives, weigh trade-offs, and attempt to find informal consensus. The legitimacy of the consensus-seeking process is predicated on all stakeholders having their voices heard, so teams must be proactive in providing opportunities for all relevant stakeholders to provide input. If the decision-making body arrives at informal consensus, they may immediately move to document and enact the decision. This is the consensus-seeking phase.</p>
-<p><strong>Calling a vote.</strong> When the discussion matures during the consensus-seeking phase, any member of the decision-making body can call the matter to a vote. When that member (the sponsor) calls the vote, they shall summarize the proposal in its current form for the entire decision-making body. After the proposal is seconded by another member of the decision-making body, members have seven days to vote. The governing body may consider longer voting periods as necessary for special circumstances, or <em>shorter periods only if all voting members are present</em>. The decision will be determined by a simple majority of non-blank votes for binary decisions (i.e., approving a proposal) and ranked choice for multi-class decisions (one among many, or several among many). The sponsor may update the proposal at any point during the voting period, in which case the voting period will be reset.</p>
-<p><strong>Voter participation and quorum.</strong> All members of a decision-making body are required to participate in at least 2/3 of formal votes of that decision-making body per calendar year (teams can decide how to account for the specifics of this in low-activity projects, etc.). Members that have not met the 2/3 vote participation threshold for a year will automatically be asked to step down at the end of that year. Those individuals remain eligible to rejoin the decision-making body in the future as they become available to participate at the required level. The quorum for all formal votes will be 50% and a “blank” option will always be included, with the “blank” option counting towards the quorum but not included in totals for calculating results.</p>
-<p><strong>Recording.</strong> Once a decision has been made during the consensus-seeking phase or by a formal vote, the decision-making body will record the decision e.g., in Team Compass issues for decision-making bodies whose workflow is on GitHub or other equivalent and publicly visible mechanisms.</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="software-steering-council">
+<h1>Software Steering Council<a class="headerlink" href="#software-steering-council" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="purpose">
+<h2>Purpose<a class="headerlink" href="#purpose" title="Permalink to this headline">¶</a></h2>
+<p>The Jupyter Software Steering Council (SSC) has jurisdiction over software-related decisions across Project Jupyter, with a primary focus on coordination across projects and decisions that have impact across many Jupyter Subprojects. It is also a mechanism for representatives of each project to share information and expertise. Technical decisions and processes where the SSC isn’t explicitly involved are automatically delegated to the individual projects to manage their day-to-day activities, create new repositories in their orgs, etc., with independence and autonomy.</p>
 </div>
-<div class="section" id="optional-aspects-of-decision-making">
-<h2>Optional aspects of decision making<a class="headerlink" href="#optional-aspects-of-decision-making" title="Permalink to this headline">¶</a></h2>
-<p>While the previous section is prescriptive for all Jupyter teams, the following are recommended guidelines rather than mandatory procedures.</p>
+<div class="section" id="responsibilities">
+<h2>Responsibilities<a class="headerlink" href="#responsibilities" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="sole-responsibilities">
+<h3>Sole responsibilities<a class="headerlink" href="#sole-responsibilities" title="Permalink to this headline">¶</a></h3>
+<p>The SSC is responsible for the following:</p>
 <ul class="simple">
-<li><p>Teams should not call a vote to short-circuit an ongoing discussion that is still productive in terms of exploring ideas and feedback. Votes should be called only when discussion has explored the space and stakeholders have provided input.</p></li>
-<li><p>Teams should proactively solicit input from relevant stakeholders and should not assume that silence is consent without attempting to reach out to those individuals.</p></li>
-<li><p>If you are interested in a decision being made, it is your responsibility to encourage voting member/stakeholder/community participation in the decision-making process. If you cannot get such participation, you may want to hold off on doing any significant work on the matter.</p></li>
-<li><p>Special guidelines for software projects making decisions:</p>
-<ul>
-<li><p>Add a link to this document in your issue and PR templates along with a link to the decision-making body membership (see recommended language below).</p></li>
-<li><p>Create <code class="docutils literal notranslate"><span class="pre">seeking</span> <span class="pre">consensus</span></code>, <code class="docutils literal notranslate"><span class="pre">vote</span></code>, and <code class="docutils literal notranslate"><span class="pre">decision</span> <span class="pre">made</span></code> issue labels to make it easy to find issues/PRs where decisions are discussed and resolved.</p></li>
-<li><p>When a vote is called on GitHub, the sponsor should summarize the decision and paste a checklist of the voting members to use in voting in the top entry (description) of the issue/PR.</p></li>
-<li><p>When communications (in whatever number of channels) point to a discussion that requires a project-wide decision, and before major implementation work starts, a standalone issue should be opened that summarizes the issue, points to relevant prior discussions, and calls for an explicit vote/decision. This issue should be tightly scoped to the relevant decision only, and include the <code class="docutils literal notranslate"><span class="pre">vote</span></code> label.</p></li>
-<li><p>When an implementation of a decision appears in a pull request, link to the relevant <code class="docutils literal notranslate"><span class="pre">vote</span></code> issue.</p></li>
-</ul>
-</li>
-<li><p>Decision-making bodies and those proposing decisions should explicitly distinguish between decisions that are two-way doors (easy to reverse later) and one-way doors (difficult or impossible to reverse later). For one-way doors, teams should carefully weigh alternatives and tradeoffs and take extra care to ensure broad participation and stakeholder input. For two-way doors, teams should feel free to move quickly, without compromising the principles and procedures described herein.</p></li>
+<li><p>Defining the submission, review, and approval process for Jupyter Enhancement Proposals.</p></li>
+<li><p>Stewarding the JEP process to ensure that it is inclusive and participatory, and solicits feedback from the right stakeholders. As a starting point, <a class="reference external" href="https://github.com/numfocus/DISCOVER-Cookbook">the NumFOCUS DISCOVER Cookbook</a> may offer some useful starting pointers.</p></li>
+<li><p>Making decisions on JEPs after receiving community feedback (JEPs are the mechanism for elevating any software decision/idea up to the broader Project, while individual Subprojects can make decisions within their scope via their regular mechanisms).</p></li>
+<li><p>Owning, managing and implementing the Jupyter Incubation process (<a class="reference external" href="https://github.com/jupyter-incubator">https://github.com/jupyter-incubator</a>).</p></li>
+<li><p>Owning, managing and implementing the Jupyter Attic process (<a class="reference external" href="https://github.com/jupyter-attic">https://github.com/jupyter-attic</a>).</p></li>
+<li><p>Stewarding discussions and activities beyond JEPs that involve cross-cutting concerns, standards, protocols and other architectural issues that impact the entire project.</p></li>
+<li><p>Owning and managing anything related to security vulnerabilities across the project, including the Jupyter security lists, any private security repositories, etc.</p></li>
 </ul>
 </div>
-<div class="section" id="language-for-issue-pr-template">
-<h2>Language for issue/PR template<a class="headerlink" href="#language-for-issue-pr-template" title="Permalink to this headline">¶</a></h2>
-<p>Project Jupyter makes decisions using a consensus-seeking model. You can read about this model here (link). The decision-making body for this project is documented here (link).</p>
+<div class="section" id="shared-responsibilities-with-the-executive-board">
+<h3>Shared responsibilities with the Executive Board<a class="headerlink" href="#shared-responsibilities-with-the-executive-board" title="Permalink to this headline">¶</a></h3>
+<p>The SSC and Executive Board share the responsibility for:</p>
+<ul class="simple">
+<li><p>Changes to the Jupyter Governance model.</p></li>
+<li><p>Creation of new Jupyter Subprojects.</p></li>
+<li><p>Removal of Subprojects from Jupyter.</p></li>
+<li><p>Designation of which Working Groups have a representative on the SSC.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="membership">
+<h2>Membership<a class="headerlink" href="#membership" title="Permalink to this headline">¶</a></h2>
+<p>SSC members are leaders from Jupyter Subprojects that wish to assist the community in sharing information across projects and participate in decision-making that affects many stakeholders in the Jupyter ecosystem. Membership requires active and ongoing participation in Jupyter.</p>
+<div class="section" id="member-composition">
+<h3>Member composition<a class="headerlink" href="#member-composition" title="Permalink to this headline">¶</a></h3>
+<p>The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain Working Groups and Standing Committees whose scope has important impact on SSC activities, such as Diversity and Inclusion, Accessibility, and Internationalization.</p>
+</div>
+<div class="section" id="term-length">
+<h3>Term length<a class="headerlink" href="#term-length" title="Permalink to this headline">¶</a></h3>
+<p>There is no term length for SSC membership, as each Jupyter Subproject is in charge of selecting its own representative. Projects are encouraged to define their own expectations around SSC membership tenure, to share SSC membership responsibilities among core team members, and to provide mechanisms for healthy rotation that avoid burnout.</p>
+</div>
+<div class="section" id="selecting-ssc-members">
+<h3>Selecting SSC members<a class="headerlink" href="#selecting-ssc-members" title="Permalink to this headline">¶</a></h3>
+<p>Each Jupyter Subproject, Working Group, or Standing Committee with SSC representation is responsible to nominate a single representative using the Jupyter Decision Making Guidelines.</p>
+</div>
+<div class="section" id="bootstrapping-the-ssc">
+<h3>Bootstrapping the SSC<a class="headerlink" href="#bootstrapping-the-ssc" title="Permalink to this headline">¶</a></h3>
+<p>The initial Software Steering Council will be created with individuals nominated by each of the major Jupyter Subprojects, as defined by our <a class="reference internal" href="list_of_subprojects.html"><span class="doc std std-doc">official list</span></a>.</p>
+</div>
 </div>
 </div>
 
@@ -395,21 +441,7 @@
               
         
             <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="governance.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Governance of Project Jupyter</p>
-        </div>
-    </a>
-    <a class='right-next' id="next-link" href="bootstrapping_decision_making.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Bootstrapping Decision-Making Bodies</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
+<div class='prev-next-area'>
 </div>
         
         </div>
