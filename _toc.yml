@@ -18,7 +18,6 @@ parts:
   chapters:
   - file: governance
   - file: decision_making
-  - file: bootstrapping_decision_making
 
 - caption: Organizational Structure
   chapters:
@@ -35,3 +34,8 @@ parts:
   - file: papers
   - file: trademarks
   - file: projectlicense
+
+- caption: Future Governance
+  chapters:
+  - file: bootstrapping_decision_making
+  - file: software_steering_council
