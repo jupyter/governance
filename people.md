@@ -63,8 +63,9 @@ Alphabetical by first name:
 Institutional Council members are noted with each institution.
 
 - [Amazon Web Services](https://aws.amazon.com/) (Brian Granger, Steven Silvester)
-- [Bloomberg](https://www.bloomberg.com/) (Jason Grout, Paul Ivanov)
+- [Bloomberg](https://www.bloomberg.com/) (Paul Ivanov)
 - [Cal Poly](https://www.calpoly.edu/) (Ana Ruvalcaba)
+- [Databricks](https://databricks.com/) (Jason Grout)
 - [Netflix](https://www.netflix.com/) (Kyle Kelley, M Pacer)
 - [QuantStack](http://quantstack.net/) (Sylvain Corlay)
 - [QuanSight](https://www.quansight.com/) (Matthias Bussonnier, Carol Willing)
