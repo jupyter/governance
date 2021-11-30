@@ -62,22 +62,24 @@ Alphabetical by first name:
 
 Institutional Council members are noted with each institution.
 
+
 - [Amazon Web Services](https://aws.amazon.com/) (Brian Granger)
-- [Bloomberg](https://www.bloomberg.com/) (Paul Ivanov)
 - [Cal Poly](https://www.calpoly.edu/) (Ana Ruvalcaba)
 - [Databricks](https://databricks.com/) (Jason Grout)
 - [MongoDB](https://www.mongodb.com/) (Steven Silvester)
-- [Netflix](https://www.netflix.com/) (Kyle Kelley, M Pacer)
-- [QuantStack](http://quantstack.net/) (Sylvain Corlay)
+- [Netflix](https://www.netflix.com/) (M Pacer)
+- [Noteable](https://noteable.io/) (Carol Willing, Paul Ivanov, Kyle Kelley)
 - [QuanSight](https://www.quansight.com/) (Matthias Bussonnier, Carol Willing)
+- [QuantStack](http://quantstack.net/) (Sylvain Corlay)
+- [Thorn](https://thorn.org/) (Peter Parente)
 - [Two Sigma](https://www.twosigma.com/) (Afshin Darian)
 - [UC Berkeley](https://www.berkeley.edu/) (Fernando Perez)
 - [University of Michigan](https://www.si.umich.edu/) (Damian Avila)
-- [Thorn](https://thorn.org/) (Peter Parente)
 
 ### Tier 2
 
 - [Google](https://www.google.com/)
+- [Bloomberg](https://www.bloomberg.com/)
 
 ## New Steering Council Members
 
