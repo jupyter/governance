@@ -78,7 +78,6 @@ Institutional Council members are noted with each institution.
 
 ### Tier 2
 
-- [Google](https://www.google.com/)
 - [Bloomberg](https://www.bloomberg.com/)
 
 ## New Steering Council Members
