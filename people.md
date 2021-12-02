@@ -71,6 +71,7 @@ Institutional Council members are noted with each institution.
 - [Noteable](https://noteable.io/) (Carol Willing, Paul Ivanov, Kyle Kelley)
 - [QuanSight](https://www.quansight.com/) (Matthias Bussonnier, Carol Willing)
 - [QuantStack](http://quantstack.net/) (Sylvain Corlay)
+- [The International Interactive Computing Collaboration](https://2i2c.org/) (Damian Avila)
 - [Thorn](https://thorn.org/) (Peter Parente)
 - [Two Sigma](https://www.twosigma.com/) (Afshin Darian)
 - [UC Berkeley](https://www.berkeley.edu/) (Fernando Perez)
