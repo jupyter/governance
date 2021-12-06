@@ -10,23 +10,23 @@ Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
 
 Alphabetical by first name:
 
+- Afshin Darian, @afshin (2018)
+- Ana Ruvalcaba, @Ruv7 (2018)
 - Brian Granger, @ellisonbg (Founding member, 2014)
+- Carol Willing, @willingc (2017)
 - Damian Avila, @damianavila (Founding member, 2014)
 - Fernando Perez, @fperez (Founding member, 2014)
 - Jason Grout, @jasongrout (2015)
 - Jessica Hamrick, @jhamrick (2015)
 - Kyle Kelley, @rgbkrk (Founding member, 2014)
+- M Pacer, @mpacer (2018)
 - Matthias Bussonnier, @carreau (Founding member, 2014)
 - Min Ragan-Kelley, @minrk (Founding member, 2014)
+- Paul Ivanov, @ivanov (2016)
+- Peter Parente, @parente (2016)
+- Steven Silvester, @blink1073 (2016)
 - Sylvain Corlay, @sylvaincorlay (2016)
 - Thomas Kluyver, @takluyver (Founding member, 2014)
-- Peter Parente, @parente (2016)
-- Ana Ruvalcaba, @Ruv7 (2018)
-- Carol Willing, @willingc (2017)
-- Steven Silvester, @blink1073 (2016)
-- Paul Ivanov, @ivanov (2016)
-- Afshin Darian, @afshin (2018)
-- M Pacer, @mpacer (2018)
 
 ### Retired steering council members
 
@@ -62,20 +62,24 @@ Alphabetical by first name:
 
 Institutional Council members are noted with each institution.
 
-- [Amazon Web Services](https://aws.amazon.com/) (Brian Granger, Steven Silvester)
-- [Bloomberg](https://www.bloomberg.com/) (Jason Grout, Paul Ivanov)
+
+- [Amazon Web Services](https://aws.amazon.com/) (Brian Granger)
 - [Cal Poly](https://www.calpoly.edu/) (Ana Ruvalcaba)
-- [Netflix](https://www.netflix.com/) (Kyle Kelley, M Pacer)
-- [QuantStack](http://quantstack.net/) (Sylvain Corlay)
+- [Databricks](https://databricks.com/) (Jason Grout)
+- [MongoDB](https://www.mongodb.com/) (Steven Silvester)
+- [Netflix](https://www.netflix.com/) (M Pacer)
+- [Noteable](https://noteable.io/) (Carol Willing, Paul Ivanov, Kyle Kelley)
 - [QuanSight](https://www.quansight.com/) (Matthias Bussonnier, Carol Willing)
+- [QuantStack](http://quantstack.net/) (Sylvain Corlay)
+- [The International Interactive Computing Collaboration](https://2i2c.org/) (Damian Avila)
+- [Thorn](https://thorn.org/) (Peter Parente)
 - [Two Sigma](https://www.twosigma.com/) (Afshin Darian)
 - [UC Berkeley](https://www.berkeley.edu/) (Fernando Perez)
 - [University of Michigan](https://www.si.umich.edu/) (Damian Avila)
-- [Thorn](https://thorn.org/) (Peter Parente)
 
 ### Tier 2
 
-- [Google](https://www.google.com/)
+- [Bloomberg](https://www.bloomberg.com/)
 
 ## New Steering Council Members
 
