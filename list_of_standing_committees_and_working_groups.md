@@ -1,6 +1,6 @@
 # List of Standing Committees and Working Groups
 
-Project work that expands beyond software-related work is organized into chartered domains and is carried out by Standing Committees and Working Groups. A description of these bodies and their function can be found [here](link). This document contains a list of the current Standing Committees and Working Groups with charter summaries and links to their GitHub repositories.
+Project work that expands beyond software-related work is organized into chartered domains and is carried out by Standing Committees and Working Groups. A description of these bodies and their function can be found [here](standing_committees_and_working_groups.md). This document contains a list of the current Standing Committees and Working Groups with charter summaries and links to their GitHub repositories.
 
 ## Standing Committees
 
