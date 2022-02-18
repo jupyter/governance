@@ -6,11 +6,11 @@ Project work that expands beyond software-related work is organized into charter
 
 ### Diversity, Equity, and Inclusion
 
-Charter Summary: Increase diversity, equity and inclusion within all aspects of Project Jupyter, including the various decision-making bodies/leadership, subprojects, and the broader community.
+Charter Summary: Increase diversity, equity and inclusion within all aspects of Project Jupyter, including the various councils/leadership, Subprojects, and the broader community.
 
 ### Code of Conduct Incident Response
 
-Charter Summary: Own and manage the Jupyter CoC reporting and incident response processes and make determinations on individual CoC incidents.
+Charter Summary: Own and manage the Jupyter Code of Conduct reporting and incident response processes and make determinations on individual incidents.
 
 ### Conflict of Interest
 
