@@ -19,15 +19,17 @@ The SSC is responsible for the following:
 - Owning, managing and implementing the Jupyter Attic process (https://github.com/jupyter-attic).
 - Stewarding discussions and activities beyond JEPs that involve cross-cutting concerns, standards, protocols and other architectural issues that impact the entire project.
 - Owning and managing anything related to security vulnerabilities across the project, including the Jupyter security lists, any private security repositories, etc.
+- Approving Working Groups nominated by the Executive Board to have representatives on the SSC.
 
 ### Shared responsibilities with the Executive Board
 
-The SSC and Executive Board share the responsibility for:
+The SSC and EB share responsibility for approving:
 
 - Changes to the Jupyter Governance model.
 - Creation of new Jupyter Subprojects.
 - Removal of Subprojects from Jupyter.
-- Designation of which Working Groups have a representative on the SSC.
+
+In these decisions, each body will [vote](decision_making.md) independently and the change will be approved only if both bodies approve.
 
 ## Membership
 
