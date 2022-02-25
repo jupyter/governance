@@ -25,3 +25,6 @@ Charter Summary: License, protect, and promote the trademarks and visual and tex
 ## Community Building and Events
 
 [Charter](communitybuildingcommittee.md) Summary: Grow, build, and connect the global Jupyter community of users and contributors.
+
+Charter Summary: Build cross-project community, resources, and tools to support the inclusion of disabled people in Jupyter applications and development.
+
