@@ -22,7 +22,7 @@ Charter Summary: Ensure that the joint and conflicting interests of leaders acro
 
 Charter Summary: License, protect, and promote the trademarks and visual and textual branding of Jupyter.
 
-## Community Building and Events
+### Community Building and Events
 
 [Charter](communitybuildingcommittee.md) Summary: Grow, build, and connect the global Jupyter community of users and contributors.
 
