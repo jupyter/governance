@@ -82,11 +82,12 @@ All trademarks are subject to "nominative use rules" that allow use of the trade
 to name the trademarked entity in a way that is minimal
 and does not imply a sponsorship relationship with the trademark holder.
 
-As such, stating accurately that software or a service integrates with Jupyter software,
-that it uses Jupyter software, that it is compatible with Jupyter software,
+As such, stating accurately that software, a service, or an activity uses Jupyter software,
+integrates with Jupyter software, that it is compatible with Jupyter software,
 or that it contains Jupyter software, is always allowed.
 In those cases, you may use the word "Jupyter", unaltered Jupyter logos, or images or videos
-of Jupyter applications to indicate this, without our prior approval.
+of Jupyter applications to indicate this, without our prior approval, provided such use does 
+not imply Project Jupyter's sponsorship or endorsement.
 This is true both for non-commercial and commercial uses.
 
 This clause overrides other clauses of this policy.
