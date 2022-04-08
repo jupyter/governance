@@ -1,6 +1,6 @@
 # Bootstrapping Subproject Councils
 
-As the new Jupyter governance model is approved and implemented, we are moving from an informal Subproject governance model to a formal model. As part of this process, each Jupyter Subproject will need to establish a formal council as its decision-making body, including deciding its size and who its members are. There are a number of challenges associated with this:
+As the new Jupyter governance model is approved and implemented, we are moving from an informal Subproject governance model to a formal model. As part of this process, each Jupyter Subproject will need to establish a formal Subproject council as its decision-making body, including deciding its size and who its members are. There are a number of challenges associated with this:
 
 - Most Subprojects do not currently have a well-defined decision process or decision-making body.
 - There is a wide range of Subproject community sizes and activity&mdash;some have only a few contributors and infrequent commits, while others have dozens of developers and daily activity.
@@ -20,7 +20,7 @@ The overall principle of this framework is to gradually grow the council from a 
 2. The Subproject council uses the new Decision-Making Guidelines and the principles below to decide if the next action should be:
    A. Electing a single new member to the council, in which case the process proceeds to step 3, or
    B. Stopping electing members, in which case the council is complete and the process ends.
-3. The current council elects a single new member using the Decision-Making Guidelines and the principles below, thereby increasing the body's size by one, and proceeds to step 2.
+3. The current council elects a single new member using the Decision-Making Guidelines and the principles below, thereby increasing the council's size by one, and proceeds to step 2.
 
 The bootstrapping process should observe these principles:
 - To address issues of multi-stakeholder governance, during the process above, successively elected members in step 3 should rotate across different organizations to avoid overrepresentation of a single organization in a stage of the process.
