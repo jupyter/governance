@@ -23,7 +23,7 @@ Standing Committees have the following unique properties:
 
 - Standing Committees focus on areas critical to the governance of the project and thus are established and dissolved by joint decisions of the SSC and EB.
 - Changes to the charters of Standing Committees are approved by joint decisions of the SSC and EB.
-- Standing Committees always have a representative on the SSC, elected by the Standing Committee council.
+- Standing Committees always have a representative on the SSC, elected by the Standing Committee Council.
 - The EB is responsible for ensuring the Standing Committees are appropriately resourced at all times.
 
 ## Working Groups

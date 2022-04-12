@@ -28,6 +28,6 @@ The process for changing the governance pages is as follows:
 
 The discussion phase is meant to gather input and multiple perspectives from the community.
 Make sure that the community has had an opportunity to weigh in on
-the change **before calling a vote**. A good rule of thumb is to ask several steering council
+the change **before calling a vote**. A good rule of thumb is to ask several Steering Council
 members if they believe that it is time for a vote, and to let at least one person review
 the pull request for structural quality and typos.
