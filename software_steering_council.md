@@ -35,7 +35,7 @@ SSC members are leaders from Jupyter Subprojects that wish to assist the communi
 
 ### Member composition
 
-The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain Working Groups and Standing Committees whose scope has important impact on SSC activities, such as Diversity and Inclusion, Accessibility, and Internationalization.
+The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain Working Groups and Standing Committees whose scope has important impact on SSC activities, such as Diversity and Inclusion, and Internationalization.
 
 ### Term length
 

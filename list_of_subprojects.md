@@ -7,7 +7,7 @@ At the highest level, any Github repository under any official Jupyter GitHub or
 The following Jupyter Subprojects have their own formal decision-making body that elects and maintains an SSC representative:
 
 - JupyterLab (https://github.com/jupyterlab/jupyterlab)
-- JupyterHub and Binder 
+- JupyterHub and Binder
   - Jupyterhub (https://github.com/jupyterhub/jupyterhub)
   - Binder (https://github.com/jupyterhub/binder)
   - BinderHub (https://github.com/jupyterhub/binderhub)
@@ -25,6 +25,7 @@ The following Jupyter Subprojects have their own formal decision-making body tha
 - Jupyter Foundations
 - Jupyter Standards
 - Jupyter Security (https://github.com/jupyter/security)
+- Jupyter Accessibility (https://github.com/jupyter/accessibility)
 
 ## Official Subprojects without SSC representation
 
