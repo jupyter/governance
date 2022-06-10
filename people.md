@@ -83,10 +83,10 @@ Institutional Council members are noted with each institution.
 
 ## New Steering Council Members
 
-When a new member joins the steering council, the following things are done:
+When a new member joins the Steering Council, the following things are done:
 - Announce the new member on the Jupyter mailing list
 - Make the new member an org owner for IPython and Jupyter Github organizations
 - Add the new member to the list in the governance repo, and if appropriate, add their affiliation to the institutional partner list (https://github.com/jupyter/governance/blob/master/people.md)
-- Add the new member to the list of steering council members on the website (https://github.com/jupyter/jupyter.github.io/blob/master/about.html)
+- Add the new member to the list of Steering Council members on the website (https://github.com/jupyter/jupyter.github.io/blob/master/about.html)
 
 
