@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>New Subproject Process &#8212; Project Jupyter Governance</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,20 +20,16 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -39,12 +37,13 @@
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
@@ -62,7 +61,21 @@ const thebe_selector_output = ".output, .cell_output"
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -71,9 +84,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
       
@@ -86,14 +100,15 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="intro.html">
-   Project Jupyter Governance
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Project Jupyter Governance
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Code of Conduct
  </span>
@@ -240,7 +255,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="bootstrapping_decision_making.html">
-   Bootstrapping Decision-Making Bodies
+   Bootstrapping Subproject Councils
   </a>
  </li>
  <li class="toctree-l1">
@@ -251,12 +266,17 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
 </div>
 
 
@@ -264,61 +284,117 @@ const thebe_selector_output = ".output, .cell_output"
 
 
           
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
     
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
+    <div class="header-article row sticky-top noprint">
         
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/newsubprojects.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/newsubprojects.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
     </div>
 </div>
 
-            <!-- Source interaction buttons -->
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#criteria-for-official-subprojects">
    Criteria for official Subprojects
@@ -382,12 +458,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>New Subproject Process</h1>
@@ -467,11 +542,12 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="new-subproject-process">
-<h1>New Subproject Process<a class="headerlink" href="#new-subproject-process" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="new-subproject-process">
+<h1>New Subproject Process<a class="headerlink" href="#new-subproject-process" title="Permalink to this headline">#</a></h1>
 <p>This document describes the process by which new Subprojects are created in or
 moved to these organizations from other locations. For a list of current sub-projects in the Jupyter Community, see <a class="reference internal" href="list_of_subprojects.html"><span class="doc std std-doc">the list of sub-projects</span></a>.</p>
 <p>There are two ways that new Subprojects are created:</p>
@@ -497,8 +573,8 @@ proposal and receive approval from the Steering Council</p></li>
 are <strong>not</strong> considered officially supported and maintained Subprojects until they
 meet the criteria below and go through the incorporation process detailed later in
 this document.</p>
-<div class="section" id="criteria-for-official-subprojects">
-<h2>Criteria for official Subprojects<a class="headerlink" href="#criteria-for-official-subprojects" title="Permalink to this headline">¶</a></h2>
+<section id="criteria-for-official-subprojects">
+<h2>Criteria for official Subprojects<a class="headerlink" href="#criteria-for-official-subprojects" title="Permalink to this headline">#</a></h2>
 <p>The following criteria will be used in evaluating Subprojects for incorporation
 into one of the official Jupyter organizations. These apply to any Subproject,
 regardless of who is developing the Subproject. Subprojects should:</p>
@@ -522,17 +598,17 @@ official Subprojects is this: is there broad agreement in the community and
 Steering Council that we are going to develop and maintain the Subproject in an
 official capacity?</p>
 <p>The two paths for official Subproject creation are now detailed.</p>
-</div>
-<div class="section" id="direct-subproject-creation">
-<h2>Direct Subproject creation<a class="headerlink" href="#direct-subproject-creation" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="direct-subproject-creation">
+<h2>Direct Subproject creation<a class="headerlink" href="#direct-subproject-creation" title="Permalink to this headline">#</a></h2>
 <p>In some cases, Steering Council members can immediately create new official Subprojects in the main
 Jupyter organization. This option will be used when the new Subproject is clearly part of the
 existing scope, activities and development of Project Jupyter. The process for direct Subproject
 creation is minimal and informal: Steering Council members should be in consensus about the
 Subproject’s creation and notify the main Jupyter list of its creation.</p>
-</div>
-<div class="section" id="incorporation-of-an-existing-external-subproject">
-<h2>Incorporation of an existing external Subproject<a class="headerlink" href="#incorporation-of-an-existing-external-subproject" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="incorporation-of-an-existing-external-subproject">
+<h2>Incorporation of an existing external Subproject<a class="headerlink" href="#incorporation-of-an-existing-external-subproject" title="Permalink to this headline">#</a></h2>
 <p>In other cases, Subprojects proposed for incorporation will have existed and been developed as
 open-source software for some time outside the official Jupyter organizations. This section describes
 the incorporation process for these existing external Subprojects. This process applies to
@@ -542,8 +618,8 @@ software in other public venues.</p>
 <p>When a Subproject is incorporated, it becomes an officially supported and maintained part
 of Project Jupyter and is moved to one of the GitHub organizations noted at the top of
 this document.</p>
-<div class="section" id="proposal-for-incorporation">
-<h3>Proposal for incorporation<a class="headerlink" href="#proposal-for-incorporation" title="Permalink to this headline">¶</a></h3>
+<section id="proposal-for-incorporation">
+<h3>Proposal for incorporation<a class="headerlink" href="#proposal-for-incorporation" title="Permalink to this headline">#</a></h3>
 <p>If consensus for adoption within a given Jupyter organization’s team is straightforward and the above criteria are met,
 a project may be adopted immediately.
 Such consensus may be established by creating an Issue on the given organization’s <code class="docutils literal notranslate"><span class="pre">team-compass</span></code> repository.
@@ -579,9 +655,9 @@ progressing or will never be appropriate for incorporation. If a rejected Subpro
 incubating under the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> GitHub
 organization, its repository will be removed from that organization after a transition period.</p></li>
 </ul>
-</div>
-<div class="section" id="incorporation">
-<h3>Incorporation<a class="headerlink" href="#incorporation" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="incorporation">
+<h3>Incorporation<a class="headerlink" href="#incorporation" title="Permalink to this headline">#</a></h3>
 <p>When an existing external Subproject is incorporated as a new official Subproject, the following
 steps will be taken:</p>
 <ol class="simple">
@@ -595,10 +671,10 @@ is maintained in this governance repository will be added to the repository.</p>
 <li><p>Copyright notices in individual files should be updated to the standard form described
 in our <a class="reference external" href="https://raw.githubusercontent.com/jupyter/governance/master/projectlicense.md">Project Jupyter License</a>.</p></li>
 </ol>
-</div>
-</div>
-<div class="section" id="incubation-of-subprojects">
-<h2>Incubation of Subprojects<a class="headerlink" href="#incubation-of-subprojects" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="incubation-of-subprojects">
+<h2>Incubation of Subprojects<a class="headerlink" href="#incubation-of-subprojects" title="Permalink to this headline">#</a></h2>
 <p>Incubation refers to the process of a Subproject initially being developed outside the official
 Jupyter organizations. Incubation is recommended for new Subprojects with the following
 characteristics:</p>
@@ -614,8 +690,8 @@ emerging and being developed for future inclusion.</p>
 <p>If there are questions about whether incubation is appropriate for a given Subproject, interested
 parties should simply start a discussion on the main Jupyter list to get community and Steering
 Council feedback.</p>
-<div class="section" id="incubation-in-the-jupyter-incubator-organization">
-<h3>Incubation in the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization<a class="headerlink" href="#incubation-in-the-jupyter-incubator-organization" title="Permalink to this headline">¶</a></h3>
+<section id="incubation-in-the-jupyter-incubator-organization">
+<h3>Incubation in the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization<a class="headerlink" href="#incubation-in-the-jupyter-incubator-organization" title="Permalink to this headline">#</a></h3>
 <p>If a Subproject team knows from the start that it would eventually like its Subproject to be part
 of one of the official Jupyter organizations, it can be incubated in the
 <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization.</p>
@@ -628,8 +704,8 @@ that will help them develop and refine a clear and concise integration proposal.
 <li><p>Allow the community to distinguish between officially supported Subprojects and experimental
 Subprojects pursued by members of the community.</p></li>
 </ul>
-<div class="section" id="repository-management-policy-for-incubator-projects">
-<h4>Repository management policy for incubator projects<a class="headerlink" href="#repository-management-policy-for-incubator-projects" title="Permalink to this headline">¶</a></h4>
+<section id="repository-management-policy-for-incubator-projects">
+<h4>Repository management policy for incubator projects<a class="headerlink" href="#repository-management-policy-for-incubator-projects" title="Permalink to this headline">#</a></h4>
 <p>Projects may from time to time want to create new repositories to explore
 various ideas.  The basic policy for this is the following:</p>
 <ul class="simple">
@@ -644,10 +720,10 @@ Jupyter list.  The proposal will be discussed with the assumption that,
 unless someone raises a serious objection, these requests will be approved as
 propmptly as possible.</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="proposal-for-incubation">
-<h3>Proposal for incubation<a class="headerlink" href="#proposal-for-incubation" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="proposal-for-incubation">
+<h3>Proposal for incubation<a class="headerlink" href="#proposal-for-incubation" title="Permalink to this headline">#</a></h3>
 <p>A Subproject team can initiate the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a>
 incubation process by submitting a proposal for incubation. This process is designed to be
 lightweight and quick:</p>
@@ -664,9 +740,9 @@ of the Subproject, that is not required.</p></li>
 the consensus of the Steering Council.</p></li>
 <li><p>If approved, the proposal pull request will be merged. If rejected, it will be closed.</p></li>
 </ol>
-</div>
-<div class="section" id="incubation-period">
-<h3>Incubation period<a class="headerlink" href="#incubation-period" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="incubation-period">
+<h3>Incubation period<a class="headerlink" href="#incubation-period" title="Permalink to this headline">#</a></h3>
 <p>Once a Subproject is approved for incubation in the
 <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization, the following steps will be
 taken:</p>
@@ -682,18 +758,18 @@ main Jupyter list.</p></li>
 <p>The goal of the incubation period is to demonstrate that the Subproject is going to develop an
 active developer and user community. There is no particular length of time required for incubation,
 but it is expected that most Subprojects will be in incubation for at least six months to one year.</p>
-</div>
-</div>
-<div class="section" id="external-incubation">
-<h2>External incubation<a class="headerlink" href="#external-incubation" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="external-incubation">
+<h2>External incubation<a class="headerlink" href="#external-incubation" title="Permalink to this headline">#</a></h2>
 <p>Incubation outside the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization is also
 possible. In this case, there is no formal process. Any individual or organization can simply create
 a new project on their own personal GitHub (or other VCS) repository and develop it as they see fit.
 If such an externally created and incubated Subproject wants to become part of the official Jupyter
 organizations, the criteria listed at the top of this document must be satisfied and the same
 incorporation process must be followed.</p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -717,9 +793,11 @@ incorporation process must be followed.</p>
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="list_of_subprojects.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -735,16 +813,16 @@ incorporation process must be followed.</p>
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
-    
-      By The Jupyter Book community<br/>
-    
-      <div class="extra_footer">
-        <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By The Jupyter Book community<br/>
+  
+    <div class="extra_footer">
+      <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
     href="http://creativecommons.org/publicdomain/zero/1.0/">
     <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
@@ -762,16 +840,20 @@ This work is published from:
   United States</span>.
 </p>
 
-      </div>
-  </p>
-</footer>
-</main>
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
 
 
       </div>
     </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>

@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>List of Official Jupyter Subprojects &#8212; Project Jupyter Governance</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,20 +20,16 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -39,12 +37,13 @@
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
@@ -62,7 +61,21 @@ const thebe_selector_output = ".output, .cell_output"
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -71,9 +84,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
       
@@ -86,14 +100,15 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="intro.html">
-   Project Jupyter Governance
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Project Jupyter Governance
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Code of Conduct
  </span>
@@ -240,7 +255,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="bootstrapping_decision_making.html">
-   Bootstrapping Decision-Making Bodies
+   Bootstrapping Subproject Councils
   </a>
  </li>
  <li class="toctree-l1">
@@ -251,12 +266,17 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
 </div>
 
 
@@ -264,61 +284,117 @@ const thebe_selector_output = ".output, .cell_output"
 
 
           
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
     
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
+    <div class="header-article row sticky-top noprint">
         
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/list_of_subprojects.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/list_of_subprojects.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
     </div>
 </div>
 
-            <!-- Source interaction buttons -->
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#official-subprojects-with-ssc-representation">
    Official Subprojects with SSC representation
@@ -336,12 +412,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>List of Official Jupyter Subprojects</h1>
@@ -375,15 +450,16 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="list-of-official-jupyter-subprojects">
-<h1>List of Official Jupyter Subprojects<a class="headerlink" href="#list-of-official-jupyter-subprojects" title="Permalink to this headline">¶</a></h1>
-<p>At the highest level, any Github repository under any official Jupyter GitHub organization is either itself an Official Jupyter Subproject, or is part of an Official Jupyter Subproject. All such Subprojects have all of the privileges and responsibilities detailed in the Software Subprojects of Jupyter governance document. Within the Official Jupyter Subproject designation, there are two types of Subprojects: ones with a formal decision-making body and SSC representation, and smaller, less active ones whose decision-making body is the SSC itself. This document enumerates Subprojects of these two types.</p>
-<div class="section" id="official-subprojects-with-ssc-representation">
-<h2>Official Subprojects with SSC representation<a class="headerlink" href="#official-subprojects-with-ssc-representation" title="Permalink to this headline">¶</a></h2>
-<p>The following Jupyter Subprojects have their own formal decision-making body that elects and maintains an SSC representative:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="list-of-official-jupyter-subprojects">
+<h1>List of Official Jupyter Subprojects<a class="headerlink" href="#list-of-official-jupyter-subprojects" title="Permalink to this headline">#</a></h1>
+<p>At the highest level, any Github repository under any official Jupyter GitHub organization is either itself an Official Jupyter Subproject, or is part of an Official Jupyter Subproject. All such Subprojects have all of the privileges and responsibilities detailed in the Software Subprojects of Jupyter governance document. Within the Official Jupyter Subproject designation, there are two types of Subprojects: ones with a formal Subproject Council and SSC representation, and smaller, less active ones whose Subproject Council is the SSC itself. This document enumerates Subprojects of these two types.</p>
+<section id="official-subprojects-with-ssc-representation">
+<h2>Official Subprojects with SSC representation<a class="headerlink" href="#official-subprojects-with-ssc-representation" title="Permalink to this headline">#</a></h2>
+<p>The following Jupyter Subprojects have their own formal Subproject Council that elects and maintains an SSC representative:</p>
 <ul class="simple">
 <li><p>JupyterLab (<a class="reference external" href="https://github.com/jupyterlab/jupyterlab">https://github.com/jupyterlab/jupyterlab</a>)</p></li>
 <li><p>JupyterHub and Binder</p>
@@ -414,10 +490,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Jupyter Standards</p></li>
 <li><p>Jupyter Security (<a class="reference external" href="https://github.com/jupyter/security">https://github.com/jupyter/security</a>)</p></li>
 </ul>
-</div>
-<div class="section" id="official-subprojects-without-ssc-representation">
-<h2>Official Subprojects without SSC representation<a class="headerlink" href="#official-subprojects-without-ssc-representation" title="Permalink to this headline">¶</a></h2>
-<p>The following official Jupyter Subprojects are smaller and less active. As such their formal decision-making body will be the SSC and they will not have an independent SSC delegate. Our expectation is that these smaller teams will basically continue working as they do today, making decisions using the consensus seeking phase of the Jupyter Decision-Making Guidelines. Even though the SSC has decision-making authority over these projects, the SSC delegates all decisions that do not have broad cross-project implications to the Subproject maintainers. In the rare situation that a vote is called, the SSC will serve as the voting body and will consult closely with the Subproject maintainers. If one of these Subprojects grows or becomes more active, the SSC can, at any time, elect a standalone decision-making body for the Subproject, at which point, the Subproject will begin to have an SSC delegate of their own. In all other respects, these Subprojects are full and official Subprojects.</p>
+</section>
+<section id="official-subprojects-without-ssc-representation">
+<h2>Official Subprojects without SSC representation<a class="headerlink" href="#official-subprojects-without-ssc-representation" title="Permalink to this headline">#</a></h2>
+<p>The following official Jupyter Subprojects are smaller and less active. As such their formal Subproject Council will be the SSC and they will not have an independent SSC delegate. Our expectation is that these smaller teams will basically continue working as they do today, making decisions using the consensus-seeking phase of the Jupyter Decision-Making Guidelines. Even though the SSC has decision-making authority over these projects, the SSC delegates all decisions that do not have broad cross-project implications to the Subproject maintainers. In the rare situation that a vote is called, the SSC will serve as the voting body and will consult closely with the Subproject maintainers. If one of these Subprojects grows or becomes more active, the SSC can, at any time, elect a standalone council for the Subproject, at which point, the Subproject will begin to have an SSC delegate of their own. In all other respects, these Subprojects are full and official Subprojects.</p>
 <ul class="simple">
 <li><p>nbdime (<a class="reference external" href="https://github.com/jupyter/nbdime">https://github.com/jupyter/nbdime</a>)</p></li>
 <li><p>nbgrader (<a class="reference external" href="https://github.com/jupyter/nbgrader">https://github.com/jupyter/nbgrader</a>)</p></li>
@@ -426,15 +502,15 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>QtConsole (<a class="reference external" href="https://github.com/jupyter/qtconsole">https://github.com/jupyter/qtconsole</a>). Note that QtConsole today is most actively maintained by the Spyder team; as part of this reorganization we will discuss with them whether it’s more appropriate to move the project to be fully under their organization.</p></li>
 <li><p>All other repos not listed above and that don’t clearly fall into one of the official Subproject GitHub organizations above.</p></li>
 </ul>
-</div>
-<div class="section" id="notes-about-official-jupyter-subprojects">
-<h2>Notes about Official Jupyter Subprojects<a class="headerlink" href="#notes-about-official-jupyter-subprojects" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="notes-about-official-jupyter-subprojects">
+<h2>Notes about Official Jupyter Subprojects<a class="headerlink" href="#notes-about-official-jupyter-subprojects" title="Permalink to this headline">#</a></h2>
 <p>The Official Jupyter Subprojects document proposes a number of changes to how our repositories are organized into official Subprojects and GitHub organizations. This document describes the changes that are being proposed.</p>
 <ul class="simple">
 <li><p>Services</p>
 <ul>
 <li><p>In general Jupyter services such as Binder, nbviewer, and the Jupyter website involve legal, financial, and operational matters. As such, we are proposing that the actual services are managed by working groups that report to the Board of Directors, who can provide the needed support and oversight. For example, if we want to hire full or part time staff to maintain or operate these services, the Board of Directors would be responsible for raising funds, hiring, and managing those staff.</p></li>
-<li><p>The JupyterHub and Binder teams have a number of unique considerations. Currently all Binder repositories are under the Jupyterhub organizations, but there is a separate (but highly overlapping team) listed as the Binder team. These teams will need to work out if they would like to each have a formal decision-making body with an SSC representative, or if they would like to have a single team. The Governance Working Group will be available to the JupyterHub and Binder teams to help working through these questions.</p></li>
+<li><p>The JupyterHub and Binder teams have a number of unique considerations. Currently all Binder repositories are under the Jupyterhub organizations, but there is a separate (but highly overlapping team) listed as the Binder team. These teams will need to work out if they would like to each have a formal Subproject Council with an SSC representative, or if they would like to have a single team. The Governance Working Group will be available to the JupyterHub and Binder teams to help working through these questions.</p></li>
 <li><p>We propose that the Jupyter website and its repository will be governed by a working group that reports to the Board of Directors.</p></li>
 <li><p>We propose that the nbviewer service (only the actual live service) be governed by a working group that reports to the Board of Directors. The reusable part of nbviewer contained (<a class="reference external" href="https://github.com/jupyter/nbviewer">https://github.com/jupyter/nbviewer</a>) will be an official Jupyter Subproject without SCC representation as described above.</p></li>
 </ul>
@@ -442,7 +518,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Jupyter Kernels</p>
 <ul>
 <li><p>To consolidate the project’s work on first-party kernels, we propose to establish a new official Subproject called <em>Jupyter Kernels</em> and create a Github organization named jupyter-kernels for the work of the Subproject. All Xeus repositories (<a class="reference external" href="https://github.com/jupyter-xeus">https://github.com/jupyter-xeus</a>) will be moved into this organization. This Subproject will also govern the IPython GitHub organization, which will be left in place (<a class="reference external" href="https://github.com/ipython">https://github.com/ipython</a>).</p></li>
-<li><p>A new decision-making body for this organization will be established, and they will elect an SSC delegate.</p></li>
+<li><p>A new Subproject Council for this organization will be established, and they will elect an SSC delegate.</p></li>
 </ul>
 </li>
 <li><p>Jupyter Standards</p>
@@ -476,8 +552,8 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 </ul>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -501,9 +577,11 @@ const thebe_selector_output = ".output, .cell_output"
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="software_subprojects.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -519,16 +597,16 @@ const thebe_selector_output = ".output, .cell_output"
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
-    
-      By The Jupyter Book community<br/>
-    
-      <div class="extra_footer">
-        <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By The Jupyter Book community<br/>
+  
+    <div class="extra_footer">
+      <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
     href="http://creativecommons.org/publicdomain/zero/1.0/">
     <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
@@ -546,16 +624,20 @@ This work is published from:
   United States</span>.
 </p>
 
-      </div>
-  </p>
-</footer>
-</main>
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
 
 
       </div>
     </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>
