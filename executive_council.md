@@ -19,7 +19,7 @@ The EC has the responsibility to:
 - Raise, allocate, and manage all Project funding and sponsorships, and set policies and procedures for third parties to request external funding with the official endorsement of Project Jupyter.
 - Allocate resources, select candidates, define scope and priorities, and manage roles and personnel employed to conduct business operations on behalf of Project Jupyter.
 - Manage legal aspects of the Project, such as copyright, contracts, compliance, and licensing.
-- Manage the Jupyter brand, including the Project-wide website, core design philosophy, design assets, trademark, and naming.
+- Manage the Jupyter brand, including the Project-wide website, core design philosophy, design assets, trademarks, and naming.
 - Manage public communications and community activities, including social media, conferences, workshops, and community-wide resources.
 - Manage any Jupyter services, including hosted services such as nbviewer, jupyter.org, and mybinder.org.
 - Manage the Project’s relationship with NumFOCUS, its parent non-profit organization and fiscal sponsor.
