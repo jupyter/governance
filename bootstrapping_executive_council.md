@@ -2,7 +2,7 @@
 
 ## Scope and overview
 
-This document describes the process of creating the initial Executive Council (EC) that will replace the current Steering Council and the timelines of when related governing bodies, such as the Software Steering Council (SSC), all become active, resulting in a complete transition from Jupyter's existing governance (as of June 2022) into a new model.
+This document describes the process of creating the initial Executive Council (EC) that will replace the current Steering Council and BDFL, and the timelines of when related governing bodies, such as the Software Steering Council (SSC), all become active, resulting in a complete transition from Jupyter's existing governance (as of June 2022) into a new model.
 
 ## Mechanics
 
