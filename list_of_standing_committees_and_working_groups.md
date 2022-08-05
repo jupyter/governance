@@ -6,7 +6,7 @@ Project work that expands beyond software-related work is organized into charter
 
 ### Diversity, Equity, and Inclusion
 
-Charter Summary: Increase diversity, equity and inclusion within all aspects of Project Jupyter, including the various councils/leadership, Subprojects, and the broader community.
+Charter Summary: Increase diversity, equity, and inclusion within all aspects of Project Jupyter, including the various councils/leadership, Subprojects, and the broader community.
 
 ### Code of Conduct Incident Response
 
@@ -15,6 +15,10 @@ Charter Summary: Own and manage the Jupyter Code of Conduct reporting and incide
 ### Conflict of Interest
 
 Charter Summary: Ensure that the joint and conflicting interests of leaders across Project Jupyter are disclosed appropriately, handled with transparency, and mitigated with integrity.
+
+### Community Advisory Panel
+
+Charter Summary: Advise the Executive Council (EC) with perspectives and connections that may reach beyond the active Jupyter community.
 
 ## Working Groups
 
