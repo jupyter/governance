@@ -6,26 +6,26 @@ At the highest level, any Github repository under any official Jupyter GitHub or
 
 The following Jupyter Subprojects have their own formal Subproject Council that elects and maintains an SSC representative:
 
-- JupyterLab (https://github.com/jupyterlab/jupyterlab)
-- JupyterHub and Binder
-  - Jupyterhub (https://github.com/jupyterhub/jupyterhub)
-  - Binder (https://github.com/jupyterhub/binder)
-  - BinderHub (https://github.com/jupyterhub/binderhub)
-- Voilà (https://github.com/voila-dashboards/voila)
-- Jupyter Server
-  - Jupyter Server (https://github.com/jupyter-server/jupyter_server)
-  - Enterprise Gateway (https://github.com/jupyter/enterprise_gateway)
-  - Kernel Gateway (https://github.com/jupyter/kernel_gateway)
-- Jupyter Widgets (https://github.com/jupyter-widgets)
-- Jupyter Notebook (https://github.com/jupyter/notebook)
-- Jupyter Kernels
-  - jupyter-xeus (https://github.com/jupyter-xeus/)
-  - IPykernel (https://github.com/ipython/ipykernel)
-  - IPython (https://github.com/ipython/ipython)
+- [JupyterLab](https://github.com/jupyterlab/team-compass)
+- [JupyterHub and Binder](https://github.com/jupyterhub/team-compass)
+  - [Jupyterhub](https://github.com/jupyterhub/jupyterhub)
+  - [Binder](https://github.com/jupyterhub/binder)
+  - [BinderHub](https://github.com/jupyterhub/binderhub)
+- [Voilà](https://voila-dashboards.github.io/)
+- [Jupyter Server](https://github.com/jupyter-server/team-compass)
+  - [Jupyter Server](https://github.com/jupyter-server/jupyter_server)
+  - [Enterprise Gateway](https://github.com/jupyter/enterprise_gateway)
+  - [Kernel Gateway](https://github.com/jupyter/kernel_gateway)
+- [Jupyter Widgets](https://github.com/jupyter-widgets/team-compass)
+- [Jupyter Notebook](https://github.com/jupyter/notebook-team-compass)
+- [Jupyter Kernels](https://github.com/jupyter/kernels-team-compass)
+  - [jupyter-xeus](https://github.com/jupyter-xeus/)
+  - [IPykernel](https://github.com/ipython/ipykernel)
+  - [IPython](https://github.com/ipython/ipython)
 - Jupyter Foundations
 - Jupyter Standards
-- Jupyter Security (https://github.com/jupyter/security)
-- Jupyter Accessibility (https://github.com/jupyter/accessibility)
+- [Jupyter Security](https://github.com/jupyter/security)
+- [Jupyter Accessibility](https://github.com/jupyter/accessibility)
 
 ## Official Subprojects without SSC representation
 
