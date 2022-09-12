@@ -38,4 +38,5 @@ parts:
 - caption: Future Governance
   chapters:
   - file: bootstrapping_decision_making
+  - file: executive_council
   - file: software_steering_council
