@@ -35,7 +35,7 @@ parts:
   - file: trademarks
   - file: projectlicense
 
-- caption: Future Governance
+- caption: Future Governance [work in progress]
   chapters:
   - file: bootstrapping_decision_making
   - file: executive_council
