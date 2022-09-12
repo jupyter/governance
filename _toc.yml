@@ -40,3 +40,4 @@ parts:
   - file: bootstrapping_decision_making
   - file: executive_council
   - file: software_steering_council
+  - file: list_of_standing_committees_and_working_groups
