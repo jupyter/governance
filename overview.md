@@ -2,7 +2,7 @@
 
 Jupyter has undergone a transition from a Benevolent Dictator For Life (BDFL) + Steering Council model of governance to a new one, based on several related bodies. This document is a brief informational overview of this new model, which is being enacted as of October 2022.
 
-_Note:_ this document provides an informational summary of multiple documents in our governance repository that were individually voted on. Any deviation of , the underlying governance documents should be considered as the source of truth, and we will update this overview as needed.
+_Note:_ this document provides an informational summary of multiple documents in our governance repository that were individually voted on. In case of any substantive discrepancy, the underlying governance documents should be considered as the source of truth, and we will update this overview as needed.
 
 Jupyter’s new governance model is anchored on two bodies that complement each other:
 
