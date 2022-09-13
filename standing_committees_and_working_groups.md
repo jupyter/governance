@@ -6,6 +6,8 @@ In addition to the software work on Jupyter that is coordinated through the [Sof
 
 The primary difference between Standing Committees and Working Groups is that Standing Committees are intended to be permanent; they are only created and dissolved by a joint vote of the EB and SSC. In contrast, Working Groups can be created and dissolved by the EB acting alone.
 
+A list of Standing Committess and Working Groups can be [found here](list_of_standing_committees_and_working_groups.md).
+
 ## Common Points
 
 Standing Committees and Working Groups both:

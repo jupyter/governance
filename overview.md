@@ -25,6 +25,8 @@ In addition to the software work on Jupyter that is coordinated through the Soft
 
 The primary difference between Standing Committees and Working Groups is that Standing Committees are intended to be permanent; they are only created and dissolved by a joint vote of the EB and SSC. In contrast, Working Groups can be created and dissolved by the EB acting alone.
 
+More details on these can be found [here](standing_committees_and_working_groups.md).
+
 ### Software Subprojects
 
 Software Subprojects in the Jupyter community are official areas of focus and effort within the Jupyter ecosystem. They often map to a single GitHub organization. Subprojects must abide by the [Jupyter Code of Conduct](code_of_conduct.md), Jupyter decision-making and governance processes (e.g. respecting the project's trademark policies), as well as commit to certain technical limitations and scope. Each subproject elects one person to serve on the Software Steering Council. For more details, see the [Software Subprojects document](software_subprojects.md).
