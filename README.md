@@ -7,8 +7,12 @@ open source collaborative development and work that may be funded by for-profit 
 
 The governance documents are best-viewed at https://jupyter.org/governance
 
+
+**Note:** Currently (as of late 2022), Jupyter's governance is undergoing a transition to a new model described in the "Future Governance" section. A high-level [overview can be found here](overview.md).
+
 ## Table of Contents
 
+* [Overview of new (2022) Governance Model](overview.md)
 * [Main Governance Document](governance.md)
 * [Current Steering Council and Institutional Partners](people.md)
 * [New Subproject Incubation Process](newsubprojects.md)
