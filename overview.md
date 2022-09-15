@@ -21,9 +21,9 @@ The Distinguished Contributors are a group of Jovyans that have gone above-and-b
 
 ### Standing Committees and Working Groups
 
-In addition to the software work on Jupyter that is coordinated through the Software Steering Council (SSC), much of the project’s work expands beyond software. Examples include code of conduct incident response, diversity and inclusion, operations, legal, fundraising, events, community, and marketing. Standing Committees and Working Groups carry out this non-software related work of the project by delegation from the Executive Board (EB).
+In addition to the software work on Jupyter that is coordinated through the Software Steering Council (SSC), much of the project’s work expands beyond software. Examples include code of conduct incident response, diversity and inclusion, operations, legal, fundraising, events, community, and marketing. Standing Committees and Working Groups carry out this non-software related work of the project by delegation from the Executive Council (EC).
 
-The primary difference between Standing Committees and Working Groups is that Standing Committees are intended to be permanent; they are only created and dissolved by a joint vote of the EB and SSC. In contrast, Working Groups can be created and dissolved by the EB acting alone.
+The primary difference between Standing Committees and Working Groups is that Standing Committees are intended to be permanent; they are only created and dissolved by a joint vote of the EC and SSC. In contrast, Working Groups can be created and dissolved by the EC acting alone.
 
 More details on these can be found [here](standing_committees_and_working_groups.md).
 
