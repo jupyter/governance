@@ -39,6 +39,7 @@ parts:
   chapters:
   - file: overview
   - file: bootstrapping_decision_making
+  - file: bootstrapping_executive_council
   - file: executive_council
   - file: software_steering_council
   - file: standing_committees_and_working_groups.md
