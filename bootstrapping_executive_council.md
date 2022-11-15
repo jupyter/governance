@@ -1,4 +1,4 @@
-# Creation of the Executive Council and transition to the new governance model
+# Bootstrapping Executive Council and New Governance
 
 ## Scope and overview
 
