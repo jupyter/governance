@@ -1,0 +1,16 @@
+Run process-votes.py.
+
+You should have a file votes.csv in the current directory. This is a
+comma-separated value file exported from Google Forms's vote output.
+
+The first row of votes.csv should include column headers with
+candidate names in square brackets.
+
+The second row, and all remaining rows of votes.csv, should be lists
+of numbered priorities for each candidate. A candidate not ranked should
+have a rank of an empty string.
+
+This script produces board_nominations.ini and votedata.txt for use
+with the Apache STeVe tabulation script.
+
+Script by Jason Weill (@jweill-aws)
