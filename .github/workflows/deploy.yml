@@ -5,7 +5,7 @@ name: deploy
 on:
   push:
     branches:
-    - master
+    - main
 
 # This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
