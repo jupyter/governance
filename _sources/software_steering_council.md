@@ -19,11 +19,11 @@ The SSC is responsible for the following:
 - Owning, managing and implementing the Jupyter Attic process (https://github.com/jupyter-attic).
 - Stewarding discussions and activities beyond JEPs that involve cross-cutting concerns, standards, protocols and other architectural issues that impact the entire project.
 - Owning and managing anything related to security vulnerabilities across the project, including the Jupyter security lists, any private security repositories, etc.
-- Voting to accept Working Groups nominated by the EC to have a representative on the SSC.
+- Voting to accept Working Groups nominated by the Executive Council (EC) to have a representative on the SSC.
 
-### Shared responsibilities with the Executive Board
+### Shared responsibilities with the Executive Council
 
-The SSC and Executive Board share the responsibility for:
+The SSC and EC share the responsibility for:
 
 - Changes to the Jupyter Governance model.
 - Creation of new Jupyter Subprojects.
@@ -31,9 +31,9 @@ The SSC and Executive Board share the responsibility for:
 
 ## Membership
 
-SSC members are leaders from Jupyter Subprojects that wish to assist the community in sharing information across projects and participate in decision-making that affects many stakeholders in the Jupyter ecosystem. Membership requires active and ongoing participation in Jupyter.
+SSC members are representatives from Jupyter Subprojects that wish to assist the community in sharing information across projects and participate in decision-making that affects many stakeholders in the Jupyter ecosystem. Any Subproject council member is eligible to represent the Subproject on the SSC. While not ideal, one person may serve as the SSC representative for more than one Subproject. In this case, a representative may cast one vote for each Subproject they represent in SSC decisions.
 
-A person may not serve simultaneously on the SSC and EC.
+A person may not serve simultaneously on the SSC and the EC.
 
 The SSC may vote to remove an SSC member. A removal motion passes if two-thirds of the entire SSC votes in favor of removal. All SSC members are expected to vote without recusal, including the member in question.
 
