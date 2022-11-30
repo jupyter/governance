@@ -1,3 +1,7 @@
+# Convert Jupyter Executive Council vote data from CSV to Apache STeVe format.
+#
+# This script is in the public domain.
+
 from datetime import datetime
 import re
 import string
