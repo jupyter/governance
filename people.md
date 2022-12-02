@@ -54,7 +54,8 @@ Alphabetical by first name:
 
 - Ana Ruvalcaba, @Ruv7
 - Jason Grout, @jasongrout
-- Sylvain Corlay, @sylvaincorlay
+- Martha Cryan, @marthacryan
+- Rollin Thomas, @rcthomas
 
 ## Institutional Partners
 
