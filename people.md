@@ -1,36 +1,59 @@
-# Steering Council and Institutional Partners
+## Executive Council
 
-Names are followed by GitHub usernames.
+Alphabetical by first name, names are followed by GitHub usernames.
 
-## Benevolent Dictator for Life
+- Afshin Darian, @afshin
+- Brian Granger, @ellisonbg
+- Fernando Perez, @fperez
+-
+-
+-
 
-Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
+## Software Steering Council
 
-## Steering Council
+- Jupyter Accessibility, Isabela Presedo-Floyed, @isabela-pf
+- Jupyter Foundations
+- Jupyter Kernels, Johan Mabille, @johanmabille
+- Jupyter Notebook, Eric Charles, @echarles
+- Jupyter Security, Rick Wagner, @rpwagner
+- Jupyter Server, Zach Sailer, @zsailer
+- Jupyter Standards
+- Jupyter Widgets, Itay Dafna, @ibdafna
+- JupyterHub and Binder, Min Ragan-Kelley, @minrk
+- JupyterLab, Frédéric Collonval, @fcollonval
+- Voilà, Sylvain Corlay, @SylvainCorlay
 
-Alphabetical by first name:
+## Before the 2022 Jupyter governance transition
+Before Jupyter transitioned to a governance model composed of an Executive
+Council and a Software Steering Council, it was led by a Benevolent Dictator for
+Life (BDFL) and a Steering Council.
 
-- Afshin Darian, @afshin (2018)
-- Ana Ruvalcaba, @Ruv7 (2018)
-- Brian Granger, @ellisonbg (Founding member, 2014)
-- Carol Willing, @willingc (2017)
-- Damian Avila, @damianavila (Founding member, 2014)
-- Fernando Perez, @fperez (Founding member, 2014)
-- Jason Grout, @jasongrout (2015)
-- Jessica Hamrick, @jhamrick (2015)
-- Kyle Kelley, @rgbkrk (Founding member, 2014)
-- M Pacer, @mpacer (2018)
-- Matthias Bussonnier, @carreau (Founding member, 2014)
-- Min Ragan-Kelley, @minrk (Founding member, 2014)
-- Paul Ivanov, @ivanov (2016)
-- Peter Parente, @parente (2016)
-- Steven Silvester, @blink1073 (2016)
-- Sylvain Corlay, @sylvaincorlay (2016)
-- Thomas Kluyver, @takluyver (Founding member, 2014)
+## Benevolent Dictator for Life (retired)
 
-### Retired steering council members
+Fernando Perez (@fperez) was the Benevolent Dictator for Life (BDFL). He
+voluntarily relinquished his role after the first Jupyter Executive Council
+election in late 2022.
 
+## Steering Council (dissolved)
+
+- Afshin Darian, @afshin (2018-2022)
+- Ana Ruvalcaba, @Ruv7 (2018-2022)
+- Brian Granger, @ellisonbg (Founding member, 2014-2022)
+- Carol Willing, @willingc (2017-2022)
+- Damian Avila, @damianavila (Founding member, 2014-2022)
+- Fernando Perez, @fperez (Founding member, 2014-2022)
+- Jason Grout, @jasongrout (2015-2022)
+- Jessica Hamrick, @jhamrick (2015-2022)
 - Jonathan Frederic, @jdfreder (2016-2018)
+- Kyle Kelley, @rgbkrk (Founding member, 2014-2022)
+- M Pacer, @mpacer (2018-2022)
+- Matthias Bussonnier, @carreau (Founding member, 2014-2022)
+- Min Ragan-Kelley, @minrk (Founding member, 2014-2022)
+- Paul Ivanov, @ivanov (2016-2022)
+- Peter Parente, @parente (2016-2022)
+- Steven Silvester, @blink1073 (2016-2022)
+- Sylvain Corlay, @sylvaincorlay (2016-2022)
+- Thomas Kluyver, @takluyver (Founding member, 2014-2022)
 
 ### NumFOCUS Subcommittee
 
@@ -56,38 +79,3 @@ Alphabetical by first name:
 - Jason Grout, @jasongrout
 - Martha Cryan, @marthacryan
 - Rollin Thomas, @rcthomas
-
-## Institutional Partners
-
-### Tier 1
-
-Institutional Council members are noted with each institution.
-
-
-- [Amazon Web Services](https://aws.amazon.com/) (Brian Granger)
-- [Cal Poly](https://www.calpoly.edu/) (Ana Ruvalcaba)
-- [Databricks](https://databricks.com/) (Jason Grout)
-- [MongoDB](https://www.mongodb.com/) (Steven Silvester)
-- [Netflix](https://www.netflix.com/) (M Pacer)
-- [Noteable](https://noteable.io/) (Carol Willing, Paul Ivanov, Kyle Kelley)
-- [QuanSight](https://www.quansight.com/) (Matthias Bussonnier, Carol Willing)
-- [QuantStack](http://quantstack.net/) (Sylvain Corlay)
-- [The International Interactive Computing Collaboration](https://2i2c.org/) (Damian Avila)
-- [Thorn](https://thorn.org/) (Peter Parente)
-- [Two Sigma](https://www.twosigma.com/) (Afshin Darian)
-- [UC Berkeley](https://www.berkeley.edu/) (Fernando Perez)
-- [University of Michigan](https://www.si.umich.edu/) (Damian Avila)
-
-### Tier 2
-
-- [Bloomberg](https://www.bloomberg.com/)
-
-## New Steering Council Members
-
-When a new member joins the Steering Council, the following things are done:
-- Announce the new member on the Jupyter mailing list
-- Make the new member an org owner for IPython and Jupyter Github organizations
-- Add the new member to the list in the governance repo, and if appropriate, add their affiliation to the institutional partner list (https://github.com/jupyter/governance/blob/master/people.md)
-- Add the new member to the list of Steering Council members on the website (https://github.com/jupyter/jupyter.github.io/blob/master/about.html)
-
-
