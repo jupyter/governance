@@ -1,7 +1,7 @@
 # Community Building Committee
 
 The Jupyter Community Building Committee acts on behalf of the Project Jupyter
-Steering Council with the objective of growing, building, and connecting the
+Executive Council with the objective of growing, building, and connecting the
 Jupyter community of users and contributors. A targeted outcome of this
 committee's work is to improve the diversity, equity, and inclusion of our
 community.
@@ -92,7 +92,7 @@ that shares power.
 
 ## Reporting
 
-This committee will report to the Steering Council quarterly on all areas of
+This committee will report to the Executive Council quarterly on all areas of
 responsibility, including activities, finances, and DEI efforts. This
 committee will also publish an annual blog post for the broader global
 community.
@@ -100,7 +100,7 @@ community.
 ## Bootstrapping
 
 Per the guidelines outlined in the governance for forming a decision-making
-body, the initial committee will be composed of three current Steering Council
+body, the initial committee will be composed of three current Executive Council
 members. Following these guidelines, the intention is for this committee to
 grow to include members from the Jupyter community in a way that supports
 engagement from a wider group of community members.
