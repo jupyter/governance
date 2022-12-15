@@ -28,13 +28,6 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | JupyterLab | Frédéric Collonval | [@fcollonval](https://github.com/fcollonval) |
 | Voilà | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
 
-### NumFOCUS Subcommittee
-
-- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
-- Fernando Perez, [@fperez](https://github.com/fperez)
-- Matthias Bussonnier, [@carreau](https://github.com/carreau)
-- Stefan van der Walt (non-council member), [@stefanv](https://github.com/stefanv)
-- Thomas Kluyver, [@takluyver](https://github.com/takluyver)
 ### Trademark Subcommittee
 
 - Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
@@ -81,3 +74,11 @@ voluntarily relinquished his role after Jupyter transitioned to a new governance
 - Steven Silvester, [@blink1073](https://github.com/blink1073) (2016-2022)
 - Sylvain Corlay, [@sylvaincorlay](https://github.com/sylvaincorlay) (2016-2022)
 - Thomas Kluyver, [@takluyver](https://github.com/takluyver) (Founding member, 2014-2022)
+
+### NumFOCUS Subcommittee (dissolved December 2022)
+
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
+- Fernando Perez, [@fperez](https://github.com/fperez)
+- Matthias Bussonnier, [@carreau](https://github.com/carreau)
+- Stefan van der Walt (non-council member), [@stefanv](https://github.com/stefanv)
+- Thomas Kluyver, [@takluyver](https://github.com/takluyver)
