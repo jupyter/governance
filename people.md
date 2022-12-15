@@ -1,81 +1,83 @@
+# Leadership Directory
+
+This is a directory of the present and past leadership of Project Jupyter.
 ## Executive Council
 
 Alphabetical by first name, names are followed by GitHub usernames.
 
-- Afshin Darian, @afshin
-- Brian Granger, @ellisonbg
-- Fernando Perez, @fperez
+- Afshin Darian, [@afshin](https://github.com/afshin)
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
+- Fernando Perez, [@fperez](https://github.com/fperez)
 -
 -
 -
 
 ## Software Steering Council
 
-- Jupyter Accessibility, Isabela Presedo-Floyed, @isabela-pf
-- Jupyter Foundations
-- Jupyter Kernels, Johan Mabille, @johanmabille
-- Jupyter Notebook, Eric Charles, @echarles
-- Jupyter Security, Rick Wagner, @rpwagner
-- Jupyter Server, Zach Sailer, @zsailer
-- Jupyter Standards
-- Jupyter Widgets, Itay Dafna, @ibdafna
-- JupyterHub and Binder, Min Ragan-Kelley, @minrk
-- JupyterLab, Frédéric Collonval, @fcollonval
-- Voilà, Sylvain Corlay, @SylvainCorlay
-
-## Before the 2022 Jupyter governance transition
-Before Jupyter transitioned to a governance model composed of an Executive
-Council and a Software Steering Council, it was led by a Benevolent Dictator for
-Life (BDFL) and a Steering Council.
-
-## Benevolent Dictator for Life (retired)
-
-Fernando Perez (@fperez) was the Benevolent Dictator for Life (BDFL). He
-voluntarily relinquished his role after the first Jupyter Executive Council
-election in late 2022.
-
-## Steering Council (dissolved)
-
-- Afshin Darian, @afshin (2018-2022)
-- Ana Ruvalcaba, @Ruv7 (2018-2022)
-- Brian Granger, @ellisonbg (Founding member, 2014-2022)
-- Carol Willing, @willingc (2017-2022)
-- Damian Avila, @damianavila (Founding member, 2014-2022)
-- Fernando Perez, @fperez (Founding member, 2014-2022)
-- Jason Grout, @jasongrout (2015-2022)
-- Jessica Hamrick, @jhamrick (2015-2022)
-- Jonathan Frederic, @jdfreder (2016-2018)
-- Kyle Kelley, @rgbkrk (Founding member, 2014-2022)
-- M Pacer, @mpacer (2018-2022)
-- Matthias Bussonnier, @carreau (Founding member, 2014-2022)
-- Min Ragan-Kelley, @minrk (Founding member, 2014-2022)
-- Paul Ivanov, @ivanov (2016-2022)
-- Peter Parente, @parente (2016-2022)
-- Steven Silvester, @blink1073 (2016-2022)
-- Sylvain Corlay, @sylvaincorlay (2016-2022)
-- Thomas Kluyver, @takluyver (Founding member, 2014-2022)
+| Subproject | Representative | GitHub username |
+| ---------- | -------------- | --------------- |
+| Jupyter Accessibility | Isabela Presedo-Floyed | [@isabela-pf](https://github.com/isabela-pf) |
+| Jupyter Foundations | | |
+| Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
+| Jupyter Notebook | Eric Charles | [@echarles](https://github.com/echarles) |
+| Jupyter Security | Rick Wagner | [@rpwagner](https://github.com/rpwagner) |
+| Jupyter Server | Zach Sailer | [@zsailer](https://github.com/zsailer) |
+| Jupyter Standards | | |
+| Jupyter Widgets | Itay Dafna | [@ibdafna](https://github.com/ibdafna) |
+| JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
+| JupyterLab | Frédéric Collonval | [@fcollonval](https://github.com/fcollonval) |
+| Voilà | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
 
 ### NumFOCUS Subcommittee
 
-- Ana Ruvalcaba, @Ruv7
-- Fernando Perez, @fperez
-- Matthias Bussonnier, @carreau
-- Stefan van der Walt (non-council member), @stefanv
-- Thomas Kluyver, @takluyver
-
-
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
+- Fernando Perez, [@fperez](https://github.com/fperez)
+- Matthias Bussonnier, [@carreau](https://github.com/carreau)
+- Stefan van der Walt (non-council member), [@stefanv](https://github.com/stefanv)
+- Thomas Kluyver, [@takluyver](https://github.com/takluyver)
 ### Trademark Subcommittee
 
-- Brian Granger, @ellisonbg
-- Jason Grout, @jasongrout
-- Min Ragan-Kelley, @minrk
-- Paul Ivanov, @ivanov
-- Tim George, @tgeorgeux
-- William Stein, @williamstein
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
+- Jason Grout, [@jasongrout](https://github.com/jasongrout)
+- Min Ragan-Kelley, [@minrk](https://github.com/minrk)
+- Paul Ivanov, [@ivanov](https://github.com/ivanov)
+- Tim George, [@tgeorgeux](https://github.com/tgeorgeux)
+- William Stein, [@williamstein](https://github.com/williamstein)
 
 ### Community Building Subcommittee
 
-- Ana Ruvalcaba, @Ruv7
-- Jason Grout, @jasongrout
-- Martha Cryan, @marthacryan
-- Rollin Thomas, @rcthomas
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
+- Jason Grout, [@jasongrout](https://github.com/jasongrout)
+- Martha Cryan, [@marthacryan](https://github.com/marthacryan)
+- Rollin Thomas, [@rcthomas](https://github.com/rcthomas)
+
+## Former Project Jupyter Leadership
+
+Prior to December 2022, Jupyter was led by a Benevolent Dictator for Life (BDFL)
+and a Steering Council.
+
+### Benevolent Dictator for Life (retired December 2022)
+
+Fernando Perez ([@fperez](https://github.com/fperez)) was the Benevolent Dictator for Life (BDFL). He
+voluntarily relinquished his role after Jupyter transitioned to a new governance model in December 2022.
+
+### Steering Council (dissolved December 2022)
+
+- Afshin Darian, [@afshin](https://github.com/afshin) (2018-2022)
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7) (2018-2022)
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg) (Founding member, 2014-2022)
+- Carol Willing, [@willingc](https://github.com/willingc) (2017-2022)
+- Damian Avila, [@damianavila](https://github.com/damianavila) (Founding member, 2014-2022)
+- Fernando Perez, [@fperez](https://github.com/fperez) (Founding member, 2014-2022)
+- Jason Grout, [@jasongrout](https://github.com/jasongrout) (2015-2022)
+- Jessica Hamrick, [@jhamrick](https://github.com/jhamrick) (2015-2022)
+- Jonathan Frederic, [@jdfreder](https://github.com/jdfreder) (2016-2018)
+- Kyle Kelley, [@rgbkrk](https://github.com/rgbkrk) (Founding member, 2014-2022)
+- M Pacer, [@mpacer](https://github.com/mpacer) (2018-2022)
+- Matthias Bussonnier, [@carreau](https://github.com/carreau) (Founding member, 2014-2022)
+- Min Ragan-Kelley, [@minrk](https://github.com/minrk) (Founding member, 2014-2022)
+- Paul Ivanov, [@ivanov](https://github.com/ivanov) (2016-2022)
+- Peter Parente, [@parente](https://github.com/parente) (2016-2022)
+- Steven Silvester, [@blink1073](https://github.com/blink1073) (2016-2022)
+- Sylvain Corlay, [@sylvaincorlay](https://github.com/sylvaincorlay) (2016-2022)
+- Thomas Kluyver, [@takluyver](https://github.com/takluyver) (Founding member, 2014-2022)

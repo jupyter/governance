@@ -1,6 +1,23 @@
 format: jb-book
 root: intro
 parts:
+- caption: Governance
+  chapters:
+  - file: overview
+  - file: executive_council
+  - file: software_steering_council
+  - file: software_subprojects
+    sections:
+    - file: list_of_subprojects
+    - file: newsubprojects
+  - file: standing_committees_and_working_groups.md
+    sections:
+    - file: list_of_standing_committees_and_working_groups
+    - file: communitybuildingcommittee 
+  - file: distinguished_contributors
+  - file: people
+
+
 - caption: Code of Conduct
   chapters:
   - file: conduct/code_of_conduct
@@ -14,33 +31,16 @@ parts:
     - file: conduct/reporting_events
   - file: conduct/faq
 
-- caption: Governance
-  chapters:
-  - file: governance
-  - file: decision_making
-
-- caption: Organizational Structure
-  chapters:
-  - file: people
-  - file: communitybuildingcommittee 
-  - file: software_subprojects
-    sections:
-    - file: list_of_subprojects
-    - file: newsubprojects
-  - file: distinguished_contributors
-
 - caption: Organizational Policy
   chapters:
+  - file: decision_making
   - file: papers
   - file: trademarks
   - file: projectlicense
 
-- caption: Future Governance [work in progress]
+- caption: Previous Governance
   chapters:
-  - file: overview
-  - file: bootstrapping_decision_making
+  - file: governance
+  - file: bootstrapping_subproject_councils
   - file: bootstrapping_executive_council
-  - file: executive_council
-  - file: software_steering_council
-  - file: standing_committees_and_working_groups.md
-  - file: list_of_standing_committees_and_working_groups
+

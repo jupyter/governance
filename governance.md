@@ -1,4 +1,6 @@
-# Governance of Project Jupyter
+# Previous Governance of Project Jupyter
+
+_NOTE: Prior to December 2022, Project Jupyter had a governance model based on a BDFL and a Steering Council, as described in this document._
 
 The official version of this document, along with a list of
 individuals and institutions in the roles defined in the governance
