@@ -1,7 +1,7 @@
 # Leadership Directory
 
 This is a directory of the present and past leadership of Project Jupyter.
-## Executive Council
+## [Executive Council](executive_council.md)
 
 Alphabetical by first name, names are followed by GitHub usernames.
 
@@ -12,7 +12,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 -
 -
 
-## Software Steering Council
+## [Software Steering Council](software_steering_council.md)
 
 | Subproject | Representative | GitHub username |
 | ---------- | -------------- | --------------- |
@@ -37,7 +37,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 - Tim George, [@tgeorgeux](https://github.com/tgeorgeux)
 - William Stein, [@williamstein](https://github.com/williamstein)
 
-### Community Building Subcommittee
+### [Community Building Subcommittee](communitybuildingcommittee.md)
 
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)
