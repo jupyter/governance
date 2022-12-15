@@ -1,5 +1,7 @@
 # Software Steering Council
 
+The current members of the Software Steering Council are listed in the [Leadership Directory](people).
+
 ## Purpose
 
 The Jupyter Software Steering Council (SSC) has jurisdiction over software-related decisions across Project Jupyter, with a primary focus on coordination across projects and decisions that have impact across many Jupyter Subprojects. It is also a mechanism for representatives of each project to share information and expertise. Technical decisions and processes where the SSC isn't explicitly involved are automatically delegated to the individual projects to manage their day-to-day activities, create new repositories in their orgs, etc., with independence and autonomy.

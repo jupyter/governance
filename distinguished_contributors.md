@@ -1,5 +1,7 @@
 # Distinguished Contributors
 
+The current Distinguished Contributors are listed [here](https://jupyter.org/about#distinguished-contributors).
+
 ## Purpose
 This document describes the Distinguished Contributors body of the Jupyter Governance Model. Membership in the Distinguished Contributors is meant to recognize the work of community members that have gone above-and-beyond in their work on the project. It is not meant as a means of conveying power or responsibility. A public record of each Distinguished Contributor’s current biography and achievements will be maintained by the members themselves and will be displayed on the Jupyter website.
 

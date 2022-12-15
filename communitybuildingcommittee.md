@@ -6,6 +6,8 @@ Jupyter community of users and contributors. A targeted outcome of this
 committee's work is to improve the diversity, equity, and inclusion of our
 community.
 
+The current members of the Community Building Committee are listed in the [Leadership Directory](people).
+
 ## Areas of responsibility
 
 ### Jupyter Community Workshops
