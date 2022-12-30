@@ -22,7 +22,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | Jupyter Notebook | Eric Charles | [@echarles](https://github.com/echarles) |
 | Jupyter Security | Rick Wagner | [@rpwagner](https://github.com/rpwagner) |
 | Jupyter Server | Zach Sailer | [@zsailer](https://github.com/zsailer) |
-| Jupyter Standards | | |
+| Jupyter Standards | Carol Willing | [@willingc](https://github.com/willingc) |
 | Jupyter Widgets | Itay Dafna | [@ibdafna](https://github.com/ibdafna) |
 | JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
 | JupyterLab | Frédéric Collonval | [@fcollonval](https://github.com/fcollonval) |
