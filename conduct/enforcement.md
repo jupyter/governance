@@ -7,13 +7,13 @@ fair.
 ## The Code of Conduct Committee
 
 All responses to reports of conduct violations will be managed by a Code of
-Conduct Committee ("the committee"). The Jupyter Steering Council is responsible
+Conduct Committee ("the committee"). The [Jupyter Executive Council](../executive_council.md) is responsible
 for vetting and appointing the Code of Conduct Committee. During periods where
 a separate Code of Conduct Committee is not appointed or is not available
-to handle a code of conduct report promptly, the Jupyter Steering Council
+to handle a code of conduct report promptly, the Jupyter Executive Council
 will serve as the interim Code of Conduct Committee.
 
-If a Code of Conduct report involves a member of the Steering Council or Code of
+If a Code of Conduct report involves a member of the Executive Council or Code of
 Conduct Committee, that member will not participate in the investigation or any
 decisions related to that report.
 
@@ -91,7 +91,7 @@ group should strive to respond much quicker than that.
 See the [Reporting Guidelines](reporting_online) for details of
 what reports should contain. If a report doesn't contain enough information, the
 committee will obtain all relevant data before acting. The committee is
-empowered to act on the Steering Council’s behalf in contacting any individuals
+empowered to act on the Executive Council’s behalf in contacting any individuals
 involved to get a more complete account of events.
 
 The committee will then review the incident and determine, to the best of their
@@ -112,7 +112,7 @@ It is important to retain an archive of all activities of this committee to
 ensure consistency in behavior and provide institutional memory for the
 project.  To assist in this, the default channel of discussion for this
 committee will be a private mailing list accessible to current and future
-members of the committee as well as members of the Steering Council upon
+members of the committee as well as members of the Executive Council upon
 justified request. If the Committee finds the need to use off-list
 communications (e.g. phone calls for early/rapid response), it should in all
 cases summarize these back to the list so there's a good record of the process.
@@ -133,7 +133,7 @@ any of the tools available to the committee, including bans and blocks.
 If the incident involves physical danger, any member of the committee may -- and
 should -- act unilaterally to protect the safety of those involved. This can
 include contacting law enforcement (or other local personnel) and speaking on
-behalf of the Jupyter Steering Council.
+behalf of the Jupyter Executive Council.
 
 In situations where an individual committee member acts unilaterally, they must
 report their actions to the committee for review within 24 hours.
@@ -147,7 +147,7 @@ summary of any action they may have taken during the event.
 
 The committee must agree on a resolution by consensus. If the group cannot reach
 consensus and deadlocks for over a week, the group will turn the matter over to
-the Steering Council for resolution.
+the Executive Council for resolution.
 
 
 Possible responses may include:
@@ -189,12 +189,12 @@ proposed resolution. The committee will ask if this resolution is acceptable,
 and must note feedback for the record. However, the committee is not required to
 act on this feedback.
 
-Finally, the committee will make a report to the Jupyter Steering Council (as
+Finally, the committee will make a report to the Jupyter Executive Council (as
 well as the Jupyter core team in the event of an ongoing resolution, such as a
 ban).
 
 The committee will never publicly discuss the issue; all public statements will
-be made by the chair of the Code of Conduct Committee or the Jupyter Steering
+be made by the chair of the Code of Conduct Committee or the Jupyter Executive
 Council.
 
 

@@ -57,10 +57,10 @@ communicate a resolution.
 ## Appealing the Code of Conduct Committee’s Response
 
 To appeal a decision of the Code of Conduct Committee, contact the Jupyter
-Steering Council at
+Executive Council at
 [*steeringcouncil@jupyter.org*](mailto:steeringcouncil@jupyter.org) with your
 appeal and they will review the case.
 
-The Steering Council will gather all relevant information from the Committee
+The Executive Council will gather all relevant information from the Committee
 and provide a resolution within two weeks.  If more time is required, it should
 inform the appellant within that time frame.

@@ -1,93 +1,84 @@
-# Steering Council and Institutional Partners
+# Leadership Directory
 
-Names are followed by GitHub usernames.
+This is a directory of the present and past leadership of Project Jupyter.
+## [Executive Council](executive_council.md)
 
-## Benevolent Dictator for Life
+Alphabetical by first name, names are followed by GitHub usernames.
 
-Fernando Perez (@fperez) is the Benevolent Dictator for Life (BDFL).
+- Afshin Darian, [@afshin](https://github.com/afshin)
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
+- Fernando Perez, [@fperez](https://github.com/fperez)
+- Jason Grout, [@jasongrout](https://github.com/jasongrout)
+- Steven Silvester, [@blink1073](https://github.com/blink1073)
 
-## Steering Council
+## [Software Steering Council](software_steering_council.md)
 
-Alphabetical by first name:
-
-- Afshin Darian, @afshin (2018)
-- Ana Ruvalcaba, @Ruv7 (2018)
-- Brian Granger, @ellisonbg (Founding member, 2014)
-- Carol Willing, @willingc (2017)
-- Damian Avila, @damianavila (Founding member, 2014)
-- Fernando Perez, @fperez (Founding member, 2014)
-- Jason Grout, @jasongrout (2015)
-- Jessica Hamrick, @jhamrick (2015)
-- Kyle Kelley, @rgbkrk (Founding member, 2014)
-- M Pacer, @mpacer (2018)
-- Matthias Bussonnier, @carreau (Founding member, 2014)
-- Min Ragan-Kelley, @minrk (Founding member, 2014)
-- Paul Ivanov, @ivanov (2016)
-- Peter Parente, @parente (2016)
-- Steven Silvester, @blink1073 (2016)
-- Sylvain Corlay, @sylvaincorlay (2016)
-- Thomas Kluyver, @takluyver (Founding member, 2014)
-
-### Retired steering council members
-
-- Jonathan Frederic, @jdfreder (2016-2018)
-
-### NumFOCUS Subcommittee
-
-- Ana Ruvalcaba, @Ruv7
-- Fernando Perez, @fperez
-- Matthias Bussonnier, @carreau
-- Stefan van der Walt (non-council member), @stefanv
-- Thomas Kluyver, @takluyver
-
+| Subproject | Representative | GitHub username |
+| ---------- | -------------- | --------------- |
+| Jupyter Accessibility | Isabela Presedo-Floyed | [@isabela-pf](https://github.com/isabela-pf) |
+| Jupyter Foundations | Paul Ivanov | [@ivanov](https://github.com/ivanov) |
+| Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
+| Jupyter Notebook | Eric Charles | [@echarles](https://github.com/echarles) |
+| Jupyter Security | Rick Wagner | [@rpwagner](https://github.com/rpwagner) |
+| Jupyter Server | Zach Sailer | [@zsailer](https://github.com/zsailer) |
+| Jupyter Standards | Carol Willing | [@willingc](https://github.com/willingc) |
+| Jupyter Widgets | Itay Dafna | [@ibdafna](https://github.com/ibdafna) |
+| JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
+| JupyterLab | Frédéric Collonval | [@fcollonval](https://github.com/fcollonval) |
+| Voilà | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
 
 ### Trademark Subcommittee
 
-- Brian Granger, @ellisonbg
-- Jason Grout, @jasongrout
-- Min Ragan-Kelley, @minrk
-- Paul Ivanov, @ivanov
-- Tim George, @tgeorgeux
-- William Stein, @williamstein
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
+- Jason Grout, [@jasongrout](https://github.com/jasongrout)
+- Min Ragan-Kelley, [@minrk](https://github.com/minrk)
+- Paul Ivanov, [@ivanov](https://github.com/ivanov)
+- Tim George, [@tgeorgeux](https://github.com/tgeorgeux)
+- William Stein, [@williamstein](https://github.com/williamstein)
 
-### Community Building Subcommittee
+### [Community Building Subcommittee](communitybuildingcommittee.md)
 
-- Ana Ruvalcaba, @Ruv7
-- Jason Grout, @jasongrout
-- Martha Cryan, @marthacryan
-- Rollin Thomas, @rcthomas
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
+- Jason Grout, [@jasongrout](https://github.com/jasongrout)
+- Martha Cryan, [@marthacryan](https://github.com/marthacryan)
+- Rollin Thomas, [@rcthomas](https://github.com/rcthomas)
 
-## Institutional Partners
+## Former Project Jupyter Leadership
 
-### Tier 1
+Prior to December 2022, Jupyter was led by a Benevolent Dictator for Life (BDFL)
+and a Steering Council.
 
-Institutional Council members are noted with each institution.
+### Benevolent Dictator for Life (retired December 2022)
 
+Fernando Perez ([@fperez](https://github.com/fperez)) was the Benevolent Dictator for Life (BDFL). He
+voluntarily relinquished his role after Jupyter transitioned to a new governance model in December 2022.
 
-- [Amazon Web Services](https://aws.amazon.com/) (Brian Granger)
-- [Cal Poly](https://www.calpoly.edu/) (Ana Ruvalcaba)
-- [Databricks](https://databricks.com/) (Jason Grout)
-- [MongoDB](https://www.mongodb.com/) (Steven Silvester)
-- [Netflix](https://www.netflix.com/) (M Pacer)
-- [Noteable](https://noteable.io/) (Carol Willing, Paul Ivanov, Kyle Kelley)
-- [QuanSight](https://www.quansight.com/) (Matthias Bussonnier, Carol Willing)
-- [QuantStack](http://quantstack.net/) (Sylvain Corlay)
-- [The International Interactive Computing Collaboration](https://2i2c.org/) (Damian Avila)
-- [Thorn](https://thorn.org/) (Peter Parente)
-- [Two Sigma](https://www.twosigma.com/) (Afshin Darian)
-- [UC Berkeley](https://www.berkeley.edu/) (Fernando Perez)
-- [University of Michigan](https://www.si.umich.edu/) (Damian Avila)
+### Steering Council (dissolved December 2022)
 
-### Tier 2
+- Afshin Darian, [@afshin](https://github.com/afshin) (2018-2022)
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7) (2018-2022)
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg) (Founding member, 2014-2022)
+- Carol Willing, [@willingc](https://github.com/willingc) (2017-2022)
+- Damian Avila, [@damianavila](https://github.com/damianavila) (Founding member, 2014-2022)
+- Fernando Perez, [@fperez](https://github.com/fperez) (Founding member, 2014-2022)
+- Jason Grout, [@jasongrout](https://github.com/jasongrout) (2015-2022)
+- Jessica Hamrick, [@jhamrick](https://github.com/jhamrick) (2015-2022)
+- Jonathan Frederic, [@jdfreder](https://github.com/jdfreder) (2016-2018)
+- Kyle Kelley, [@rgbkrk](https://github.com/rgbkrk) (Founding member, 2014-2022)
+- M Pacer, [@mpacer](https://github.com/mpacer) (2018-2022)
+- Matthias Bussonnier, [@carreau](https://github.com/carreau) (Founding member, 2014-2022)
+- Min Ragan-Kelley, [@minrk](https://github.com/minrk) (Founding member, 2014-2022)
+- Paul Ivanov, [@ivanov](https://github.com/ivanov) (2016-2022)
+- Peter Parente, [@parente](https://github.com/parente) (2016-2022)
+- Steven Silvester, [@blink1073](https://github.com/blink1073) (2016-2022)
+- Sylvain Corlay, [@sylvaincorlay](https://github.com/sylvaincorlay) (2016-2022)
+- Thomas Kluyver, [@takluyver](https://github.com/takluyver) (Founding member, 2014-2022)
 
-- [Bloomberg](https://www.bloomberg.com/)
+### NumFOCUS Subcommittee (dissolved December 2022)
 
-## New Steering Council Members
-
-When a new member joins the Steering Council, the following things are done:
-- Announce the new member on the Jupyter mailing list
-- Make the new member an org owner for IPython and Jupyter Github organizations
-- Add the new member to the list in the governance repo, and if appropriate, add their affiliation to the institutional partner list (https://github.com/jupyter/governance/blob/master/people.md)
-- Add the new member to the list of Steering Council members on the website (https://github.com/jupyter/jupyter.github.io/blob/master/about.html)
-
-
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
+- Fernando Perez, [@fperez](https://github.com/fperez)
+- Matthias Bussonnier, [@carreau](https://github.com/carreau)
+- Stefan van der Walt (non-council member), [@stefanv](https://github.com/stefanv)
+- Thomas Kluyver, [@takluyver](https://github.com/takluyver)

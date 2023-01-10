@@ -1,4 +1,8 @@
-# Bootstrapping Subproject Councils
+# Transition: Bootstrapping Subproject Councils
+
+:::{note}
+This document outlines how Subprojects initially formed their councils, as part of the transition to the Jupyter governance model in December 2022.
+:::
 
 As the new Jupyter governance model is approved and implemented, we are moving from an informal Subproject governance model to a formal model. As part of this process, each Jupyter Subproject will need to establish a formal Subproject Council as its decision-making body, including deciding its size and who its members are. There are a number of challenges associated with this:
 
