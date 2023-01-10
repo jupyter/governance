@@ -6,11 +6,11 @@ This is a directory of the present and past leadership of Project Jupyter.
 Alphabetical by first name, names are followed by GitHub usernames.
 
 - Afshin Darian, [@afshin](https://github.com/afshin)
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
 - Fernando Perez, [@fperez](https://github.com/fperez)
--
--
--
+- Jason Grout, [@jasongrout](https://github.com/jasongrout)
+- Steven Silvester, [@blink1073](https://github.com/blink1073)
 
 ## [Software Steering Council](software_steering_council.md)
 
