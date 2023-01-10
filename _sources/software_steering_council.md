@@ -1,6 +1,6 @@
 # Software Steering Council
 
-The Software Steering Council is part of a new governance model for Project Jupyter and is not formed yet.
+The current members of the Software Steering Council are listed in the [Leadership Directory](people).
 
 ## Purpose
 

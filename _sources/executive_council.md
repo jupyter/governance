@@ -1,6 +1,6 @@
 # Executive Council
 
-The Executive Council is part of a new governance model for Project Jupyter and is not formed yet.
+The current members of the Executive Council are listed in the [Leadership Directory](people).
 
 ## Purpose
 

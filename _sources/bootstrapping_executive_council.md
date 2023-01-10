@@ -1,4 +1,8 @@
-# Bootstrapping Executive Council and New Governance
+# Transition: Bootstrapping Executive Council and New Governance
+
+:::{note}
+This document outlines how Project Jupyter transitioned to a new governance model and formed an initial Executive Council in December 2022.
+:::
 
 ## Scope and overview
 

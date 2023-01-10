@@ -1,10 +1,12 @@
 # Distinguished Contributors
 
+The current Distinguished Contributors are listed [here](https://jupyter.org/about#distinguished-contributors).
+
 ## Purpose
 This document describes the Distinguished Contributors body of the Jupyter Governance Model. Membership in the Distinguished Contributors is meant to recognize the work of community members that have gone above-and-beyond in their work on the project. It is not meant as a means of conveying power or responsibility. A public record of each Distinguished Contributor’s current biography and achievements will be maintained by the members themselves and will be displayed on the Jupyter website.
 
 ## Rights of Distinguished Contributors
-Distinguished Contributors have the right to elect new Distinguished Contributors. We recognize the knowledge and experience that Distinguished Contributors bring to the project. From time to time, the Board of Directors and Software Steering Council may poll the group of Distinguished Contributors for their insights.
+Distinguished Contributors have the right to elect new Distinguished Contributors. We recognize the knowledge and experience that Distinguished Contributors bring to the project. From time to time, the Executive Council and Software Steering Council may poll the group of Distinguished Contributors for their insights.
 
 ## Distinguished Contributor membership
 
