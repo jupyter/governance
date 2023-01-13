@@ -16,7 +16,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 
 | Subproject | Representative | GitHub username |
 | ---------- | -------------- | --------------- |
-| Jupyter Accessibility | Isabela Presedo-Floyed | [@isabela-pf](https://github.com/isabela-pf) |
+| Jupyter Accessibility | Isabela Presedo-Floyd | [@isabela-pf](https://github.com/isabela-pf) |
 | Jupyter Foundations | Paul Ivanov | [@ivanov](https://github.com/ivanov) |
 | Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
 | Jupyter Notebook | Eric Charles | [@echarles](https://github.com/echarles) |
