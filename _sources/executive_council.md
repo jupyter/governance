@@ -41,6 +41,14 @@ The EC and SSC share responsibility for approving:
 
 In these decisions, each body will [vote](decision_making.md) independently and the change will be approved only if both bodies approve.
 
+### Contacting the Executive Council
+
+To contact the EC, at your preference you may:
+
+* Email the [EC mailing list](jupyter-executive-council@googlegroups.com) (this list is private but open for posting).
+* Join the weekly public office hours held on [Zoom on Tuesdays at 10am Pacific](https://zoom.us/j/2264645576?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09).
+* Open a new issue on the [governance repository](https://github.com/jupyter/governance/issues/new).
+
 ## Council membership and elections
 
 The EC will consist of 6 Council members who serve 2-year terms. Members are elected from the body of the union of all Standing Committee, Working Group, and Subproject Councils ("Union of Councils", UoC). Any UoC member is eligible for candidacy in an election unless, as of the start of the new term, they have served on the EC for three or more of the last four years.
