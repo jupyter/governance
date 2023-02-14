@@ -32,7 +32,7 @@ you don't feel comfortable speaking in public, etc.  For these or other
 reasons, structured follow-up may be necessary and here we provide the means
 for that: we welcome reports by emailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out [this
-form](https://goo.gl/forms/sJzOIie3zde9M71T2). For more details please see our
+form](https://forms.gle/gRMQc9G4hejqoqgC8). For more details please see our
 Reporting Guidelines (for [online](reporting_online) and
 [in-person](reporting_events) contexts).
 
@@ -135,8 +135,8 @@ a timely manner. Code of conduct violations reduce the value of the community
 for everyone and we take them seriously.
 
 You can file a report by emailing
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filing out
-[this form](https://goo.gl/forms/sJzOIie3zde9M71T2). For more details or
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out
+[this form](https://forms.gle/gRMQc9G4hejqoqgC8). For more details or
 information on reporting in-person at an event, please see our Reporting
 Guidelines.
 
