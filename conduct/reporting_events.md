@@ -46,5 +46,5 @@ Contact information for the following will be provided per event:
   hostile for any participants.
 
 You also have the option of following the reporting procedure for the online
-community found [here](https://goo.gl/forms/sJzOIie3zde9M71T2). Just be aware
+community found [here](https://forms.gle/gRMQc9G4hejqoqgC8). Just be aware
 the response and action may not be as prompt.
