@@ -53,7 +53,7 @@ unwelcome, please report this as soon as possible. Code of conduct
 violations reduce the value of our event for everyone and we take them seriously.
 
 ### Anonymous Report
-You can file an anonymous report here: http://goo.gl/forms/aQ8Wz4slfa
+You can file an anonymous report [here](https://forms.gle/gRMQc9G4hejqoqgC8).
 
 We can't follow up on an anonymous report with you directly, but we will take
 whatever action is necessary to prevent a recurrence.
