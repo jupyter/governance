@@ -3,8 +3,8 @@
 If you believe someone is violating the code of conduct we ask that you report
 it to Project Jupyter by emailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by completing [this
-form](https://goo.gl/forms/sJzOIie3zde9M71T2). All reports will be kept
-confidential. In some cases we may determine that a public statement will need
+form](https://forms.gle/gRMQc9G4hejqoqgC8). All reports will be kept
+confidential. Code of Conduct reports are currently reviewed by the [Executive Council](../executive_council.md). In some cases we may determine that a public statement will need
 to be made. If that's the case, the identities of all involved will remain
 confidential unless those individuals instruct us otherwise.
 
