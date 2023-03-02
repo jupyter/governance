@@ -47,7 +47,7 @@ To contact the EC, at your preference you may:
 
 * Email the [EC mailing list](mailto:jupyter-executive-council@googlegroups.com) (this list is private but open for posting).
 * Join the regular public office hours of the EC. See the [Jupyter Community Calendar](https://discourse.jupyter.org/t/jupyter-community-calendar/2485) for details.
-* Open a new issue on the [governance repository](https://github.com/jupyter/governance/issues/new).
+* Open a new issue on the [EC Team Compass](https://github.com/jupyter/executive-council-team-compass/issues/new).
 
 ## Council membership and elections
 
