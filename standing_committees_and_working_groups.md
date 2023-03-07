@@ -18,6 +18,7 @@ Standing Committees and Working Groups both:
 - Have charters that define their scope and purpose. Within those charters, they are free to make decisions autonomously.
 - Carry out their functions in a manner that is as open and transparent as possible given the unique dimensions of their charter.
 - Maintain a public GitHub repository with basic information (council members, charter, public meetings, SSC representative, etc.) for purposes of transparency and consistency.
+- Optionally, the EB may nominate certain Working Groups or Standing Committees to have a representative on the SSC. Once approved by the SSC to have a representative on the SSC, the Working Group or Standing Committee will elect and maintain their representative to the SSC using the Decision-Making Guide.
 
 ## Standing Committees
 
@@ -25,7 +26,6 @@ Standing Committees have the following unique properties:
 
 - Standing Committees focus on areas critical to the governance of the project and thus are established and dissolved by joint decisions of the SSC and EB.
 - Changes to the charters of Standing Committees are approved by joint decisions of the SSC and EB.
-- Optionally, the EB may nominate certain Standing Committees to have a representative on the SSC. Once approved by the SSC to have a representative on the SSC, Standing Committee Councils elect and maintain their representative to the SSC using the Decision-Making Guide.
 - The EB is responsible for ensuring the Standing Committees are appropriately resourced at all times.
 
 ## Working Groups
@@ -35,4 +35,3 @@ Working Groups have the following unique properties:
 - Working Groups are established and dissolved by decisions of EB.
 - Changes to the charters of Working Groups are approved by the EB.
 - Working Groups, by default, do not have representatives on the SSC.
-- Optionally, the EB may nominate certain Working Groups to have a representative on the SSC. Once approved by the SSC to have a representative on the SSC, Working Group councils elect and maintain their representative to the SSC using the Decision-Making Guide.
