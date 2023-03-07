@@ -18,7 +18,7 @@ Standing Committees and Working Groups both:
 - Have charters that define their scope and purpose. Within those charters, they are free to make decisions autonomously.
 - Carry out their functions in a manner that is as open and transparent as possible given the unique dimensions of their charter.
 - Maintain a public GitHub repository with basic information (council members, charter, public meetings, SSC representative, etc.) for purposes of transparency and consistency.
-- Optionally, the EC may nominate certain Working Groups or Standing Committees to have a representative on the SSC. Once approved by the SSC to have a representative on the SSC, the Working Group or Standing Committee will elect and maintain their representative to the SSC using the Decision-Making Guide.
+- Optionally, the EC may nominate certain Working Groups or Standing Committee councils to have a representative on the SSC. Once approved by the SSC to have a representative on the SSC, the Working Group or Standing Committee Council will elect and maintain their representative to the SSC using the Decision-Making Guide.
 
 ## Standing Committees
 
