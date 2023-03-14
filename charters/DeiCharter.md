@@ -24,7 +24,7 @@ The DEI standing committee is responsible for:
 ## WHO: Committee Composition
 ### Members
 Members should affirm the opening paragraph of this charter and agree to the purpose of this committee
-Committees should consist of at least 2 members serving a 1 year term with an option for unlimited renewal 
+The committee should consist of at least 2 members serving a 1 year term with an option for unlimited renewal 
 ### General Members
 Responsibilities:
 * Attend meetings as scheduled by the vice president/co-chair(s)
