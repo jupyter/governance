@@ -57,7 +57,7 @@ For smaller committees (8 or less), only a chair is required. For large committe
   * Submits reports to the Executive Council
 
 ## HOW: Meetings
-* Frequency - established by the committee but it is suggested that committees meet at least weekly or bi-monthly. 
+* Frequency - this committee should meet at least once every two weeks.
 * The Jupyter Decision-Making Guide will be used to make official decisions. 
 * To ensure active participation, a member who is unable to join for more than two thirds of regularly scheduled weekly meetings in a 90 day period may be asked to step down from the committee.
 ## HOW: Committee Reports
