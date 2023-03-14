@@ -14,7 +14,7 @@ The purpose of this committee is to lead strategic initiatives designed to impro
 
 What will this committee work on? How will the purpose described above be accomplished?
 
-The DEI standing committee is responsible to: 
+The DEI standing committee is responsible for: 
 * Propose, execute, and evaluate the impact of DEI initiatives
 * Serve as a point of contact for DEI topics for the global Jupyter community
 * Serve as DEI ambassadors by including this topic in the discussions and spaces within Project Jupyter
