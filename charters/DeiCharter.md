@@ -6,7 +6,7 @@ The Diversity Equity & Inclusion (DEI) Committee is a standing committee establi
 
 ## Purpose 
 
-The purpose of this committee is to lead strategic initiatives designed to improve the diversity, equity, and inclusion of Project Jupyter community leaders, core developers, and end users across the globe. For the long-term sustainability of our community, we champion efforts to build an open source environment where people feel respected, valued, and encouraged to continue participating. 
+The purpose of this committee is to lead strategic initiatives designed to improve the diversity, equity, and inclusion of Project Jupyter community leaders, contributors, and end users across the globe. For the long-term sustainability of our community, we champion efforts to build an open source environment where people feel respected, valued, and encouraged to continue participating. The DEI group impacts all Jupyter forums, including but not limited to software, working groups, standing committees, JupyterCon, social media, GitHub, the EC, and the SSC.
 
 ## Mission/Areas of Responsibility
 
