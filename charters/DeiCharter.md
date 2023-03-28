@@ -27,5 +27,5 @@ The DEI standing committee is responsible for:
 ## Committee Reports
 * Reports will be submitted to the EC half-yearly on or before the 15th of July and January for the preceding calendar half.
 * Reports should include the following metrics:
-* Overview of activities and challenges if any
-* Budget update including spending for that quarter - if applicable
+  * Overview of activities and challenges if any
+  * Budget update including spending for that quarter - if applicable
