@@ -2,7 +2,7 @@
 
 Project Jupyter welcomes and encourages participation in our community by people of all backgrounds and identities. We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning. We work together as a community to help each other live out these values.
 
-The Diversity Equity & Inclusion (DEI) Committee is a standing committee established under Jupyter’s governance model. The committee reviews its charter annually and may make changes at any time during the year. Substantive changes to the purpose or mission must be submitted to the Executive Council and the Software Steering Council for approval.
+The Diversity Equity & Inclusion (DEI) Committee is a standing committee established under Jupyter’s governance model. The committee reviews its charter annually and may make changes at any time during the year. Substantive changes to the purpose or mission must be submitted to the Executive Council (EC) and the Software Steering Council (SSC) for approval.
 
 ## WHY: Purpose 
 
@@ -21,7 +21,7 @@ The DEI standing committee is responsible for:
 * Serve as a point of contact for DEI topics for the global Jupyter community
 * Include the topic of DEI in discussions and spaces within Project Jupyter.
 * Recommend and promote training, educational, and motivational materials on DEI 
-* Flag DEI issues or potential issues to the Executive Council (EC) or the Software Steering Council (SSC)
+* Flag DEI issues or potential issues to the EC or the SSC
 
 ## HOW: Meetings
 * Frequency - this committee should meet at least once every two weeks.
@@ -29,7 +29,7 @@ The DEI standing committee is responsible for:
 * To ensure active participation, a member who is unable to join for more than two thirds of regularly scheduled weekly meetings in a 90 day period may be asked to step down from the committee.
 
 ## HOW: Committee Reports
-* Reports will be submitted to the Executive Council half-yearly on or before the 15th of July and January for the preceding calendar half.
+* Reports will be submitted to the EC half-yearly on or before the 15th of July and January for the preceding calendar half.
 * Reports should include the following metrics:
 * Overview of activities and challenges if any
 * Budget update including spending for that quarter - if applicable
