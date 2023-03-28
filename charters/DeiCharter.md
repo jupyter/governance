@@ -2,7 +2,7 @@
 
 Project Jupyter welcomes and encourages participation in our community by people of all backgrounds and identities. We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning. We work together as a community to help each other live out these values.
 
-The Diversity Equity & Inclusion (DEI) Committee is a standing committee established under Jupyter’s governance model. The committee reviews its charter annually and may make changes at any time during the year. Substantive changes to the purpose or mission must be submitted to the Executive Council for approval.
+The Diversity Equity & Inclusion (DEI) Committee is a standing committee established under Jupyter’s governance model. The committee reviews its charter annually and may make changes at any time during the year. Substantive changes to the purpose or mission must be submitted to the Executive Council and the Software Steering Council for approval.
 
 ## WHY: Purpose 
 
