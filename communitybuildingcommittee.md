@@ -1,12 +1,12 @@
-# Community Building Committee
+# Community Working Group
 
-The Jupyter Community Building Committee acts on behalf of the Project Jupyter
+The Jupyter Community Working Group acts on behalf of the Project Jupyter
 Executive Council with the objective of growing, building, and connecting the
 Jupyter community of users and contributors. A targeted outcome of this
-committee's work is to improve the diversity, equity, and inclusion of our
+working group's efforts is to improve the diversity, equity, and inclusion of our
 community.
 
-The current members of the Community Building Committee are listed in the [Leadership Directory](people).
+The current members of the Community Working Group are listed in the [Leadership Directory](people).
 
 ## Areas of responsibility
 
@@ -19,7 +19,7 @@ in-person events are particularly useful for tackling challenging development
 and design projects, growing the community of contributors, and strengthening
 collaborations.
 
-This committee will partner with NumFOCUS to manage the Jupyter Community
+This working group will partner with NumFOCUS to manage the Jupyter Community
 Workshop program operations and budget.
 
 ### JupyterCon
@@ -27,45 +27,43 @@ Workshop program operations and budget.
 Global JupyterCon conferences provide opportunities for the Jupyter community
 to come together to learn and share.
 
-This committee will drive the strategic direction and broad operational
+This working group will drive the strategic direction and broad operational
 aspects of JupyterCon, including the partnership with NumFOCUS and the
 community leadership for the event.
 
-### Jupyter Community Events Manager
+### Jupyter Community Events Staff
 
-This committee will be responsible for pursuing hiring (through NumFOCUS,
-using our existing community-building funds) a Jupyter Community Events
-Manager, who would be employed by NumFOCUS and report to this committee. This
-person would work with the committee on Jupyter events, such as community
+This working group will be responsible for the relationship with professional
+staff (for example, at NumFOCUS) planning Jupyter events, such as community
 workshops and JupyterCon.
 
 ### Operations and Budget
 
-This committee will collaborate with NumFOCUS to serve as stewards and
-decision makers to allocate the Project Jupyter funds currently associated
+This working group will collaborate with NumFOCUS to serve as stewards and
+decision-makers to allocate the Project Jupyter funds currently associated
 with Jupyter community building at NumFOCUS, including donations and revenue
 from Jupyter Community Workshops and JupyterCon.
 
 ### Diversity, Equity, Inclusion
 
 Project Jupyter is an engaged and respectful community made up of people from
-all over the world. This committee pledges to foster a productive,
+all over the world. This working group pledges to foster a productive,
 harassment-free environment for everyone who participates in organizing or
 attending our events. We recognize our work is a highly visible and
 potentially impactful way for diversity, equity, and inclusion (DEI) efforts
 to be championed within our global community.
 
-In particular, this committee will:
+In particular, this working group will:
 
 - Collaborate with the Jupyter Diversity, Equity, and Inclusion (DEI)
-  committee (once it is formed) to find new ways to make a positive impact in
+  committee to find new ways to make a positive impact in
   Project Jupyter.
-- Apply NumFOCUS DISC Cookbook guidelines where feasible and appropriate in
-  events and seek to measure impact.
 - Partner with the DEI committee to train and mentor community event
   leadership in DEI efforts for their events, including applying NumFOCUS DISC
   Cookbook guidelines, and asking community organizers for DEI impact in their
   post-event summaries.
+- Help the DEI committee measure impact of DEI efforts in Jupyter events where feasible.
+
 
 #### Definitions
 
@@ -92,15 +90,13 @@ that shares power.
 
 ## Reporting
 
-This committee will report to the Executive Council quarterly on all areas of
+This working group will report to the Executive Council quarterly on all areas of
 responsibility, including activities, finances, and DEI efforts. This
-committee will also publish an annual blog post for the broader global
+working group will also publish an annual blog post for the broader global
 community.
 
-## Bootstrapping
+## Membership
 
-Per the guidelines outlined in the governance for forming a decision-making
-body, the initial committee will be composed of three current Executive Council
-members. Following these guidelines, the intention is for this committee to
-grow to include members from the Jupyter community in a way that supports
-engagement from a wider group of community members.
+Members of this working group will be elected by the existing committee
+following the Jupyter guidelines for forming and perpetuating a decision-making
+body, subject to approval by the Executive Council.
