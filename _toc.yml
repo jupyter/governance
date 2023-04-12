@@ -24,11 +24,11 @@ parts:
     sections:
     - file: conduct/enforcement
     - file: conduct/reporting_online
+    - file: conduct/reporting_events
 
   - file: CodeofConductJupyterDay
     sections:
     - file: CodeofConductJupyterDayOrganizer
-    - file: conduct/reporting_events
   - file: conduct/faq
 
 - caption: Organizational Policy
