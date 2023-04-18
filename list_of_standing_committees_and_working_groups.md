@@ -6,7 +6,7 @@ Project work that expands beyond software-related work is organized into charter
 
 ### Diversity, Equity, and Inclusion
 
-Charter Summary: Increase diversity, equity, and inclusion within all aspects of Project Jupyter, including the various councils/leadership, Subprojects, and the broader community.
+[Charter](charters/DeiCharter.md) Summary: Increase diversity, equity, and inclusion within all aspects of Project Jupyter, including the various councils/leadership, Subprojects, and the broader community.
 
 ### Code of Conduct Incident Response
 
