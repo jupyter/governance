@@ -37,7 +37,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 - Tim George, [@tgeorgeux](https://github.com/tgeorgeux)
 - William Stein, [@williamstein](https://github.com/williamstein)
 
-### [Community Building Subcommittee](communitybuildingcommittee.md)
+### [Community Working Group](communitybuildingcommittee.md)
 
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)

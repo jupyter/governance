@@ -56,37 +56,11 @@ to be championed within our global community.
 In particular, this working group will:
 
 - Collaborate with the Jupyter Diversity, Equity, and Inclusion (DEI)
-  committee to find new ways to make a positive impact in
+  standing committee to find new ways to make a positive impact in
   Project Jupyter.
-- Partner with the DEI committee to train and mentor community event
-  leadership in DEI efforts for their events, including applying NumFOCUS DISC
-  Cookbook guidelines, and asking community organizers for DEI impact in their
-  post-event summaries.
-- Help the DEI committee measure impact of DEI efforts in Jupyter events where feasible.
-
-
-#### Definitions
-
-As the field of diversity, equity, and inclusion expands and grows, so does
-the terminology and words we use when describing the body of work. As such,
-before moving forward we want to address what DEI means. These definitions
-were taken from [Equity, Diversity & Inclusion Glossary of
-Terms](https://www.pacificu.edu/life-pacific/support-safety/office-equity-diversity-inclusion/edi-resources/glossary-terms?fbclid=IwAR2L-emYgFTSI34bDhWCwSS6LW_oVTi4HT_ZsnzCcX9vQGWl26CzeUFw_3A).
-
-**Diversity**: The wide variety of shared and different personal and group
-characteristics among human beings.
-
-**Equity**: Takes into consideration the fact that the social identifiers
-(race, gender, socioeconomic status, etc.) do, in fact, affect equality. In an
-equitable environment, an individual or a group would be given what was needed
-to give them equal advantage. This would not necessarily be equal to what
-others were receiving. It could be more or different. Equity is an ideal and a
-goal, not a process. It ensures that everyone has the resources they need to
-succeed.
-
-**Inclusion**: Authentically bringing traditionally excluded individuals
-and/or groups into processes, activities, and decision/policy making in a way
-that shares power.
+- Partner with the DEI standing committee to train and mentor community event
+  leadership in DEI efforts for their events.
+- Help the DEI standing committee measure impact of DEI efforts in Jupyter events where feasible.
 
 ## Reporting
 
@@ -97,6 +71,6 @@ community.
 
 ## Membership
 
-Members of this working group will be elected by the existing committee
+Members of this working group will be elected by the existing working group
 following the Jupyter guidelines for forming and perpetuating a decision-making
 body, subject to approval by the Executive Council.
