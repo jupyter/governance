@@ -1,12 +1,12 @@
-# Community Working Group
+# Community Building Working Group
 
-The Jupyter Community Working Group acts on behalf of the Project Jupyter
+The Jupyter Community Building Working Group (JCB) acts on behalf of the Project Jupyter
 Executive Council with the objective of growing, building, and connecting the
 Jupyter community of users and contributors. A targeted outcome of this
 working group's efforts is to improve the diversity, equity, and inclusion of our
 community.
 
-The current members of the Community Working Group are listed in the [Leadership Directory](people).
+The current members of the Jupyter Community Building Working Group are listed in the [Leadership Directory](people).
 
 ## Areas of responsibility
 
