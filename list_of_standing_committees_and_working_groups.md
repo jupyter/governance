@@ -26,6 +26,6 @@ Charter Summary: Advise the Executive Council (EC) with perspectives and connect
 
 Charter Summary: License, protect, and promote the trademarks and visual and textual branding of Jupyter.
 
-### Community Building and Events
+### Jupyter Community Building
 
-[Charter](communitybuildingcommittee.md) Summary: Grow, build, and connect the global Jupyter community of users and contributors.
+[Charter](communitybuildingworkinggroup.md) Summary: Grow, build, and connect the global Jupyter community of users and contributors.
