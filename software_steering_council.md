@@ -23,11 +23,13 @@ The SSC is responsible for the following:
 
 ### Shared responsibilities with the Executive Council
 
-The SSC and EC share the responsibility for:
+The EC and SSC share responsibility for approving:
 
 - Changes to the Jupyter Governance model.
 - Creation of new Jupyter Subprojects.
 - Removal of Subprojects from Jupyter.
+
+In these decisions, each body will [vote](decision_making.md) independently and the change will be approved only if both bodies approve.
 
 ## Membership
 
