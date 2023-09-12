@@ -41,13 +41,9 @@ The EC and SSC share responsibility for approving:
 
 In these decisions, each body will [vote](decision_making.md) independently and the change will be approved only if both bodies approve.
 
-### Contacting the Executive Council
+### Team Compass
 
-To contact the EC, at your preference you may:
-
-* Email the [EC mailing list](mailto:jupyter-executive-council@googlegroups.com) (this list is private but open for posting).
-* Join the regular public office hours of the EC. See the [Jupyter Community Calendar](https://discourse.jupyter.org/t/jupyter-community-calendar/2485) for details.
-* Open a new issue on the [EC Team Compass](https://github.com/jupyter/executive-council-team-compass/issues/new).
+The [Executive Council Team Compass](https://executive-council-team-compass.readthedocs.io/en/latest/) publishes information about the activities and operations of the EC, including how to contact the EC.
 
 ## Council membership and elections
 
