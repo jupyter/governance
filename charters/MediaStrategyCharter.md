@@ -37,6 +37,6 @@ The JMS will create and maintain a media strategy page on the Jupyter website th
 
 ## Meetings
 
-1. The[Jupyter Decision-Making Guide](https://jupyter.org/governance/decision_making.html) will be used to make official decisions.
+1. The [Jupyter Decision-Making Guide](https://jupyter.org/governance/decision_making.html) will be used to make official decisions.
 2. The Jupyter Code of Conduct will be followed within this group.
 3. To ensure active participation, a member who is unable to join for more than two thirds of regularly scheduled bi-weekly meetings in a 90 day period may be asked to step down from the committee.
