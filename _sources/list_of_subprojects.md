@@ -22,8 +22,7 @@ The following Jupyter Subprojects have their own formal Subproject Council that 
   - [jupyter-xeus](https://github.com/jupyter-xeus/)
   - [IPykernel](https://github.com/ipython/ipykernel)
   - [IPython](https://github.com/ipython/ipython)
-- Jupyter Foundations
-- Jupyter Standards
+- Jupyter Foundations and Standards
 - [Jupyter Security](https://github.com/jupyter/security)
 - [Jupyter Accessibility](https://github.com/jupyter/accessibility)
 
@@ -50,14 +49,13 @@ The Official Jupyter Subprojects document proposes a number of changes to how ou
 - Jupyter Kernels
   - To consolidate the project’s work on first-party kernels, we propose to establish a new official Subproject called _Jupyter Kernels_ and create a Github organization named jupyter-kernels for the work of the Subproject. All Xeus repositories (https://github.com/jupyter-xeus) will be moved into this organization. This Subproject will also govern the IPython GitHub organization, which will be left in place (https://github.com/ipython).
   - A new Subproject Council for this organization will be established, and they will elect an SSC delegate.
-- Jupyter Standards
+- Jupyter Foundations and Standards
   - Ultimately, because Jupyter standards are cross-project in nature, they are owned by the SSC. The mechanics of day-to-day management of the JEP repo will be decided by the SSC.
   - There are a number of repositories that encode project-wide standards and protocols. To consolidate work on these repositories, we propose to establish a new official Subproject called Jupyter Standards and create a Github organization named jupyter-standards for the work of the Subproject. The following repositories will be moved into this organization:
     - Jupyter Client (https://github.com/jupyter/jupyter_client)
     - Jupyter Notebook Format (https://github.com/jupyter/nbformat)
     - Documentation for other specifications maintained by other Subprojects, such as the Jupyter Widgets message specification, or the Jupyter Server REST APIs.
     - JEPs repo (https://github.com/jupyter/enhancement-proposals).
-- Jupyter Foundations
   - Jupyter’s software has a number of components that serve as a foundation for many other Subprojects. To consolidate work on these repositories, we propose to establish a new official Subproject called _Jupyter Foundations_ and create a Github organization named jupyter-foundations for the work of the Subproject. The following repositories will be moved into this organization:
     - nbconvert (https://github.com/jupyter/nbconvert)
     - Jupyter Core (https://github.com/jupyter/jupyter_core)
