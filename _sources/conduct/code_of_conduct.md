@@ -30,11 +30,7 @@ However, sometimes these informal processes may be inadequate: they fail to
 work, there is urgency or risk to someone, nobody is intervening publicly and
 you don't feel comfortable speaking in public, etc.  For these or other
 reasons, structured follow-up may be necessary and here we provide the means
-for that: we welcome reports by emailing
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out [this
-form](https://forms.gle/gRMQc9G4hejqoqgC8). For more details please see our
-Reporting Guidelines (for [online](reporting_online) and
-[in-person](reporting_events) contexts).
+for that as described in the [Reporting](#Reporting) section.
 
 This code applies equally to founders, developers, mentors and new community
 members, in all spaces managed by Project Jupyter (including IPython). This
@@ -43,6 +39,7 @@ events, the [Discourse community forum](https://discourse.jupyter.org),
 and any other forums created by the project team. In addition,
 violations of this code outside these spaces may affect a person's ability to
 participate within them.
+
 
 ## Expected behavior
 
@@ -124,7 +121,7 @@ or other local personnel that are present.
 In situations where an individual community member acts unilaterally,
 they must inform the Code of Conduct committee as soon as possible,
 by e-mailing
-[*conduct@jupyter.org*](mailto:conduct@jupyter.org)*reporting_online*)
+[*conduct@jupyter.org*](mailto:conduct@jupyter.org)
 within 24 hours.
 
 
@@ -138,7 +135,8 @@ You can file a report by emailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out
 [this form](https://forms.gle/gRMQc9G4hejqoqgC8). For more details or
 information on reporting in-person at an event, please see our Reporting
-Guidelines.
+Guidelines (for [online](reporting_online) and
+[in-person](reporting_events) contexts).
 
 The online form gives you the option to keep your report anonymous or request
 that we follow up with you directly. While we cannot follow up on an anonymous
