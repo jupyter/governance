@@ -1,4 +1,4 @@
-This is the charter for the (standing committee / working group). 
+This is the charter for the standing committee. 
 
 **Include a brief description of the committee, and open the pull request as a draft to allow time for feedback before the vote.**
 
