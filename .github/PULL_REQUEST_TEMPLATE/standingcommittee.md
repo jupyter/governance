@@ -71,7 +71,3 @@ Software Steering Council:
   - [ ] Yes
   - [ ] No
   - [ ] Abstain
-- @willingc
-  - [ ] Yes
-  - [ ] No
-  - [ ] Abstain
