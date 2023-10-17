@@ -1,4 +1,9 @@
-This is the charter for the standing committee. 
+---
+name: "Standing Committee Charter"
+about: Initiating a vote on a new Standing Committee Charter
+---
+
+This is the charter for [the standing committee]. 
 
 **Include a brief description of the committee, and open the pull request as a draft to allow time for feedback before the vote.**
 
