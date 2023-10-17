@@ -1,3 +1,8 @@
+---
+name: "Other"
+---
+
+
 <!-- 
 Thanks for participating in Jupyter governance ✨
 Below are a few guidelines for making your proposed change as efficient and productive
