@@ -1,4 +1,9 @@
-This is the charter for the working group. 
+---
+name: "Working Group Charter"
+about: Initiating a vote on a new Working Group Charter
+---
+
+This is the charter for [the working group]. 
 
 **Include a brief description of the committee, and open the pull request as a draft to allow time for feedback before the vote.**
 
