@@ -13,6 +13,7 @@ parts:
   - file: standing_committees_and_working_groups.md
     sections:
     - file: list_of_standing_committees_and_working_groups
+    - file: founding_new_standing_committees_and_working_groups
     - file: communitybuildingcommittee 
   - file: distinguished_contributors
   - file: people
