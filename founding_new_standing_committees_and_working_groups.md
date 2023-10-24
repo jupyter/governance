@@ -1,0 +1,12 @@
+# Checklist / Overview of Process
+- [ ] Start a discussion with the EC:  Post an issue on [Team Compass for Governance](https://executive-council-team-compass.readthedocs.io/en/latest/) or attend EC office hours (find join details on the community calendar). Here are some topics to consider [pending link].
+- [ ] Request a folder in shared drive for all official documents 
+- [ ] Find at least two founding members or start a committee to start a charter draft and agree to synchronous or asynchronous process for writing committee charter
+- [ ] Create charter (see template)
+- [ ] Submit charter for review in the governance repo under the charter directory.
+  - [ ] Open the pull request as a draft and let the EC and SSC know that you’re ready for review
+  - [ ] Once the review is addressed and the final draft is ready, take the pull request out of draft and update the description to include a deadline
+  - [ ] See example here
+  - [ ] A voting template can be found on GitHub. 
+- [ ] Recruit additional members for committee (ideally between 4 - 8 total)
+- [ ] (Optional) Once your charter is approved, publicly share the news with the community on the Jupyter blog. Include a way for the community to get in contact with you (Category on Discourse, Team Compass, or Email). 
