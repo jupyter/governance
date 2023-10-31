@@ -68,7 +68,7 @@ Software Steering Council:
   - [ ] Yes
   - [ ] No
   - [ ] Abstain
-- @isabela-pf
+- @gabalafou
   - [ ] Yes
   - [ ] No
   - [ ] Abstain
