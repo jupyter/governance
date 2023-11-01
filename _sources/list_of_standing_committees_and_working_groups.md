@@ -29,3 +29,7 @@ Charter Summary: License, protect, and promote the trademarks and visual and tex
 ### Jupyter Community Building
 
 [Charter](communitybuildingworkinggroup.md) Summary: Grow, build, and connect the global Jupyter community of users and contributors.
+
+### Jupyter Media Strategy
+
+[Charter][charters/MediaStrategyCharter.md] Summary: Ensure that communications in Jupyter official channels are strategic and benefit Project Jupyter.
