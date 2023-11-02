@@ -16,6 +16,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 
 | Subproject | Representative | GitHub username |
 | ---------- | -------------- | --------------- |
+| DEI Working Group | Martha Cryan | [@marthacryan](https://github.com/marthacryan) |
 | Jupyter Accessibility | Gabriel Fouasnon | [@gabalafou](https://github.com/gabalafou) |
 | Jupyter Foundations and Standards | Paul Ivanov | [@ivanov](https://github.com/ivanov) |
 | Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
