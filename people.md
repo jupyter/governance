@@ -44,6 +44,13 @@ Alphabetical by first name, names are followed by GitHub usernames.
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
 - Rollin Thomas, [@rcthomas](https://github.com/rcthomas)
 
+### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
+
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
+- Steven Silvester, [@blink1073](https://github.com/blink1073)
+- Andrii Ieroshenko, [@andrii-i](https://github.com/andrii-i)
+- Jacob Diamond-Reivich, [@jake-stack](https://github.com/jake-stack)
+
 ## Former Project Jupyter Leadership
 
 Prior to December 2022, Jupyter was led by a Benevolent Dictator for Life (BDFL)
