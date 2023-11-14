@@ -37,6 +37,13 @@ Alphabetical by first name, names are followed by GitHub usernames.
 - Tim George, [@tgeorgeux](https://github.com/tgeorgeux)
 - William Stein, [@williamstein](https://github.com/williamstein)
 
+### [DEI Standing Committee](charters/DeiCharter.md)
+
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
+- Jason Weill, [@JasonWeill](https://github.com/JasonWeill)
+- Martha Cryan, [@marthacryan](https://github.com/marthacryan)
+- Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez)
+
 ### [Jupyter Community Building Working Group](communitybuildingworkinggroup.md)
 
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
