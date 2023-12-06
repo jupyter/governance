@@ -22,7 +22,7 @@ The following Jupyter Subprojects have their own formal Subproject Council that 
   - [jupyter-xeus](https://github.com/jupyter-xeus/)
   - [IPykernel](https://github.com/ipython/ipykernel)
   - [IPython](https://github.com/ipython/ipython)
-- Jupyter Foundations and Standards
+- [Jupyter Foundations and Standards](https://github.com/jupyter/foundations-and-standards-team-compass)
 - [Jupyter Security](https://github.com/jupyter/security)
 - [Jupyter Accessibility](https://github.com/jupyter/accessibility)
 
