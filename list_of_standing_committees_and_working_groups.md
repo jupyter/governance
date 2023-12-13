@@ -33,3 +33,8 @@ Charter Summary: License, protect, and promote the trademarks and visual and tex
 ### Jupyter Media Strategy
 
 [Charter](charters/MediaStrategyCharter.md) Summary: Ensure that communications in Jupyter official channels are strategic and benefit Project Jupyter.
+
+
+### Jupyter Documentation
+
+[Charter](charters/DocumentationCharter.md) Summary: Serve as a support, helper, and advisory body to assist in improving all aspects of documentation across Jupyter subprojects.
