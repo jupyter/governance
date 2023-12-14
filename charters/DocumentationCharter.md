@@ -1,40 +1,36 @@
-# Docs Working Group Charter (Proposed)
+# Documentation Working Group Charter
 
 ## Mission and Goals
 
-The Docs Working Group serves as a support, helper, and advisory body to Jupyter Subprojects on all aspects of documentation. The core pillars of our mission:
+The Documentation Working Group ("Docs Working Group") serves as a support, helper, and advisory body to Jupyter Subprojects on all aspects of documentation. The core pillars of our mission:
 
 - Improve all aspects of documentation across the Jupyter ecosystem
 - Make high quality documentation that is clear, comprehensive, inclusive, and serves the varying needs of Jupyter's diverse community
 - Engage with the community to help users with Jupyter products, discover their needs, and connect them with relevant information, expertise and resources
 
-The Docs Working Group will provide a place for consistent, focused, holistic efforts to be spent on docs across the whole ecosystem. This group exists in part to provide capacity and resources to the subprojects (some of which are already suffering from a lack of resources/capacity, and more specifically to work on docs in particular).
+The Docs Working Group will provide a place for consistent, focused, holistic efforts to be spent on documentation across the whole ecosystem. This group exists in part to provide capacity and resources to the subprojects (some of which are already suffering from a lack of resources/capacity, and more specifically to work on documentation in particular).
 
 We want all users to have positive experiences inside the Jupyter ecosystem, especially users who are learning and coming in for the first time, and users with disabilities.
 
-## The Docs Working Group's Activities
+## Areas of Responsibility
+
+The Docs Working Group is responsible for:
+
+- Creating and implementing minimum standards for documentation
+- The Docs working group will take ownership of documentation and related materials not owned by a Subproject.
+- Jupyter.org website and documentation
+
+## Doumentation Working Group's Activities
 
 The Docs Working Group will focus on the efforts described below, in service of its mission:
 
-- Help write docs (inside the bounds of each Subproject's governance)
-    - This includes meta docs, cross-cutting docs (items relevant to multiple Subprojects), developer and contributor docs, non user-facing docs and others
-- Develop recommendations and guidance:
-	- For communicating common information and concepts across the Jupyter ecosystem
-        - Because we want to encourage consistency across the Jupyter ecosystem and between different projects
-	- For style and best practices when authoring documentation media
-        - Including technical advice, such as tools-usage and markdown guidance that helps support high level goals, like interlinking/cross-connection between subprojects
-- Community engagement
-	- To help connect users with information, expertise, and resources
-	- To gather feedback from the community about what needs to be documented/what information they need
-- Help support and improve all aspects of documentation across the Jupyter ecosystem
-	- This means, for members of the group, also taking on any related (non-document) tasks that will be beneficial to docs and support the Docs Working Group's goals, such as:
-        - Developing application extensions related to docs, like in-app integrated docs, guided in-application tours or hoverable "what's this" features
-        - Automations for gathering ReadTheDocs traffic stats to gauge user interest
-        - Creating pip installable packages for getting offline docs
-        - Writing PRs for unit tests related to documentation code
-        - Automated discourse or CI bots for gathering user feedback from community sites
-        - Adding a new embedded "Hot Topics" feature on ReadTheDocs FAQ pages to automated discourse community discussion aggregator
-        - Any other innovations or work that may improve Jovyans' experience in/understanding of the Jupyter ecosystem
+- Help write documentation (inside the bounds of each Subproject's governance) including meta documentation, cross-cutting documentation (items relevant to multiple Subprojects), developer and contributor documentaion, non user-facing documentation and others.
+- Develop recommendations and guidance for best practices surrounding documentation authoring, communication of information, concepts and styling to promote consistency across the Jupyter ecosystem.
+- Community engagement to help connect users with information, expertise, and resources; and to gather feedback from the community about what needs to be documented/what information they need.
+- Help support and improve all aspects of documentation across the Jupyter ecosystem: our scope also includes any tasks, beyond writing documents, that will support the Doumentation Working Group's goals. To help illustrate the scope of our work, some clarifying examples are included below:
+    - Improving the user experience inside Jupyter applications by implementing offline and interactive documentation extensions.
+    - Implementing analytics systems for documentation webpages for better understanding of documentation use.    
+    - Any other innovations or work that may improve Jovyans' experience in/understanding of the Jupyter ecosystem
 
 ## Founding Members
 
