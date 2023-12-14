@@ -24,7 +24,7 @@ The Docs Working Group will focus on the efforts described below, in service of 
 	- For style and best practices when authoring documentation media
         - Including technical advice, such as tools-usage and markdown guidance that helps support high level goals, like interlinking/cross-connection between subprojects
 - Community engagement
-	- To help connect users with information, expertise and resources
+	- To help connect users with information, expertise, and resources
 	- To gather feedback from the community about what needs to be documented/what information they need
 - Help support and improve all aspects of documentation across the Jupyter ecosystem
 	- This means, for members of the group, also taking on any related (non-document) tasks that will be beneficial to docs and support the Docs Working Group's goals, such as:
