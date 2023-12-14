@@ -2,7 +2,7 @@
 
 ## Mission and Goals
 
-The Docs Working Group serves as a support, helper, and advisory body to Jupyter subprojects on all aspects of documentation. The core pillars of our mission:
+The Docs Working Group serves as a support, helper, and advisory body to Jupyter Subprojects on all aspects of documentation. The core pillars of our mission:
 
 - Improve all aspects of documentation across the Jupyter ecosystem
 - Make high quality documentation that is clear, comprehensive, inclusive, and serves the varying needs of Jupyter's diverse community
