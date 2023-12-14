@@ -16,7 +16,7 @@ We want all users to have positive experiences inside the Jupyter ecosystem, esp
 
 The Docs Working Group will focus on the efforts described below, in service of its mission:
 
-- Help write docs (inside the bounds of each subproject's governance)
+- Help write docs (inside the bounds of each Subproject's governance)
     - This includes meta docs, cross-cutting docs (items relevant to multiple subprojects), developer and contributor docs, non user-facing docs and others
 - Develop recommendations and guidance:
 	- For communicating common information and concepts across the Jupyter ecosystem
