@@ -23,7 +23,7 @@ The Docs Working Group is responsible for the following:
 
 The Docs Working Group will focus on the efforts described below, in service of its mission:
 
-- Help write documentation (inside the bounds of each Subproject's governance) including meta documentation, cross-cutting documentation (items relevant to multiple Subprojects), developer and contributor documentaion, non user-facing documentation and others.
+- Help write documentation (inside the bounds of each Subproject's governance) including meta documentation, cross-cutting documentation (items relevant to multiple Subprojects), developer and contributor documentation, non user-facing documentation and others.
 - Develop recommendations and guidance for best practices surrounding documentation authoring, communication of information, concepts and styling, to promote consistency across the Jupyter ecosystem.
 - Community engagement to help connect users with information, expertise, and resources; and to gather feedback from the community about what needs to be documented/what information they need.
 - Help support and improve all aspects of documentation across the Jupyter ecosystem: our scope also includes any tasks - beyond writing documents - that will support the Doumentation Working Group's goals. To help illustrate the scope of our work, some clarifying examples are included below:
