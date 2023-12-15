@@ -28,7 +28,7 @@ The Docs Working Group will focus on the efforts described below, in service of 
 - Community engagement to help connect users with information, expertise, and resources; and to gather feedback from the community about what needs to be documented/what information they need.
 - Help support and improve all aspects of documentation across the Jupyter ecosystem: our scope also includes any tasks - beyond writing documents - that will support the Doumentation Working Group's goals. To help illustrate the scope of our work, some clarifying examples are included below:
     - Improving the user experience inside Jupyter applications by implementing offline and interactive documentation extensions.
-    - Implementing analytics systems for documentation webpages for better understanding of documentation use.    
+    - Implementing analytics systems for documentation webpages for better understanding of documentation usage.
     - Any other innovations or work that may improve Jovyans' experience in/understanding of the Jupyter ecosystem.
 
 ## Founding Members
