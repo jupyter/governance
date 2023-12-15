@@ -14,11 +14,11 @@ We want all users to have positive experiences inside the Jupyter ecosystem, esp
 
 ## Areas of Responsibility
 
-The Docs Working Group is responsible for:
+The Docs Working Group is responsible for the following:
 
-- Creating and implementing minimum standards for documentation
-- The Docs working group will take ownership of documentation and related materials not owned by a Subproject.
-- Jupyter.org website and documentation
+- Setting standards for documentation where needed.
+- The Docs working group will take ownership of documentation and related materials not owned by a Subproject (Jupyter.org website and documentation).
+
 
 ## Doumentation Working Group's Activities
 
@@ -30,7 +30,7 @@ The Docs Working Group will focus on the efforts described below, in service of 
 - Help support and improve all aspects of documentation across the Jupyter ecosystem: our scope also includes any tasks, beyond writing documents, that will support the Doumentation Working Group's goals. To help illustrate the scope of our work, some clarifying examples are included below:
     - Improving the user experience inside Jupyter applications by implementing offline and interactive documentation extensions.
     - Implementing analytics systems for documentation webpages for better understanding of documentation use.    
-    - Any other innovations or work that may improve Jovyans' experience in/understanding of the Jupyter ecosystem
+    - Any other innovations or work that may improve Jovyans' experience in/understanding of the Jupyter ecosystem.
 
 ## Founding Members
 
