@@ -38,7 +38,7 @@ The Docs Working Group will focus on the efforts described below, in service of 
 - Carol Willing
 - Eric Gentry
 - Frederic Collonval
-- Mike Krassowski
+- Michał Krassowski
 - Nick Bollweg
 - Paul Ivanov
 - Rosio Reyes
