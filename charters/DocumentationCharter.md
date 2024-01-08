@@ -17,7 +17,8 @@ We want all users to have positive experiences inside the Jupyter ecosystem, esp
 The Docs Working Group is responsible for the following:
 
 - Setting standards for documentation where needed.
-- The Docs working group will take ownership of documentation and related resources not owned by a Subproject (including the Jupyter.org website and documentation).
+- The Docs working group will take ownership of documentation and related resources not owned by a Subproject. 
+    - Including the Jupyter.org documentation (under docs.jupyter.org/).
 
 ## Doumentation Working Group's Activities
 
