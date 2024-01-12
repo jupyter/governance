@@ -50,7 +50,7 @@ means we may delay an "official" response until we believe that the situation
 has ended and that everyone is physically safe.
 
 The Code of Conduct committee will then follow the
-[standard procedure](enforcement.md#Resolutions) to arrive at and
+[standard procedure](enforcement.md) to arrive at and
 communicate a resolution.
 
 
