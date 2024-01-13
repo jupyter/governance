@@ -146,7 +146,7 @@ report, we will take appropriate action.
 ## Enforcement
 
 For information on enforcement, please view the [*Enforcement
-Manual*](enforcement).
+Manual*](enforcement.md).
 
 Original text courtesy of the [*Speak
 Up!*](http://web.archive.org/web/20141109123859/http://speakup.io/coc.html)
