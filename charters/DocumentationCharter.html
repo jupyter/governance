@@ -1,0 +1,557 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Documentation Working Group Charter &#8212; Project Jupyter Governance</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=bd9e20870c6007c4c509"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'charters/DocumentationCharter';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <header>
+  
+    <div class="bd-header navbar navbar-expand-lg bd-navbar">
+    </div>
+  
+  </header>
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Project Jupyter Governance</p>
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Project Jupyter Governance
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Governance</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Jupyter Governance Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../executive_council.html">Executive Council</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_steering_council.html">Software Steering Council</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../software_subprojects.html">Software Subprojects</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../list_of_subprojects.html">List of Official Jupyter Subprojects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../newsubprojects.html">New Subproject Process</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../standing_committees_and_working_groups.html">Standing Committees and Working Groups</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../list_of_standing_committees_and_working_groups.html">List of Standing Committees and Working Groups</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../distinguished_contributors.html">Distinguished Contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../people.html">Leadership Directory</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Code of Conduct</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../conduct/code_of_conduct.html">Project Jupyter Code of Conduct</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../conduct/enforcement.html">Enforcement Manual</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../conduct/reporting_online.html">Reporting Guide - Online Community</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../conduct/reporting_events.html">Reporting Guide - Jupyter Events</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../CodeofConductJupyterDay.html">JupyterDay Code of Conduct</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../CodeofConductJupyterDayOrganizer.html">JupyterDay Organizer Code of Conduct</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../conduct/faq.html">Frequently Asked Questions</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Organizational Policy</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../decision_making.html">Decision-Making Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../papers.html">Process for Authoring Jupyter Related Academic Papers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trademarks.html">Trademark Usage Policy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projectlicense.html">Licensing terms for Project Jupyter code</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Previous Governance</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../governance.html">Previous Governance of Project Jupyter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bootstrapping_subproject_councils.html">Transition: Bootstrapping Subproject Councils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bootstrapping_executive_council.html">Transition: Bootstrapping Executive Council and New Governance</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/charters/DocumentationCharter.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Documentation Working Group Charter</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mission-and-goals">Mission and Goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#areas-of-responsibility">Areas of Responsibility</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#doumentation-working-group-s-activities">Doumentation Working Group’s Activities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#founding-members">Founding Members</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-making">Decision Making</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="documentation-working-group-charter">
+<h1>Documentation Working Group Charter<a class="headerlink" href="#documentation-working-group-charter" title="Permalink to this heading">#</a></h1>
+<section id="mission-and-goals">
+<h2>Mission and Goals<a class="headerlink" href="#mission-and-goals" title="Permalink to this heading">#</a></h2>
+<p>The Documentation Working Group (“Docs Working Group”) serves as a support, helper, and advisory body to Jupyter Subprojects on all aspects of documentation. The core pillars of our mission:</p>
+<ul class="simple">
+<li><p>Improve all aspects of documentation across the Jupyter ecosystem.</p></li>
+<li><p>Make high quality documentation that is clear, comprehensive, inclusive, and serves the varying needs of Jupyter’s diverse community.</p></li>
+<li><p>Engage with the community to help users with Jupyter products, discover their needs, and connect them with relevant information, expertise and resources.</p></li>
+</ul>
+<p>The Docs Working Group will provide a place for consistent, focused, holistic efforts to be spent on documentation across the whole ecosystem. This group exists in part to provide capacity and resources to the subprojects (some of which are already suffering from a lack of resources/capacity, and more specifically to work on documentation in particular).</p>
+<p>We want all users to have positive experiences inside the Jupyter ecosystem, especially users who are learning and coming in for the first time, and users with disabilities.</p>
+</section>
+<section id="areas-of-responsibility">
+<h2>Areas of Responsibility<a class="headerlink" href="#areas-of-responsibility" title="Permalink to this heading">#</a></h2>
+<p>The Docs Working Group is responsible for the following:</p>
+<ul class="simple">
+<li><p>Setting standards for documentation where needed.</p></li>
+<li><p>The Docs working group will take ownership of documentation and related resources not owned by a Subproject.</p>
+<ul>
+<li><p>Including the <a class="reference external" href="http://Jupyter.org">Jupyter.org</a> documentation (under <a class="reference external" href="http://docs.jupyter.org/">docs.jupyter.org/</a>).</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="doumentation-working-group-s-activities">
+<h2>Doumentation Working Group’s Activities<a class="headerlink" href="#doumentation-working-group-s-activities" title="Permalink to this heading">#</a></h2>
+<p>The Docs Working Group will focus on the efforts described below, in service of its mission:</p>
+<ul class="simple">
+<li><p>Help write documentation (inside the bounds of each Subproject’s governance) including meta documentation, cross-cutting documentation (items relevant to multiple Subprojects), developer and contributor documentation, non user-facing documentation and others.</p></li>
+<li><p>Develop recommendations and guidance for best practices surrounding documentation authoring, communication of information, concepts and styling, to promote consistency across the Jupyter ecosystem.</p></li>
+<li><p>Community engagement to help connect users with information, expertise, and resources; and to gather feedback from the community about what needs to be documented/what information they need.</p></li>
+<li><p>Help support and improve all aspects of documentation across the Jupyter ecosystem: our scope also includes any tasks - beyond writing documents - that will support the Doumentation Working Group’s goals. To help illustrate the scope of our work, some clarifying examples are included below:</p>
+<ul>
+<li><p>Improving the user experience inside Jupyter applications by implementing offline and interactive documentation extensions.</p></li>
+<li><p>Implementing analytics systems for documentation webpages for better understanding of documentation usage.</p></li>
+<li><p>Any other innovations or work that may improve Jovyans’ experience in/understanding of the Jupyter ecosystem.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="founding-members">
+<h2>Founding Members<a class="headerlink" href="#founding-members" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Carlos Brandt</p></li>
+<li><p>Carol Willing</p></li>
+<li><p>Eric Gentry</p></li>
+<li><p>Frederic Collonval</p></li>
+<li><p>Michał Krassowski</p></li>
+<li><p>Nick Bollweg</p></li>
+<li><p>Paul Ivanov</p></li>
+<li><p>Rosio Reyes</p></li>
+</ul>
+</section>
+<section id="decision-making">
+<h2>Decision Making<a class="headerlink" href="#decision-making" title="Permalink to this heading">#</a></h2>
+<p>The Docs Working Group will establish a council (by Jupyter convention) to make decisions.</p>
+<p>The Docs Working Group Council will initially be made up of the founding members. Council members can then initiate a vote to add new members (or remove members by a two thirds majority with a quorum of two thirds of all council members). The voting process will follow the guidelines established in the <a class="reference external" href="https://jupyter.org/governance/decision_making.html">Jupyter Governance Decision Making document</a>.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./charters"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mission-and-goals">Mission and Goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#areas-of-responsibility">Areas of Responsibility</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#doumentation-working-group-s-activities">Doumentation Working Group’s Activities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#founding-members">Founding Members</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decision-making">Decision Making</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+    href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+    href="https://jupyter.org">
+    <span property="dct:title">Project Jupyter</span></a>
+  has waived all copyright and related or neighboring rights to
+  <a href="https://github.com/jupyter/governance"><span property="dct:title">Project Jupyter Governance documents</span></a>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://jupyter.org">
+  United States</span>.
+</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
