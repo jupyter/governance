@@ -6,7 +6,7 @@ At the highest level, any Github repository under any official Jupyter GitHub or
 
 The following Jupyter Subprojects have their own formal Subproject Council that elects and maintains an SSC representative:
 
-- [JupyterLab](https://github.com/jupyterlab/team-compass)
+- [Jupyter Frontends](https://github.com/jupyterlab/team-compass) and [additional link](https://github.com/jupyter/notebook-team-compass)
 - [JupyterHub and Binder](https://github.com/jupyterhub/team-compass)
   - [Jupyterhub](https://github.com/jupyterhub/jupyterhub)
   - [Binder](https://github.com/jupyterhub/binder)
@@ -17,7 +17,6 @@ The following Jupyter Subprojects have their own formal Subproject Council that 
   - [Enterprise Gateway](https://github.com/jupyter/enterprise_gateway)
   - [Kernel Gateway](https://github.com/jupyter/kernel_gateway)
 - [Jupyter Widgets](https://github.com/jupyter-widgets/team-compass)
-- [Jupyter Notebook](https://github.com/jupyter/notebook-team-compass)
 - [Jupyter Kernels](https://github.com/jupyter/kernels-team-compass)
   - [jupyter-xeus](https://github.com/jupyter-xeus/)
   - [IPykernel](https://github.com/ipython/ipykernel)
