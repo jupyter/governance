@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="./" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Jupyter Governance Overview &#8212; Project Jupyter Governance</title>
   
@@ -29,39 +28,43 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
 <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
   <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js"></script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'overview';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -154,7 +157,18 @@ const thebe_selector_output = ".output, .cell_output"
     <p class="title logo__title">Project Jupyter Governance</p>
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -374,39 +388,39 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="jupyter-governance-overview">
-<h1>Jupyter Governance Overview<a class="headerlink" href="#jupyter-governance-overview" title="Permalink to this heading">#</a></h1>
+<h1>Jupyter Governance Overview<a class="headerlink" href="#jupyter-governance-overview" title="Link to this heading">#</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Jupyter transitioned from a <a class="reference internal" href="governance.html"><span class="doc std std-doc">Benevolent Dictator For Life (BDFL) + Steering Council</span></a> governance model to this current governance model in December 2022.</p>
+<p>Jupyter transitioned from a <a class="reference internal" href="governance.html"><span class="std std-doc">Benevolent Dictator For Life (BDFL) + Steering Council</span></a> governance model to this current governance model in December 2022.</p>
 <p>This document provides a brief informational summary of the Project Jupyter governance model. In case of any substantive discrepancy with the official descriptions of each body, the underlying governance documents should be considered as the source of truth, and we will update this overview as needed.</p>
 </div>
 <p>Jupyter’s governance model is anchored on two bodies that complement each other:</p>
 <ol class="arabic simple">
-<li><p>The <a class="reference internal" href="executive_council.html"><span class="doc std std-doc"><strong>Executive Council (EC)</strong></span></a> is ultimately responsible for all dimensions of the Project (including, but not limited to, software, legal, financial, community, operations, inclusion and diversity, etc.). The members of the EC actively work to carry out the Project’s mission in accordance with its values and to support operations through delegation to the Software Steering Council (SSC), Software Subprojects, Standing Committees, and Working Groups. These other bodies will report to the EC, and the EC is expected to support, oversee, manage, and ensure the success of operations across Jupyter. For more detail, see the <a class="reference internal" href="executive_council.html"><span class="doc std std-doc">Executive Council document</span></a>.</p></li>
-<li><p>The <a class="reference internal" href="software_steering_council.html"><span class="doc std std-doc"><strong>Software Steering Council (SSC)</strong></span></a> has jurisdiction over software-related decisions across Project Jupyter, with a primary focus on coordination across projects and decisions that have impact across many Jupyter Subprojects. It is also a mechanism for representatives of each project to share information and expertise. Technical decisions and processes where the SSC isn’t explicitly involved are automatically delegated to the individual projects to manage their day-to-day activities, create new repositories in their orgs, etc., with independence and autonomy. For more details, see the <a class="reference internal" href="software_steering_council.html"><span class="doc std std-doc">Software Steering Council document</span></a>.</p></li>
+<li><p>The <a class="reference internal" href="executive_council.html"><span class="std std-doc"><strong>Executive Council (EC)</strong></span></a> is ultimately responsible for all dimensions of the Project (including, but not limited to, software, legal, financial, community, operations, inclusion and diversity, etc.). The members of the EC actively work to carry out the Project’s mission in accordance with its values and to support operations through delegation to the Software Steering Council (SSC), Software Subprojects, Standing Committees, and Working Groups. These other bodies will report to the EC, and the EC is expected to support, oversee, manage, and ensure the success of operations across Jupyter. For more detail, see the <a class="reference internal" href="executive_council.html"><span class="std std-doc">Executive Council document</span></a>.</p></li>
+<li><p>The <a class="reference internal" href="software_steering_council.html"><span class="std std-doc"><strong>Software Steering Council (SSC)</strong></span></a> has jurisdiction over software-related decisions across Project Jupyter, with a primary focus on coordination across projects and decisions that have impact across many Jupyter Subprojects. It is also a mechanism for representatives of each project to share information and expertise. Technical decisions and processes where the SSC isn’t explicitly involved are automatically delegated to the individual projects to manage their day-to-day activities, create new repositories in their orgs, etc., with independence and autonomy. For more details, see the <a class="reference internal" href="software_steering_council.html"><span class="std std-doc">Software Steering Council document</span></a>.</p></li>
 </ol>
 <p>Additionally, the Executive Council (EC) receives input from a Community Advisory Panel. This panel advises the EC with perspectives and connections that may reach beyond the active Jupyter community.</p>
 <section id="other-major-components-of-the-organization">
-<h2>Other major components of the organization<a class="headerlink" href="#other-major-components-of-the-organization" title="Permalink to this heading">#</a></h2>
+<h2>Other major components of the organization<a class="headerlink" href="#other-major-components-of-the-organization" title="Link to this heading">#</a></h2>
 <p>In addition to these three bodies, the following are other major parts of the Project related to governance.</p>
 <section id="distinguished-contributors">
-<h3>Distinguished Contributors<a class="headerlink" href="#distinguished-contributors" title="Permalink to this heading">#</a></h3>
-<p>The <a class="reference internal" href="distinguished_contributors.html"><span class="doc std std-doc">Distinguished Contributors</span></a> are a group of Jupyter community members that have gone above-and-beyond in their support of the project over the years, making substantial and sustained contributions in any area of activity (software development, governance, community engagement, events, etc.). The Jupyter community confers membership in this group as a way of recognizing their effort and saying “thank you.” For more detail, see the <a class="reference internal" href="distinguished_contributors.html"><span class="doc std std-doc">Distinguished Contributors document</span></a>.</p>
+<h3>Distinguished Contributors<a class="headerlink" href="#distinguished-contributors" title="Link to this heading">#</a></h3>
+<p>The <a class="reference internal" href="distinguished_contributors.html"><span class="std std-doc">Distinguished Contributors</span></a> are a group of Jupyter community members that have gone above-and-beyond in their support of the project over the years, making substantial and sustained contributions in any area of activity (software development, governance, community engagement, events, etc.). The Jupyter community confers membership in this group as a way of recognizing their effort and saying “thank you.” For more detail, see the <a class="reference internal" href="distinguished_contributors.html"><span class="std std-doc">Distinguished Contributors document</span></a>.</p>
 </section>
 <section id="standing-committees-and-working-groups">
-<h3>Standing Committees and Working Groups<a class="headerlink" href="#standing-committees-and-working-groups" title="Permalink to this heading">#</a></h3>
-<p>In addition to the software work on Jupyter that is coordinated through the Software Steering Council (SSC), much of the project’s work expands beyond software. Examples include code of conduct incident response, diversity and inclusion, operations, legal, fundraising, events, community, and marketing. <a class="reference internal" href="standing_committees_and_working_groups.html"><span class="doc std std-doc">Standing Committees and Working Groups</span></a> carry out this non-software related work of the project by delegation from the Executive Council (EC).</p>
+<h3>Standing Committees and Working Groups<a class="headerlink" href="#standing-committees-and-working-groups" title="Link to this heading">#</a></h3>
+<p>In addition to the software work on Jupyter that is coordinated through the Software Steering Council (SSC), much of the project’s work expands beyond software. Examples include code of conduct incident response, diversity and inclusion, operations, legal, fundraising, events, community, and marketing. <a class="reference internal" href="standing_committees_and_working_groups.html"><span class="std std-doc">Standing Committees and Working Groups</span></a> carry out this non-software related work of the project by delegation from the Executive Council (EC).</p>
 <p>The primary difference between Standing Committees and Working Groups is that Standing Committees are intended to be permanent; they are only created and dissolved by a joint vote of the EC and SSC. In contrast, Working Groups can be created and dissolved by the EC acting alone.</p>
-<p>More details on these can be found <a class="reference internal" href="standing_committees_and_working_groups.html"><span class="doc std std-doc">here</span></a>.</p>
+<p>More details on these can be found <a class="reference internal" href="standing_committees_and_working_groups.html"><span class="std std-doc">here</span></a>.</p>
 </section>
 <section id="software-subprojects">
-<h3>Software Subprojects<a class="headerlink" href="#software-subprojects" title="Permalink to this heading">#</a></h3>
-<p><a class="reference internal" href="software_subprojects.html"><span class="doc std std-doc">Software Subprojects</span></a> in the Jupyter community are official areas of focus and effort within the Jupyter ecosystem. They often map to a single GitHub organization. Subprojects must abide by the <a class="reference internal" href="conduct/code_of_conduct.html"><span class="doc std std-doc">Jupyter Code of Conduct</span></a>, Jupyter decision-making and governance processes (e.g. respecting the project’s trademark policies), as well as commit to certain technical limitations and scope. Each subproject elects one person to serve on the Software Steering Council. For more details, see the <a class="reference internal" href="software_subprojects.html"><span class="doc std std-doc">Software Subprojects document</span></a>.</p>
+<h3>Software Subprojects<a class="headerlink" href="#software-subprojects" title="Link to this heading">#</a></h3>
+<p><a class="reference internal" href="software_subprojects.html"><span class="std std-doc">Software Subprojects</span></a> in the Jupyter community are official areas of focus and effort within the Jupyter ecosystem. They often map to a single GitHub organization. Subprojects must abide by the <a class="reference internal" href="conduct/code_of_conduct.html"><span class="std std-doc">Jupyter Code of Conduct</span></a>, Jupyter decision-making and governance processes (e.g. respecting the project’s trademark policies), as well as commit to certain technical limitations and scope. Each subproject elects one person to serve on the Software Steering Council. For more details, see the <a class="reference internal" href="software_subprojects.html"><span class="std std-doc">Software Subprojects document</span></a>.</p>
 </section>
 </section>
 <section id="decision-making-and-voting-procedures">
-<h2>Decision-making and voting procedures<a class="headerlink" href="#decision-making-and-voting-procedures" title="Permalink to this heading">#</a></h2>
-<p>The EC, SSC, Standing Committees and Working Groups all use uniform voting procedures outlined in the <a class="reference internal" href="decision_making.html"><span class="doc std std-doc">Decision-Making Guide</span></a>.</p>
+<h2>Decision-making and voting procedures<a class="headerlink" href="#decision-making-and-voting-procedures" title="Link to this heading">#</a></h2>
+<p>The EC, SSC, Standing Committees and Working Groups all use uniform voting procedures outlined in the <a class="reference internal" href="decision_making.html"><span class="std std-doc">Decision-Making Guide</span></a>.</p>
 </section>
 </section>
 

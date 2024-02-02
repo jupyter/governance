@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="./" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Software Steering Council &#8212; Project Jupyter Governance</title>
   
@@ -29,39 +28,43 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
 <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
   <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js"></script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'software_steering_council';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -154,7 +157,18 @@ const thebe_selector_output = ".output, .cell_output"
     <p class="title logo__title">Project Jupyter Governance</p>
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -380,16 +394,16 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="software-steering-council">
-<h1>Software Steering Council<a class="headerlink" href="#software-steering-council" title="Permalink to this heading">#</a></h1>
+<h1>Software Steering Council<a class="headerlink" href="#software-steering-council" title="Link to this heading">#</a></h1>
 <p>The current members of the Software Steering Council are listed in the <a class="reference internal" href="people.html"><span class="doc std std-doc">Leadership Directory</span></a>.</p>
 <section id="purpose">
-<h2>Purpose<a class="headerlink" href="#purpose" title="Permalink to this heading">#</a></h2>
+<h2>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">#</a></h2>
 <p>The Jupyter Software Steering Council (SSC) has jurisdiction over software-related decisions across Project Jupyter, with a primary focus on coordination across projects and decisions that have impact across many Jupyter Subprojects. It is also a mechanism for representatives of each project to share information and expertise. Technical decisions and processes where the SSC isn’t explicitly involved are automatically delegated to the individual projects to manage their day-to-day activities, create new repositories in their orgs, etc., with independence and autonomy.</p>
 </section>
 <section id="responsibilities">
-<h2>Responsibilities<a class="headerlink" href="#responsibilities" title="Permalink to this heading">#</a></h2>
+<h2>Responsibilities<a class="headerlink" href="#responsibilities" title="Link to this heading">#</a></h2>
 <section id="sole-responsibilities">
-<h3>Sole responsibilities<a class="headerlink" href="#sole-responsibilities" title="Permalink to this heading">#</a></h3>
+<h3>Sole responsibilities<a class="headerlink" href="#sole-responsibilities" title="Link to this heading">#</a></h3>
 <p>The SSC is responsible for the following:</p>
 <ul class="simple">
 <li><p>Defining the submission, review, and approval process for Jupyter Enhancement Proposals.</p></li>
@@ -403,36 +417,36 @@ document.write(`
 </ul>
 </section>
 <section id="shared-responsibilities-with-the-executive-council">
-<h3>Shared responsibilities with the Executive Council<a class="headerlink" href="#shared-responsibilities-with-the-executive-council" title="Permalink to this heading">#</a></h3>
+<h3>Shared responsibilities with the Executive Council<a class="headerlink" href="#shared-responsibilities-with-the-executive-council" title="Link to this heading">#</a></h3>
 <p>The EC and SSC share responsibility for approving:</p>
 <ul class="simple">
 <li><p>Changes to the Jupyter Governance model.</p></li>
 <li><p>Creation of new Jupyter Subprojects.</p></li>
 <li><p>Removal of Subprojects from Jupyter.</p></li>
 </ul>
-<p>In these decisions, each body will <a class="reference internal" href="decision_making.html"><span class="doc std std-doc">vote</span></a> independently and the change will be approved only if both bodies approve.</p>
+<p>In these decisions, each body will <a class="reference internal" href="decision_making.html"><span class="std std-doc">vote</span></a> independently and the change will be approved only if both bodies approve.</p>
 </section>
 </section>
 <section id="membership">
-<h2>Membership<a class="headerlink" href="#membership" title="Permalink to this heading">#</a></h2>
+<h2>Membership<a class="headerlink" href="#membership" title="Link to this heading">#</a></h2>
 <p>SSC members are representatives from Jupyter Subprojects that wish to assist the community in sharing information across projects and participate in decision-making that affects many stakeholders in the Jupyter ecosystem. Any Subproject council member is eligible to represent the Subproject on the SSC. While not ideal, one person may serve as the SSC representative for more than one Subproject. In this case, a representative may cast one vote for each Subproject they represent in SSC decisions.</p>
 <p>A person may not serve simultaneously on the SSC and the EC.</p>
 <p>The SSC may vote to remove an SSC member. A removal motion passes if two-thirds of the entire SSC votes in favor of removal. All SSC members are expected to vote without recusal, including the member in question.</p>
 <section id="member-composition">
-<h3>Member composition<a class="headerlink" href="#member-composition" title="Permalink to this heading">#</a></h3>
+<h3>Member composition<a class="headerlink" href="#member-composition" title="Link to this heading">#</a></h3>
 <p>The Software Steering Council is composed of one representative from each of the Jupyter Subprojects. In addition, the SSC will contain members from certain Working Groups and Standing Committees whose scope has important impact on SSC activities, such as Diversity and Inclusion, and Internationalization.</p>
 </section>
 <section id="term-length">
-<h3>Term length<a class="headerlink" href="#term-length" title="Permalink to this heading">#</a></h3>
+<h3>Term length<a class="headerlink" href="#term-length" title="Link to this heading">#</a></h3>
 <p>There is no term length for SSC membership, as each Jupyter Subproject is in charge of selecting its own representative. Projects are encouraged to define their own expectations around SSC membership tenure, to share SSC membership responsibilities among core team members, and to provide mechanisms for healthy rotation that avoid burnout.</p>
 </section>
 <section id="selecting-ssc-members">
-<h3>Selecting SSC members<a class="headerlink" href="#selecting-ssc-members" title="Permalink to this heading">#</a></h3>
-<p>Each Jupyter Subproject, Working Group, or Standing Committee with SSC representation is responsible to nominate a single representative using the <a class="reference internal" href="decision_making.html"><span class="doc std std-doc">Jupyter Decision-Making Guidelines</span></a>.</p>
+<h3>Selecting SSC members<a class="headerlink" href="#selecting-ssc-members" title="Link to this heading">#</a></h3>
+<p>Each Jupyter Subproject, Working Group, or Standing Committee with SSC representation is responsible to nominate a single representative using the <a class="reference internal" href="decision_making.html"><span class="std std-doc">Jupyter Decision-Making Guidelines</span></a>.</p>
 </section>
 <section id="bootstrapping-the-ssc">
-<h3>Bootstrapping the SSC<a class="headerlink" href="#bootstrapping-the-ssc" title="Permalink to this heading">#</a></h3>
-<p>The initial Software Steering Council will be created with individuals nominated by each of the major Jupyter Subprojects, as defined by our <a class="reference internal" href="list_of_subprojects.html"><span class="doc std std-doc">official list</span></a>.</p>
+<h3>Bootstrapping the SSC<a class="headerlink" href="#bootstrapping-the-ssc" title="Link to this heading">#</a></h3>
+<p>The initial Software Steering Council will be created with individuals nominated by each of the major Jupyter Subprojects, as defined by our <a class="reference internal" href="list_of_subprojects.html"><span class="std std-doc">official list</span></a>.</p>
 </section>
 </section>
 </section>

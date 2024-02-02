@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Project Jupyter Code of Conduct &#8212; Project Jupyter Governance</title>
   
@@ -29,39 +28,43 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
   <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'conduct/code_of_conduct';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -154,7 +157,18 @@ const thebe_selector_output = ".output, .cell_output"
     <p class="title logo__title">Project Jupyter Governance</p>
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -371,7 +385,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="project-jupyter-code-of-conduct">
-<h1>Project Jupyter Code of Conduct<a class="headerlink" href="#project-jupyter-code-of-conduct" title="Permalink to this heading">#</a></h1>
+<h1>Project Jupyter Code of Conduct<a class="headerlink" href="#project-jupyter-code-of-conduct" title="Link to this heading">#</a></h1>
 <p>Project Jupyter is an engaged and respectful community made up of people
 from all over the world. Your involvement helps us to further our
 mission and to create an open platform that serves a broad range of
@@ -398,7 +412,7 @@ resolve a misunderstanding and de-escalate things.</p>
 work, there is urgency or risk to someone, nobody is intervening publicly and
 you don’t feel comfortable speaking in public, etc.  For these or other
 reasons, structured follow-up may be necessary and here we provide the means
-for that as described in the <span class="xref myst">Reporting</span> section.</p>
+for that as described in the <a class="reference internal" href="#Reporting"><span class="xref myst">Reporting</span></a> section.</p>
 <p>This code applies equally to founders, developers, mentors and new community
 members, in all spaces managed by Project Jupyter (including IPython). This
 includes the mailing lists, our GitHub organizations, our chat rooms, in-person
@@ -407,7 +421,7 @@ and any other forums created by the project team. In addition,
 violations of this code outside these spaces may affect a person’s ability to
 participate within them.</p>
 <section id="expected-behavior">
-<h2>Expected behavior<a class="headerlink" href="#expected-behavior" title="Permalink to this heading">#</a></h2>
+<h2>Expected behavior<a class="headerlink" href="#expected-behavior" title="Link to this heading">#</a></h2>
 <p>By embracing the following principles, guidelines and actions to follow or
 avoid, you will help us make Jupyter a welcoming and productive community. Feel
 free to contact the Code of Conduct Committee at
@@ -463,7 +477,7 @@ automatically imply an admission of guilt.</p></li>
 </ol>
 </section>
 <section id="responding-to-inappropriate-behavior">
-<h2>Responding to inappropriate behavior<a class="headerlink" href="#responding-to-inappropriate-behavior" title="Permalink to this heading">#</a></h2>
+<h2>Responding to inappropriate behavior<a class="headerlink" href="#responding-to-inappropriate-behavior" title="Link to this heading">#</a></h2>
 <p>In some cases, individuals may violate the CoC in online or in-person situations.
 If any community member deems the action to be harmful to the community,
 they may act immediately to defuse the situation.
@@ -471,7 +485,7 @@ This includes actions directed at the situation, rather than at an individual, s
 as locking a thread, <em>temporarily</em> suspending a user’s account in the
 community forum, calling a meeting break, or generally acting to
 de-escalate the situation. Follow-up your actions by
-<span class="xref myst">reporting the incident to the CoC committee</span>.</p>
+<a class="reference internal" href="#Reporting"><span class="xref myst">reporting the incident to the CoC committee</span></a>.</p>
 <p>If the incident involves physical danger, or involves a threat to anyone’s safety
 (such as threats of violence), any member of the community may – and should – act
 unilaterally to protect the safety of any community member.
@@ -484,7 +498,7 @@ by e-mailing
 within 24 hours.</p>
 </section>
 <section id="reporting">
-<h2>Reporting<a class="headerlink" href="#reporting" title="Permalink to this heading">#</a></h2>
+<h2>Reporting<a class="headerlink" href="#reporting" title="Link to this heading">#</a></h2>
 <p>If you believe someone is violating the code of conduct, please report this in
 a timely manner. Code of conduct violations reduce the value of the community
 for everyone and we take them seriously.</p>
@@ -499,8 +513,8 @@ that we follow up with you directly. While we cannot follow up on an anonymous
 report, we will take appropriate action.</p>
 </section>
 <section id="enforcement">
-<h2>Enforcement<a class="headerlink" href="#enforcement" title="Permalink to this heading">#</a></h2>
-<p>For information on enforcement, please view the <a class="reference internal" href="enforcement.html"><span class="doc std std-doc"><em>Enforcement
+<h2>Enforcement<a class="headerlink" href="#enforcement" title="Link to this heading">#</a></h2>
+<p>For information on enforcement, please view the <a class="reference internal" href="enforcement.html"><span class="std std-doc"><em>Enforcement
 Manual</em></span></a>.</p>
 <p>Original text courtesy of the <a class="reference external" href="http://web.archive.org/web/20141109123859/http://speakup.io/coc.html"><em>Speak
 Up!</em></a>

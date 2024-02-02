@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="./" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Previous Governance of Project Jupyter &#8212; Project Jupyter Governance</title>
   
@@ -29,39 +28,43 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
 <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
   <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js"></script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'governance';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -154,7 +157,18 @@ const thebe_selector_output = ".output, .cell_output"
     <p class="title logo__title">Project Jupyter Governance</p>
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -382,7 +396,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="previous-governance-of-project-jupyter">
-<h1>Previous Governance of Project Jupyter<a class="headerlink" href="#previous-governance-of-project-jupyter" title="Permalink to this heading">#</a></h1>
+<h1>Previous Governance of Project Jupyter<a class="headerlink" href="#previous-governance-of-project-jupyter" title="Link to this heading">#</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Prior to December 2022, Project Jupyter had a governance model based on a BDFL and a Steering Council, as described in this document.</p>
@@ -392,7 +406,7 @@ individuals and institutions in the roles defined in the governance
 section below, is contained in The Project Governance Repository at:</p>
 <p><a class="github reference external" href="https://github.com/jupyter/governance">jupyter/governance</a></p>
 <section id="the-project">
-<h2>The Project<a class="headerlink" href="#the-project" title="Permalink to this heading">#</a></h2>
+<h2>The Project<a class="headerlink" href="#the-project" title="Link to this heading">#</a></h2>
 <p>The Jupyter/IPython Project (The Project) is an open source software project
 affiliated with the 501c3 NumFOCUS Foundation. The goal of The Project is to
 develop open source software and deploy open and public websites and services
@@ -436,7 +450,7 @@ only legal entity that has a formal relationship with the project (see
 Institutional Partners section below).</p>
 </section>
 <section id="governance">
-<h2>Governance<a class="headerlink" href="#governance" title="Permalink to this heading">#</a></h2>
+<h2>Governance<a class="headerlink" href="#governance" title="Link to this heading">#</a></h2>
 <p>This section describes the governance and leadership model of The Project.</p>
 <p>The foundations of Project governance are:</p>
 <ul class="simple">
@@ -458,7 +472,7 @@ will consist of a BDFL and Steering Council. We view this governance model as
 the formalization of what we are already doing, rather than a change in
 direction.</p>
 <section id="bdfl">
-<h3>BDFL<a class="headerlink" href="#bdfl" title="Permalink to this heading">#</a></h3>
+<h3>BDFL<a class="headerlink" href="#bdfl" title="Link to this heading">#</a></h3>
 <p>The Project will have a BDFL (Benevolent Dictator for Life), who is currently
 Fernando Perez. As Dictator, the BDFL has the authority to make all final
 decisions for The Project. As Benevolent, the BDFL, in practice chooses to
@@ -482,7 +496,7 @@ work together closely on the BDFL selection process, the Main NUMFOCUS Board
 will make the final decision.</p>
 </section>
 <section id="steering-council">
-<h3>Steering Council<a class="headerlink" href="#steering-council" title="Permalink to this heading">#</a></h3>
+<h3>Steering Council<a class="headerlink" href="#steering-council" title="Link to this heading">#</a></h3>
 <p>The Project will have a Steering Council that consists of Project Contributors
 who have produced contributions that are substantial in quality and quantity,
 and sustained over at least one year. The overall role of the Council is to
@@ -512,7 +526,7 @@ those Services for the benefit of the Project and Community.</p></li>
 on an issue in a reasonable time frame.</p></li>
 </ul>
 <section id="council-membership">
-<h4>Council membership<a class="headerlink" href="#council-membership" title="Permalink to this heading">#</a></h4>
+<h4>Council membership<a class="headerlink" href="#council-membership" title="Link to this heading">#</a></h4>
 <p>To become eligible for being a Steering Council Member an individual must be a
 Project Contributor who has produced contributions that are substantial in
 quality and quantity, and sustained over at least one year. Potential Council
@@ -547,7 +561,7 @@ if they are deemed to be actively harmful to the project’s well-being, and
 attempts at communication and conflict resolution have failed.</p>
 </section>
 <section id="conflict-of-interest">
-<h4>Conflict of interest<a class="headerlink" href="#conflict-of-interest" title="Permalink to this heading">#</a></h4>
+<h4>Conflict of interest<a class="headerlink" href="#conflict-of-interest" title="Link to this heading">#</a></h4>
 <p>It is expected that the BDFL and Council Members will be employed at a wide
 range of companies, universities and non-profit organizations. Because of this,
 it is possible that Members will have conflict of interests. Such conflict of
@@ -568,7 +582,7 @@ recused his/herself for a particular decision, they will appoint a substitute
 BDFL for that decision.</p>
 </section>
 <section id="private-communications-of-the-council">
-<h4>Private communications of the Council<a class="headerlink" href="#private-communications-of-the-council" title="Permalink to this heading">#</a></h4>
+<h4>Private communications of the Council<a class="headerlink" href="#private-communications-of-the-council" title="Link to this heading">#</a></h4>
 <p>Unless specifically required, all Council discussions and activities will be
 public and done in collaboration and discussion with the Project Contributors
 and Community. The Council will have a private mailing list that will be used
@@ -578,7 +592,7 @@ summarize those to the Community after eliding personal/private/sensitive
 information that should not be posted to the public internet.</p>
 </section>
 <section id="subcommittees">
-<h4>Subcommittees<a class="headerlink" href="#subcommittees" title="Permalink to this heading">#</a></h4>
+<h4>Subcommittees<a class="headerlink" href="#subcommittees" title="Link to this heading">#</a></h4>
 <p>The Council can create subcommittees that provide leadership and guidance for
 specific aspects of the project. Like the Council as a whole, subcommittees
 should conduct their business in an open and public manner unless privacy is
@@ -595,7 +609,7 @@ authority to someone else in full. It’s more like what Linus Torvalds uses wit
 “lieutenants” model.</p>
 </section>
 <section id="numfocus-subcommittee">
-<h4>NumFOCUS Subcommittee<a class="headerlink" href="#numfocus-subcommittee" title="Permalink to this heading">#</a></h4>
+<h4>NumFOCUS Subcommittee<a class="headerlink" href="#numfocus-subcommittee" title="Link to this heading">#</a></h4>
 <p>The Council will maintain one narrowly focused subcommittee to manage its
 interactions with NumFOCUS.</p>
 <ul class="simple">
@@ -616,7 +630,7 @@ max). This avoids effective majorities resting on one person.</p></li>
 </section>
 </section>
 <section id="institutional-partners-and-funding">
-<h2>Institutional Partners and Funding<a class="headerlink" href="#institutional-partners-and-funding" title="Permalink to this heading">#</a></h2>
+<h2>Institutional Partners and Funding<a class="headerlink" href="#institutional-partners-and-funding" title="Link to this heading">#</a></h2>
 <p>The BDFL and Steering Council are the primary leadership for the project. No
 outside institution, individual or legal entity has the ability to own,
 control, usurp or influence the project other than by participating in the
@@ -684,7 +698,7 @@ Workshop and bi-annual Jupyter/IPython Developer Meeting.</p></li>
 </ul>
 </section>
 <section id="changing-the-governance-documents">
-<h2>Changing the Governance Documents<a class="headerlink" href="#changing-the-governance-documents" title="Permalink to this heading">#</a></h2>
+<h2>Changing the Governance Documents<a class="headerlink" href="#changing-the-governance-documents" title="Link to this heading">#</a></h2>
 <p>Changes to the governance documents are submitted via a GitHub pull
 request to The Project’s governance documents GitHub repository at
 <a class="github reference external" href="https://github.com/jupyter/governance">jupyter/governance</a>.

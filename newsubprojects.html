@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="./" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>New Subproject Process &#8212; Project Jupyter Governance</title>
   
@@ -29,39 +28,43 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
 <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
   <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js"></script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'newsubprojects';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -154,7 +157,18 @@ const thebe_selector_output = ".output, .cell_output"
     <p class="title logo__title">Project Jupyter Governance</p>
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -384,18 +398,18 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="new-subproject-process">
-<h1>New Subproject Process<a class="headerlink" href="#new-subproject-process" title="Permalink to this heading">#</a></h1>
+<h1>New Subproject Process<a class="headerlink" href="#new-subproject-process" title="Link to this heading">#</a></h1>
 <p>This document describes the process by which new Subprojects are created in or
-moved to these organizations from other locations. For a list of current sub-projects in the Jupyter Community, see <a class="reference internal" href="list_of_subprojects.html"><span class="doc std std-doc">the list of sub-projects</span></a>.</p>
+moved to these organizations from other locations. For a list of current sub-projects in the Jupyter Community, see <a class="reference internal" href="list_of_subprojects.html"><span class="std std-doc">the list of sub-projects</span></a>.</p>
 <p>There are two ways that new Subprojects are created:</p>
 <ol class="arabic simple">
-<li><p><span class="xref myst">Direct Subproject creation</span></p>
+<li><p><a class="reference internal" href="#direct-subproject-creation"><span class="xref myst">Direct Subproject creation</span></a></p>
 <ul class="simple">
 <li><p>e.g., when contributors to an existing Subproject decide to create a new
 Git repository for related but separable code</p></li>
 </ul>
 </li>
-<li><p><span class="xref myst">Incorporation of an existing external Subproject</span></p>
+<li><p><a class="reference internal" href="#incorporation-of-an-existing-external-subproject"><span class="xref myst">Incorporation of an existing external Subproject</span></a></p>
 <ul class="simple">
 <li><p>e.g., when contributors to a project in
 <a class="reference external" href="https://github.com/jupyter-incubator">github.com/jupyter-incubator</a>
@@ -411,7 +425,7 @@ are <strong>not</strong> considered officially supported and maintained Subproje
 meet the criteria below and go through the incorporation process detailed later in
 this document.</p>
 <section id="criteria-for-official-subprojects">
-<h2>Criteria for official Subprojects<a class="headerlink" href="#criteria-for-official-subprojects" title="Permalink to this heading">#</a></h2>
+<h2>Criteria for official Subprojects<a class="headerlink" href="#criteria-for-official-subprojects" title="Link to this heading">#</a></h2>
 <p>The following criteria will be used in evaluating Subprojects for incorporation
 into one of the official Jupyter organizations. These apply to any Subproject,
 regardless of who is developing the Subproject. Subprojects should:</p>
@@ -437,7 +451,7 @@ official capacity?</p>
 <p>The two paths for official Subproject creation are now detailed.</p>
 </section>
 <section id="direct-subproject-creation">
-<h2>Direct Subproject creation<a class="headerlink" href="#direct-subproject-creation" title="Permalink to this heading">#</a></h2>
+<h2>Direct Subproject creation<a class="headerlink" href="#direct-subproject-creation" title="Link to this heading">#</a></h2>
 <p>In some cases, Steering Council members can immediately create new official Subprojects in the main
 Jupyter organization. This option will be used when the new Subproject is clearly part of the
 existing scope, activities and development of Project Jupyter. The process for direct Subproject
@@ -445,7 +459,7 @@ creation is minimal and informal: Steering Council members should be in consensu
 Subproject’s creation and notify the main Jupyter list of its creation.</p>
 </section>
 <section id="incorporation-of-an-existing-external-subproject">
-<h2>Incorporation of an existing external Subproject<a class="headerlink" href="#incorporation-of-an-existing-external-subproject" title="Permalink to this heading">#</a></h2>
+<h2>Incorporation of an existing external Subproject<a class="headerlink" href="#incorporation-of-an-existing-external-subproject" title="Link to this heading">#</a></h2>
 <p>In other cases, Subprojects proposed for incorporation will have existed and been developed as
 open-source software for some time outside the official Jupyter organizations. This section describes
 the incorporation process for these existing external Subprojects. This process applies to
@@ -456,7 +470,7 @@ software in other public venues.</p>
 of Project Jupyter and is moved to one of the GitHub organizations noted at the top of
 this document.</p>
 <section id="proposal-for-incorporation">
-<h3>Proposal for incorporation<a class="headerlink" href="#proposal-for-incorporation" title="Permalink to this heading">#</a></h3>
+<h3>Proposal for incorporation<a class="headerlink" href="#proposal-for-incorporation" title="Link to this heading">#</a></h3>
 <p>If consensus for adoption within a given Jupyter organization’s team is straightforward and the above criteria are met,
 a project may be adopted immediately.
 Such consensus may be established by creating an Issue on the given organization’s <code class="docutils literal notranslate"><span class="pre">team-compass</span></code> repository.
@@ -494,7 +508,7 @@ organization, its repository will be removed from that organization after a tran
 </ul>
 </section>
 <section id="incorporation">
-<h3>Incorporation<a class="headerlink" href="#incorporation" title="Permalink to this heading">#</a></h3>
+<h3>Incorporation<a class="headerlink" href="#incorporation" title="Link to this heading">#</a></h3>
 <p>When an existing external Subproject is incorporated as a new official Subproject, the following
 steps will be taken:</p>
 <ol class="arabic simple">
@@ -511,7 +525,7 @@ in our <a class="reference external" href="https://raw.githubusercontent.com/jup
 </section>
 </section>
 <section id="incubation-of-subprojects">
-<h2>Incubation of Subprojects<a class="headerlink" href="#incubation-of-subprojects" title="Permalink to this heading">#</a></h2>
+<h2>Incubation of Subprojects<a class="headerlink" href="#incubation-of-subprojects" title="Link to this heading">#</a></h2>
 <p>Incubation refers to the process of a Subproject initially being developed outside the official
 Jupyter organizations. Incubation is recommended for new Subprojects with the following
 characteristics:</p>
@@ -528,7 +542,7 @@ emerging and being developed for future inclusion.</p>
 parties should simply start a discussion on the main Jupyter list to get community and Steering
 Council feedback.</p>
 <section id="incubation-in-the-jupyter-incubator-organization">
-<h3>Incubation in the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization<a class="headerlink" href="#incubation-in-the-jupyter-incubator-organization" title="Permalink to this heading">#</a></h3>
+<h3>Incubation in the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization<a class="headerlink" href="#incubation-in-the-jupyter-incubator-organization" title="Link to this heading">#</a></h3>
 <p>If a Subproject team knows from the start that it would eventually like its Subproject to be part
 of one of the official Jupyter organizations, it can be incubated in the
 <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization.</p>
@@ -542,7 +556,7 @@ that will help them develop and refine a clear and concise integration proposal.
 Subprojects pursued by members of the community.</p></li>
 </ul>
 <section id="repository-management-policy-for-incubator-projects">
-<h4>Repository management policy for incubator projects<a class="headerlink" href="#repository-management-policy-for-incubator-projects" title="Permalink to this heading">#</a></h4>
+<h4>Repository management policy for incubator projects<a class="headerlink" href="#repository-management-policy-for-incubator-projects" title="Link to this heading">#</a></h4>
 <p>Projects may from time to time want to create new repositories to explore
 various ideas.  The basic policy for this is the following:</p>
 <ul class="simple">
@@ -560,7 +574,7 @@ propmptly as possible.</p></li>
 </section>
 </section>
 <section id="proposal-for-incubation">
-<h3>Proposal for incubation<a class="headerlink" href="#proposal-for-incubation" title="Permalink to this heading">#</a></h3>
+<h3>Proposal for incubation<a class="headerlink" href="#proposal-for-incubation" title="Link to this heading">#</a></h3>
 <p>A Subproject team can initiate the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a>
 incubation process by submitting a proposal for incubation. This process is designed to be
 lightweight and quick:</p>
@@ -579,7 +593,7 @@ the consensus of the Steering Council.</p></li>
 </ol>
 </section>
 <section id="incubation-period">
-<h3>Incubation period<a class="headerlink" href="#incubation-period" title="Permalink to this heading">#</a></h3>
+<h3>Incubation period<a class="headerlink" href="#incubation-period" title="Link to this heading">#</a></h3>
 <p>Once a Subproject is approved for incubation in the
 <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization, the following steps will be
 taken:</p>
@@ -598,7 +612,7 @@ but it is expected that most Subprojects will be in incubation for at least six 
 </section>
 </section>
 <section id="external-incubation">
-<h2>External incubation<a class="headerlink" href="#external-incubation" title="Permalink to this heading">#</a></h2>
+<h2>External incubation<a class="headerlink" href="#external-incubation" title="Link to this heading">#</a></h2>
 <p>Incubation outside the <a class="reference external" href="https://github.com/jupyter-incubator">jupyter-incubator</a> organization is also
 possible. In this case, there is no formal process. Any individual or organization can simply create
 a new project on their own personal GitHub (or other VCS) repository and develop it as they see fit.

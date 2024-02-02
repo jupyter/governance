@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="./" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Process for Authoring Jupyter Related Academic Papers &#8212; Project Jupyter Governance</title>
   
@@ -29,39 +28,43 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
 <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
   <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/clipboard.min.js"></script>
-    <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js"></script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'papers';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -154,7 +157,18 @@ const thebe_selector_output = ".output, .cell_output"
     <p class="title logo__title">Project Jupyter Governance</p>
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -384,7 +398,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="process-for-authoring-jupyter-related-academic-papers">
-<h1>Process for Authoring Jupyter Related Academic Papers<a class="headerlink" href="#process-for-authoring-jupyter-related-academic-papers" title="Permalink to this heading">#</a></h1>
+<h1>Process for Authoring Jupyter Related Academic Papers<a class="headerlink" href="#process-for-authoring-jupyter-related-academic-papers" title="Link to this heading">#</a></h1>
 <p>This document describes the processes used to author Jupyter related academic
 papers, which are typically submitted to peer-reviewed journals. This does not
 include talks and posters submitted to conferences unless the conference also
@@ -403,7 +417,7 @@ important for us to author and publish peer-reviewed papers on Jupyter itself.
 Authoring these papers in the context of a large, open-source community
 presents a number of differences compared to many research collaborations.</p>
 <section id="principles">
-<h2>Principles<a class="headerlink" href="#principles" title="Permalink to this heading">#</a></h2>
+<h2>Principles<a class="headerlink" href="#principles" title="Link to this heading">#</a></h2>
 <p>We have tried to create a process for authoring papers with the following
 general principles in mind:</p>
 <ul class="simple">
@@ -427,7 +441,7 @@ journals will have slightly different concrete processes that appropriately
 embody these principles.</p>
 </section>
 <section id="author-ordering">
-<h2>Author ordering<a class="headerlink" href="#author-ordering" title="Permalink to this heading">#</a></h2>
+<h2>Author ordering<a class="headerlink" href="#author-ordering" title="Link to this heading">#</a></h2>
 <p>In some academic fields, author ordering is used to implicitly communicate the level and significance of the individual’s contributions. We strongly feel this
 is misleading and misguided. Because of this, all Jupyter papers will use the
 following author ordering policy:</p>
@@ -443,7 +457,7 @@ practice in academic field such as high energy physics where there are large
 numbers of authors on papers.</p>
 </section>
 <section id="process-for-journal-of-open-source-software-joss">
-<h2>Process for Journal of Open Source Software (JOSS)<a class="headerlink" href="#process-for-journal-of-open-source-software-joss" title="Permalink to this heading">#</a></h2>
+<h2>Process for Journal of Open Source Software (JOSS)<a class="headerlink" href="#process-for-journal-of-open-source-software-joss" title="Link to this heading">#</a></h2>
 <p>The <a class="reference external" href="http://joss.theoj.org/">Journal of Open Source Software</a> (JOSS) is a
 peer-reviewed, developer-friendly journal for research related software. JOSS
 is unique in that:</p>
@@ -457,7 +471,7 @@ repository, deferring details of the software to its own documentation.</p></li>
 subprojects (Notebook, JupyterLab, JupyterHub, nbconvert, ipywidgets, etc.).
 All such paper should use the process described herein.</p>
 <section id="joss-authorship-criteria">
-<h3>JOSS authorship criteria<a class="headerlink" href="#joss-authorship-criteria" title="Permalink to this heading">#</a></h3>
+<h3>JOSS authorship criteria<a class="headerlink" href="#joss-authorship-criteria" title="Link to this heading">#</a></h3>
 <p>Our authorship criteria for JOSS papers are derived from those of the
 <a class="reference external" href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html#two">ICMJE</a>:</p>
 <ul class="simple">
@@ -472,10 +486,10 @@ appropriately investigated and resolved.</p></li>
 <p>Anyone who satisfies and is willing to accept these responsibilities and commitments is welcome to be an author on any of our JOSS publications.</p>
 </section>
 <section id="joss-process">
-<h3>JOSS process<a class="headerlink" href="#joss-process" title="Permalink to this heading">#</a></h3>
+<h3>JOSS process<a class="headerlink" href="#joss-process" title="Link to this heading">#</a></h3>
 <p>The following process should be used to author any Jupyter related JOSS paper:</p>
 <section id="someone-agrees-to-be-the-coordinator-for-a-paper">
-<h4>1. Someone agrees to be the Coordinator for a paper<a class="headerlink" href="#someone-agrees-to-be-the-coordinator-for-a-paper" title="Permalink to this heading">#</a></h4>
+<h4>1. Someone agrees to be the Coordinator for a paper<a class="headerlink" href="#someone-agrees-to-be-the-coordinator-for-a-paper" title="Link to this heading">#</a></h4>
 <p>A single JOSS paper will be associated with a single Jupyter repository. The
 Coordinator will usually be a senior project contributor, Steering Council
 member, or leader of that subproject.</p>
@@ -484,13 +498,13 @@ do not have to write the JOSS paper themselves, but they will work with the
 community to organize the writing of the paper.</p>
 </section>
 <section id="open-an-issue-and-announce-the-writing-of-the-paper">
-<h4>2. Open an issue and announce the writing of the paper<a class="headerlink" href="#open-an-issue-and-announce-the-writing-of-the-paper" title="Permalink to this heading">#</a></h4>
+<h4>2. Open an issue and announce the writing of the paper<a class="headerlink" href="#open-an-issue-and-announce-the-writing-of-the-paper" title="Link to this heading">#</a></h4>
 <p>The Coordinator should open an issue to organize the writing of the paper on
 that repository and then announce to the Jupyter Google Group that the paper is
 being worked on and that anyone can contribute (with a link to the issue).</p>
 </section>
 <section id="draft-the-paper-in-the-repository">
-<h4>3. Draft the paper in the repository<a class="headerlink" href="#draft-the-paper-in-the-repository" title="Permalink to this heading">#</a></h4>
+<h4>3. Draft the paper in the repository<a class="headerlink" href="#draft-the-paper-in-the-repository" title="Link to this heading">#</a></h4>
 <p>At this point, the Coordinator should organize the writing of the actual paper.</p>
 <p>The <a class="reference external" href="http://joss.theoj.org/about">JOSS Author Guidelines</a> detail the format and
 requirements of a JOSS paper. In general this will involve creating a <code class="docutils literal notranslate"><span class="pre">paper</span></code>
@@ -499,7 +513,7 @@ subdirectory in the root of the repository with two files: <code class="docutils
 requests and code review.</p>
 </section>
 <section id="email-potential-authors">
-<h4>3. Email potential authors<a class="headerlink" href="#email-potential-authors" title="Permalink to this heading">#</a></h4>
+<h4>3. Email potential authors<a class="headerlink" href="#email-potential-authors" title="Link to this heading">#</a></h4>
 <p>Once a final draft of the paper has been merged into the repository, the
 Coordinator should email all potential authors of the paper, inviting them to
 participate. Usually this will include at least two emails:</p>
@@ -536,21 +550,21 @@ and agree to its publication.</p></li>
 complete their tasks.</p>
 </section>
 <section id="final-submission">
-<h4>4. Final submission<a class="headerlink" href="#final-submission" title="Permalink to this heading">#</a></h4>
+<h4>4. Final submission<a class="headerlink" href="#final-submission" title="Link to this heading">#</a></h4>
 <p>Once the deadline for authors to complete their tasks has passed, the
 Coordinator should make sure authors are listed in alphabetical order. The
 Coordinator can then submit the paper.</p>
 </section>
 </section>
 <section id="process-for-traditional-academic-papers">
-<h3>Process for traditional academic papers<a class="headerlink" href="#process-for-traditional-academic-papers" title="Permalink to this heading">#</a></h3>
+<h3>Process for traditional academic papers<a class="headerlink" href="#process-for-traditional-academic-papers" title="Link to this heading">#</a></h3>
 <p>Papers submitted to other (non-JOSS) journals, will usually be longer and take
 a more significant amount of time to author. They will also usually be authored
 in dedicated repository (under the jupyter-resources GitHub organization).
 Because of these factors, the process is slightly different.</p>
 </section>
 <section id="authorship-criteria">
-<h3>Authorship criteria<a class="headerlink" href="#authorship-criteria" title="Permalink to this heading">#</a></h3>
+<h3>Authorship criteria<a class="headerlink" href="#authorship-criteria" title="Link to this heading">#</a></h3>
 <p>The authorship criteria for non-JOSS papers is slightly different than for JOSS
 in that all authors are expected to actively participate in the writing and
 editing of the paper.</p>
@@ -577,7 +591,7 @@ main writing will be done by a smaller group of co-authors, with other
 co-authors contributing to editing work and discussions. However, in all cases active participation in some manner is still required.</p>
 </section>
 <section id="process">
-<h3>Process<a class="headerlink" href="#process" title="Permalink to this heading">#</a></h3>
+<h3>Process<a class="headerlink" href="#process" title="Link to this heading">#</a></h3>
 <p>Before creating the detailed process for authoring non-JOSS papers, we want to
 try out the above process for JOSS papers and see how it should be modified for
 longer form papers. In general, we expect to closely follow the process used in
