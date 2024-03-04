@@ -19,13 +19,12 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | DEI Standing Committee | Martha Cryan | [@marthacryan](https://github.com/marthacryan) |
 | Jupyter Accessibility | Gabriel Fouasnon | [@gabalafou](https://github.com/gabalafou) |
 | Jupyter Foundations and Standards | Paul Ivanov | [@ivanov](https://github.com/ivanov) |
+| Jupyter Frontends | Jérémy Tuloup | [@jtpio](https://github.com/jtpio) |
 | Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
-| Jupyter Notebook | Eric Charles | [@echarles](https://github.com/echarles) |
 | Jupyter Security | Rick Wagner | [@rpwagner](https://github.com/rpwagner) |
 | Jupyter Server | Zach Sailer | [@zsailer](https://github.com/zsailer) |
 | Jupyter Widgets | Itay Dafna | [@ibdafna](https://github.com/ibdafna) |
 | JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
-| JupyterLab | Frédéric Collonval | [@fcollonval](https://github.com/fcollonval) |
 | Voilà | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
 
 ### Trademark Subcommittee
