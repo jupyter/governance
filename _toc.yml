@@ -13,10 +13,9 @@ parts:
   - file: standing_committees_and_working_groups.md
     sections:
     - file: list_of_standing_committees_and_working_groups
-    - file: communitybuildingcommittee 
+    - file: communitybuildingworkinggroup
   - file: distinguished_contributors
   - file: people
-
 
 - caption: Code of Conduct
   chapters:
@@ -37,6 +36,10 @@ parts:
   - file: papers
   - file: trademarks
   - file: projectlicense
+
+- caption: Proposals
+  chapters:
+  - file: linux-proposal
 
 - caption: Previous Governance
   chapters:
