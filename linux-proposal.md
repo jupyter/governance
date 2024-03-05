@@ -67,7 +67,7 @@ order of a million dollars and above through private foundations, with
 smaller contributions coming from individuals and a few generous
 corporate partners. Securing consistent funding via grants has proven
 challenging given the lumpy nature of grant allocations and the limited
-number of people who can devote their time to grant writing for Juptyer.
+number of people who can devote their time to grant writing for Jupyter.
 These inconsistent levels of funding make it very difficult to maintain
 a stable backbone for the project that enables long-term vision and
 strategic planning and execution. Similarly, we have faced challenges in
@@ -204,7 +204,7 @@ the sustainability and growth of the Project Jupyter.
 
 ## What is the process for Jupyter leaving NumFOCUS and whose authority/approvals does it require?
 
-Jupyter's current governance model requires any changes to Juptyer's
+Jupyter's current governance model requires any changes to Jupyter's
 governance to be approved by the Jupyter Executive Council and Software
 Steering Council. Once these two bodies have voted to leave NumFOCUS and
 transfer the project to LF Charities 501(c)(3), the NumFOCUS FSA
