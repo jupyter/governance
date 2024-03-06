@@ -23,9 +23,9 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
 | Jupyter Security | Rick Wagner | [@rpwagner](https://github.com/rpwagner) |
 | Jupyter Server | Zach Sailer | [@zsailer](https://github.com/zsailer) |
-| Jupyter Widgets | Itay Dafna | [@ibdafna](https://github.com/ibdafna) |
+| Jupyter Widgets | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
 | JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
-| Voilà | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
+| Voilà | Martin Renou | [@martinRenou](https://github.com/martinRenou) |
 
 ### Trademark Subcommittee
 
