@@ -21,7 +21,7 @@ we've come to this plan after a detailed exploration of multiple
 options.
 
 **We propose that Project Jupyter -- with its current governance
-structure and name -- transfer from NumFOCUS to the Linux Foundation
+structure, name, and trademarks -- transfer from NumFOCUS to the Linux Foundation
 Charities 501(c)(3). This transition would be paired with the creation
 of a new resource, provisionally called the *Jupyter Foundation*,
 designated to secure corporate contributions, and an associated
@@ -180,7 +180,7 @@ discuss and approve an official mission statement.
 
 ## How would this change our relationship with NumFOCUS?
 
-Once the transition is concluded and assets are transferred, Project
+Once the transition is concluded and assets (such as trademarks) are transferred, Project
 Jupyter would not have a legal relationship with NumFOCUS. However, we
 will always maintain a collaborative relationship with NumFOCUS and its
 various projects: Jupyter is for many a portal into a broad ecosystem of
@@ -190,7 +190,7 @@ and would remain a key partner for Project Jupyter, and we wish the
 NumFOCUS team success.
 
 We will work out a transition plan between NF and the LF Charities that
-will minimize disruption to the projects. There may be some funds that
+will minimize disruption to the projects. For exampe, there may be some funds that
 are simpler to wind down through NF and some that are easier to move to
 the LF Charities.
 
