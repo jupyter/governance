@@ -1,6 +1,8 @@
-# Proposal for Jupyter\'s Sustainable Growth
+# Proposal for Jupyter's Sustainable Growth
 
 March 5, 2024
+
+*Discussion of this proposal is at https://github.com/jupyter/governance/issues/204.*
 
 # Executive Summary
 
@@ -17,15 +19,15 @@ been impactful and successful in many areas, we currently struggle in
 our ability to scale in certain strategic directions and in maintaining
 core functions needed for an effort of our size and scope. We believe
 the plan below is the right path forward to meet these challenges;
-we\'ve come to this plan after a detailed exploration of multiple
+we've come to this plan after a detailed exploration of multiple
 options.
 
 **We propose that Project Jupyter -- with its current governance
-structure and name -- transfer from NumFOCUS to the Linux Foundation
+structure, name, and trademarks -- transfer from NumFOCUS to the Linux Foundation
 Charities 501(c)(3). This transition would be paired with the creation
 of a new resource, provisionally called the *Jupyter Foundation*,
 designated to secure corporate contributions, and an associated
-c*ommittee* to make budgetary decisions associated with these funds. The
+*committee* to make budgetary decisions associated with these funds. The
 Jupyter Foundation would be under the Linux Foundation 501(c)(6).**
 Below, we provide more details about this proposal and answer questions.
 This document aims to be a reference point for the community to discuss
@@ -46,19 +48,19 @@ approval) the EC would like to implement as soon as possible.
 # Project Jupyter's Needs
 
 Project Jupyter requires **sustainable funding that is centrally managed
-for some key \"backbone needs\'\' of the project.** There are activities
+for some key "backbone needs" of the project.** There are activities
 and programs that are critical to the mission of Jupyter that are
 currently either underfunded or unfunded. Examples include JupyterCon,
 other Jupyter community and outreach events, Binder, NbViewer,
 jupyter.org, an Executive Director, other project-wide staff (release
 engineering, developer advocate, documentation writer, program manager,
-testing infrastructure, etc.) and more. We believe that if a few such
-\"backbone\" roles and activities are sustainably funded, it will become
+testing infrastructure, etc.), and more. We believe that if a few such
+"backbone" roles and activities are sustainably funded, it will become
 easier for individual subprojects and teams in the community to pursue
 strategic objectives, propose new developments, and seek targeted
 resources that rely on this stable foundation for coordination,
 planning, and project-wide interactions. **The EC has a goal to raise
-\$1-2 million/year in a sustainable manner**.
+$1-2 million/year in a sustainable manner**.
 
 *The EC believes that this funding can come from a combination of
 non-profit (private foundations, government grants) and for-profit
@@ -76,13 +78,13 @@ raising consistent funding from corporations.
 Additionally, Jupyter needs **improved operational support**. Jupyter
 needs a higher level of support for operating (legal/trademark,
 marketing, fundraising, accounting, contracts, internships, events, dev
-ops, etc.) than is currently available from NumFOCUS. The EC\'s
-responsibility is to serve Jupyter\'s pressing needs today and tomorrow;
+ops, etc.) than is currently available from NumFOCUS. The EC's
+responsibility is to serve Jupyter's pressing needs today and tomorrow;
 currently, the EC is spending a significant amount of its time on
 operational matters instead of fundraising and other activities that
 support Jupyter's long-term mission. At this time, and after extensive
 conversations with NumFOCUS and time spent by Ana Ruvalcaba taking deep
-dives into operational matters, the EC\'s assessment is that the best
+dives into operational matters, the EC's assessment is that the best
 course of action is to secure operational support with a proven partner
 that can provide it today. *Our assessment is that the Linux Foundation
 is such an ideal partner for Jupyter today*.
@@ -105,12 +107,12 @@ types of roles.
 
 We have spent time and effort in discussions with the Linux Foundation
 team, to ensure that this transition introduces the smallest possible
-changes to Jupyter\'s operations while meeting our above goals.
+changes to Jupyter's operations while meeting our above goals.
 
 Under this proposal, **Jupyter keeps its current governance structure
 and transfers from NumFOCUS to LF Charities 501(c)(3). An additional
 funding vehicle will be created called the Jupyter Foundation under the
-Linux Foundation 501(c)(6) providing corporations a well known and
+Linux Foundation 501(c)(6) providing corporations a well-known and
 proven method to support the Jupyter Project.**
 
 In order to manage this new resource (the Jupyter Foundation), we
@@ -163,13 +165,13 @@ option. LF can support our existing community and governance structure,
 and it has a proven track record of supporting software projects with a
 sustainable operational and multi-modal funding model that scales.
 
-# How does this affect our project\'s mission regarding both open science, education, and access to all regardless of money or industrial relationships?
+# How does this affect our project's mission regarding both open science, education, and access to all regardless of money or industrial relationships?
 
 Project Jupyter's mission and focus on open science remains unchanged
 and driven by its contributors. Project Jupyter will develop a formal
 mission statement that will reiterate our commitment to open science,
 education, research and broad access to interactive computing. Based on
-many previous discussions we\'ve had on this topic, we propose here a
+many previous discussions we've had on this topic, we propose here a
 rough draft of such a mission statement: "Project Jupyter is an open and
 collaborative community that develops interactive computing tools,
 software, standards, and infrastructure for research, education, and
@@ -180,17 +182,17 @@ discuss and approve an official mission statement.
 
 ## How would this change our relationship with NumFOCUS?
 
-Once the transition is concluded and assets are transferred, Project
+Once the transition is concluded and assets (such as trademarks) are transferred, Project
 Jupyter would not have a legal relationship with NumFOCUS. However, we
 will always maintain a collaborative relationship with NumFOCUS and its
 various projects: Jupyter is for many a portal into a broad ecosystem of
-projects that currently operate under NumFOCUS, and we\'ll continue
+projects that currently operate under NumFOCUS, and we'll continue
 collaborating with all of them as before. In this regard, NumFOCUS is
 and would remain a key partner for Project Jupyter, and we wish the
 NumFOCUS team success.
 
 We will work out a transition plan between NF and the LF Charities that
-will minimize disruption to the projects. There may be some funds that
+will minimize disruption to the projects. For exampe, there may be some funds that
 are simpler to wind down through NF and some that are easier to move to
 the LF Charities.
 
