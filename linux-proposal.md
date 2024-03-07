@@ -2,6 +2,8 @@
 
 March 5, 2024
 
+*Discussion of this proposal is at https://github.com/jupyter/governance/issues/204.*
+
 # Executive Summary
 
 The Jupyter Executive Council (EC) has the responsibility to ensure the
