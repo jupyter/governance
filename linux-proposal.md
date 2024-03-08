@@ -2,7 +2,7 @@
 
 March 5, 2024
 
-*Discussion of this proposal is at https://github.com/jupyter/governance/issues/204.*
+*Discussion of this proposal is at https://github.com/jupyter/governance/issues/204. You can also [contact the EC](https://executive-council-team-compass.readthedocs.io/en/latest/#contacting-the-executive-council) in the EC office hours or by private email to share your thoughts.*
 
 # Executive Summary
 
