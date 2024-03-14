@@ -12,7 +12,7 @@ Unless the Software Steering Council (SSC) or the Executive Council (EC) says ot
 - Follow the licensing guidelines and practices of the project ([use of the BSD license and copyright header](https://github.com/jupyter/jupyter/blob/master/LICENSE)).
 - Follow Jupyter’s trademark, branding, and intellectual property guidelines.
 - Conduct its activities in a manner that is open, transparent, and inclusive. This includes coordinating with the Software Steering Council and the Executive Council on mechanisms for information flow and updates to the broader community (details of this, project-wide, will be developed as our new governance model is adopted and implemented).
-- Maintain a publicly visible Team Compass with a list of the Council members (see e.g. [JupyterHub](https://github.com/jupyterhub/team-compass) or [JupyterLab](https://github.com/jupyterlab/team-compass) for illustration of their structure and content).
+- Maintain a publicly visible Team Compass with a list of the Council members (see e.g. [JupyterHub](https://github.com/jupyterhub/team-compass) or [Jupyter Frontends](https://github.com/jupyterlab/frontends-team-compass) for illustration of their structure and content).
 
 ## Incubator Subprojects
 
