@@ -252,3 +252,21 @@ creation of a budget process). The EC anticipates this proposal will be
 voted on by the newly-elected EC and SSC by the end of April 2024. If
 approved, the EC anticipates that the effective date of a move to LF
 could be 60 days later, by the end of June 2024.
+
+## Did we consider the Apache Software Foundation (ASF)?
+
+Yes. In our due diligence process, we considered several potential homes for
+Jupyter. Specifically regarding ASF, moving to Apache would entail changing our
+software license (to Apache), changing our project name to be [prefixed with
+"Apache"](https://projects.apache.org/projects.html), and drastically changing
+our project governance and communication channels. We saw these disruptions to
+the community as too extreme compared to the benefits it would provide.
+
+## Is this a major change to Project Jupyter’s governance?
+
+No. The control of the Project will remain with the same bodies (EC and SSC)
+that have control under the umbrella of NumFocus when and if we move to the
+Linux Foundation. There will be a new standing committee created to handle
+corporate fundraising for the benefit of Project Jupyter. This committee will be
+tasked with raising funds and budgeting the funds they raise in close
+collaboration with the Project’s leadership (EC).
