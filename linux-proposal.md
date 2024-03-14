@@ -270,3 +270,13 @@ Linux Foundation. There will be a new standing committee created to handle
 corporate fundraising for the benefit of Project Jupyter. This committee will be
 tasked with raising funds and budgeting the funds they raise in close
 collaboration with the Project’s leadership (EC).
+
+## What measures will the EC take to ensure that Jupyter has a level playing field for participation that is not skewed by the financial resources of its players?
+
+The decision-making authority of Project Jupyter is vested in the voting bodies
+of our governance model. This does not change when we change fiscal sponsors.
+The primary authority that we are granting to players with substantial financial
+resources is to have a vote in how the funds they donate will be spent for the
+benefit of Project Jupyter and the goals that are set by the EC and the SSC. To
+ensure this, our agreement with the Linux Foundation will be to explicitly leave
+intact our current governance model as it is.
