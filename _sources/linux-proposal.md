@@ -180,7 +180,33 @@ discuss and approve an official mission statement.
 
 # Other Questions (FAQ)
 
-## How would this change our relationship with NumFOCUS?
+## What is the proposed timeline?
+
+The EC anticipates community discussion in March 2024 leads to a formal
+governance change proposal in April 2024 to move from NumFOCUS to LF
+Charities 501(c)(3), creation of an LF 501(c)(6) foundation, and the
+operational details of how these entities will be managed (e.g.,
+creation of a budget process). The EC anticipates this proposal will be
+voted on by the newly-elected EC and SSC by the end of April 2024. If
+approved, the EC anticipates that the effective date of a move to LF
+could be 60 days later, by the end of June 2024.
+
+## How would the 501(c)(3) and 501(c)(6) legal entities work together for Project Jupyter?
+
+The Project Jupyter EC continues its current authority over funds and
+grants that go to the 501(c)(3). As explained above, the corporate
+funders to the Jupyter Foundation would have input, along with the
+Project Jupyter EC, into how Jupyter Foundation funds are allocated for
+the sustainability and growth of Project Jupyter.
+
+## What Jupyter assets would be maintained by the 501(c)(3) LF Charities?
+
+Project trademarks, domain name registrations, and GitHub account access for
+Project Jupyter GitHub organizations will be maintained by the 501(c)(3) LF
+Charities. Additionally, any 501(c)(3) contributions to Project Jupyter will be
+maintained by LF Charities and controlled by the Project Jupyter EC.
+
+## How would this move to LF change our relationship with NumFOCUS?
 
 Once the transition is concluded and assets (such as trademarks) are transferred, Project
 Jupyter would not have a legal relationship with NumFOCUS. However, we
@@ -196,18 +222,10 @@ will minimize disruption to the projects. For exampe, there may be some funds th
 are simpler to wind down through NF and some that are easier to move to
 the LF Charities.
 
-## How would the 501(c)(3) and 501(c)(6) legal entities work together for Project Jupyter?
-
-The Project Jupyter EC continues its current authority over funds and
-grants that go to the 501(c)(3). As explained above, the corporate
-funders to the Jupyter Foundation would have input, along with the
-Project Jupyter EC, into how Jupyter Foundation monies are allocated for
-the sustainability and growth of the Project Jupyter.
-
 ## What is the process for Jupyter leaving NumFOCUS and whose authority/approvals does it require?
 
-Jupyter's current governance model requires any changes to Jupyter's
-governance to be approved by the Jupyter Executive Council and Software
+Jupyter's current governance model requires any [changes to Jupyter's governance](https://jupyter.org/governance/executive_council.html#shared-responsibilities-with-the-software-steering-council)
+to be approved by the Jupyter Executive Council and Software
 Steering Council. Once these two bodies have voted to leave NumFOCUS and
 transfer the project to LF Charities 501(c)(3), the NumFOCUS FSA
 Committee will formally notify NumFOCUS of our plans. The current FSA
@@ -215,15 +233,27 @@ requires us to give NumFOCUS a 60-day notice before moving. The NumFOCUS
 FSA Committee currently consists of Matthias Bussonnier, Benjamin
 Ragan-Kelley, Fernando Pérez, Ana Ruvalcaba, and Thomas Kluyver.
 
-## And similarly, what will be the process for Jupyter potentially leaving the Linux Foundation in the future?
+## What will be the process for Jupyter potentially leaving the Linux Foundation in the future?
 
 When requested by the governing body for a project, the LF has moved
 projects out of its stewardship to the governing body's designated
-entity. The Project Jupyter EC would decide that. The Project Jupyter
+entity. In our case, this would be considered a [governance change](https://jupyter.org/governance/executive_council.html#shared-responsibilities-with-the-software-steering-council)
+that requires approval from the EC and SSC. The Project Jupyter
 assets in the 501(c)(3) would transfer to another 501(c)(3) and
 501(c)(6) assets could be transferred to another 501(c)(6) or to the
-501(c)(3). Similarly, there will be a notice period, and wind-down
+501(c)(3), in accordance with tax rules and subject to grant agreements
+then in effect. Similarly, there will be a notice period, and wind-down
 component related to employees, IP, etc.
+
+## What happens to our IP if LF Charities dissolves?
+
+Upon dissolution of any entity (LF Charities, NumFOCUS, etc), the entity would
+have to either transfer assets or identify the entity taking them over.
+Hypothetically, in a dissolution scenario, LF Charities would have to plan out
+the path with the project governing body to see where the LF Charity project
+assets would go. There may be complications or other factors depending on the
+reason for any dissolution (e.g. bankruptcy). To be clear, there are no plans to
+dissolve LF Charities.
 
 ## How does corporate membership work in terms of levels and dues amount?
 
@@ -241,17 +271,6 @@ memberships for government, education, research, and non-profit
 organizations. Given the importance of these types of organizations to
 the mission of Jupyter, the EC would like to work through how they can
 be included.
-
-## What is the proposed timeline?
-
-The EC anticipates community discussion in March 2024 leads to a formal
-governance change proposal in April 2024 to move from NumFOCUS to LF
-Charities 501(c)(3), creation of an LF 501(c)(6) foundation, and the
-operational details of how these entities will be managed (e.g.,
-creation of a budget process). The EC anticipates this proposal will be
-voted on by the newly-elected EC and SSC by the end of April 2024. If
-approved, the EC anticipates that the effective date of a move to LF
-could be 60 days later, by the end of June 2024.
 
 ## Did we consider the Apache Software Foundation (ASF)?
 
@@ -280,3 +299,31 @@ resources is to have a vote in how the funds they donate will be spent for the
 benefit of Project Jupyter and the goals that are set by the EC and the SSC. To
 ensure this, our agreement with the Linux Foundation will be to explicitly leave
 intact our current governance model as it is.
+
+## How will a transition to LF affect grant funding that community members may seek?
+
+The EC believes that the Jupyter community needs a diverse set of funding
+mechanisms to be sustainable and scale. In the past, grant funding that
+benefited Jupyter has included academic grants managed directly by universities,
+grants from private foundations that flowed through Jupyter's 501(c)(3) fiscal
+sponsor, and grants managed through other entities and foundations. We expect
+that these sorts of funding arrangements will continue to be possible under the
+LF umbrella, with community members able to seek grant funding themselves for
+Jupyter's benefit. We expect the central roles that we hire, such as an
+executive director, program manager, etc., will be active in raising central
+"backbone" funding for Jupyter and will help in the strategic coordination of
+community members  seeking additional funding.
+
+The Linux Foundation and LF Charities have both received and managed
+grant-making programs. Under the LF umbrella, if you are writing a grant and
+desire the grant funding to flow through the LF Charities Jupyter 501(c)(3)
+account, we will have a process to approve the request. The LF staff would work
+with you on the budget for the grant and any other details for the transaction,
+but would rely on you for the grant writing and reporting requirements. Each
+grant-making organization usually has terms and reporting requirements that the
+LF and the grant recipients will need to work together on. The [Tazama
+project](https://www.linuxfoundation.org/press/linux-foundation-launches-tazama-for-real-time-fraud-management)
+is an example of a recent grant LF Charities is administering from the [Bill and
+Melinda Gates
+Foundation](https://www.gatesfoundation.org/ideas/articles/open-source-financial-inclusion-tazama).
+
