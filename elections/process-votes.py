@@ -32,9 +32,9 @@ with open('votedata.txt', 'w') as vote_output:
         candidate_alphas = [' '] * len(candidate_priorities)
 
         for idx, c in enumerate(candidate_priorities):
-            if (re.search('\d', c)):
+            if (re.search(r'\d', c)):
                 candidate_alphas[int(c) - 1] = letters[idx]
-        
+
         # This is normally to dedupe multiple votes by the same voter,
         # but Google Forms already does that, so we instead assume that
         # every vote is unique and cast at the current time

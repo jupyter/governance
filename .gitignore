@@ -63,3 +63,6 @@ target/
 
 # Docs
 _build
+
+# macOS
+.DS_Store

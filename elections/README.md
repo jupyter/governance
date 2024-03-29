@@ -2,7 +2,7 @@
 
 The script in this directory converts a comma-separated value (CSV) file
 from a Jupyter Executive Council election into an `.ini` file and a `.txt`
-file for use with the Apache STeVe script `stv_tool.py`. After running 
+file for use with the Apache STeVe script `stv_tool.py`. After running
 this latter script, which is stored in the
 [apache/steve project](https://github.com/apache/steve), you will determine
 which candidates have won.
@@ -82,7 +82,7 @@ slate would have their vote represented as `abc`.
 From the directory where you have `votes.csv`, run `process-votes.py`.
 
 This script produces `board_nominations.ini` and `votedata.txt` for use
-with the Apache STeVe tabulation script. Run this script, passing the
+with the [Apache STeVe tabulation script (`stv_tool.py`)](https://github.com/apache/steve/blob/trunk/monitoring/stv_tool.py). Run this script, passing the
 number of seats to elect with the `-s` parameter. In the example below,
 the tabulation script will select two winners. You can get more verbose
 output using the `-v` parameter.
