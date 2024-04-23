@@ -7,7 +7,7 @@ communities, from research and education, to journalism, industry and
 beyond.
 
 Naturally, this implies diversity of ideas and perspectives on often complex
-problems. Disagreement and healthy discussion of conflicting viewpoints is
+problems. Disagreement and healthy discussion of conflicting viewpoints are
 welcome: the best solutions to hard problems rarely come from a single angle.
 But disagreement is not an excuse for aggression: humans tend to take
 disagreement personally and easily drift into behavior that ultimately degrades
@@ -30,7 +30,7 @@ However, sometimes these informal processes may be inadequate: they fail to
 work, there is urgency or risk to someone, nobody is intervening publicly and
 you don't feel comfortable speaking in public, etc.  For these or other
 reasons, structured follow-up may be necessary and here we provide the means
-for that as described in the [Reporting](#Reporting) section.
+for that as described in the [Reporting](#reporting) section.
 
 This code applies equally to founders, developers, mentors and new community
 members, in all spaces managed by Project Jupyter (including IPython). This
@@ -39,7 +39,6 @@ events, the [Discourse community forum](https://discourse.jupyter.org),
 and any other forums created by the project team. In addition,
 violations of this code outside these spaces may affect a person's ability to
 participate within them.
-
 
 ## Expected behavior
 
@@ -100,7 +99,6 @@ free to contact the Code of Conduct Committee at
    and telling someone that you are sorry is an act of empathy that doesn’t
    automatically imply an admission of guilt.
 
-
 ## Responding to inappropriate behavior
 
 In some cases, individuals may violate the CoC in online or in-person situations.
@@ -110,7 +108,7 @@ This includes actions directed at the situation, rather than at an individual, s
 as locking a thread, *temporarily* suspending a user's account in the
 community forum, calling a meeting break, or generally acting to
 de-escalate the situation. Follow-up your actions by
-[reporting the incident to the CoC committee](#Reporting).
+[reporting the incident to the CoC committee](#reporting).
 
 If the incident involves physical danger, or involves a threat to anyone's safety
 (such as threats of violence), any member of the community may -- and should -- act
@@ -123,7 +121,6 @@ they must inform the Code of Conduct committee as soon as possible,
 by e-mailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org)
 within 24 hours.
-
 
 ## Reporting
 
@@ -141,7 +138,6 @@ Guidelines (for [online](reporting_online) and
 The online form gives you the option to keep your report anonymous or request
 that we follow up with you directly. While we cannot follow up on an anonymous
 report, we will take appropriate action.
-
 
 ## Enforcement
 
