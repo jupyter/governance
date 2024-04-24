@@ -10,7 +10,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 - Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
 - Fernando Perez, [@fperez](https://github.com/fperez)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)
-- Steven Silvester, [@blink1073](https://github.com/blink1073)
+- Zach Sailer, [@Zsailer](https://github.com/zsailer)
 
 ## [Software Steering Council](software_steering_council.md)
 
@@ -22,7 +22,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | Jupyter Frontends | Jérémy Tuloup | [@jtpio](https://github.com/jtpio) |
 | Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
 | Jupyter Security | Rick Wagner | [@rpwagner](https://github.com/rpwagner) |
-| Jupyter Server | Zach Sailer | [@zsailer](https://github.com/zsailer) |
+| Jupyter Server | In Progress | N/A |
 | Jupyter Widgets | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
 | JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
 | Voilà | Martin Renou | [@martinRenou](https://github.com/martinRenou) |
