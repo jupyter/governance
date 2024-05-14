@@ -2,8 +2,6 @@
 
 Software design and development in Project Jupyter is organized into a set of Software Subprojects. The lifecycle of Software Subprojects is described in detail [here](newsubprojects.md). A list of Subprojects is [here](./list_of_subprojects.md).
 
-Software Subprojects often carry out their work in GitHub repositories/organizations. Any Subproject repositories or organizations that are on GitHub must belong to the [Project Jupyter GitHub enterprise organization](https://github.com/enterprises/jupyter). This enables Project Jupyter to have consistent policies across all of Jupyter while enabling Subprojects to have autonomy in their GitHub orgs and repositories.
-
 ## Responsibilities of Jupyter Subprojects
 
 Unless the [Software Steering Council (SSC)](./software_steering_council.md) or the [Executive Council (EC)](./executive_council.md) says otherwise, Subprojects self-govern as autonomously as possible, while following the overall governance model and processes of Project Jupyter. Specifically, all Subprojects under Jupyter’s governance have the following responsibilities:
@@ -14,7 +12,8 @@ Unless the [Software Steering Council (SSC)](./software_steering_council.md) or 
 - Follow the Jupyter [licensing guidelines and practices](./projectlicense.md).
 - Follow the Jupyter [trademark, branding, and intellectual property guidelines](./trademarks.md).
 - Conduct its activities in a manner that is open, transparent, and inclusive. This includes coordinating with the SSC and EC on mechanisms for information flow and updates to the broader community.
-- Maintain a publicly visible Team Compass with a list of the Council members.
+- Maintain Subproject source code on GitHub in the [Project Jupyter GitHub enterprise organization](https://github.com/enterprises/jupyter).
+- Maintain a publicly visible Team Compass with a list of the Subproject Council members.
 
 ## Incubator Subprojects
 
