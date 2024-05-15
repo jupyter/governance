@@ -6,6 +6,7 @@ parts:
   - file: overview
   - file: executive_council
   - file: software_steering_council
+  - file: jupyter_foundation
   - file: software_subprojects
     sections:
     - file: list_of_subprojects

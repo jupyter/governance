@@ -27,6 +27,18 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
 | Voilà | Martin Renou | [@martinRenou](https://github.com/martinRenou) |
 
+## [Jupyter Foundation](jupyter_foundation.md) Governing Board
+
+| Representative | Organization | GitHub username |
+| -------------- | ------------ | --------------- |
+| Afshin Darian | Executive Council | [@afshin](https://github.com/afshin) |
+| Ana Ruvalcaba | Executive Council | [@Ruv7](https://github.com/Ruv7) |
+| Brian Granger | Executive Council | [@ellisonbg](https://github.com/ellisonbg) |
+| Fernando Perez | Executive Council | [@fperez](https://github.com/fperez) |
+| Jason Grout | Executive Council | [@jasongrout](https://github.com/jasongrout) |
+| Zach Sailer | Executive Council | [@Zsailer](https://github.com/zsailer) |
+
+
 ### Trademark Subcommittee
 
 - Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
