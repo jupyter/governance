@@ -2,6 +2,12 @@
 
 The current members of the Executive Council are listed in the [Leadership Directory](people).
 
+```{card} See the team compass for more information.
+:link: https://executive-council-team-compass.readthedocs.io/en/latest/
+The Executive Council Team Compass has more information about operations, meetings, e-mail and contact info, etc.
+Click here to go there.
+```
+
 ## Purpose
 
 The Executive Council (EC) is ultimately responsible for all dimensions of the Project (including, but not limited to, software, legal, financial, community, operations, inclusion and diversity, etc.). The members of the EC actively work to carry out the Project's mission in accordance with its values and to support operations through delegation to the Software Steering Council (SSC), Software Subprojects, Standing Committees, and Working Groups. These other bodies will report to the EC, and the EC is expected to support, oversee, manage, and ensure the success of operations across Jupyter.
@@ -56,13 +62,6 @@ If a member leaves the council before the end of their term, the EC may designat
 A person may not serve simultaneously on the EC and SSC.
 
 The EC may vote to remove an EC member. A removal motion passes if two-thirds of the entire EC votes in favor of removal. All EC members are expected to vote without recusal, including the member in question.
-
-## Communication
-
-### E-mail list
-
-You can e-mail the Executive Council [at this Google Groups address](jupyter-executive-council@googlegroups.com).
-
 
 ## Bootstrapping the Executive Council
 
