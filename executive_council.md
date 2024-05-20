@@ -2,10 +2,10 @@
 
 The current members of the Executive Council are listed in the [Leadership Directory](people).
 
-```{card} See the team compass for more information.
+```{card} Click here for the team compass.
 :link: https://executive-council-team-compass.readthedocs.io/en/latest/
 The Executive Council Team Compass has more information about operations, meetings, e-mail and contact info, etc.
-Click here to go there.
+This page focuses on the governance aspects of the Executive Council.
 ```
 
 ## Purpose
