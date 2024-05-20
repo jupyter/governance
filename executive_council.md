@@ -57,6 +57,13 @@ A person may not serve simultaneously on the EC and SSC.
 
 The EC may vote to remove an EC member. A removal motion passes if two-thirds of the entire EC votes in favor of removal. All EC members are expected to vote without recusal, including the member in question.
 
+## Communication
+
+### E-mail list
+
+You can e-mail the Executive Council [at this Google Groups address](jupyter-executive-council@googlegroups.com).
+
+
 ## Bootstrapping the Executive Council
 
 The process to create the initial Executive Council is [described in this document](bootstrapping_executive_council.md).
