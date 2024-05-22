@@ -2,6 +2,12 @@
 
 The current members of the Executive Council are listed in the [Leadership Directory](people).
 
+```{card} Click here for the team compass. 🧭
+:link: https://executive-council-team-compass.readthedocs.io/en/latest/
+The Executive Council Team Compass has more information about operations, meetings, e-mail and contact info, etc.
+This page focuses on the governance aspects of the Executive Council.
+```
+
 ## Purpose
 
 The Executive Council (EC) is ultimately responsible for all dimensions of the Project (including, but not limited to, software, legal, financial, community, operations, inclusion and diversity, etc.). The members of the EC actively work to carry out the Project's mission in accordance with its values and to support operations through delegation to the Software Steering Council (SSC), Software Subprojects, Standing Committees, and Working Groups. These other bodies will report to the EC, and the EC is expected to support, oversee, manage, and ensure the success of operations across Jupyter.
