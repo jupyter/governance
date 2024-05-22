@@ -54,3 +54,13 @@ Each Jupyter Subproject, Working Group, or Standing Committee with SSC represent
 ### Bootstrapping the SSC
 
 The initial Software Steering Council will be created with individuals nominated by each of the major Jupyter Subprojects, as defined by our [official list](list_of_subprojects.md).
+
+## Communication
+
+### Meetings
+
+Times for SSC meetings is defined [on the Jupyter Community Calendar](https://jupyter.org/community#calendar).
+
+### E-mail list
+
+You can e-mail the Software Steering Council [at this Google Groups address](jupyter-software-steering-council@googlegroups.com).
