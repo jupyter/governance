@@ -1,7 +1,7 @@
 # Jupyter Governance Overview
 
 :::{note}
-Jupyter transitioned from a [Benevolent Dictator For Life (BDFL) + Steering Council](governance.md) governance model to this current governance model in December 2022.
+Jupyter transitioned from a [Benevolent Dictator For Life (BDFL) + Steering Council](archive/governance.md) governance model to this current governance model in December 2022.
 
 This document provides a brief informational summary of the Project Jupyter governance model. In case of any substantive discrepancy with the official descriptions of each body, the underlying governance documents should be considered as the source of truth, and we will update this overview as needed.
 :::
@@ -17,9 +17,9 @@ Additionally, the Executive Council (EC) receives input from a Community Advisor
 
 In addition to these three bodies, the following are other major parts of the Project related to governance.
 
-### Distinguished Contributors
+### Software Subprojects
 
-The [Distinguished Contributors](distinguished_contributors.md) are a group of Jupyter community members that have gone above-and-beyond in their support of the project over the years, making substantial and sustained contributions in any area of activity (software development, governance, community engagement, events, etc.). The Jupyter community confers membership in this group as a way of recognizing their effort and saying “thank you.” For more detail, see the [Distinguished Contributors document](distinguished_contributors.md).
+[Software Subprojects](software_subprojects.md) in the Jupyter community are official areas of focus and effort within the Jupyter ecosystem. They often map to a single GitHub organization. Subprojects must abide by the [Jupyter Code of Conduct](conduct/code_of_conduct.md), Jupyter decision-making and governance processes (e.g. respecting the project's trademark policies), as well as commit to certain technical limitations and scope. Each subproject elects one person to serve on the Software Steering Council. For more details, see the [Software Subprojects document](software_subprojects.md).
 
 ### Standing Committees and Working Groups
 
@@ -27,11 +27,11 @@ In addition to the software work on Jupyter that is coordinated through the Soft
 
 The primary difference between Standing Committees and Working Groups is that Standing Committees are intended to be permanent; they are only created and dissolved by a joint vote of the EC and SSC. In contrast, Working Groups can be created and dissolved by the EC acting alone.
 
-More details on these can be found [here](standing_committees_and_working_groups.md).
+For more details, see the [Standing Committess and Working Groups document](standing_committees_and_working_groups.md).
 
-### Software Subprojects
+### Distinguished Contributors
 
-[Software Subprojects](software_subprojects.md) in the Jupyter community are official areas of focus and effort within the Jupyter ecosystem. They often map to a single GitHub organization. Subprojects must abide by the [Jupyter Code of Conduct](conduct/code_of_conduct.md), Jupyter decision-making and governance processes (e.g. respecting the project's trademark policies), as well as commit to certain technical limitations and scope. Each subproject elects one person to serve on the Software Steering Council. For more details, see the [Software Subprojects document](software_subprojects.md).
+The [Distinguished Contributors](distinguished_contributors.md) are a group of Jupyter community members that have gone above-and-beyond in their support of the project over the years, making substantial and sustained contributions in any area of activity (software development, governance, community engagement, events, etc.). The Jupyter community confers membership in this group as a way of recognizing their effort and saying “thank you.” For more details, see the [Distinguished Contributors document](distinguished_contributors.md).
 
 ## Decision-making and voting procedures
 

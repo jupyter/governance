@@ -43,7 +43,7 @@ parts:
 
 - caption: Previous Governance
   chapters:
-  - file: governance
+  - file: archive/governance
   - file: bootstrapping_subproject_councils
   - file: bootstrapping_executive_council
 
