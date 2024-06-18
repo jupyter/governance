@@ -27,11 +27,11 @@ In addition to the software work on Jupyter that is coordinated through the Soft
 
 The primary difference between Standing Committees and Working Groups is that Standing Committees are intended to be permanent; they are only created and dissolved by a joint vote of the EC and SSC. In contrast, Working Groups can be created and dissolved by the EC acting alone.
 
-More details on these can be found [here](standing_committees_and_working_groups.md).
+For more details, see the [Standing Committess and Working Groups document](standing_committees_and_working_groups.md).
 
 ### Distinguished Contributors
 
-The [Distinguished Contributors](distinguished_contributors.md) are a group of Jupyter community members that have gone above-and-beyond in their support of the project over the years, making substantial and sustained contributions in any area of activity (software development, governance, community engagement, events, etc.). The Jupyter community confers membership in this group as a way of recognizing their effort and saying “thank you.” For more detail, see the [Distinguished Contributors document](distinguished_contributors.md).
+The [Distinguished Contributors](distinguished_contributors.md) are a group of Jupyter community members that have gone above-and-beyond in their support of the project over the years, making substantial and sustained contributions in any area of activity (software development, governance, community engagement, events, etc.). The Jupyter community confers membership in this group as a way of recognizing their effort and saying “thank you.” For more details, see the [Distinguished Contributors document](distinguished_contributors.md).
 
 ## Decision-making and voting procedures
 
