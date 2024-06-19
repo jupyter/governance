@@ -20,7 +20,7 @@ The Jupyter Foundation Governing Board consists of:
 
 - All members of the [Jupyter Executive Council](./executive_council.md)
 - One representative from each Jupyter Foundation Premier Member
-- No more than two representatives total from all Jupyter Foundation General Members
+- Between one and three representatives total from all Jupyter Foundation General Members
 
 ## Decision making
 
