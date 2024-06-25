@@ -8,7 +8,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 - Afshin Darian, [@afshin](https://github.com/afshin)
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
-- Fernando Perez, [@fperez](https://github.com/fperez)
+- Fernando Pérez, [@fperez](https://github.com/fperez)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)
 - Zach Sailer, [@Zsailer](https://github.com/zsailer)
 
@@ -34,7 +34,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | Afshin Darian | Executive Council | [@afshin](https://github.com/afshin) |
 | Ana Ruvalcaba | Executive Council | [@Ruv7](https://github.com/Ruv7) |
 | Brian Granger | Executive Council | [@ellisonbg](https://github.com/ellisonbg) |
-| Fernando Perez | Executive Council | [@fperez](https://github.com/fperez) |
+| Fernando Pérez | Executive Council | [@fperez](https://github.com/fperez) |
 | Jason Grout | Executive Council | [@jasongrout](https://github.com/jasongrout) |
 | Zach Sailer | Executive Council | [@Zsailer](https://github.com/zsailer) |
 
@@ -76,7 +76,7 @@ and a Steering Council.
 
 ### Benevolent Dictator for Life (retired December 2022)
 
-Fernando Perez ([@fperez](https://github.com/fperez)) was the Benevolent Dictator for Life (BDFL). He
+Fernando Pérez ([@fperez](https://github.com/fperez)) was the Benevolent Dictator for Life (BDFL). He
 voluntarily relinquished his role after Jupyter transitioned to a new governance model in December 2022.
 
 ### Steering Council (dissolved December 2022)
@@ -86,7 +86,7 @@ voluntarily relinquished his role after Jupyter transitioned to a new governance
 - Brian Granger, [@ellisonbg](https://github.com/ellisonbg) (Founding member, 2014-2022)
 - Carol Willing, [@willingc](https://github.com/willingc) (2017-2022)
 - Damian Avila, [@damianavila](https://github.com/damianavila) (Founding member, 2014-2022)
-- Fernando Perez, [@fperez](https://github.com/fperez) (Founding member, 2014-2022)
+- Fernando Pérez, [@fperez](https://github.com/fperez) (Founding member, 2014-2022)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout) (2015-2022)
 - Jessica Hamrick, [@jhamrick](https://github.com/jhamrick) (2015-2022)
 - Jonathan Frederic, [@jdfreder](https://github.com/jdfreder) (2016-2018)
@@ -103,7 +103,7 @@ voluntarily relinquished his role after Jupyter transitioned to a new governance
 ### NumFOCUS Subcommittee (dissolved December 2022)
 
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
-- Fernando Perez, [@fperez](https://github.com/fperez)
+- Fernando Pérez, [@fperez](https://github.com/fperez)
 - Matthias Bussonnier, [@carreau](https://github.com/carreau)
 - Stefan van der Walt (non-council member), [@stefanv](https://github.com/stefanv)
 - Thomas Kluyver, [@takluyver](https://github.com/takluyver)
