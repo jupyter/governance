@@ -11,7 +11,7 @@ The Jupyter Foundation Governing Board controls the resources of the Jupyter Fou
 
 - Serve Project Jupyter and its mission.
 - Meet regularly to review strategic objectives of Jupyter.
-- Develop and approve an annual strategic plan and budget for funding from the Jupyter Foundation to benefit Project Jupyter.
+- Develop and approve an annual budget for funding from the Jupyter Foundation to benefit Project Jupyter that is aligned with its strategic objectives and is responsive to the needs and opportunities that may arise during the year.
 - Recruit and retain Jupyter Foundation members.
 
 ## Membership
