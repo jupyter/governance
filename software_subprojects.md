@@ -1,18 +1,19 @@
 # Software Subprojects
 
-Software design and development in Project Jupyter is organized into a set of Software Subprojects. These software Subprojects often map onto GitHub repositories/organizations, but that is not strictly required. The lifecycle of Software Subprojects is [described in detail here](newsubprojects.md).
+Software design and development in Project Jupyter is organized into a set of Software Subprojects. The lifecycle of Software Subprojects is described in detail [here](newsubprojects.md). A list of Subprojects is [here](./list_of_subprojects.md).
 
 ## Responsibilities of Jupyter Subprojects
 
-Unless the Software Steering Council (SSC) or the Executive Council (EC) says otherwise, Subprojects self-govern as autonomously as possible, while following the overall governance model and processes of Project Jupyter. Specifically, all Subprojects under Jupyter’s governance have the following responsibilities:
+Unless the [Software Steering Council (SSC)](./software_steering_council.md) or the [Executive Council (EC)](./executive_council.md) says otherwise, Subprojects self-govern as autonomously as possible, while following the overall governance model and processes of Project Jupyter. Specifically, all Subprojects under Jupyter’s governance have the following responsibilities:
 
-- Adhere to the Jupyter Code of Conduct.
+- Adhere to the [Jupyter Code of Conduct](./conduct/code_of_conduct.md).
 - Adhere to the [Jupyter Decision-Making Guidelines and process](decision_making.md).
 - Where applicable, nominate and maintain a single representative to the SSC.
-- Follow the licensing guidelines and practices of the project ([use of the BSD license and copyright header](https://github.com/jupyter/jupyter/blob/master/LICENSE)).
-- Follow Jupyter’s trademark, branding, and intellectual property guidelines.
-- Conduct its activities in a manner that is open, transparent, and inclusive. This includes coordinating with the Software Steering Council and the Executive Council on mechanisms for information flow and updates to the broader community (details of this, project-wide, will be developed as our new governance model is adopted and implemented).
-- Maintain a publicly visible Team Compass with a list of the Council members (see e.g. [JupyterHub](https://github.com/jupyterhub/team-compass) or [Jupyter Frontends](https://github.com/jupyterlab/frontends-team-compass) for illustration of their structure and content).
+- Follow the Jupyter [licensing guidelines and practices](./projectlicense.md).
+- Follow the Jupyter [trademark, branding, and intellectual property guidelines](./trademarks.md).
+- Conduct its activities in a manner that is open, transparent, and inclusive. This includes coordinating with the SSC and EC on mechanisms for information flow and updates to the broader community.
+- Maintain Subproject source code on GitHub in the [Project Jupyter GitHub enterprise organization](https://github.com/enterprises/jupyter).
+- Maintain a publicly visible Team Compass with a list of the Subproject Council members.
 
 ## Incubator Subprojects
 
