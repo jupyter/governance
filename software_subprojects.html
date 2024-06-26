@@ -18,12 +18,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
@@ -37,9 +37,9 @@
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=87e54e7c" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
-  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
@@ -139,6 +139,8 @@
         <div class="sidebar-primary-item">
 
   
+    
+  
 
 <a class="navbar-brand logo" href="intro.html">
   
@@ -154,7 +156,7 @@
 
  <script>
  document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
     <span class="search-button__default-text">Search</span>
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -334,10 +336,10 @@
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
@@ -345,7 +347,7 @@ document.write(`
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
@@ -389,18 +391,19 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="software-subprojects">
 <h1>Software Subprojects<a class="headerlink" href="#software-subprojects" title="Link to this heading">#</a></h1>
-<p>Software design and development in Project Jupyter is organized into a set of Software Subprojects. These software Subprojects often map onto GitHub repositories/organizations, but that is not strictly required. The lifecycle of Software Subprojects is <a class="reference internal" href="newsubprojects.html"><span class="std std-doc">described in detail here</span></a>.</p>
+<p>Software design and development in Project Jupyter is organized into a set of Software Subprojects. The lifecycle of Software Subprojects is described in detail <a class="reference internal" href="newsubprojects.html"><span class="std std-doc">here</span></a>. A list of Subprojects is <a class="reference internal" href="list_of_subprojects.html"><span class="std std-doc">here</span></a>.</p>
 <section id="responsibilities-of-jupyter-subprojects">
 <h2>Responsibilities of Jupyter Subprojects<a class="headerlink" href="#responsibilities-of-jupyter-subprojects" title="Link to this heading">#</a></h2>
-<p>Unless the Software Steering Council (SSC) or the Executive Council (EC) says otherwise, Subprojects self-govern as autonomously as possible, while following the overall governance model and processes of Project Jupyter. Specifically, all Subprojects under Jupyter’s governance have the following responsibilities:</p>
+<p>Unless the <a class="reference internal" href="software_steering_council.html"><span class="std std-doc">Software Steering Council (SSC)</span></a> or the <a class="reference internal" href="executive_council.html"><span class="std std-doc">Executive Council (EC)</span></a> says otherwise, Subprojects self-govern as autonomously as possible, while following the overall governance model and processes of Project Jupyter. Specifically, all Subprojects under Jupyter’s governance have the following responsibilities:</p>
 <ul class="simple">
-<li><p>Adhere to the Jupyter Code of Conduct.</p></li>
+<li><p>Adhere to the <a class="reference internal" href="conduct/code_of_conduct.html"><span class="std std-doc">Jupyter Code of Conduct</span></a>.</p></li>
 <li><p>Adhere to the <a class="reference internal" href="decision_making.html"><span class="std std-doc">Jupyter Decision-Making Guidelines and process</span></a>.</p></li>
 <li><p>Where applicable, nominate and maintain a single representative to the SSC.</p></li>
-<li><p>Follow the licensing guidelines and practices of the project (<a class="reference external" href="https://github.com/jupyter/jupyter/blob/master/LICENSE">use of the BSD license and copyright header</a>).</p></li>
-<li><p>Follow Jupyter’s trademark, branding, and intellectual property guidelines.</p></li>
-<li><p>Conduct its activities in a manner that is open, transparent, and inclusive. This includes coordinating with the Software Steering Council and the Executive Council on mechanisms for information flow and updates to the broader community (details of this, project-wide, will be developed as our new governance model is adopted and implemented).</p></li>
-<li><p>Maintain a publicly visible Team Compass with a list of the Council members (see e.g. <a class="reference external" href="https://github.com/jupyterhub/team-compass">JupyterHub</a> or <a class="reference external" href="https://github.com/jupyterlab/frontends-team-compass">Jupyter Frontends</a> for illustration of their structure and content).</p></li>
+<li><p>Follow the Jupyter <a class="reference internal" href="projectlicense.html"><span class="std std-doc">licensing guidelines and practices</span></a>.</p></li>
+<li><p>Follow the Jupyter <a class="reference internal" href="trademarks.html"><span class="std std-doc">trademark, branding, and intellectual property guidelines</span></a>.</p></li>
+<li><p>Conduct its activities in a manner that is open, transparent, and inclusive. This includes coordinating with the SSC and EC on mechanisms for information flow and updates to the broader community.</p></li>
+<li><p>Maintain Subproject source code on GitHub in the <a class="reference external" href="https://github.com/enterprises/jupyter">Project Jupyter GitHub enterprise organization</a>.</p></li>
+<li><p>Maintain a publicly visible Team Compass with a list of the Subproject Council members.</p></li>
 </ul>
 </section>
 <section id="incubator-subprojects">
@@ -549,8 +552,8 @@ This work is published from:
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
