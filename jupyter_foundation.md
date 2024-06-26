@@ -9,7 +9,7 @@ The Jupyter Foundation Governing Board controls the resources of the Jupyter Fou
 
 ## Responsibilities of the Jupyter Foundation Governing Board
 
-- Serve Project Jupyter and its mission.
+- Support Project Jupyter and its mission.
 - Overall management of the Jupyter Foundation.
 - Approve an annual budget directing the use of Jupyter Foundation funds.
 - Approve changes to the Jupyter Foundation charter.
