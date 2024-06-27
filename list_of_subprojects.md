@@ -26,6 +26,7 @@ The following Jupyter Subprojects have their own formal Subproject Council that 
 - [Jupyter Foundations and Standards](https://github.com/jupyter/foundations-and-standards-team-compass)
 - [Jupyter Security](https://github.com/jupyter/security)
 - [Jupyter Accessibility](https://github.com/jupyter/accessibility)
+- [Jupyter Book](https://github.com/jupyter-book/team-compass)
 
 ## Official Subprojects without SSC representation
 
