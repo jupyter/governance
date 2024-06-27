@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The mission of the Jupyter Media Strategy Working Group (JMS) is to ensure that communications in Jupyter official channels are strategic and benefit Project Jupyter. The Jupyter [governance model](https://jupyter.org/governance/standing_committees_and_working_groups.html)includes a distributed model of responsibilities. This means that by design Jupyter publications, social media posts, promotions and other media activity are meant to be community driven. The JMS is vendor neutral and will provide mechanisms to enable the community to speak publicly through the official Jupyter communication channels. The JMS will also help to improve Jupyter media activity by creating strategy and guidelines, serving as editors for existing public media channels, and overseeing creation/delegation of new media channels.
+The mission of the Jupyter Media Strategy Working Group (JMS) is to ensure that communications in Jupyter official channels are strategic and benefit Project Jupyter. The Jupyter [governance model](https://jupyter.org/governance/standing_committees_and_working_groups.html) includes a distributed model of responsibilities. This means that by design Jupyter publications, social media posts, promotions and other media activity are meant to be community driven. The JMS is vendor neutral and will provide mechanisms to enable the community to speak publicly through the official Jupyter communication channels. The JMS will also help to improve Jupyter media activity by creating strategy and guidelines, serving as editors for existing public media channels, and overseeing creation/delegation of new media channels.
 
 # Editorial Principles
 
