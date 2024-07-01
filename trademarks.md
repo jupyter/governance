@@ -199,9 +199,10 @@ The following rules apply to the use of trademarks in each of these classes.
 - Use of the word "Jupyter" in another trademark --
   Not allowed without prior written permission from Jupyter, except as described above.
 - Use of the word "Jupyter" in a domain name --
-  Allowed in subdomains and url-paths,
+  Allowed in subdomains and url paths,
   such as "jupyter.example.com" and "example.com/jupyter".
-  Not allowed in base domains, such as "jupytercloud.com" or "hostedjupyter.horse".
+  Allowed in base domains where the organization responsible for the service is clear in the name itself, e.g. "myorganization-jupyter.org" or "uoffoojupyterusers.edu".
+  Not allowed in base domains on its own or with only generic terms, such as "jupytercloud.com" or "hostedjupyter.horse".
 
 
 ### Unaltered Logos
