@@ -30,8 +30,8 @@ The EC has the responsibility to:
 - Manage the Jupyter brand, including the Project-wide website, core design philosophy, design assets, trademarks, and naming.
 - Manage public communications and community activities, including social media, conferences, workshops, and community-wide resources.
 - Manage any Jupyter services, including hosted services such as nbviewer, jupyter.org, and mybinder.org.
-- Manage the Project’s relationship with LF Charities, which is Project Jupyter's parent nonprofit organization and legal entity.
-- Manage the Project's relationship with the Linux Foundation, which holds assets in custody for Project Jupyter.
+- Manage the Project’s relationship with [LF Charities](https://lf-charities.org/), which is Project Jupyter's parent nonprofit organization and legal entity. This includes ensuring the Project follows the applicable LF Charities policies.
+- Manage the Project's relationship with the [Linux Foundation](https://www.linuxfoundation.org/), which holds assets in custody for Project Jupyter.
 - Manage the Project's relationship with the [Jupyter Foundation](./jupyter_foundation.md), including serving on the Jupyter Foundation Governing Board.
 - Write an annual stakeholders letter to provide a summary of the previous year’s activities across the community and to highlight the current and future direction of the Project.
 - Mentor potential future EC members. The EC is expected to identify potential future members of the EC and proactively mentor those individuals.
