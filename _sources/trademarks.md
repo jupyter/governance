@@ -22,10 +22,9 @@ This document outlines the policy of the Project Jupyter ("Jupyter")
 regarding the use of its trademarks.
 Any use of any Project Jupyter trademark must be in accordance with this policy.
 
-"Jupyter" is a trademark of the NumFOCUS foundation,
-of which Project Jupyter is a part.
+"Jupyter" is a trademark of LF Charities, of which Project Jupyter is a part.
 
-The Jupyter logos (in several variants) are trademarks of NumFOCUS as well.
+The Jupyter logos (in several variants) are trademarks of LF Charities as well.
 
 The Jupyter Trademark is registered with the U.S. Patent & Trademark Office.
 
@@ -36,7 +35,7 @@ such as "JupyterDays," "JupyterLab," "JupyterHub,"
 All trademarks, even those that apply to open source software,
 must be used according to certain legal requirements.
 If these requirements are not met, the trademark may be endangered or lost.
-One of these requirements is for the trademark owner (in this case, NumFOCUS)
+One of these requirements is for the trademark owner (in this case, LF Charities)
 to maintain standards for using its trademarks,
 and to enforce acceptable use of the trademarks by taking action against parties that violate those standards.
 
@@ -56,11 +55,11 @@ Underlying Project Jupyter's trademark policy is a set of guidelines for what is
 -- and is not -- acceptable use of our trademarks,
 specifically the word mark "Jupyter", the Jupyter logos,
 and variations of those marks.
-This policy describes the uses generally approved by Jupyter and NumFOCUS for its trademarks.
+This policy describes the uses generally approved by Jupyter and LF Charities for its trademarks.
 However, if you violate this policy,
 or otherwise take actions that may compromise the reputation or trademarks of Jupyter,
-or expose NumFOCUS to liability,
-NumFOCUS may require you to cease all use of any Jupyter trademark,
+or expose LF Charities to liability,
+LF Charities may require you to cease all use of any Jupyter trademark,
 regardless of the uses allowed in this policy.
 
 
@@ -110,7 +109,7 @@ No explicit approval is needed for these uses as long as
 We understand that not everyone (including ourselves) can afford to give away merchandise
 in sufficient quantities to meet demand.
 Because of this, we would love help from the community in creating an official place to purchase
-Jupyter branded merchandise with the profits going back to the project through NumFOCUS.
+Jupyter branded merchandise with the profits going back to the project through LF Charities.
 
 If you are interested in helping out with this please get in touch with us on
 the [Jupyter Google Group][].
@@ -147,7 +146,7 @@ the following basic guidelines apply to almost any use of Jupyter's trademarks.
 0. If the word "Jupyter" or the Jupyter logos are used in certain contexts,
     the following statement should accompany its use:
     
-    > "Jupyter" and the Jupyter logos are trademarks or registered trademarks of NumFOCUS,
+    > "Jupyter" and the Jupyter logos are trademarks or registered trademarks of LF Charities,
     > used by ___________ with permission.
 
 0. For websites and documentation this can be on a "legal statements" page.
