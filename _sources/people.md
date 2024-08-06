@@ -53,14 +53,12 @@ Alphabetical by first name, names are followed by GitHub usernames.
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Jason Weill, [@JasonWeill](https://github.com/JasonWeill)
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
-- Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez)
 
 ### [Jupyter Community Building Working Group](communitybuildingworkinggroup.md)
 
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
-- Rollin Thomas, [@rcthomas](https://github.com/rcthomas)
 
 ### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
 
@@ -71,10 +69,15 @@ Alphabetical by first name, names are followed by GitHub usernames.
 
 ## Former Project Jupyter Leadership
 
-Prior to December 2022, Jupyter was led by a Benevolent Dictator for Life (BDFL)
-and a Steering Council.
+### Committees, Councils, and Working Groups
+- Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez) - DEI Working Group (2022-2024)
+- Rollin Thomas, [@rcthomas](https://github.com/rcthomas) - Community Building Working Group (2022-2024)
+- Steven Silvester, [@blink1073](https://github.com/blink1073) - Executive Council (2022-2024)
 
 ### Benevolent Dictator for Life (retired December 2022)
+
+Prior to December 2022, Jupyter was led by a Benevolent Dictator for Life (BDFL)
+and a Steering Council.
 
 Fernando Pérez ([@fperez](https://github.com/fperez)) was the Benevolent Dictator for Life (BDFL). He
 voluntarily relinquished his role after Jupyter transitioned to a new governance model in December 2022.
