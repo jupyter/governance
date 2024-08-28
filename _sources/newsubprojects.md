@@ -54,9 +54,14 @@ The two paths for official Subproject creation are now detailed.
 
 In some cases, Steering Council members can immediately create new official Subprojects in the main
 Jupyter organization. This option will be used when the new Subproject is clearly part of the
-existing scope, activities and development of Project Jupyter. The process for direct Subproject
-creation is minimal and informal: Steering Council members should be in consensus about the
+existing scope, activities and development of Project Jupyter.
+
+The process for direct Subproject creation is minimal and informal: Steering Council members should be in consensus about the
 Subproject's creation and notify the main Jupyter list of its creation.
+
+The process is completed when the Executive Council approves a PR that adds the new project to the [list of sub-projects](list_of_subprojects.md).[^example]
+
+[^example]: [Here's an example PR](https://github.com/jupyter/governance/pull/229) from the jupyter-book incorporation process.
 
 
 ## Incorporation of an existing external Subproject
@@ -87,6 +92,8 @@ the following more formal proposal process will be used:
    The enhancement proposal should describe how the Subproject meets each of the above criteria.
 2. The proposal for incorporation will be discussed by the community using that pull request.
 3. A recommendation will be made by the consensus of the Steering Council (SC).
+4. If the SC recommends incorporation, the subproject then submits a pull request that adds the new project to the [list of sub-projects](list_of_subprojects.md) in the [`jupyter/governance` repository](https://github.com/jupyter/governance).[^example]
+5. The Executive Council must then decide by merging or rejecting the pull request.
 
 **Timeline:** the SC should make every effort to reach a decision promptly. If
 there is active discussion and feedback about the proposal, that should be
