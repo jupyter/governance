@@ -26,30 +26,22 @@ in-person events are particularly useful for tackling challenging development
 and design projects, growing the community of contributors, and strengthening
 collaborations.
 
-This working group will partner with NumFOCUS to manage the Jupyter Community
-Workshop program operations and budget.
+This working group will manage the Jupyter Community Workshop program operations
+and budget.
 
 ### JupyterCon
 
 Global JupyterCon conferences provide opportunities for the Jupyter community
 to come together to learn and share.
 
-This working group will drive the strategic direction and broad operational
-aspects of JupyterCon, including the partnership with NumFOCUS and the
-community leadership for the event.
-
-### Jupyter Community Events Staff
-
-This working group will be responsible for the relationship with professional
-staff (for example, at NumFOCUS) planning Jupyter events, such as community
-workshops and JupyterCon.
+This working group will champion the strategy and oversee broad operational
+aspects of JupyterCon, including event operations and community leadership for
+the event.
 
 ### Operations and Budget
 
-This working group will collaborate with NumFOCUS to serve as stewards and
-decision-makers to allocate the Project Jupyter funds currently associated
-with Jupyter community building at NumFOCUS, including donations and revenue
-from Jupyter Community Workshops and JupyterCon.
+This working group will collaborate with the Jupyter Executive Council to serve
+as stewards for Project Jupyter funds for events in this committee's purview.
 
 ### Diversity, Equity, Inclusion
 
