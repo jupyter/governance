@@ -12,7 +12,8 @@ The JMS makes editorial decisions related to whether or not to accept/post conte
 - Ensure that any third party content is beneficial to the Jupyter community.
 - Content may be written in any language, provided it has been vetted by a member of the Jupyter Union of Councils.
 - The Jupyter blog is the primary channel with which Jupyter communicates with the community.
-- Social media channels will be used to amplify the reach of the blog and to share content that we deem should reach as large an audience as possible. The working group will designate a preferred channel that it determines best reflects the values of Project Jupyter. Posting on a particular platform is not an endorsement of that platform by Project Jupyter, but a means to communicate news to the Jupyter Community.
+- Social media channels will be used to amplify the reach of the blog. Posting on a particular platform is not an endorsement of that platform by Project Jupyter, but a means to communicate news to the Jupyter Community. With the exception of our preferred channel, we will use these channels to broadcast messages only, and will therefore not engage in two-way communication with users on said channels.
+- The working group will designate a preferred channel that it determines best reflects the values of Project Jupyter. This channel will be used for high bandwidth interactions such as event promotion and interacting with members of the community.
 
 ## Areas of responsibility
 
