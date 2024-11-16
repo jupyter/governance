@@ -16,7 +16,7 @@ The SSC is responsible for the following:
 - Stewarding the JEP process to ensure that it is inclusive and participatory, and solicits feedback from the right stakeholders. As a starting point, [the NumFOCUS DISCOVER Cookbook](https://github.com/numfocus/DISCOVER-Cookbook) may offer some useful starting pointers.
 - Making decisions on JEPs after receiving community feedback (JEPs are the mechanism for elevating any software decision/idea up to the broader Project, while individual Subprojects can make decisions within their scope via their regular mechanisms).
 - Owning, managing and implementing the Jupyter Incubation process (https://github.com/jupyter-incubator).
-- Owning, managing and implementing the Jupyter Attic process (https://github.com/jupyter-attic).
+- Owning, managing and implementing the Jupyter Attic process (https://github.com/orgs/jupyter/repositories?type=source&q=archived%3Atrue).
 - Stewarding discussions and activities beyond JEPs that involve cross-cutting concerns, standards, protocols and other architectural issues that impact the entire project.
 - Owning and managing anything related to security vulnerabilities across the project, including the Jupyter security lists, any private security repositories, etc.
 - Voting to accept Working Groups nominated by the Executive Council (EC) to have a representative on the SSC.
