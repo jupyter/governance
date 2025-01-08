@@ -52,7 +52,6 @@ Alphabetical by first name, names are followed by GitHub usernames.
 ### [DEI Standing Committee](charters/DeiCharter.md)
 
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
-- Jason Weill, [@JasonWeill](https://github.com/JasonWeill)
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
 
 ### [Jupyter Community Building Working Group](communitybuildingworkinggroup.md)
