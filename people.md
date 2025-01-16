@@ -72,6 +72,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 - Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez) - DEI Working Group (2022-2024)
 - Rollin Thomas, [@rcthomas](https://github.com/rcthomas) - Community Building Working Group (2022-2024)
 - Steven Silvester, [@blink1073](https://github.com/blink1073) - Executive Council (2022-2024)
+- Jason Weill, [@JasonWeill](https://github.com/JasonWeill) - DEI Working Group (2022-2024)
 
 ### Benevolent Dictator for Life (retired December 2022)
 
