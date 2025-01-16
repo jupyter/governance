@@ -26,9 +26,6 @@ parts:
     - file: conduct/reporting_online
     - file: conduct/reporting_events
 
-  - file: CodeofConductJupyterDay
-    sections:
-    - file: CodeofConductJupyterDayOrganizer
   - file: conduct/faq
 
 - caption: Organizational Policy
