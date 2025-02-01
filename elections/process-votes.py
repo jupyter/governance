@@ -1,47 +1,72 @@
+#!/usr/bin/env python3
 # Convert Jupyter Executive Council vote data from CSV to Apache STeVe format.
 
 from datetime import datetime
+import csv
 import re
 import string
 import uuid
 
-# Read a file in, line by line, and process it
+def extract_candidate_name(header):
+    """Extract candidate name from header column."""
+    match = re.search(r'\[(.*?)\]', header)
+    if match:
+        return match.group(1)
+    return None
 
-vote_file = open('votes.csv', 'r')
+def main():
+    # Read the CSV file
+    with open('votes.csv', 'r', encoding='utf-8') as vote_file:
+        reader = csv.DictReader(vote_file)
+        headers = reader.fieldnames
+        
+        # Find candidate columns and extract names
+        candidate_columns = []
+        candidates = []
+        for header in headers:
+            if '[' in header and ']' in header:
+                candidate_name = extract_candidate_name(header)
+                if candidate_name:
+                    candidate_columns.append(header)
+                    candidates.append(candidate_name)
 
-headerline = vote_file.readline()
+        # Create board_nominations.ini
+        letters = list(string.ascii_lowercase)
+        with open('board_nominations.ini', 'w', encoding='utf-8') as candidate_file:
+            candidate_file.write('[nominees]\n')
+            for idx, candidate in enumerate(candidates):
+                candidate_file.write(f'{letters[idx]}: {candidate}\n')
 
-# Assign letters to each candidate
-candidates = headerline.split(',')
+        # Process votes and create votedata.txt
+        with open('votedata.txt', 'w', encoding='utf-8') as vote_output:
+            for row in reader:
+                # Skip if they chose not to vote
+                if row['Vote or abstain'].lower() != 'i would like to vote!':
+                    continue
 
-letters = list(string.ascii_lowercase)
+                # Process candidate rankings
+                candidate_priorities = [' '] * len(candidates)
+                
+                # Fill in priorities
+                for idx, col in enumerate(candidate_columns):
+                    rank = row[col]
+                    if rank and rank.strip() and rank.isdigit():
+                        rank_int = int(rank)
+                        # Adjust for 0-based indexing
+                        candidate_priorities[rank_int - 1] = letters[idx]
 
-with open('board_nominations.ini', 'w') as candidate_file:
-    candidate_file.write('[nominees]\n')
+                # Filter out empty spaces and join
+                vote_string = ''.join(x for x in candidate_priorities if x != ' ')
+                
+                # This is normally to dedupe multiple votes by the same voter,
+                # but Google Forms already does that, so we instead assume that
+                # every vote is unique and cast at the current time
+                timestamp = datetime.now().strftime('[%Y/%m/%d %H:%M:%S]')
+                voterhash = uuid.uuid4().hex
 
-    for idx, c in enumerate(candidates):
-        # Extract the candidate's name inside the brackets
-        candidate_name = re.split(r'[\[\]]', c)[1]
-        candidate_file.write('{0}: {1}\n'.format(letters[idx], candidate_name))
+                # Only write if there's actually a vote
+                if vote_string:
+                    vote_output.write(f'{timestamp} {voterhash} {vote_string}\n')
 
-with open('votedata.txt', 'w') as vote_output:
-    for line in vote_file:
-        # Sort in numerical order by index
-        candidate_priorities = line.split(',')
-
-        candidate_alphas = [' '] * len(candidate_priorities)
-
-        for idx, c in enumerate(candidate_priorities):
-            if (re.search(r'\d', c)):
-                candidate_alphas[int(c) - 1] = letters[idx]
-
-        # This is normally to dedupe multiple votes by the same voter,
-        # but Google Forms already does that, so we instead assume that
-        # every vote is unique and cast at the current time
-        timestamp = datetime.now().strftime('[%Y/%m/%d %H:%M:%S]')
-        voterhash = uuid.uuid4().hex
-
-        vote_output.write('{0} {1} {2}\n'.format(
-            timestamp,
-            voterhash,
-            ''.join(candidate_alphas).replace(' ', '')))
+if __name__ == '__main__':
+    main()
