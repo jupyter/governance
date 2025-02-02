@@ -34,11 +34,14 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | -------------- | ------------ | --------------- |
 | Afshin Darian | Executive Council | [@afshin](https://github.com/afshin) |
 | Ana Ruvalcaba | Executive Council | [@Ruv7](https://github.com/Ruv7) |
-| Brian Granger | Executive Council | [@ellisonbg](https://github.com/ellisonbg) |
-| Fernando Pérez | Executive Council | [@fperez](https://github.com/fperez) |
 | Jason Grout | Executive Council | [@jasongrout](https://github.com/jasongrout) |
 | Zach Sailer | Executive Council | [@Zsailer](https://github.com/zsailer) |
-
+| Brian Granger | AWS | [@ellisonbg](https://github.com/ellisonbg) |
+| Ben Bastian | Google | [@sagelywizard](https://github.com/sagelywizard) |
+| Rus Pandey | Apple |  |
+| Stephanie Stattel | Bloomberg |  |
+| Yaniv Schahar | Meta |  |
+| Vik Gupta | Snowflake |  |
 
 ### Trademark Subcommittee
 
