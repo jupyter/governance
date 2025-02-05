@@ -56,6 +56,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
+- Rosio Reyes, [@RRosio](https://github.com/rrosio)
 
 ### [Jupyter Community Building Working Group](communitybuildingworkinggroup.md)
 
