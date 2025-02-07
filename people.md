@@ -75,14 +75,17 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 
 ## Former Project Jupyter Leadership
 
-### Committees, Councils, and Working Groups
+### Executive Council
 
-- Brian Granger, [@ellisonbg](https://github.com/ellisonbg), Executive Council (2023-2024)
-- Fernando Pérez, [@fperez](https://github.com/fperez), Executive Council (2023-2024)
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg), 2023-2024
+- Fernando Pérez, [@fperez](https://github.com/fperez), 2023-2024
+- Steven Silvester, [@blink1073](https://github.com/blink1073), 2023
+
+### Standing Committees and Working Groups
+
 - Jason Weill, [@JasonWeill](https://github.com/JasonWeill), DEI Working Group (2022-2024)
 - Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez), DEI Working Group (2022-2024)
 - Rollin Thomas, [@rcthomas](https://github.com/rcthomas), Community Building Working Group (2022-2024)
-- Steven Silvester, [@blink1073](https://github.com/blink1073), Executive Council (2023)
 
 ### Benevolent Dictator for Life (retired December 2022)
 
