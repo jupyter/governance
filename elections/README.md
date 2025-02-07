@@ -82,7 +82,7 @@ slate would have their vote represented as `abc`.
 From the directory where you have `votes.csv`, run `process-votes.py`.
 
 This script produces `board_nominations.ini` and `votedata.txt` for use
-with the [Apache STeVe tabulation script (`stv_tool.py`)](https://github.com/apache/steve/blob/trunk/monitoring/stv_tool.py). Run this script, passing the
+with the [Apache STeVe tabulation script (`stv_tool.py`)](https://github.com/apache/steve/blob/c7c9a4af298fe7567bf48b9c7fa909a1b8651b1c/monitoring/stv_tool.py). Run this script, passing the
 number of seats to elect with the `-s` parameter. In the example below,
 the tabulation script will select two winners. You can get more verbose
 output using the `-v` parameter.
