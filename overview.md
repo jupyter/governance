@@ -30,9 +30,15 @@ The primary difference between Standing Committees and Working Groups is that St
 
 For more details, see the [Standing Committees and Working Groups document](standing_committees_and_working_groups.md).
 
+(union-of-councils)=
 ### Union of Councils
 
-The Union of Councils (UoC) is the union of the membership of all Subproject Councils, Standing Committees, and Working Groups. The UoC is the body from which [Executive Council](executive_council.md) members are elected, and the UoC votes on the membership of the [Executive Council](executive_council.md).
+The Union of Councils (UoC) is the union of the membership of these groups:
+
+- All Subproject Councils
+- All Standing Committees
+- All Working Groups.
+
 
 ### Distinguished Contributors
 

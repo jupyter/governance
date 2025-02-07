@@ -55,13 +55,40 @@ The [Executive Council Team Compass](https://executive-council-team-compass.read
 
 ## Council membership and elections
 
-The EC will consist of 6 Council members who serve 2-year terms. Members are elected from the body of the union of all Standing Committee, Working Group, and Subproject Councils ("Union of Councils", UoC). Any UoC member is eligible for candidacy in an election unless, as of the start of the new term, they have served on the EC for three or more of the last four years. Members are elected by either the UoC or the existing EC as described below, such that after each election, the cumulative total number of seats filled by the UoC is equal to, or one more than, the number filled by the EC.
+The EC consists of 6 Council members.
+
+(term-limits)=
+### How long are term lengths and limits?
+
+Each EC member is elected to a 2-year term.
+
+EC members can serve consecutive terms if they are re-elected.
+
+EC members cannot begin a new term if they have served on the EC for 3 of the last 4 years.
+
+### Who elects the Executive Council?
+
+There are two types of seats on the Executive Council. Those chosen by individuals throughout the Jupyter Community (see below), and those chosen by the _current members_ of the Executive Council.
+
+After each election, the cumulative total number of seats filled by the UoC must be equal to, or one more than, the number filled by the EC.
+
+For seats elected by the UoC, any member of the [Union of Councils](#union-of-councils) has one vote.
+
+### Who is elegible for serving on the Executive Council?
+
+Any UoC member is eligible for candidacy in an election to the EC provided that they are a valid candidate for serving a new term (e.g., doing so would not violate the EC [Term Limits](#term-limits)).
+
+A person may not serve simultaneously on the EC and SSC.
+
+### How does the nomination and election process work?
 
 Each annual election will begin with the existing EC notifying the UoC of a call for nominations. Any member of the UoC may nominate a candidate, including themselves. The EC will confirm that a nominee is eligible and accepts their nomination. The candidate shall write a statement of their interest, qualifications, experience, etc., that will be distributed to voters. Once the full set of candidates is assembled, the UoC and then the EC will take ranked choice votes to fill their allocated number of EC seats.
 
+### What if somebody leaves their seat during a term?
+
 If a member leaves the council before the end of their term, the EC may designate an eligible replacement who will serve for the rest of the term. This replacement will count as a seat filled by the EC if the replacement serves more than half of the term.
 
-A person may not serve simultaneously on the EC and SSC.
+### How can an EC member be removed?
 
 The EC may vote to remove an EC member. A removal motion passes if two-thirds of the entire EC votes in favor of removal. All EC members are expected to vote without recusal, including the member in question.
 
