@@ -22,7 +22,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 | Jupyter Foundations and Standards | Paul Ivanov | [@ivanov](https://github.com/ivanov) |
 | Jupyter Frontends | Jérémy Tuloup | [@jtpio](https://github.com/jtpio) |
 | Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
-| Jupyter Security | Rick Wagner | [@rpwagner](https://github.com/rpwagner) |
+| Jupyter Security |  |  |
 | Jupyter Server | Vidar Fauske | [@vidartf](https://github.com/vidartf) |
 | Jupyter Widgets | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
 | JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
