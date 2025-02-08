@@ -66,6 +66,7 @@ EC members can serve consecutive terms if they are re-elected.
 
 EC members cannot begin a new term if they have served on the EC for 3 of the last 4 years.
 
+(ec-electors)=
 ### Who elects the Executive Council?
 
 There are two types of seats on the Executive Council. Those chosen by individuals throughout the Jupyter Community (see below), and those chosen by the _current members_ of the Executive Council.
@@ -91,6 +92,17 @@ If a member leaves the council before the end of their term, the EC may designat
 ### How can an EC member be removed?
 
 The EC may vote to remove an EC member. A removal motion passes if two-thirds of the entire EC votes in favor of removal. All EC members are expected to vote without recusal, including the member in question.
+
+(union-of-councils)=
+### The Union of Councils
+
+The Union of Councils (UoC) is the union of the membership of these groups:
+
+- All Subproject Councils
+- All Standing Committees
+- All Working Groups
+
+It makes up the voting body that [elects members of the Executive Council](#ec-electors).
 
 ## Bootstrapping the Executive Council
 
