@@ -3,14 +3,14 @@
 This is a directory of the present and past leadership of Project Jupyter.
 ## [Executive Council](executive_council.md)
 
-Alphabetical by first name, names are followed by GitHub usernames.
+Alphabetical by first name, names are followed by GitHub usernames and current elected terms.
 
-- Afshin Darian, [@afshin](https://github.com/afshin)
-- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
-- Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
-- Fernando Pérez, [@fperez](https://github.com/fperez)
-- Jason Grout, [@jasongrout](https://github.com/jasongrout)
-- Zach Sailer, [@Zsailer](https://github.com/zsailer)
+- Afshin Darian, [@afshin](https://github.com/afshin), 2023-2026
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7), 2023-2025
+- Chris Holdgraf, [@choldgraf](https://github.com/choldgraf), 2025-2026
+- Jason Grout, [@jasongrout](https://github.com/jasongrout), 2023-2025
+- Rick Wagner, [@rpwagner](https://github.com/rpwagner), 2025-2026
+- Zach Sailer, [@Zsailer](https://github.com/zsailer), 2024-2025
 
 ## [Software Steering Council](software_steering_council.md)
 
@@ -22,7 +22,7 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | Jupyter Foundations and Standards | Paul Ivanov | [@ivanov](https://github.com/ivanov) |
 | Jupyter Frontends | Jérémy Tuloup | [@jtpio](https://github.com/jtpio) |
 | Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
-| Jupyter Security | Rick Wagner | [@rpwagner](https://github.com/rpwagner) |
+| Jupyter Security |  |  |
 | Jupyter Server | Vidar Fauske | [@vidartf](https://github.com/vidartf) |
 | Jupyter Widgets | Sylvain Corlay | [@SylvainCorlay](https://github.com/SylvainCorlay) |
 | JupyterHub and Binder | Min Ragan-Kelley | [@minrk](https://github.com/minrk) |
@@ -34,7 +34,9 @@ Alphabetical by first name, names are followed by GitHub usernames.
 | -------------- | ------------ | --------------- |
 | Afshin Darian | Executive Council | [@afshin](https://github.com/afshin) |
 | Ana Ruvalcaba | Executive Council | [@Ruv7](https://github.com/Ruv7) |
+| Chris Holdgraf| Executive Council | [@choldgraf](https://github.com/choldgraf) |
 | Jason Grout | Executive Council | [@jasongrout](https://github.com/jasongrout) |
+| Rick Wagner | Executive Council | [@rpwagner](https://github.com/rpwagner) |
 | Zach Sailer | Executive Council | [@Zsailer](https://github.com/zsailer) |
 | Brian Granger | AWS | [@ellisonbg](https://github.com/ellisonbg) |
 | Ben Bastian | Google | [@sagelywizard](https://github.com/sagelywizard) |
@@ -73,12 +75,17 @@ Alphabetical by first name, names are followed by GitHub usernames.
 
 ## Former Project Jupyter Leadership
 
-### Committees, Councils, and Working Groups
+### Executive Council
 
-- Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez) - DEI Working Group (2022-2024)
-- Rollin Thomas, [@rcthomas](https://github.com/rcthomas) - Community Building Working Group (2022-2024)
-- Steven Silvester, [@blink1073](https://github.com/blink1073) - Executive Council (2022-2024)
-- Jason Weill, [@JasonWeill](https://github.com/JasonWeill) - DEI Working Group (2022-2024)
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg), 2023-2024
+- Fernando Pérez, [@fperez](https://github.com/fperez), 2023-2024
+- Steven Silvester, [@blink1073](https://github.com/blink1073), 2023
+
+### Standing Committees and Working Groups
+
+- Jason Weill, [@JasonWeill](https://github.com/JasonWeill), DEI Working Group (2022-2024)
+- Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez), DEI Working Group (2022-2024)
+- Rollin Thomas, [@rcthomas](https://github.com/rcthomas), Community Building Working Group (2022-2024)
 
 ### Benevolent Dictator for Life (retired December 2022)
 
