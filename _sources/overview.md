@@ -20,7 +20,7 @@ In addition to these three bodies, the following are other major parts of the Pr
 
 ### Software Subprojects
 
-[Software Subprojects](software_subprojects.md) in the Jupyter community are official areas of focus and effort within the Jupyter ecosystem. They often map to a single GitHub organization. Subprojects must abide by the [Jupyter Code of Conduct](conduct/code_of_conduct.md), Jupyter decision-making and governance processes (e.g. respecting the project's trademark policies), as well as commit to certain technical limitations and scope. Each subproject elects one person to serve on the Software Steering Council. For more details, see the [Software Subprojects document](software_subprojects.md).
+[Software Subprojects](software_subprojects.md) in the Jupyter community are official areas of focus and effort within the Jupyter ecosystem. They often map to a single GitHub organization. Subprojects must abide by the [Jupyter Code of Conduct](conduct/code_of_conduct.md), Jupyter decision-making and governance processes (e.g. respecting the project's trademark policies), as well as commit to certain technical limitations and scope. Each Subproject maintains a Subproject Council and elects one person from the Subproject Council to serve on the Software Steering Council. For more details, see the [Software Subprojects document](software_subprojects.md).
 
 ### Standing Committees and Working Groups
 
@@ -28,7 +28,13 @@ In addition to the software work on Jupyter that is coordinated through the Soft
 
 The primary difference between Standing Committees and Working Groups is that Standing Committees are intended to be permanent; they are only created and dissolved by a joint vote of the EC and SSC. In contrast, Working Groups can be created and dissolved by the EC acting alone.
 
-For more details, see the [Standing Committess and Working Groups document](standing_committees_and_working_groups.md).
+For more details, see the [Standing Committees and Working Groups document](standing_committees_and_working_groups.md).
+
+### Union of Councils
+
+The Union of Councils represents the combination of councils, sub-councils, and working groups in Jupyter.
+See [](#union-of-councils) for more information.
+
 
 ### Distinguished Contributors
 
