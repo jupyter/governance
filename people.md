@@ -85,6 +85,8 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 - Jason Weill, [@JasonWeill](https://github.com/JasonWeill), DEI Working Group (2022-2024)
 - Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez), DEI Working Group (2022-2024)
 - Rollin Thomas, [@rcthomas](https://github.com/rcthomas), Community Building Working Group (2022-2024)
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7), Jupyter Media Strategy Working Group (2022-2024)
+- Steven Silvester, [@blink1073](https://github.com/blink1073), Jupyter Media Strategy Working Group (2022-2024)
 
 ### Benevolent Dictator for Life (retired December 2022)
 
