@@ -68,7 +68,6 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 
 ### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
 
-- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Andrii Ieroshenko, [@andrii-i](https://github.com/andrii-i)
 - Jacob Diamond-Reivich, [@jake-stack](https://github.com/jake-stack)
 - Sylvain Corlay, [@SylvainCorlay](https://github.com/SylvainCorlay)
