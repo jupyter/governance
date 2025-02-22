@@ -2,6 +2,7 @@
 
 Project work that expands beyond software-related work is organized into chartered domains and is carried out by Standing Committees and Working Groups. A description of these bodies and their function can be found [here](standing_committees_and_working_groups.md). This document contains a list of the current Standing Committees and Working Groups with charter summaries and links to their GitHub repositories.
 
+(list-of-standing-committees)=
 ## Standing Committees
 
 ### Diversity, Equity, and Inclusion
@@ -20,6 +21,7 @@ Charter Summary: Ensure that the joint and conflicting interests of leaders acro
 
 Charter Summary: Advise the Executive Council (EC) with perspectives and connections that may reach beyond the active Jupyter community.
 
+(list-of-working-groups)=
 ## Working Groups
 
 ### Trademark and Branding

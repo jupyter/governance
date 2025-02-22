@@ -1,3 +1,4 @@
+(list-of-subprojects)=
 # List of Official Jupyter Subprojects
 
 Jupyter software development is carried out in [Software Subprojects](./software_subprojects). Within the Official Jupyter Subproject designation, there are two types of Subprojects: ones with a formal Subproject Council and SSC representation, and smaller, less active ones whose Subproject Council is the SSC itself. This document enumerates Subprojects of these two types.
