@@ -98,9 +98,9 @@ The EC may vote to remove an EC member. A removal motion passes if two-thirds of
 
 The Union of Councils (UoC) is the union of the membership of these groups:
 
-- All Subproject Councils
-- All Standing Committees
-- All Working Groups
+- All [Subproject Councils](#list-of-subprojects)
+- All [Standing Committees](#list-of-standing-committees)
+- All [Working Groups](#list-of-working-groups)
 
 It makes up the voting body that [elects members of the Executive Council](#ec-electors).
 

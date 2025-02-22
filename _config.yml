@@ -1,7 +1,13 @@
 title                       : Project Jupyter Governance
 exclude_patterns            : ["LICENSE.md", "README.md", ".github"]
 copyright: ""
+repository:
+  url: https://github.com/jupyter/governance
+  path_to_book: .
+  branch: main
+
 html:
+  use_edit_page_button: true
   extra_footer: |
     <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
       <a rel="license"
