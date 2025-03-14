@@ -40,9 +40,9 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 | Zach Sailer | Executive Council | [@Zsailer](https://github.com/zsailer) |
 | Brian Granger | AWS | [@ellisonbg](https://github.com/ellisonbg) |
 | Ben Bastian | Google | [@sagelywizard](https://github.com/sagelywizard) |
-| Rus Pandey | Apple |  |
+| Rus Pandey | Apple |  [@bigsur0](https://github.com/bigsur0) |
 | Stephanie Stattel | Bloomberg |  |
-| Yaniv Schahar | Meta |  |
+| Yaniv Schahar | Meta | [@YDawn](https://github.com/YDawn) |
 | Vik Gupta | Snowflake |  |
 
 ### Trademark Subcommittee
