@@ -43,7 +43,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 | Rus Pandey | Apple |  [@bigsur0](https://github.com/bigsur0) |
 | Stephanie Stattel | Bloomberg |  |
 | Yaniv Schahar | Meta | [@YDawn](https://github.com/YDawn) |
-| Vik Gupta | Snowflake |  |
+| Savannah Ostrowski | Snowflake | [@savannahostrowski](https://github.com/savannahostrowski) |
 
 ### Trademark Subcommittee
 
