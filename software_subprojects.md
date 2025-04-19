@@ -13,6 +13,8 @@ Unless the [Software Steering Council (SSC)](./software_steering_council.md) or 
 - Follow the Jupyter [trademark, branding, and intellectual property guidelines](./trademarks.md).
 - Conduct its activities in a manner that is open, transparent, and inclusive. This includes coordinating with the SSC and EC on mechanisms for information flow and updates to the broader community.
 - Maintain Subproject source code on GitHub in the [Project Jupyter GitHub enterprise organization](https://github.com/enterprises/jupyter).
+- Ensure that Python packages published on PyPI are under the [Jupyter PyPI
+  organisation](https://pypi.org/org/jupyter/).
 - Maintain a publicly visible Team Compass with a list of the Subproject Council members.
 
 ## Incubator Subprojects
