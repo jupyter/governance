@@ -20,7 +20,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 | Jupyter Accessibility | Gabriel Fouasnon | [@gabalafou](https://github.com/gabalafou) |
 | Jupyter Book | Angus Hollands | [@agoose77](https://github.com/agoose77) |
 | Jupyter Foundations and Standards | Paul Ivanov | [@ivanov](https://github.com/ivanov) |
-| Jupyter Frontends | Jérémy Tuloup | [@jtpio](https://github.com/jtpio) |
+| Jupyter Frontends | Michał Krassowski | [@krassowski](https://github.com/krassowski) |
 | Jupyter Kernels | Johan Mabille | [@johanmabille](https://github.com/johanmabille) |
 | Jupyter Security |  |  |
 | Jupyter Server | Vidar Fauske | [@vidartf](https://github.com/vidartf) |
