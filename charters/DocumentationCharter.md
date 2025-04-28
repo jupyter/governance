@@ -1,5 +1,9 @@
 # Documentation Working Group Charter
 
+## Team Compass
+
+[Documentation Working Group Team Compass](https://github.com/jupyter/docs-team-compass)
+
 ## Mission and Goals
 
 The Documentation Working Group ("Docs Working Group") serves as a support, helper, and advisory body to Jupyter Subprojects on all aspects of documentation. The core pillars of our mission:
