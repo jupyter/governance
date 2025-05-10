@@ -37,7 +37,6 @@ The following official Jupyter Subprojects are smaller and less active. As such 
 - nbgrader (https://github.com/jupyter/nbgrader)
 - nbviewer (https://github.com/jupyter/nbviewer)
 - ipyparallel (https://github.com/ipython/ipyparallel)
-- QtConsole (https://github.com/jupyter/qtconsole). Note that QtConsole today is most actively maintained by the Spyder team; as part of this reorganization we will discuss with them whether it's more appropriate to move the project to be fully under their organization.
 - All other repos not listed above and that don't clearly fall into one of the official Subproject GitHub organizations above.
 
 ## Notes about Official Jupyter Subprojects
