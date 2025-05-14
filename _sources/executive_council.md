@@ -3,8 +3,8 @@
 The current members of the Executive Council are listed in the [Leadership Directory](people).
 
 ```{card} Click here for the team compass. 🧭
-:link: https://executive-council-team-compass.readthedocs.io/en/latest/
-The Executive Council Team Compass has more information about operations, meetings, e-mail and contact info, etc.
+:link: https://ec.jupyter.org
+The Executive Council Team Compass is at `ec.jupyter.org`. It has more information about operations, meetings, e-mail and contact info, etc.
 This page focuses on the governance aspects of the Executive Council.
 ```
 
@@ -51,7 +51,7 @@ In these decisions, each body will [vote](decision_making.md) independently and 
 
 ### Team Compass
 
-The [Executive Council Team Compass](https://executive-council-team-compass.readthedocs.io/en/latest/) publishes information about the activities and operations of the EC, including how to contact the EC.
+The [Executive Council Team Compass](https://ec.jupyter.org) is at [`ec.jupyter.org`](https://ec.jupyter.org). It publishes information about the activities and operations of the EC, including how to contact the EC.
 
 ## Council membership and elections
 
