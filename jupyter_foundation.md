@@ -2,6 +2,11 @@
 
 The Jupyter Foundation is a directed fund of the Linux Foundation 501(c)(6) whose purpose is to raise, budget and spend funds in support of Project Jupyter and its mission. A draft of the Jupyter Foundation charter is linked [below](#jupyter-foundation-charter). A brief summary of relevant points from the charter is provided in this document.
 
+(jupyter-foundation-charter)=
+## Jupyter Foundation Charter
+
+The [Jupyter Foundation charter](https://cdn.platform.linuxfoundation.org/agreements/jupyter-foundation.pdf) defines the Jupyter Foundation's structure and relationship to its members.
+
 ## Jupyter Foundation Governing Board
 
 The Jupyter Foundation Governing Board controls the resources of the Jupyter Foundation and works to build a healthy collaboration between the Jupyter community, Jupyter leadership, and members of the Jupyter Foundation, including for-profit organizations. The current members of the Jupyter Foundation Governing Board are listed in the [Leadership Directory](people.md#jupyter-foundation-governing-board).
@@ -27,8 +32,4 @@ The Jupyter Foundation Governing Board consists of:
 
 ## Decision making
 
-The Jupyter Foundation Governing Board follows the decision-making policies in the Jupyter Foundation charter.
-
-## Jupyter Foundation Charter
-
-A draft (as of July 2, 2024) of the Jupyter Foundation participation agreement, which establishes the relationship with foundation members, is [here](jupyter_foundation_participation_agreement_draft-20240702.pdf). The Jupyter Foundation charter is included as Exhibit B of the participation agreement.
+The Jupyter Foundation Governing Board follows the decision-making policies in the [Jupyter Foundation charter](#jupyter-foundation-charter).
