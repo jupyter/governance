@@ -65,6 +65,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
+- Lahari Chowtoori [@LahariChowtoori](https://github.com/LahariChowtoori)
 
 ### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
 
