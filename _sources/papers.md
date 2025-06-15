@@ -165,7 +165,7 @@ Once the deadline for authors to complete their tasks has passed, the
 Coordinator should make sure authors are listed in alphabetical order. The
 Coordinator can then submit the paper.
 
-### Process for traditional academic papers
+## Process for traditional academic papers
 
 Papers submitted to other (non-JOSS) journals, will usually be longer and take
 a more significant amount of time to author. They will also usually be authored
