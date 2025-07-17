@@ -39,7 +39,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 | Rick Wagner | Executive Council | [@rpwagner](https://github.com/rpwagner) |
 | Zach Sailer | Executive Council | [@Zsailer](https://github.com/zsailer) |
 | Brian Granger | AWS | [@ellisonbg](https://github.com/ellisonbg) |
-| Ben Bastian | Google | [@sagelywizard](https://github.com/sagelywizard) |
+| Eric Johnson | Google | [@metrizable](https://github.com/metrizable) |
 | Rus Pandey | Apple |  [@bigsur0](https://github.com/bigsur0) |
 | Stephanie Stattel | Bloomberg |  |
 | Yaniv Schahar | Meta | [@YDawn](https://github.com/YDawn) |
