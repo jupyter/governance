@@ -44,6 +44,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 | Stephanie Stattel | Bloomberg |  |
 | Yaniv Schahar | Meta | [@YDawn](https://github.com/YDawn) |
 | Savannah Ostrowski | Snowflake | [@savannahostrowski](https://github.com/savannahostrowski) |
+| Michał Krassowski | General Members | [@krassowski](https://github.com/krassowski) |
 
 ### Trademark Subcommittee
 
