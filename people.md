@@ -67,6 +67,8 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
 - Lahari Chowtoori [@LahariChowtoori](https://github.com/LahariChowtoori)
+- Rosio Reyes, [@RRosio](https://github.com/rrosio)
+- Matt Fisher, [@mfisher87](https://github.com/mfisher87/)
 
 ### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
 
