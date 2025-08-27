@@ -25,7 +25,6 @@ There are two ways that new Subprojects are created:
     * e.g., when contributors to a third-party project submit an incorporation
       proposal and receive approval from the Steering Council
 
-
 Note that projects in [github.com/jupyter-incubator](https://github.com/jupyter-incubator)
 are **not** considered officially supported and maintained Subprojects until they
 meet the criteria below and go through the incorporation process detailed later in
