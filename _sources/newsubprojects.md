@@ -3,6 +3,14 @@
 This document describes the process by which new Subprojects are created in or
 moved to these organizations from other locations. For a list of current sub-projects in the Jupyter Community, see [the list of sub-projects](list_of_subprojects.md).
 
+:::{attention}
+The process for incubation under the [`jupyter-incubator` organization](https://github.com/jupyter-incubator) is outdated.
+It may contain links to archived repositories and wording that refers to an old version of Jupyter's governance model.
+We aim to review this language and update them with Jupyter's new operating structure.
+
+For guidance in the interim, open an issue on the the Jupyter [Software Steering Council team compass](https://github.com/jupyter/software-steering-council-team-compass/) with any questions or proposals.
+:::
+
 There are two ways that new Subprojects are created:
 
 1. [Direct Subproject creation](#direct-subproject-creation)
