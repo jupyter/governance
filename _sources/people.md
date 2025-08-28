@@ -57,13 +57,11 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 
 ### [DEI Standing Committee](charters/DeiCharter.md)
 
-- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
 - Rosio Reyes, [@RRosio](https://github.com/rrosio)
 
 ### [Jupyter Community Building Working Group](communitybuildingworkinggroup.md)
 
-- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)
 - Martha Cryan, [@marthacryan](https://github.com/marthacryan)
 - Lahari Chowtoori [@LahariChowtoori](https://github.com/LahariChowtoori)
@@ -89,7 +87,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 - Jason Weill, [@JasonWeill](https://github.com/JasonWeill), DEI Working Group (2022-2024)
 - Lucy Jimenez, [@LucyJimenez](https://github.com/LucyJimenez), DEI Working Group (2022-2024)
 - Rollin Thomas, [@rcthomas](https://github.com/rcthomas), Community Building Working Group (2022-2024)
-- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7), Jupyter Media Strategy Working Group (2022-2024)
+- Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7), Jupyter Media Strategy Working Group (2022-2024), Community Building Working Group (2018-2025), DEI Working Group (2022-2025)
 - Steven Silvester, [@blink1073](https://github.com/blink1073), Jupyter Media Strategy Working Group (2022-2024)
 
 ### Benevolent Dictator for Life (retired December 2022)
