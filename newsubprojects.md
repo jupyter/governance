@@ -20,9 +20,9 @@ There are two ways that new Subprojects are created:
     * e.g., when contributors to a project in
       [github.com/jupyter-incubator](https://github.com/jupyter-incubator)
       submit a proposal for incorporation into one of the official Jupyter
-      organizations and receive approval from the Steering Council
+      organizations and receive approval from the Software Steering Council
     * e.g., when contributors to a third-party project submit an incorporation
-      proposal and receive approval from the Steering Council
+      proposal and receive approval from the Software Steering Council
 
 Note that projects in [github.com/jupyter-incubator](https://github.com/jupyter-incubator)
 are **not** considered officially supported and maintained Subprojects until they
@@ -38,33 +38,33 @@ regardless of who is developing the Subproject. Subprojects should:
 * Have an active developer community that offers a sustainable model for future development.
 * Have an active user community.
 * Use solid software engineering with documentation and tests hosted with appropriate
-  technologies ([Read The Docs](https://readthedocs.org/) and [Travis](https://travis-ci.org/)
+  technologies ([Read The Docs](https://readthedocs.org/) and [GitHub Actions](https://github.com/features/actions)
   are examples of technologies that can be used).
 * Demonstrate continued growth and development.
 * Integrate well with other official Subprojects.
 * Be developed according to the Jupyter governance and contribution model that is documented
   [here](https://github.com/jupyter/governance).
 * Have a well-defined scope.
-* Be packaged using appropriate technologies such as pip, conda, npm, bower, docker, etc.
+* Be packaged using appropriate technologies such as pip, conda, npm, yarn, docker, etc.
 
 As a general guideline, we support improving existing Subprojects over
 incorporating competing Subprojects in the Project.
 
 The most important question in evaluating Subprojects for incorporation as
 official Subprojects is this: is there broad agreement in the community and
-Steering Council that we are going to develop and maintain the Subproject in an
-official capacity?
+Software Steering Council that we are going to develop and maintain
+the Subproject in an official capacity?
 
 The two paths for official Subproject creation are now detailed.
 
 
 ## Direct Subproject creation
 
-In some cases, Steering Council members can immediately create new official Subprojects in the main
+In some cases, Executive Council members can immediately create new official Subprojects in the main
 Jupyter organization. This option will be used when the new Subproject is clearly part of the
 existing scope, activities and development of Project Jupyter.
 
-The process for direct Subproject creation is minimal and informal: Steering Council members should be in consensus about the
+The process for direct Subproject creation is minimal and informal: Executive Council members should be in consensus about the
 Subproject's creation and notify the main Jupyter list of its creation.
 
 The process is completed when the Executive Council approves a PR that adds the new project to the [list of sub-projects](list_of_subprojects.md).[^example]
@@ -99,7 +99,7 @@ the following more formal proposal process will be used:
    with an enhancement proposal for including the Subproject in one of the main Jupyter organizations.
    The enhancement proposal should describe how the Subproject meets each of the above criteria.
 2. The proposal for incorporation will be discussed by the community using that pull request.
-3. A recommendation will be made by the consensus of the Steering Council (SC).
+3. A recommendation will be made by the consensus of the Software Steering Council (SSC).
 4. If the SC recommends incorporation, the subproject then submits a pull request that adds the new project to the [list of sub-projects](list_of_subprojects.md) in the [`jupyter/governance` repository](https://github.com/jupyter/governance).[^example]
 5. The Executive Council must then decide by merging or rejecting the pull request.
 
@@ -115,13 +115,13 @@ allowed to proceed and voices be heard.  But to avoid unnecessary delays waiting
   pronouncement could still be used to make an acceptance call if judged
   necessary).
 
-The possible recommendations of the Steering Council will be:
+The possible recommendations of the Software Steering Council will be:
 
 * Integration into an existing official Suproject.
 * Incorporation as a new official Subproject.
 * Further internal or external incubation (see below) with recommendations on steps the team can
   take to prepare for future incorporation.
-* Rejection. This option will be used if the Steering Council thinks the proposed Subproject is not
+* Rejection. This option will be used if the Software Steering Council thinks the proposed Subproject is not
   progressing or will never be appropriate for incorporation. If a rejected Subproject has been
   incubating under the [jupyter-incubator](https://github.com/jupyter-incubator) GitHub
   organization, its repository will be removed from that organization after a transition period.
@@ -159,8 +159,8 @@ supported and maintained Subprojects in the main GitHub organizations and new ef
 emerging and being developed for future inclusion.
 
 If there are questions about whether incubation is appropriate for a given Subproject, interested
-parties should simply start a discussion on the main Jupyter list to get community and Steering
-Council feedback.
+parties should simply start a discussion on the main Jupyter list to get community and Software
+Steering Council feedback.
 
 
 ### Incubation in the [jupyter-incubator](https://github.com/jupyter-incubator) organization
@@ -173,7 +173,7 @@ The goals of the incubation in the [jupyter-incubator](https://github.com/jupyte
 
 * Contributors can quickly and easily get their code exposed to the Jupyter community while
   complying with individual and organizational contribution restrictions.
-* Contributors can work with the community and Steering Council and gather feedback early and often
+* Contributors can work with the community and Software Steering Council and gather feedback early and often
   that will help them develop and refine a clear and concise integration proposal.
 * Allow the community to distinguish between officially supported Subprojects and experimental
   Subprojects pursued by members of the community.
@@ -206,12 +206,12 @@ lightweight and quick:
    [jupyter-incubator/proposals](https://github.com/jupyter-incubator/proposals) repository.
 2. Proposers must announce their intent to the community with a post to the main Jupyter
    mailing list.
-3. The proposed Subproject must have an Advocate who is an active Steering Council member. The role
-   of the Advocate is to introduce the Subproject team to the Jupyter community and help them through
+3. The proposed Subproject must have an Advocate who is an active member of the [[Union of Councils](#union-of-councils).
+   The role of the Advocate is to introduce the Subproject team to the Jupyter community and help them through
    incubation processes. While the Advocate may be involved in the actual development and design
    of the Subproject, that is not required.
 4. The proposal for incubation will be discussed by the community and approved or rejected by
-   the consensus of the Steering Council.
+   the consensus of the Software Steering Council.
 5. If approved, the proposal pull request will be merged. If rejected, it will be closed.
 
 ### Incubation period
@@ -225,7 +225,7 @@ taken:
    Advocate.
 4. The standard Jupyter [LICENSE](https://raw.githubusercontent.com/jupyter/governance/master/projectlicense.md) file that
    is maintained in this governance repository will be added to the new repository.
-4. A member of the Steering Council will announce the newly incubated Subproject on the
+4. A member of the Software Steering Council will announce the newly incubated Subproject on the
    main Jupyter list.
 
 The goal of the incubation period is to demonstrate that the Subproject is going to develop an
