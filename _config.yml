@@ -29,6 +29,6 @@ html:
 
 sphinx:
   local_extensions:
-    plausible: _plausible_setup.py
+    _plausible: .
   config:
     html_show_copyright: false
