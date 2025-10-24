@@ -28,5 +28,7 @@ html:
     </p>
 
 sphinx:
+  local_extensions:
+    plausible: _plausible_setup.py
   config:
     html_show_copyright: false
