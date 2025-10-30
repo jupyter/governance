@@ -67,6 +67,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 - Lahari Chowtoori [@LahariChowtoori](https://github.com/LahariChowtoori)
 - Rosio Reyes, [@RRosio](https://github.com/rrosio)
 - Matt Fisher, [@mfisher87](https://github.com/mfisher87/)
+- April Johnson, [@aprilmj](https://github.com/aprilmj)
 
 ### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
 
