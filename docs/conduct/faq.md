@@ -42,7 +42,7 @@ that defend the values highlighted in this document and help others understand
 when their actions go against these values (by engaging them and directing them
 to this document if necessary). If that doesn't work, or if you need more help,
 you can contact conduct@jupyter.org. For more details please see our [Reporting
-Guidelines](reporting_online).
+Guidelines](#reporting_online).
 
 ## What about events funded by Project Jupyter?
 

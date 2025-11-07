@@ -1,4 +1,5 @@
 version: 1
+extends: _site/nav.yml
 project:
   title: Project Jupyter Governance
   copyright: ""
@@ -62,9 +63,9 @@ project:
 
 site:
   template: book-theme
-  title: Project Jupyter Governance
   options:
-    logo_text: Project Jupyter
+    logo_text: Jupyter Governance
+    folders: true
   actions:
     - title: Edit on GitHub
       url: https://github.com/jupyter/governance/edit/main/docs
