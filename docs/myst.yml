@@ -50,6 +50,16 @@ project:
         - file: trademarks.md
         - file: projectlicense.md
 
+    # Charters Section
+    - title: Charters
+      children:
+        - file: charters/MediaStrategyCharter.md
+          title: Media Strategy Working Group
+        - file: charters/DocumentationCharter.md
+          title: Documentation Working Group
+        - file: charters/DeiCharter.md
+          title: Diversity, Equity & Inclusion Committee
+
     # Previous Governance Section
     - title: Archive
       children:
