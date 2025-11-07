@@ -36,14 +36,26 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    # Build the book
-    - name: Build the book
+    # Build the site
+    - name: Build the MyST site
+      env:
+        BASE_URL: /${{ github.event.repository.name }}
       run: |
-        jupyter-book build .
+        cd docs && myst build --html
+
+    # Generate redirects from old URLs to new URLs
+    - name: Generate redirects
+      run: |
+        python scripts/generate_redirects.py "https://jupyter.org/governance/" "docs/_build/redirects"
+
+    # Copy redirects into the build directory
+    - name: Merge redirects into build
+      run: |
+        cp -r docs/_build/redirects/* docs/_build/html/
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.5.9
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_build/html
+        publish_dir: ./docs/_build/html

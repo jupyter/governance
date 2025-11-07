@@ -9,19 +9,24 @@ See [the governance introduction](intro.md) for license information.
 ## Infrastructure for this repository
 
 The content in this repository is hosted online with `github-pages`, and the HTML
-files are built with [jupyter-book](https://jupyterbook.org). To build and preview
-these documents locally, install the latest version of Jupyter Book with:
+files are built with [MyST](https://mystmd.org). To build and preview
+these documents locally, you can use [nox](https://nox.thea.codes):
 
-```
-pip install -U jupyter-book
-```
+```bash
+# Build the documentation
+nox -s docs
 
-and build the book with:
-
-```
-cd path/to/this/repo
-jupyter-book build .
+# Or serve with live reload
+nox -s docs-live
 ```
 
-The resulting website will be in `_build/html`, which you can explore by opening
+Alternatively, install MyST directly and build manually:
+
+```bash
+pip install -r requirements.txt
+cd docs
+myst build --html
+```
+
+The resulting website will be in `docs/_build/html`, which you can explore by opening
 any of the `.html` files that are created.

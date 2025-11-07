@@ -30,13 +30,13 @@ jobs:
         pip install -r requirements.txt
 
 
-    # Build the book
-    - name: Build the book
+    # Build the site
+    - name: Build the MyST site
       run: |
-        jupyter-book build .
+        cd docs && myst build --html
 
     # Upload artifact
     - uses: actions/upload-artifact@v4
       with:
         name: html_docs
-        path: ./_build/html
+        path: ./docs/_build/html

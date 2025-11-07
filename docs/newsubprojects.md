@@ -58,6 +58,7 @@ official capacity?
 The two paths for official Subproject creation are now detailed.
 
 
+(direct-subproject-creation)=
 ## Direct Subproject creation
 
 In some cases, Steering Council members can immediately create new official Subprojects in the main
@@ -72,6 +73,7 @@ The process is completed when the Executive Council approves a PR that adds the 
 [^example]: [Here's an example PR](https://github.com/jupyter/governance/pull/229) from the jupyter-book incorporation process.
 
 
+(incorporation-of-an-existing-external-subproject)=
 ## Incorporation of an existing external Subproject
 
 In other cases, Subprojects proposed for incorporation will have existed and been developed as
