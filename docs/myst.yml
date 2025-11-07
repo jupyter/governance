@@ -1,0 +1,70 @@
+version: 1
+project:
+  title: Project Jupyter Governance
+  copyright: ""
+  github: https://github.com/jupyter/governance
+  license: CC0-1.0
+  exclude:
+    - LICENSE.md
+    - README.md
+    - .github
+
+  toc:
+    - file: intro.md
+      title: Introduction
+
+    # Governance Section
+    - title: Governance
+      children:
+        - file: overview.md
+        - file: executive_council.md
+        - file: software_steering_council.md
+        - file: jupyter_foundation.md
+        - file: software_subprojects.md
+          children:
+            - file: list_of_subprojects.md
+            - file: newsubprojects.md
+        - file: standing_committees_and_working_groups.md
+          children:
+            - file: list_of_standing_committees_and_working_groups.md
+            - file: communitybuildingworkinggroup.md
+        - file: distinguished_contributors.md
+        - file: people.md
+
+    # Code of Conduct Section
+    - title: Code of Conduct
+      children:
+        - file: conduct/code_of_conduct.md
+          children:
+            - file: conduct/enforcement.md
+            - file: conduct/reporting_online.md
+            - file: conduct/reporting_events.md
+        - file: conduct/faq.md
+
+    # Organizational Policy Section
+    - title: Organizational Policy
+      children:
+        - file: decision_making.md
+        - file: papers.md
+        - file: trademarks.md
+        - file: projectlicense.md
+
+    # Previous Governance Section
+    - title: Archive
+      children:
+        - file: linux-proposal.md
+          title: Linux Foundation Proposal
+        - file: archive/governance.md
+          title: Previous Governance
+          children:
+            - file: bootstrapping_subproject_councils.md
+            - file: bootstrapping_executive_council.md
+
+site:
+  template: book-theme
+  title: Project Jupyter Governance
+  options:
+    logo_text: Project Jupyter
+  actions:
+    - title: Edit on GitHub
+      url: https://github.com/jupyter/governance/edit/main/docs

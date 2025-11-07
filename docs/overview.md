@@ -33,7 +33,7 @@ For more details, see the [Standing Committees and Working Groups document](stan
 ### Union of Councils
 
 The Union of Councils represents the combination of councils, sub-councils, and working groups in Jupyter.
-See [](#union-of-councils) for more information.
+See [the Union of Councils section](#union-of-councils) for more information.
 
 
 ### Distinguished Contributors

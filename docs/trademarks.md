@@ -75,6 +75,7 @@ We do not want these trademarks to be used:
 - in ways that confuse the community as to whether the software created by Project Jupyter is open source and free to use
 
 
+(uses-that-never-require-approval)=
 ## Uses that Never Require Approval
 
 All trademarks are subject to "nominative use rules" that allow use of the trademark
@@ -96,8 +97,7 @@ please contact the [Jupyter Trademarks Committee][].
 
 ### Use of the Jupyter trademark on merchandise
 
-Using the Jupyter trademarks *to refer to* Jupyter on your own product's merchandise is covered by the
-[Uses that Never Require Approval](#uses-that-never-require-approval) above.
+Using the Jupyter trademarks *to refer to* Jupyter on your own product's merchandise is covered by the [Uses that Never Require Approval](#uses-that-never-require-approval) above.
 
 We encourage use of the Jupyter trademarks (logo and word mark) on stickers, hats, mugs, t-shirts,
 and other physical merchandise to promote the project and the broader open-source ecosystem.
@@ -199,9 +199,9 @@ The following rules apply to the use of trademarks in each of these classes.
   Not allowed without prior written permission from Jupyter, except as described above.
 - Use of the word "Jupyter" in a domain name --
   Allowed in subdomains and url paths,
-  such as "jupyter.example.com" and "example.com/jupyter".
-  Allowed in base domains where the organization responsible for the service is clear in the name itself, e.g. "myorganization-jupyter.org" or "uoffoojupyterusers.edu".
-  Not allowed in base domains on its own or with only generic terms, such as "jupytercloud.com" or "hostedjupyter.horse".
+  such as "`jupyter.example.com`" and "`example.com/jupyter`".
+  Allowed in base domains where the organization responsible for the service is clear in the name itself, e.g. "`myorganization-jupyter.org`" or "`uoffoojupyterusers.edu`".
+  Not allowed in base domains on its own or with only generic terms, such as "`jupytercloud.com`" or "`hostedjupyter.horse`".
 
 
 ### Unaltered Logos

@@ -63,4 +63,4 @@ Times for SSC meetings is defined [on the Jupyter Community Calendar](https://ju
 
 ### E-mail list
 
-You can e-mail the Software Steering Council [at this Google Groups address](jupyter-software-steering-council@googlegroups.com).
+You can e-mail the Software Steering Council [at this Google Groups address](mailto:jupyter-software-steering-council@googlegroups.com).
