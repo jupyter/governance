@@ -48,11 +48,9 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 
 ### Trademark Subcommittee
 
-- Brian Granger, [@ellisonbg](https://github.com/ellisonbg)
 - Jason Grout, [@jasongrout](https://github.com/jasongrout)
 - Min Ragan-Kelley, [@minrk](https://github.com/minrk)
 - Paul Ivanov, [@ivanov](https://github.com/ivanov)
-- Tim George, [@tgeorgeux](https://github.com/tgeorgeux)
 - William Stein, [@williamstein](https://github.com/williamstein)
 
 ### [DEI Standing Committee](charters/DeiCharter.md)
@@ -90,6 +88,8 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 - Rollin Thomas, [@rcthomas](https://github.com/rcthomas), Community Building Working Group (2022-2024)
 - Ana Ruvalcaba, [@Ruv7](https://github.com/Ruv7), Jupyter Media Strategy Working Group (2022-2024), Community Building Working Group (2018-2025), DEI Working Group (2022-2025)
 - Steven Silvester, [@blink1073](https://github.com/blink1073), Jupyter Media Strategy Working Group (2022-2024)
+- Brian Granger, [@ellisonbg](https://github.com/ellisonbg), Trademark Subcommittee (2017-2025)
+- Tim George, [@tgeorgeux](https://github.com/tgeorgeux), Trademark Subcommittee (2017-2025)
 
 ### Benevolent Dictator for Life (retired December 2022)
 
