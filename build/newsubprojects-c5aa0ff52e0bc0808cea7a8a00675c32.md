@@ -139,10 +139,10 @@ steps will be taken:
    read/write permissions on the Subproject repository.
 3. The team will send an email to the main Jupyter list with an announcement about the new
    Subproject.
-4. The standard [Project Jupyter LICENSE](https://raw.githubusercontent.com/jupyter/governance/master/projectlicense.md) file that
+4. The standard [Project Jupyter LICENSE](https://raw.githubusercontent.com/jupyter/governance/main/docs/projectlicense.md) file that
    is maintained in this governance repository will be added to the repository.
 5. Copyright notices in individual files should be updated to the standard form described
-   in our [Project Jupyter License](https://raw.githubusercontent.com/jupyter/governance/master/projectlicense.md).
+   in our [Project Jupyter License](https://raw.githubusercontent.com/jupyter/governance/main/docs/projectlicense.md).
 
 
 ## Incubation of Subprojects
@@ -225,7 +225,7 @@ taken:
 1. A GitHub repository will be created under the jupyter-incubator organization
 2. A GitHub team will be created with read/write access to the repository, including the
    Advocate.
-4. The standard Jupyter [LICENSE](https://raw.githubusercontent.com/jupyter/governance/master/projectlicense.md) file that
+4. The standard Jupyter [LICENSE](https://raw.githubusercontent.com/jupyter/governance/main/docs/projectlicense.md) file that
    is maintained in this governance repository will be added to the new repository.
 4. A member of the Steering Council will announce the newly incubated Subproject on the
    main Jupyter list.

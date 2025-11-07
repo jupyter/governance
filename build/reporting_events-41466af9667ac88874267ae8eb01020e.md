@@ -1,3 +1,4 @@
+(reporting_events)=
 # Reporting Guide - Jupyter Events
 
 You can make a personal report by:
