@@ -6,3 +6,4 @@ site:
   options:
     logo: https://raw.githubusercontent.com/jupyter/governance/main/docs/images/jupyter-logo-light.png
     logo_dark: https://raw.githubusercontent.com/jupyter/governance/main/docs/images/jupyter-logo-dark.png
+    folders: true
