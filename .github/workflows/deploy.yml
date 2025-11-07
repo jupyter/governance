@@ -36,6 +36,10 @@ jobs:
       run: |
         pip install -r requirements.txt
 
+    # Install uv for running the redirect script
+    - name: Install uv
+      uses: astral-sh/setup-uv@v4
+
     # Build the site
     - name: Build the MyST site
       env:
@@ -43,15 +47,10 @@ jobs:
       run: |
         cd docs && myst build --html
 
-    # Generate redirects from old URLs to new URLs
+    # Generate redirects from old URLs to new URLs directly into the build directory
     - name: Generate redirects
       run: |
-        python scripts/generate_redirects.py "https://jupyter.org/governance/" "docs/_build/redirects"
-
-    # Copy redirects into the build directory
-    - name: Merge redirects into build
-      run: |
-        cp -r docs/_build/redirects/* docs/_build/html/
+        uv run scripts/generate_redirects.py --base-url https://jupyter.org/governance/ --output-dir docs/_build/html
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
