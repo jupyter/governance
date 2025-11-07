@@ -1,6 +1,8 @@
+# Configuration for the top navigation.
+# It is a separate file and structured in case we want to re-use it across other Jupyter org-wide docs.
+# For example, that's why it is loading images directly from githubusercontent
 version: 1
 site:
-  title: Jupyter Governance
   options:
     logo: https://raw.githubusercontent.com/jupyter/governance/main/docs/images/jupyter-logo-light.png
     logo_dark: https://raw.githubusercontent.com/jupyter/governance/main/docs/images/jupyter-logo-dark.png
