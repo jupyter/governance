@@ -133,8 +133,8 @@ You can file a report by emailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org) or by filling out
 [this form](https://forms.gle/gRMQc9G4hejqoqgC8). For more details or
 information on reporting in-person at an event, please see our Reporting
-Guidelines (for [online](reporting_online) and
-[in-person](reporting_events) contexts).
+Guidelines (for [online](#reporting_online) and
+[in-person](#reporting_events) contexts).
 
 The online form gives you the option to keep your report anonymous or request
 that we follow up with you directly. While we cannot follow up on an anonymous
