@@ -7,3 +7,10 @@ site:
     logo: https://raw.githubusercontent.com/jupyter/governance/main/docs/images/jupyter-logo-light.png
     logo_dark: https://raw.githubusercontent.com/jupyter/governance/main/docs/images/jupyter-logo-dark.png
     folders: true
+  nav:
+    - title: Jupyter.org
+      url: https://jupyter.org
+    - title: Jupyter Docs
+      url: https://docs.jupyter.org
+    - title: Governance
+      url: https://jupyter.org/governance
