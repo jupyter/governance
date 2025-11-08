@@ -14,6 +14,29 @@ that map old URLs (e.g., overview.html) to new MyST URLs (e.g., /overview/).
 This is useful when migrating from Jupyter Book v1 to MyST/Jupyter Book v2,
 as the URL structure changes from .html files to directory-based URLs.
 
+Index File Detection
+--------------------
+The first file in your table of contents is automatically detected as the
+index/landing page and will redirect to the base URL. For example:
+- If your first TOC entry is "intro.md" → redirects "intro.html" to base URL
+- If your first TOC entry is "index.md" → redirects "index.html" to base URL
+- Works with any filename as the first TOC entry
+
+MyST URL Sanitization
+---------------------
+MyST applies the following transformations to file paths when generating URLs:
+1. Lowercase: Converts entire path to lowercase
+2. Spaces and underscores: Replaced with hyphens
+3. Multiple hyphens: Collapsed to a single hyphen
+4. Leading/trailing hyphens: Stripped from each path component
+
+Examples:
+- "Test With Spaces.md" → "test-with-spaces"
+- "TestMixedCase.md" → "testmixedcase"
+- "test_with_underscores.md" → "test-with-underscores"
+- "_LeadingUnderscore.md" → "leadingunderscore"
+- "Multiple___Special.md" → "multiple-special"
+
 Usage:
     # With uv (recommended):
     uv run scripts/generate_redirects.py --base-url https://example.com/ --output-dir _build/redirects
@@ -31,7 +54,7 @@ Examples:
     # Specify custom output directory:
     uv run scripts/generate_redirects.py --base-url https://example.com/ --output-dir public/redirects
 """
-import os
+import re
 import sys
 from pathlib import Path
 from typing import List, Dict, Any
@@ -56,6 +79,53 @@ def flatten_toc(toc: List[Dict[str, Any]]) -> List[str]:
         if 'children' in item:
             files.extend(flatten_toc(item['children']))
     return files
+
+
+def sanitize_for_myst_url(path: str) -> str:
+    """Sanitize a file path to match MyST's URL slug format.
+
+    MyST applies these transformations when converting file paths to URLs:
+    1. Lowercase the entire path
+    2. Replace spaces and underscores with hyphens
+    3. Collapse multiple consecutive hyphens into a single hyphen
+    4. Strip leading and trailing hyphens from each path component
+
+    Args:
+        path: The file path to sanitize (with or without extension)
+
+    Returns:
+        The sanitized URL slug matching MyST's behavior
+
+    Examples:
+        >>> sanitize_for_myst_url("Test With Spaces")
+        'test-with-spaces'
+        >>> sanitize_for_myst_url("TestMixedCase")
+        'testmixedcase'
+        >>> sanitize_for_myst_url("test_with_underscores")
+        'test-with-underscores'
+        >>> sanitize_for_myst_url("_LeadingUnderscore")
+        'leadingunderscore'
+        >>> sanitize_for_myst_url("Multiple___Special")
+        'multiple-special'
+        >>> sanitize_for_myst_url("charters/MediaStrategyCharter")
+        'charters/mediastrategycharter'
+    """
+    # Convert to lowercase
+    slug = path.lower()
+
+    # Replace spaces and underscores with hyphens
+    slug = slug.replace(' ', '-').replace('_', '-')
+
+    # Collapse multiple consecutive hyphens
+    slug = re.sub(r'-+', '-', slug)
+
+    # Strip leading/trailing hyphens from each path component
+    # This preserves directory structure while cleaning each component
+    parts = slug.split('/')
+    parts = [part.strip('-') for part in parts]
+    slug = '/'.join(parts)
+
+    return slug
 
 
 def create_redirect_html(old_slug: str, new_url: str, output_root: Path) -> Path:
@@ -123,6 +193,9 @@ def generate_redirects(
 ) -> int:
     """Generate all redirect files based on MyST configuration.
 
+    The first file in the TOC is treated as the index/landing page and redirects
+    to the base URL. All other files redirect to their sanitized URL paths.
+
     Args:
         base_url: The base URL of the site (e.g., 'https://example.com/')
         output_root: Directory where redirect files will be created
@@ -139,16 +212,35 @@ def generate_redirects(
     # Load file paths from MyST TOC
     file_paths = load_myst_toc(myst_config_path)
 
+    if not file_paths:
+        if verbose:
+            click.echo("⚠️  No files found in TOC", err=True)
+        return 0
+
+    # Auto-detect index file: the first file in the TOC is typically the landing page
+    # Remove extension and sanitize to get the slug that MyST will generate
+    index_file_path = file_paths[0]
+    index_slug = sanitize_for_myst_url(
+        index_file_path.replace('.md', '').replace('.ipynb', '')
+    )
+
+    if verbose:
+        click.echo(f"ℹ️  Detected index file: {index_file_path} (slug: {index_slug})")
+
     # Generate redirects for each file
     count = 0
     for file_path in file_paths:
         # Old URL: path/to/file.md -> path/to/file.html
+        # This preserves the original filename case from Jupyter Book v1
         old_slug = file_path.replace('.md', '.html').replace('.ipynb', '.html')
 
         # New URL: path/to/file.md -> /path/to/file/
-        # Special case: intro.md becomes the root index
-        new_slug = file_path.replace('.md', '').replace('.ipynb', '')
-        new_url = base_url if new_slug == 'intro' else base_url + new_slug + '/'
+        # Remove file extension first, then apply MyST's sanitization rules
+        path_without_ext = file_path.replace('.md', '').replace('.ipynb', '')
+        new_slug = sanitize_for_myst_url(path_without_ext)
+
+        # The first file in the TOC becomes the root index
+        new_url = base_url if new_slug == index_slug else base_url + new_slug + '/'
 
         create_redirect_html(old_slug, new_url, output_root)
         if verbose:
