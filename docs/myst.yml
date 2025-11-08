@@ -14,59 +14,72 @@ project:
     - file: intro.md
       title: Introduction
 
-    # Governance Section
-    - title: Governance
+    # Quick access to who/what
+    - title: Directory
+      children:
+        - file: people.md
+          title: Leadership Directory
+        - file: list_of_subprojects.md
+          title: Software Subprojects
+        - file: list_of_standing_committees_and_working_groups.md
+          title: Committees & Working Groups
+
+    # Understanding the system
+    - title: How Governance Works
       children:
         - file: overview.md
-        - file: executive_council.md
-        - file: software_steering_council.md
-        - file: jupyter_foundation.md
-        - file: software_subprojects.md
-          children:
-            - file: list_of_subprojects.md
-            - file: newsubprojects.md
-        - file: standing_committees_and_working_groups.md
-          children:
-            - file: list_of_standing_committees_and_working_groups.md
-            - file: communitybuildingworkinggroup.md
-        - file: distinguished_contributors.md
-        - file: people.md
+          title: Governance Overview
+        - file: decision_making.md
+          title: Decision Making
 
-    # Code of Conduct Section
-    - title: Code of Conduct
+    # Detailed information about each body
+    - title: Governance Bodies
+      children:
+        - title: Leadership Bodies
+          children:
+            - file: executive_council.md
+            - file: software_steering_council.md
+            - file: jupyter_foundation.md
+        - file: software_subprojects.md
+          title: Software Subprojects
+          children:
+            - file: newsubprojects.md
+              title: Creating New Subprojects
+        - file: standing_committees_and_working_groups.md
+          title: Committees & Working Groups
+          children:
+            - file: communitybuildingworkinggroup.md
+              title: Community Building
+            - file: charters/MediaStrategyCharter.md
+              title: Media Strategy
+            - file: charters/DocumentationCharter.md
+              title: Documentation
+            - file: charters/DeiCharter.md
+              title: Diversity, Equity & Inclusion
+        - file: distinguished_contributors.md
+
+    # Policies and community standards
+    - title: Policies & Guidelines
       children:
         - file: conduct/code_of_conduct.md
+          title: Code of Conduct
           children:
             - file: conduct/enforcement.md
             - file: conduct/reporting_online.md
             - file: conduct/reporting_events.md
-        - file: conduct/faq.md
-
-    # Organizational Policy Section
-    - title: Organizational Policy
-      children:
-        - file: decision_making.md
+            - file: conduct/faq.md
+              title: Code of Conduct FAQ
         - file: papers.md
         - file: trademarks.md
         - file: projectlicense.md
 
-    # Charters Section
-    - title: Charters
-      children:
-        - file: charters/MediaStrategyCharter.md
-          title: Media Strategy Working Group
-        - file: charters/DocumentationCharter.md
-          title: Documentation Working Group
-        - file: charters/DeiCharter.md
-          title: Diversity, Equity & Inclusion Committee
-
-    # Previous Governance Section
-    - title: Archive
+    # Historical context
+    - title: Governance History
       children:
         - file: linux-proposal.md
           title: Linux Foundation Proposal
         - file: archive/governance.md
-          title: Previous Governance
+          title: Previous Governance Model (pre-2022)
           children:
             - file: bootstrapping_subproject_councils.md
             - file: bootstrapping_executive_council.md
