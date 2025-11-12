@@ -1,1 +1,1 @@
-import{a}from"/governance/build/_shared/chunk-Q65KQHDQ.js";import"/governance/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/build/_shared/chunk-Q65KQHDQ.js";import"/build/_shared/chunk-2NH4LW52.js";export default a();
