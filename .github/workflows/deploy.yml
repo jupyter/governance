@@ -39,7 +39,7 @@ jobs:
     # Build the site
     - name: Build the MyST site
       run: |
-        uv pip install nox
+        uv pip install nox --system
         nox -s docs
         nox -s redirects
 
