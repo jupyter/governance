@@ -32,25 +32,16 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-
     # Install uv for running the redirect script
     - name: Install uv
       uses: astral-sh/setup-uv@v4
 
     # Build the site
     - name: Build the MyST site
-      env:
-        BASE_URL: /${{ github.event.repository.name }}
       run: |
-        cd docs && myst build --html
-
-    # Generate redirects from old URLs to new URLs directly into the build directory
-    - name: Generate redirects
-      run: |
-        uv run scripts/generate_redirects.py --base-url https://jupyter.org/governance/ --output-dir docs/_build/html
+        uv pip install nox --system
+        nox -s docs
+        nox -s redirects
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
