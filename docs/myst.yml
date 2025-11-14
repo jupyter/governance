@@ -35,11 +35,9 @@ project:
     # Detailed information about each body
     - title: Governance Bodies
       children:
-        - title: Leadership Bodies
-          children:
-            - file: executive_council.md
-            - file: software_steering_council.md
-            - file: jupyter_foundation.md
+        - file: executive_council.md
+        - file: software_steering_council.md
+        - file: jupyter_foundation.md
         - file: software_subprojects.md
           title: Software Subprojects
           children:
