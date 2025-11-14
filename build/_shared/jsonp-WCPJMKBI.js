@@ -1,1 +1,1 @@
-import{a}from"/build/_shared/chunk-UABI4LSR.js";import"/build/_shared/chunk-R66E6AZX.js";import"/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/governance/build/_shared/chunk-UABI4LSR.js";import"/governance/build/_shared/chunk-R66E6AZX.js";import"/governance/build/_shared/chunk-2NH4LW52.js";export default a();
