@@ -5,6 +5,8 @@ name: build
 on:
   pull_request:
     branches: '*'
+env:
+  BASE_URL: /${{ github.event.repository.name }}
 
 jobs:
   build:
