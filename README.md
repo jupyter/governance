@@ -30,3 +30,18 @@ myst build --html
 
 The resulting website will be in `docs/_build/html`, which you can explore by opening
 any of the `.html` files that are created.
+
+## Leadership Directory Data
+
+The Leadership Directory is generated from structured data in `docs/_data/leadership.yml`.
+This allows leadership information to be included in multiple documents (e.g., both the
+Leadership Directory page and individual governance body pages).
+
+To update leadership information:
+
+1. Edit `docs/_data/leadership.yml`
+2. Regenerate the include files:
+
+```bash
+nox -s generate-leadership
+```

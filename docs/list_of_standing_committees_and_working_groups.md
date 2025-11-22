@@ -9,6 +9,11 @@ Project work that expands beyond software-related work is organized into charter
 
 [Charter](charters/DeiCharter.md) Summary: Increase diversity, equity, and inclusion within all aspects of Project Jupyter, including the various councils/leadership, Subprojects, and the broader community.
 
+**Members:**
+
+```{include} _includes/generated/dei_standing_committee.md
+```
+
 ### Code of Conduct Incident Response
 
 Charter Summary: Own and manage the Jupyter Code of Conduct reporting and incident response processes and make determinations on individual incidents.
@@ -28,13 +33,28 @@ Charter Summary: Advise the Executive Council (EC) with perspectives and connect
 
 Charter Summary: License, protect, and promote the trademarks and visual and textual branding of Jupyter.
 
+**Members:**
+
+```{include} _includes/generated/trademark_subcommittee.md
+```
+
 ### Jupyter Community Building
 
 [Charter](communitybuildingworkinggroup.md) Summary: Grow, build, and connect the global Jupyter community of users and contributors.
 
+**Members:**
+
+```{include} _includes/generated/community_building_working_group.md
+```
+
 ### Jupyter Media Strategy
 
 [Charter](charters/MediaStrategyCharter.md) Summary: Ensure that communications in Jupyter official channels are strategic and benefit Project Jupyter.
+
+**Members:**
+
+```{include} _includes/generated/media_strategy_working_group.md
+```
 
 
 ### Jupyter Documentation

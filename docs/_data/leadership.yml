@@ -1,0 +1,227 @@
+# Leadership Directory Data
+# This file contains structured data about Project Jupyter leadership
+# Used to generate leadership listings in multiple documents
+
+# People registry - all unique people referenced by GitHub username
+# People without GitHub usernames are included with a null github field
+people:
+  afshin: Afshin Darian
+  agoose77: Angus Hollands
+  andrii-i: Andrii Ieroshenko
+  aprilmj: April Johnson
+  bigsur0: Rus Pandey
+  blink1073: Steven Silvester
+  carreau: Matthias Bussonnier
+  choldgraf: Chris Holdgraf
+  damianavila: Damian Avila
+  ellisonbg: Brian Granger
+  fperez: Fernando Pérez
+  gabalafou: Gabriel Fouasnon
+  ivanov: Paul Ivanov
+  jake-stack: Jacob Diamond-Reivich
+  jasongrout: Jason Grout
+  jdfreder: Jonathan Frederic
+  jhamrick: Jessica Hamrick
+  johanmabille: Johan Mabille
+  krassowski: Michał Krassowski
+  LahariChowtoori: Lahari Chowtoori
+  LucyJimenez: Lucy Jimenez
+  marthacryan: Martha Cryan
+  martinRenou: Martin Renou
+  metrizable: Eric Johnson
+  mfisher87: Matt Fisher
+  minrk: Min Ragan-Kelley
+  mpacer: M Pacer
+  parente: Peter Parente
+  rcthomas: Rollin Thomas
+  rgbkrk: Kyle Kelley
+  RRosio: Rosio Reyes
+  rpwagner: Rick Wagner
+  Ruv7: Ana Ruvalcaba
+  savannahostrowski: Savannah Ostrowski
+  stefanv: Stefan van der Walt
+  SylvainCorlay: Sylvain Corlay
+  takluyver: Thomas Kluyver
+  tgeorgeux: Tim George
+  vidartf: Vidar Fauske
+  williamstein: William Stein
+  willingc: Carol Willing
+  YDawn: Yaniv Schahar
+  Zsailer: Zach Sailer
+  JasonWeill: Jason Weill
+  dharmaquark: Stephanie Stattel
+
+executive_council:
+  - github: afshin
+    term: 2023-2026
+  - github: Ruv7
+    term: 2023-2025
+  - github: choldgraf
+    term: 2025-2026
+  - github: jasongrout
+    term: 2023-2025
+  - github: rpwagner
+    term: 2025-2026
+  - github: Zsailer
+    term: 2024-2025
+
+former_executive_council:
+  - github: ellisonbg
+    term: 2023-2024
+  - github: fperez
+    term: 2023-2024
+  - github: blink1073
+    term: 2023
+
+software_steering_council:
+  - subproject: DEI Standing Committee
+    github: marthacryan
+  - subproject: Jupyter Accessibility
+    github: gabalafou
+  - subproject: Jupyter Book
+    github: agoose77
+  - subproject: Jupyter Foundations and Standards
+    github: ivanov
+  - subproject: Jupyter Frontends
+    github: krassowski
+  - subproject: Jupyter Kernels
+    github: johanmabille
+  - subproject: Jupyter Security
+    github: null
+  - subproject: Jupyter Server
+    github: vidartf
+  - subproject: Jupyter Widgets
+    github: SylvainCorlay
+  - subproject: JupyterHub and Binder
+    github: minrk
+  - subproject: Voilà
+    github: martinRenou
+
+jupyter_foundation:
+  - github: afshin
+    organization: Executive Council
+  - github: Ruv7
+    organization: Executive Council
+  - github: choldgraf
+    organization: Executive Council
+  - github: jasongrout
+    organization: Executive Council
+  - github: rpwagner
+    organization: Executive Council
+  - github: Zsailer
+    organization: Executive Council
+  - github: ellisonbg
+    organization: AWS
+  - github: metrizable
+    organization: Google
+  - github: bigsur0
+    organization: Apple
+  - github: dharmaquark
+    organization: Bloomberg
+  - github: YDawn
+    organization: Meta
+  - github: savannahostrowski
+    organization: Snowflake
+  - github: krassowski
+    organization: General Members
+
+committees:
+  trademark_subcommittee:
+    - github: jasongrout
+    - github: minrk
+    - github: ivanov
+    - github: williamstein
+
+  dei_standing_committee:
+    - github: marthacryan
+    - github: RRosio
+
+  community_building_working_group:
+    - github: jasongrout
+    - github: marthacryan
+    - github: LahariChowtoori
+    - github: RRosio
+    - github: mfisher87
+    - github: aprilmj
+
+  media_strategy_working_group:
+    - github: andrii-i
+    - github: jake-stack
+    - github: SylvainCorlay
+
+former_committees:
+  dei_working_group:
+    - github: JasonWeill
+      term: 2022-2024
+    - github: LucyJimenez
+      term: 2022-2024
+    - github: Ruv7
+      term: 2022-2025
+  community_building_working_group:
+    - github: rcthomas
+      term: 2022-2024
+    - github: Ruv7
+      term: 2018-2025
+  media_strategy_working_group:
+    - github: Ruv7
+      term: 2022-2024
+    - github: blink1073
+      term: 2022-2024
+  trademark_subcommittee:
+    - github: carreau
+      term: 2017-2020
+    - github: ellisonbg
+      term: 2017-2025
+    - github: tgeorgeux
+      term: 2017-2025
+  numfocus_subcommittee:
+    - github: Ruv7
+      term: null
+    - github: fperez
+      term: null
+    - github: carreau
+      term: null
+    - github: stefanv
+      term: "non-council member"
+    - github: takluyver
+      term: null
+
+former_steering_council:
+  - github: afshin
+    term: 2018-2022
+  - github: Ruv7
+    term: 2018-2022
+  - github: ellisonbg
+    term: Founding member, 2014-2022
+  - github: willingc
+    term: 2017-2022
+  - github: damianavila
+    term: Founding member, 2014-2022
+  - github: fperez
+    term: Founding member, 2014-2022
+  - github: jasongrout
+    term: 2015-2022
+  - github: jhamrick
+    term: 2015-2022
+  - github: jdfreder
+    term: 2016-2018
+  - github: rgbkrk
+    term: Founding member, 2014-2022
+  - github: mpacer
+    term: 2018-2022
+  - github: carreau
+    term: Founding member, 2014-2022
+  - github: minrk
+    term: Founding member, 2014-2022
+  - github: ivanov
+    term: 2016-2022
+  - github: parente
+    term: 2016-2022
+  - github: blink1073
+    term: 2016-2022
+  - github: SylvainCorlay
+    term: 2016-2022
+  - github: takluyver
+    term: Founding member, 2014-2022
+
+

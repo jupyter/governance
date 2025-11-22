@@ -17,6 +17,17 @@ def docs(session):
 @nox.session(name="docs-live")
 def docs_live(session):
     """Build a live server with MyST documentation."""
+    from pathlib import Path
+
+    # Check if generated leadership files exist
+    generated_dir = Path("docs/_includes/generated")
+    if not generated_dir.exists() or not any(generated_dir.iterdir()):
+        session.log(
+            "⚠️  WARNING: Generated leadership files are missing!",
+            "   Run 'nox -s generate-leadership' first to generate them.",
+            "   The documentation build may fail without these files.",
+        )
+
     session.install("-r", "requirements.txt")
     session.chdir("docs")
     session.run("myst", "start")
@@ -35,3 +46,10 @@ def redirects(session):
         "docs/_build/html",
         external=True,
     )
+
+
+@nox.session(name="generate-leadership")
+def generate_leadership(session):
+    """Generate leadership include files from YAML data."""
+    session.install("-r", "requirements.txt")
+    session.run("python", "docs/_scripts/generate_leadership_sections.py")

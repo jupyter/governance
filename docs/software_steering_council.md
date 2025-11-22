@@ -1,6 +1,11 @@
 # Software Steering Council
 
-The current members of the Software Steering Council are listed in the [Leadership Directory](people).
+The current members of the Software Steering Council are:
+
+```{include} _includes/generated/software_steering_council.md
+```
+
+For a complete directory, see the [Leadership Directory](people.md).
 
 ## Purpose
 
