@@ -69,3 +69,6 @@ docs/_includes/generated/
 
 # macOS
 .DS_Store
+
+# Node
+node_modules/
