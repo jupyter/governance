@@ -10,12 +10,21 @@ This directory contains the source data for Jupyter governance and leadership.
 
 These files are used by the `{team-members}` MyST directive to render team membership lists.
 
+## Generated Markdown Tables
+
+When the documentation is built, the `{team-members}` directive automatically generates downloadable markdown tables for each team. These files are available in the built site at:
+
+jupyter.org/governance/build/team-tables/<team-id>.md`
+
+These markdown files can be downloaded and reused in other documentation projects.
+
 ## Editing
 
 To update team membership:
 
 1. Edit the appropriate YAML file (_data/contributors.yml, _data/organizations.yml, or _data/jupyter-teams.yml)
 2. Rebuild the documentation: `nox -s docs`
+3. New markdown tables will be automatically generated in `_build/html/build/team-tables/`
 
 ## Adding a new team member
 

@@ -22,7 +22,7 @@ const teamMembersDirective = {
     type: String,
     required: true,
   },
-  run(data) {
+  run(data, vfile, ctx) {
     const teamId = data.arg;
 
     // Load data files
@@ -33,10 +33,15 @@ const teamMembersDirective = {
     // Filter authors for this team
     const teamMembers = getTeamMembers(contributors.authors, teamId, teams);
 
-    // Generate table AST
-    const tableAst = generateTableAst(teamMembers, organizations.affiliations, teamId);
+    // Generate markdown table
+    const markdown = generateMarkdownTable(teamMembers, organizations.affiliations, teamId);
 
-    return [tableAst];
+    // Write markdown table to file
+    writeTableFile(teamId, markdown);
+
+    // Parse markdown to AST and return
+    const ast = ctx.parseMyst(markdown);
+    return ast.children;
   },
 };
 
@@ -117,37 +122,43 @@ function getUnionOfCouncilsMembers(authors, allTeams) {
 }
 
 /**
- * Generate table AST
+ * Write markdown table to file in build directory
  */
-function generateTableAst(members, affiliations, teamId) {
+function writeTableFile(teamId, markdown) {
+  try {
+    const outputDir = path.join(process.cwd(), '_build/site/public/team-tables');
+    const outputFile = path.join(outputDir, `${teamId}.md`);
+
+    // Create directory if it doesn't exist
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    // Write markdown file
+    fs.writeFileSync(outputFile, markdown, 'utf8');
+  } catch (error) {
+    // Log warning but don't crash the build
+    console.warn(`Warning: Failed to write team table file for ${teamId}:`, error.message);
+  }
+}
+
+/**
+ * Generate markdown table string
+ */
+function generateMarkdownTable(members, affiliations, teamId) {
   // Detect which columns we need
   const columns = detectColumns(members);
 
   // Generate header row
-  const headerRow = {
-    type: 'tableRow',
-    children: columns.map(col => ({
-      type: 'tableCell',
-      header: true,
-      align: 'left',
-      children: [{ type: 'text', value: col.header }],
-    })),
-  };
+  const headers = columns.map(col => col.header).join(' | ');
+  const separator = columns.map(() => '---').join(' | ');
 
   // Generate data rows
-  const dataRows = members.map(member => ({
-    type: 'tableRow',
-    children: columns.map(col => ({
-      type: 'tableCell',
-      align: 'left',
-      children: col.render(member, affiliations),
-    })),
-  }));
+  const rows = members.map(member => {
+    const cells = columns.map(col => col.render(member, affiliations));
+    return cells.join(' | ');
+  });
 
-  return {
-    type: 'table',
-    children: [headerRow, ...dataRows],
-  };
+  // Combine into markdown table
+  return `| ${headers} |\n| ${separator} |\n${rows.map(row => `| ${row} |`).join('\n')}`;
 }
 
 /**
@@ -157,7 +168,7 @@ function detectColumns(members) {
   const columns = [
     {
       header: 'Name',
-      render: (member) => [{ type: 'text', value: member.name }],
+      render: (member) => member.name,
     },
   ];
 
@@ -165,9 +176,7 @@ function detectColumns(members) {
   if (members.some(m => m.teamData.subproject)) {
     columns.push({
       header: 'Subproject',
-      render: (member) => [
-        { type: 'text', value: member.teamData.subproject || '' },
-      ],
+      render: (member) => member.teamData.subproject || '',
     });
   }
 
@@ -177,19 +186,15 @@ function detectColumns(members) {
       header: 'Organization',
       render: (member, affiliations) => {
         const org = member.teamData.organization;
-        if (!org) return [{ type: 'text', value: '' }];
+        if (!org) return '';
 
         // Check if this org has a URL in affiliations
         const affiliation = affiliations.find(a => a.name === org);
         if (affiliation && affiliation.url) {
-          return [{
-            type: 'link',
-            url: affiliation.url,
-            children: [{ type: 'text', value: org }],
-          }];
+          return `[${org}](${affiliation.url})`;
         }
 
-        return [{ type: 'text', value: org }];
+        return org;
       },
     });
   }
@@ -198,14 +203,10 @@ function detectColumns(members) {
   columns.push({
     header: 'GitHub',
     render: (member) => {
-      if (!member.github) return [{ type: 'text', value: '' }];
+      if (!member.github) return '';
 
       const username = member.github.replace('https://github.com/', '');
-      return [{
-        type: 'link',
-        url: member.github,
-        children: [{ type: 'inlineCode', value: `@${username}` }],
-      }];
+      return `[\`@${username}\`](${member.github})`;
     },
   });
 
@@ -213,9 +214,7 @@ function detectColumns(members) {
   if (members.some(m => m.teamData.term)) {
     columns.push({
       header: 'Term',
-      render: (member) => [
-        { type: 'text', value: member.teamData.term || '' },
-      ],
+      render: (member) => member.teamData.term || '',
     });
   }
 

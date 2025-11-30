@@ -64,9 +64,6 @@ target/
 # Docs
 _build
 
-# Generated leadership include files
-docs/_includes/generated/
-
 # macOS
 .DS_Store
 
