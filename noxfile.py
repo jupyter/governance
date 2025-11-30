@@ -11,6 +11,7 @@ def docs(session):
     """Build the MyST documentation."""
     session.install("-r", "requirements.txt")
     session.chdir("docs")
+    session.run("npm", "install", external=True)
     session.run("myst", "build", "--html")
 
 
@@ -19,6 +20,7 @@ def docs_live(session):
     """Build a live server with MyST documentation."""
     session.install("-r", "requirements.txt")
     session.chdir("docs")
+    session.run("npm", "install", external=True)
     session.run("myst", "start")
 
 
