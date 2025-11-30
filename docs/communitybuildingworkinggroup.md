@@ -76,5 +76,5 @@ body, subject to approval by the Executive Council.
 
 ### Current Members
 
-```{include} _includes/generated/community_building_working_group.md
+```{team-members} community_building_working_group
 ```
