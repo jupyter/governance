@@ -24,6 +24,11 @@ The DEI standing committee is responsible for:
 * The Jupyter Decision-Making Guide will be used to make official decisions. 
 * To ensure active participation, a member who is unable to join for more than two thirds of regularly scheduled weekly meetings in a 90 day period may be asked to step down from the committee.
 
+## Committee Members
+
+```{team-members} dei_standing_committee
+```
+
 ## Committee Reports
 * Reports will be submitted to the EC half-yearly on or before the 15th of July and January for the preceding calendar half.
 * Reports are encouraged to include metrics that the Committee establishes are relevant, informative and help in decision making, such as:

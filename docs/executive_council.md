@@ -1,6 +1,11 @@
 # Executive Council
 
-The current members of the Executive Council are listed in the [Leadership Directory](people).
+The current members of the Executive Council are:
+
+```{team-members} executive_council
+```
+
+For a complete directory including past members, see the [Leadership Directory](people.md).
 
 ```{card} Click here for the team compass. 🧭
 :link: https://ec.jupyter.org

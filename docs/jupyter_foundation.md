@@ -9,7 +9,12 @@ The [Jupyter Foundation charter](https://cdn.platform.linuxfoundation.org/agreem
 
 ## Jupyter Foundation Governing Board
 
-The Jupyter Foundation Governing Board controls the resources of the Jupyter Foundation and works to build a healthy collaboration between the Jupyter community, Jupyter leadership, and members of the Jupyter Foundation, including for-profit organizations. The current members of the Jupyter Foundation Governing Board are listed in the [Leadership Directory](people.md#jupyter-foundation-governing-board).
+The Jupyter Foundation Governing Board controls the resources of the Jupyter Foundation and works to build a healthy collaboration between the Jupyter community, Jupyter leadership, and members of the Jupyter Foundation, including for-profit organizations. The current members of the Jupyter Foundation Governing Board are:
+
+```{team-members} jupyter_foundation
+```
+
+For a complete directory, see the [Leadership Directory](people.md).
 
 ## Location of the Board's team compass
 

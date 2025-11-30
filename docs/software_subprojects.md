@@ -27,6 +27,11 @@ The [Jupyter Incubator GitHub organization](https://github.com/jupyter-incubator
 
 Official Jupyter Software Subprojects that have large and active enough teams to have a standalone, formal Subproject Council will elect and maintain a single representative to the SSC. The Subproject Council of each such Subproject is free to set term limits or rotate this responsibility as they see fit.
 
+**Current SSC Representatives:**
+
+```{team-members} software_steering_council
+```
+
 There exist two categories of Subprojects that, while operating under Jupyter’s governance, do not have a dedicated delegate to the SSC:
 
 - There are a number of smaller and/or low-activity Subprojects that don’t have enough active participants to have a standalone Subproject Council. The SSC itself will be the formal Subproject Council for these Subprojects when necessary, while otherwise allowing the team to manage its day-to-day activities.

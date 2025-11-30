@@ -73,3 +73,8 @@ community.
 Members of this working group will be elected by the existing working group
 following the Jupyter guidelines for forming and perpetuating a decision-making
 body, subject to approval by the Executive Council.
+
+### Current Members
+
+```{team-members} community_building_working_group
+```

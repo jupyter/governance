@@ -12,6 +12,11 @@ See the [Uses that Never Require Approval](#uses-that-never-require-approval)
 section for the details in most common cases,
 and feel free to get in touch with the [Jupyter Trademarks Committee][] if you have any further questions.
 
+## Trademark Subcommittee Members
+
+```{team-members} trademark_subcommittee
+```
+
 This document is based on the [Python Software Foundation trademark policy][PSF-trademarks],
 so if you are familiar with use of Python and its logo and trademarks,
 these guidelines are quite similar.
@@ -217,7 +222,6 @@ The following rules apply to the use of trademarks in each of these classes.
   as are all nominative uses as described in the section "Uses that Never Require Approval".
   Any other commercial uses require prior written permission from Project Jupyter.
   See the [brand guidelines][].
-
 
 ## Acknowledgments
 

@@ -30,3 +30,8 @@ myst build --html
 
 The resulting website will be in `docs/_build/html`, which you can explore by opening
 any of the `.html` files that are created.
+
+## Leadership Directory Data
+
+The Leadership Directory is generated from structured data in `docs/_data/`.
+See `docs/_data/README.md` for more information.

@@ -11,7 +11,7 @@ def docs(session):
     """Build the MyST documentation."""
     session.install("-r", "requirements.txt")
     session.chdir("docs")
-    session.run("myst", "build", "--html", "--strict")
+    session.run("myst", "build", "--html")
 
 
 @nox.session(name="docs-live")

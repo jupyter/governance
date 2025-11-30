@@ -1,0 +1,379 @@
+version: 1
+authors:
+  - id: afshin
+    name: Afshin Darian
+    github: https://github.com/afshin
+    teams:
+      - team: executive_council
+        term: "2023-2026"
+      - team: jupyter_foundation
+        organization: Executive Council
+      - team: former_steering_council
+        term: "2018-2022"
+
+  - id: agoose77
+    name: Angus Hollands
+    github: https://github.com/agoose77
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Book
+
+  - id: andrii-i
+    name: Andrii Ieroshenko
+    github: https://github.com/andrii-i
+    teams:
+      - team: media_strategy_working_group
+
+  - id: aprilmj
+    name: April Johnson
+    github: https://github.com/aprilmj
+    teams:
+      - team: community_building_working_group
+
+  - id: bigsur0
+    name: Rus Pandey
+    github: https://github.com/bigsur0
+    affiliations: [apple]
+    teams:
+      - team: jupyter_foundation
+        organization: Apple
+
+  - id: blink1073
+    name: Steven Silvester
+    github: https://github.com/blink1073
+    teams:
+      - team: former_executive_council
+        term: "2023"
+      - team: former_media_strategy_working_group
+        term: "2022-2024"
+      - team: former_steering_council
+        term: "2016-2022"
+
+  - id: carreau
+    name: Matthias Bussonnier
+    github: https://github.com/carreau
+    teams:
+      - team: former_trademark_subcommittee
+        term: "2017-2020"
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+      - team: former_numfocus_subcommittee
+
+  - id: choldgraf
+    name: Chris Holdgraf
+    github: https://github.com/choldgraf
+    teams:
+      - team: executive_council
+        term: "2025-2026"
+      - team: jupyter_foundation
+        organization: Executive Council
+
+  - id: damianavila
+    name: Damian Avila
+    github: https://github.com/damianavila
+    teams:
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+
+  - id: ellisonbg
+    name: Brian Granger
+    github: https://github.com/ellisonbg
+    affiliations: [aws]
+    teams:
+      - team: former_executive_council
+        term: "2023-2024"
+      - team: jupyter_foundation
+        organization: AWS
+      - team: former_trademark_subcommittee
+        term: "2017-2025"
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+
+  - id: fperez
+    name: Fernando Pérez
+    github: https://github.com/fperez
+    teams:
+      - team: former_executive_council
+        term: "2023-2024"
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+      - team: former_numfocus_subcommittee
+
+  - id: gabalafou
+    name: Gabriel Fouasnon
+    github: https://github.com/gabalafou
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Accessibility
+
+  - id: ivanov
+    name: Paul Ivanov
+    github: https://github.com/ivanov
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Foundations and Standards
+      - team: trademark_subcommittee
+      - team: former_steering_council
+        term: "2016-2022"
+
+  - id: jake-stack
+    name: Jacob Diamond-Reivich
+    github: https://github.com/jake-stack
+    teams:
+      - team: media_strategy_working_group
+
+  - id: jasongrout
+    name: Jason Grout
+    github: https://github.com/jasongrout
+    teams:
+      - team: executive_council
+        term: "2023-2025"
+      - team: jupyter_foundation
+        organization: Executive Council
+      - team: trademark_subcommittee
+      - team: community_building_working_group
+      - team: former_steering_council
+        term: "2015-2022"
+
+  - id: jdfreder
+    name: Jonathan Frederic
+    github: https://github.com/jdfreder
+    teams:
+      - team: former_steering_council
+        term: "2016-2018"
+
+  - id: jhamrick
+    name: Jessica Hamrick
+    github: https://github.com/jhamrick
+    teams:
+      - team: former_steering_council
+        term: "2015-2022"
+
+  - id: johanmabille
+    name: Johan Mabille
+    github: https://github.com/johanmabille
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Kernels
+
+  - id: krassowski
+    name: Michał Krassowski
+    github: https://github.com/krassowski
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Frontends
+      - team: jupyter_foundation
+        organization: General Members
+
+  - id: LahariChowtoori
+    name: Lahari Chowtoori
+    github: https://github.com/LahariChowtoori
+    teams:
+      - team: community_building_working_group
+
+  - id: LucyJimenez
+    name: Lucy Jimenez
+    github: https://github.com/LucyJimenez
+    teams:
+      - team: former_dei_working_group
+        term: "2022-2024"
+
+  - id: marthacryan
+    name: Martha Cryan
+    github: https://github.com/marthacryan
+    teams:
+      - team: software_steering_council
+        subproject: DEI Standing Committee
+      - team: dei_standing_committee
+      - team: community_building_working_group
+
+  - id: martinRenou
+    name: Martin Renou
+    github: https://github.com/martinRenou
+    teams:
+      - team: software_steering_council
+        subproject: Voilà
+
+  - id: metrizable
+    name: Eric Johnson
+    github: https://github.com/metrizable
+    affiliations: [google]
+    teams:
+      - team: jupyter_foundation
+        organization: Google
+
+  - id: mfisher87
+    name: Matt Fisher
+    github: https://github.com/mfisher87
+    teams:
+      - team: community_building_working_group
+
+  - id: minrk
+    name: Min Ragan-Kelley
+    github: https://github.com/minrk
+    teams:
+      - team: software_steering_council
+        subproject: JupyterHub and Binder
+      - team: trademark_subcommittee
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+
+  - id: mpacer
+    name: M Pacer
+    github: https://github.com/mpacer
+    teams:
+      - team: former_steering_council
+        term: "2018-2022"
+
+  - id: parente
+    name: Peter Parente
+    github: https://github.com/parente
+    teams:
+      - team: former_steering_council
+        term: "2016-2022"
+
+  - id: rcthomas
+    name: Rollin Thomas
+    github: https://github.com/rcthomas
+    teams:
+      - team: former_community_building_working_group
+        term: "2022-2024"
+
+  - id: rgbkrk
+    name: Kyle Kelley
+    github: https://github.com/rgbkrk
+    teams:
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+
+  - id: RRosio
+    name: Rosio Reyes
+    github: https://github.com/RRosio
+    teams:
+      - team: dei_standing_committee
+      - team: community_building_working_group
+
+  - id: rpwagner
+    name: Rick Wagner
+    github: https://github.com/rpwagner
+    teams:
+      - team: executive_council
+        term: "2025-2026"
+      - team: jupyter_foundation
+        organization: Executive Council
+
+  - id: Ruv7
+    name: Ana Ruvalcaba
+    github: https://github.com/Ruv7
+    teams:
+      - team: executive_council
+        term: "2023-2025"
+      - team: jupyter_foundation
+        organization: Executive Council
+      - team: former_steering_council
+        term: "2018-2022"
+      - team: former_dei_working_group
+        term: "2022-2025"
+      - team: former_community_building_working_group
+        term: "2018-2025"
+      - team: former_media_strategy_working_group
+        term: "2022-2024"
+      - team: former_numfocus_subcommittee
+
+  - id: savannahostrowski
+    name: Savannah Ostrowski
+    github: https://github.com/savannahostrowski
+    affiliations: [snowflake]
+    teams:
+      - team: jupyter_foundation
+        organization: Snowflake
+
+  - id: stefanv
+    name: Stefan van der Walt
+    github: https://github.com/stefanv
+    teams:
+      - team: former_numfocus_subcommittee
+        term: "non-council member"
+
+  - id: SylvainCorlay
+    name: Sylvain Corlay
+    github: https://github.com/SylvainCorlay
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Widgets
+      - team: media_strategy_working_group
+      - team: former_steering_council
+        term: "2016-2022"
+
+  - id: takluyver
+    name: Thomas Kluyver
+    github: https://github.com/takluyver
+    teams:
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+      - team: former_numfocus_subcommittee
+
+  - id: tgeorgeux
+    name: Tim George
+    github: https://github.com/tgeorgeux
+    teams:
+      - team: former_trademark_subcommittee
+        term: "2017-2025"
+
+  - id: vidartf
+    name: Vidar Fauske
+    github: https://github.com/vidartf
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Server
+
+  - id: williamstein
+    name: William Stein
+    github: https://github.com/williamstein
+    teams:
+      - team: trademark_subcommittee
+
+  - id: willingc
+    name: Carol Willing
+    github: https://github.com/willingc
+    teams:
+      - team: former_steering_council
+        term: "2017-2022"
+
+  - id: YDawn
+    name: Yaniv Schahar
+    github: https://github.com/YDawn
+    affiliations: [meta]
+    teams:
+      - team: jupyter_foundation
+        organization: Meta
+
+  - id: Zsailer
+    name: Zach Sailer
+    github: https://github.com/Zsailer
+    teams:
+      - team: executive_council
+        term: "2024-2025"
+      - team: jupyter_foundation
+        organization: Executive Council
+
+  - id: JasonWeill
+    name: Jason Weill
+    github: https://github.com/JasonWeill
+    teams:
+      - team: former_dei_working_group
+        term: "2022-2024"
+
+  - id: dharmaquark
+    name: Stephanie Stattel
+    github: https://github.com/dharmaquark
+    affiliations: [bloomberg]
+    teams:
+      - team: jupyter_foundation
+        organization: Bloomberg
+
+  - id: jupyter_security_rep
+    name: Jupyter Security Representative
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Security

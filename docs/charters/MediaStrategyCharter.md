@@ -31,6 +31,11 @@ The focus of the JMS is to provide editorial guidance and oversight in these cha
 
 The JMS will create and maintain a media strategy page on the Jupyter website that shares guidance for how the Jupyter voice is managed. Jupyter subprojects, working groups, standing committees and their communities are encouraged to actively build awareness of themselves and their activities through emails, blog posts, social media posts, and other means of outreach using the processes and guidelines as outlined on a media strategy page on the https://jupyter.org/social.
 
+## Working Group Members
+
+```{team-members} media_strategy_working_group
+```
+
 ## Meetings
 
 1. The [Jupyter Decision-Making Guide](https://jupyter.org/governance/decision_making.html) will be used to make official decisions.

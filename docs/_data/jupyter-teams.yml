@@ -1,0 +1,57 @@
+version: 1
+teams:
+  - id: executive_council
+    name: Executive Council
+    homepage: executive_council.md
+    team_compass: https://ec.jupyter.org
+
+  - id: software_steering_council
+    name: Software Steering Council
+    homepage: software_steering_council.md
+    team_compass: https://github.com/jupyter/software-steering-council-team-compass/
+
+  - id: jupyter_foundation
+    name: Jupyter Foundation Governing Board
+    homepage: jupyter_foundation.md
+    team_compass: https://jupyter-governance.github.io/jupyter-foundation-governing-board
+
+  - id: trademark_subcommittee
+    name: Trademark Subcommittee
+    homepage: trademarks.md
+
+  - id: dei_standing_committee
+    name: DEI Standing Committee
+    homepage: charters/DeiCharter.md
+
+  - id: community_building_working_group
+    name: Community Building Working Group
+    homepage: communitybuildingworkinggroup.md
+
+  - id: media_strategy_working_group
+    name: Media Strategy Working Group
+    homepage: charters/MediaStrategyCharter.md
+
+  - id: union_of_councils
+    name: Union of Councils
+    homepage: executive_council.md
+
+  - id: former_executive_council
+    name: Former Executive Council
+
+  - id: former_dei_working_group
+    name: Former DEI Working Group
+
+  - id: former_community_building_working_group
+    name: Former Community Building Working Group
+
+  - id: former_media_strategy_working_group
+    name: Former Media Strategy Working Group
+
+  - id: former_trademark_subcommittee
+    name: Former Trademark Subcommittee
+
+  - id: former_steering_council
+    name: Former Steering Council
+
+  - id: former_numfocus_subcommittee
+    name: Former NumFOCUS Subcommittee
