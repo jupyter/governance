@@ -1,0 +1,8 @@
+{
+  "name": "jupyter-governance-docs",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
