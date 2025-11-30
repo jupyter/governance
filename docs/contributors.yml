@@ -1,0 +1,90 @@
+version: 1
+authors:
+  - id: afshin
+    name: Afshin Darian
+    github: https://github.com/afshin
+    teams:
+      - team: executive_council
+        term: "2023-2026"
+      - team: jupyter_foundation
+        organization: Executive Council
+      - team: former_steering_council
+        term: "2018-2022"
+
+  - id: agoose77
+    name: Angus Hollands
+    github: https://github.com/agoose77
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Book
+
+  - id: andrii-i
+    name: Andrii Ieroshenko
+    github: https://github.com/andrii-i
+    teams:
+      - team: media_strategy_working_group
+
+  - id: aprilmj
+    name: April Johnson
+    github: https://github.com/aprilmj
+    teams:
+      - team: community_building_working_group
+
+  - id: bigsur0
+    name: Rus Pandey
+    github: https://github.com/bigsur0
+    affiliations: [apple]
+    teams:
+      - team: jupyter_foundation
+        organization: Apple
+
+  - id: blink1073
+    name: Steven Silvester
+    github: https://github.com/blink1073
+    teams:
+      - team: former_executive_council
+        term: "2023"
+      - team: former_media_strategy_working_group
+        term: "2022-2024"
+      - team: former_steering_council
+        term: "2016-2022"
+
+  - id: carreau
+    name: Matthias Bussonnier
+    github: https://github.com/carreau
+    teams:
+      - team: former_trademark_subcommittee
+        term: "2017-2020"
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+      - team: former_numfocus_subcommittee
+
+  - id: choldgraf
+    name: Chris Holdgraf
+    github: https://github.com/choldgraf
+    teams:
+      - team: executive_council
+        term: "2025-2026"
+      - team: jupyter_foundation
+        organization: Executive Council
+
+  - id: damianavila
+    name: Damian Avila
+    github: https://github.com/damianavila
+    teams:
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
+
+  - id: ellisonbg
+    name: Brian Granger
+    github: https://github.com/ellisonbg
+    affiliations: [aws]
+    teams:
+      - team: former_executive_council
+        term: "2023-2024"
+      - team: jupyter_foundation
+        organization: AWS
+      - team: former_trademark_subcommittee
+        term: "2017-2025"
+      - team: former_steering_council
+        term: "Founding member, 2014-2022"
