@@ -11,66 +11,66 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 
 ## [Software Steering Council](software_steering_council.md)
 
-```{include} _includes/generated/software_steering_council.md
+```{team-members} software_steering_council
 ```
 
 ## [Jupyter Foundation](jupyter_foundation.md) Governing Board
 
-```{include} _includes/generated/jupyter_foundation_board.md
+```{team-members} jupyter_foundation
 ```
 
 ### [Trademark Subcommittee](trademarks.md)
 
-```{include} _includes/generated/trademark_subcommittee.md
+```{team-members} trademark_subcommittee
 ```
 
 ### [DEI Standing Committee](charters/DeiCharter.md)
 
-```{include} _includes/generated/dei_standing_committee.md
+```{team-members} dei_standing_committee
 ```
 
 ### [Jupyter Community Building Working Group](communitybuildingworkinggroup.md)
 
-```{include} _includes/generated/community_building_working_group.md
+```{team-members} community_building_working_group
 ```
 
 ### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
 
-```{include} _includes/generated/media_strategy_working_group.md
+```{team-members} media_strategy_working_group
 ```
 
 ### [Union of Councils](executive_council.md#union-of-councils)
 
 The Union of Councils (UoC) is the union of the membership of all Subproject Councils, Standing Committees, and Working Groups. It makes up the voting body that elects members of the Executive Council, the union of council is comprised of at least the following people, though other may be part of the UoC as Councils membership maybe be tracked independently of the governance repo.
 
-```{include} _includes/generated/union_of_councils.md
+```{team-members} union_of_councils
 ```
 
 ## Former Project Jupyter Leadership
 
 ### Former Executive Council
 
-```{include} _includes/generated/former_executive_council.md
+```{team-members} former_executive_council
 ```
 
 ### Former DEI Working Group
 
-```{include} _includes/generated/former_dei_working_group.md
+```{team-members} former_dei_working_group
 ```
 
 ### Former Community Building Working Group
 
-```{include} _includes/generated/former_community_building_working_group.md
+```{team-members} former_community_building_working_group
 ```
 
 ### Former Jupyter Media Strategy Working Group
 
-```{include} _includes/generated/former_media_strategy_working_group.md
+```{team-members} former_media_strategy_working_group
 ```
 
 ### Former Trademark Subcommittee
 
-```{include} _includes/generated/former_trademark_subcommittee.md
+```{team-members} former_trademark_subcommittee
 ```
 
 ### Benevolent Dictator for Life (retired December 2022)
@@ -83,10 +83,10 @@ voluntarily relinquished his role after Jupyter transitioned to a new governance
 
 ### Steering Council (dissolved December 2022)
 
-```{include} _includes/generated/former_steering_council.md
+```{team-members} former_steering_council
 ```
 
 ### NumFOCUS Subcommittee (dissolved December 2022)
 
-```{include} _includes/generated/former_numfocus_subcommittee.md
+```{team-members} former_numfocus_subcommittee
 ```
