@@ -2,7 +2,7 @@
 
 The current members of the Software Steering Council are:
 
-```{include} _includes/generated/software_steering_council.md
+```{team-members} software_steering_council
 ```
 
 For a complete directory, see the [Leadership Directory](people.md).

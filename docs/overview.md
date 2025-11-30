@@ -12,21 +12,21 @@ Jupyter’s governance model is anchored on three bodies that complement each ot
 
    **Current Members:**
 
-   ```{include} _includes/generated/executive_council.md
+   ```{team-members} executive_council
    ```
 
 2. The [**Software Steering Council (SSC)**](software_steering_council.md) has jurisdiction over software-related decisions across Project Jupyter, with a primary focus on coordination across projects and decisions that have impact across many Jupyter Subprojects. It is also a mechanism for representatives of each project to share information and expertise. Technical decisions and processes where the SSC isn't explicitly involved are automatically delegated to the individual projects to manage their day-to-day activities, create new repositories in their orgs, etc., with independence and autonomy. For more details, see the [Software Steering Council document](software_steering_council.md).
 
    **Current Members:**
 
-   ```{include} _includes/generated/software_steering_council.md
+   ```{team-members} software_steering_council
    ```
 
 3. The [**Jupyter Foundation**](./jupyter_foundation.md) is a directed fund of the Linux Foundation 501(c)(6) that exists to provide resources and strategic counsel to Project Jupyter. The Executive Council serves on the Jupyter Foundation Governing Board. For more details, see the [Jupyter Foundation document](./jupyter_foundation.md).
 
    **Current Governing Board Members:**
 
-   ```{include} _includes/generated/jupyter_foundation_board.md
+   ```{team-members} jupyter_foundation
    ```
 
 Additionally, the Executive Council (EC) receives input from a Community Advisory Panel. This panel advises the EC with perspectives and connections that may reach beyond the active Jupyter community.

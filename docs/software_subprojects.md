@@ -29,7 +29,7 @@ Official Jupyter Software Subprojects that have large and active enough teams to
 
 **Current SSC Representatives:**
 
-```{include} _includes/generated/software_steering_council.md
+```{team-members} software_steering_council
 ```
 
 There exist two categories of Subprojects that, while operating under Jupyter’s governance, do not have a dedicated delegate to the SSC:

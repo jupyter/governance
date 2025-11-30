@@ -14,7 +14,7 @@ and feel free to get in touch with the [Jupyter Trademarks Committee][] if you h
 
 ## Trademark Subcommittee Members
 
-```{include} _includes/generated/trademark_subcommittee.md
+```{team-members} trademark_subcommittee
 ```
 
 This document is based on the [Python Software Foundation trademark policy][PSF-trademarks],

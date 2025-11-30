@@ -33,7 +33,7 @@ The JMS will create and maintain a media strategy page on the Jupyter website th
 
 ## Working Group Members
 
-```{include} ../_includes/generated/media_strategy_working_group.md
+```{team-members} media_strategy_working_group
 ```
 
 ## Meetings

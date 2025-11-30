@@ -26,7 +26,7 @@ The DEI standing committee is responsible for:
 
 ## Committee Members
 
-```{include} ../_includes/generated/dei_standing_committee.md
+```{team-members} dei_standing_committee
 ```
 
 ## Committee Reports

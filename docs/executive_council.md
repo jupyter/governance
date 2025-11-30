@@ -2,7 +2,7 @@
 
 The current members of the Executive Council are:
 
-```{include} _includes/generated/executive_council.md
+```{team-members} executive_council
 ```
 
 For a complete directory including past members, see the [Leadership Directory](people.md).

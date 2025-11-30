@@ -11,7 +11,7 @@ Project work that expands beyond software-related work is organized into charter
 
 **Members:**
 
-```{include} _includes/generated/dei_standing_committee.md
+```{team-members} dei_standing_committee
 ```
 
 ### Code of Conduct Incident Response
@@ -35,7 +35,7 @@ Charter Summary: License, protect, and promote the trademarks and visual and tex
 
 **Members:**
 
-```{include} _includes/generated/trademark_subcommittee.md
+```{team-members} trademark_subcommittee
 ```
 
 ### Jupyter Community Building
@@ -44,7 +44,7 @@ Charter Summary: License, protect, and promote the trademarks and visual and tex
 
 **Members:**
 
-```{include} _includes/generated/community_building_working_group.md
+```{team-members} community_building_working_group
 ```
 
 ### Jupyter Media Strategy
@@ -53,7 +53,7 @@ Charter Summary: License, protect, and promote the trademarks and visual and tex
 
 **Members:**
 
-```{include} _includes/generated/media_strategy_working_group.md
+```{team-members} media_strategy_working_group
 ```
 
 
