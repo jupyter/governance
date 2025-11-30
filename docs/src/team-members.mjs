@@ -26,9 +26,9 @@ const teamMembersDirective = {
     const teamId = data.arg;
 
     // Load data files
-    const contributors = loadYaml(path.join(process.cwd(), 'contributors.yml'));
-    const organizations = loadYaml(path.join(process.cwd(), 'organizations.yml'));
-    const teams = loadYaml(path.join(process.cwd(), 'jupyter-teams.yml'));
+    const contributors = loadYaml(path.join(process.cwd(), '_data/contributors.yml'));
+    const organizations = loadYaml(path.join(process.cwd(), '_data/organizations.yml'));
+    const teams = loadYaml(path.join(process.cwd(), '_data/jupyter-teams.yml'));
 
     // Filter authors for this team
     const teamMembers = getTeamMembers(contributors.authors, teamId, teams);

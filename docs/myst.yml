@@ -1,8 +1,8 @@
 version: 1
 extends:
   - _site/nav.yml
-  - contributors.yml
-  - organizations.yml
+  - _data/contributors.yml
+  - _data/organizations.yml
 project:
   title: Project Jupyter Governance
   copyright: ""
