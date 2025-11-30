@@ -1,0 +1,25 @@
+version: 1
+affiliations:
+  - id: aws
+    name: AWS
+    url: https://aws.amazon.com
+
+  - id: google
+    name: Google
+    url: https://google.com
+
+  - id: apple
+    name: Apple
+    url: https://www.apple.com
+
+  - id: bloomberg
+    name: Bloomberg
+    url: https://www.bloomberg.com
+
+  - id: meta
+    name: Meta
+    url: https://meta.com
+
+  - id: snowflake
+    name: Snowflake
+    url: https://www.snowflake.com
