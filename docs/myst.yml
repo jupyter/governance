@@ -1,5 +1,8 @@
 version: 1
-extends: _site/nav.yml
+extends:
+  - _site/nav.yml
+  - contributors.yml
+  - organizations.yml
 project:
   title: Project Jupyter Governance
   copyright: ""
@@ -9,6 +12,8 @@ project:
     - LICENSE.md
     - README.md
     - .github
+  plugins:
+    - src/team-members.mjs
 
   toc:
     - file: intro.md
