@@ -1,0 +1,32 @@
+| Name | GitHub |
+| --- | --- |
+| Afshin Darian | [`@afshin`](https://github.com/afshin) |
+| Ana Ruvalcaba | [`@Ruv7`](https://github.com/Ruv7) |
+| Andrii Ieroshenko | [`@andrii-i`](https://github.com/andrii-i) |
+| Angus Hollands | [`@agoose77`](https://github.com/agoose77) |
+| April Johnson | [`@aprilmj`](https://github.com/aprilmj) |
+| Brian Granger | [`@ellisonbg`](https://github.com/ellisonbg) |
+| Chris Holdgraf | [`@choldgraf`](https://github.com/choldgraf) |
+| Eric Johnson | [`@metrizable`](https://github.com/metrizable) |
+| Gabriel Fouasnon | [`@gabalafou`](https://github.com/gabalafou) |
+| Jacob Diamond-Reivich | [`@jake-stack`](https://github.com/jake-stack) |
+| Jason Grout | [`@jasongrout`](https://github.com/jasongrout) |
+| Johan Mabille | [`@johanmabille`](https://github.com/johanmabille) |
+| Jupyter Security Representative |  |
+| Lahari Chowtoori | [`@LahariChowtoori`](https://github.com/LahariChowtoori) |
+| Martha Cryan | [`@marthacryan`](https://github.com/marthacryan) |
+| Martin Renou | [`@martinRenou`](https://github.com/martinRenou) |
+| Matt Fisher | [`@mfisher87`](https://github.com/mfisher87) |
+| Michał Krassowski | [`@krassowski`](https://github.com/krassowski) |
+| Min Ragan-Kelley | [`@minrk`](https://github.com/minrk) |
+| Paul Ivanov | [`@ivanov`](https://github.com/ivanov) |
+| Rick Wagner | [`@rpwagner`](https://github.com/rpwagner) |
+| Rosio Reyes | [`@RRosio`](https://github.com/RRosio) |
+| Rus Pandey | [`@bigsur0`](https://github.com/bigsur0) |
+| Savannah Ostrowski | [`@savannahostrowski`](https://github.com/savannahostrowski) |
+| Stephanie Stattel | [`@dharmaquark`](https://github.com/dharmaquark) |
+| Sylvain Corlay | [`@SylvainCorlay`](https://github.com/SylvainCorlay) |
+| Vidar Fauske | [`@vidartf`](https://github.com/vidartf) |
+| William Stein | [`@williamstein`](https://github.com/williamstein) |
+| Yaniv Schahar | [`@YDawn`](https://github.com/YDawn) |
+| Zach Sailer | [`@Zsailer`](https://github.com/Zsailer) |
