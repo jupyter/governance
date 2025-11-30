@@ -42,7 +42,6 @@ jobs:
     - name: Build the MyST site
       run: |
         uv pip install nox --system
-        nox -s generate-leadership
         nox -s docs
         nox -s redirects
 
