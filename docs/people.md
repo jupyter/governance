@@ -6,7 +6,7 @@ This is a directory of the present and past leadership of Project Jupyter.
 
 Alphabetical by first name, names are followed by GitHub usernames and current elected terms.
 
-```{include} _includes/generated/executive_council.md
+```{team-members} executive_council
 ```
 
 ## [Software Steering Council](software_steering_council.md)
