@@ -6,6 +6,7 @@
 | Angus Hollands | [`@agoose77`](https://github.com/agoose77) |
 | April Johnson | [`@aprilmj`](https://github.com/aprilmj) |
 | Brian Granger | [`@ellisonbg`](https://github.com/ellisonbg) |
+| Celeste Horgan | [`@celestehorgan`](https://github.com/celestehorgan) |
 | Chris Holdgraf | [`@choldgraf`](https://github.com/choldgraf) |
 | Eric Johnson | [`@metrizable`](https://github.com/metrizable) |
 | Gabriel Fouasnon | [`@gabalafou`](https://github.com/gabalafou) |
@@ -23,7 +24,6 @@
 | Rick Wagner | [`@rpwagner`](https://github.com/rpwagner) |
 | Rosio Reyes | [`@RRosio`](https://github.com/RRosio) |
 | Rus Pandey | [`@bigsur0`](https://github.com/bigsur0) |
-| Savannah Ostrowski | [`@savannahostrowski`](https://github.com/savannahostrowski) |
 | Stephanie Stattel | [`@dharmaquark`](https://github.com/dharmaquark) |
 | Sylvain Corlay | [`@SylvainCorlay`](https://github.com/SylvainCorlay) |
 | Vidar Fauske | [`@vidartf`](https://github.com/vidartf) |
