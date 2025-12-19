@@ -44,6 +44,9 @@ teams:
   - id: former_community_building_working_group
     name: Former Community Building Working Group
 
+  - id: former_jupyter_foundation
+    name: Former Jupyter Foundation Governing Board
+
   - id: former_media_strategy_working_group
     name: Former Media Strategy Working Group
 
