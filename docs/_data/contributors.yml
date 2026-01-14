@@ -128,13 +128,15 @@ authors:
     name: Jacob Diamond-Reivich
     github: https://github.com/jake-stack
     teams:
+      - team: executive_council
+        term: "2026-2027"
       - team: media_strategy_working_group
 
   - id: jasongrout
     name: Jason Grout
     github: https://github.com/jasongrout
     teams:
-      - team: executive_council
+      - team: former_executive_council
         term: "2023-2025"
       - team: jupyter_foundation
         organization: Executive Council
@@ -190,6 +192,8 @@ authors:
     name: Martha Cryan
     github: https://github.com/marthacryan
     teams:
+      - team: executive_council
+        term: "2026-2027"
       - team: software_steering_council
         subproject: DEI Standing Committee
       - team: dei_standing_committee
@@ -274,7 +278,7 @@ authors:
     name: Ana Ruvalcaba
     github: https://github.com/Ruv7
     teams:
-      - team: executive_council
+      - team: former_executive_council
         term: "2023-2025"
       - team: jupyter_foundation
         organization: Executive Council
@@ -371,7 +375,7 @@ authors:
     github: https://github.com/Zsailer
     teams:
       - team: executive_council
-        term: "2024-2025"
+        term: "2024-2027"
       - team: jupyter_foundation
         organization: Executive Council
 
