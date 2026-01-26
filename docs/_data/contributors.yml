@@ -138,8 +138,9 @@ authors:
     teams:
       - team: former_executive_council
         term: "2023-2025"
-      - team: jupyter_foundation
+      - team: former_jupyter_foundation
         organization: Executive Council
+        term: "2024-2025"
       - team: trademark_subcommittee
       - team: community_building_working_group
       - team: former_steering_council
@@ -280,8 +281,9 @@ authors:
     teams:
       - team: former_executive_council
         term: "2023-2025"
-      - team: jupyter_foundation
+      - team: former_jupyter_foundation
         organization: Executive Council
+        term: "2024-2025"
       - team: former_steering_council
         term: "2018-2022"
       - team: former_dei_working_group
