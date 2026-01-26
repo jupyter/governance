@@ -1,7 +1,6 @@
 | Name | GitHub |
 | --- | --- |
 | Afshin Darian | [`@afshin`](https://github.com/afshin) |
-| Ana Ruvalcaba | [`@Ruv7`](https://github.com/Ruv7) |
 | Andrii Ieroshenko | [`@andrii-i`](https://github.com/andrii-i) |
 | Angus Hollands | [`@agoose77`](https://github.com/agoose77) |
 | April Johnson | [`@aprilmj`](https://github.com/aprilmj) |
