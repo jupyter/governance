@@ -25,7 +25,7 @@ teams:
 
   - id: community_building_working_group
     name: Community Building Working Group
-    homepage: communitybuildingworkinggroup.md
+    homepage: charters/CommunityBuildingCharter.md
 
   - id: media_strategy_working_group
     name: Media Strategy Working Group

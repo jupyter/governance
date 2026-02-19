@@ -51,7 +51,7 @@ project:
         - file: standing_committees_and_working_groups.md
           title: Committees & Working Groups
           children:
-            - file: communitybuildingworkinggroup.md
+            - file: charters/CommunityBuildingCharter.md
               title: Community Building
             - file: charters/MediaStrategyCharter.md
               title: Media Strategy

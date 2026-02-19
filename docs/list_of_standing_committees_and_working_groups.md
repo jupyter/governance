@@ -40,7 +40,7 @@ Charter Summary: License, protect, and promote the trademarks and visual and tex
 
 ### Jupyter Community Building
 
-[Charter](communitybuildingworkinggroup.md) Summary: Grow, build, and connect the global Jupyter community of users and contributors.
+[Charter](charters/CommunityBuildingCharter.md) Summary: Grow, build, and connect the global Jupyter community of users and contributors.
 
 **Members:**
 
