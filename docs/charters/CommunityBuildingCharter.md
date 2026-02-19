@@ -15,9 +15,13 @@ participating in all Jupyter forums, including but not limited to software, work
 groups, standing committees, in-person and virtual meetings, social media, GitHub, the
 EC, and the SSC.
 
-Members of this committee will be elected by the existing committee members following
-the Jupyter guidelines for forming and perpetuating a decision-making body, subject to
-approval by the Executive Council.
+
+```{card} Jupyter Community Building (JCB) Committee Team Compass
+:link: https://jupyter.org/community-committee
+
+There is more information about meeting minutes JCB activities on their Team Compass.
+This page is the charter for the Jupyter Community Building Working Group.
+```
 
 
 ## Areas of responsibility
@@ -44,15 +48,8 @@ Members of this working group will be elected by the existing working group
 following the Jupyter guidelines for forming and perpetuating a decision-making
 body, subject to approval by the Executive Council.
 
+
 ### Current Members
 
 ```{team-members} community_building_standing_committee
-```
-
-
-```{card} Jupyter Community Building (JCB) Committee Team Compass
-:link: https://jupyter.org/community-committee
-
-There is more information about meeting minutes JCB activities on their Team Compass.
-This page is the charter for the Jupyter Community Building Working Group.
 ```
