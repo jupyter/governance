@@ -197,7 +197,7 @@ authors:
         term: "2026-2027"
       - team: software_steering_council
         subproject: DEI Standing Committee
-      - team: dei_standing_committee
+      - team: former_dei_working_group
       - team: community_building_working_group
 
   - id: martinRenou
@@ -263,7 +263,7 @@ authors:
     name: Rosio Reyes
     github: https://github.com/RRosio
     teams:
-      - team: dei_standing_committee
+      - team: former_dei_working_group
       - team: community_building_working_group
 
   - id: rpwagner

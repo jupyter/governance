@@ -24,11 +24,6 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 ```{team-members} trademark_subcommittee
 ```
 
-### [DEI Standing Committee](charters/DeiCharter.md)
-
-```{team-members} dei_standing_committee
-```
-
 ### [Jupyter Community Building Working Group](charters/CommunityBuilding.md)
 
 ```{team-members} community_building_working_group

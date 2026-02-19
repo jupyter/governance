@@ -5,15 +5,6 @@ Project work that expands beyond software-related work is organized into charter
 (list-of-standing-committees)=
 ## Standing Committees
 
-### Diversity, Equity, and Inclusion
-
-[Charter](charters/DeiCharter.md) Summary: Increase diversity, equity, and inclusion within all aspects of Project Jupyter, including the various councils/leadership, Subprojects, and the broader community.
-
-**Members:**
-
-```{team-members} dei_standing_committee
-```
-
 ### Code of Conduct Incident Response
 
 Charter Summary: Own and manage the Jupyter Code of Conduct reporting and incident response processes and make determinations on individual incidents.
