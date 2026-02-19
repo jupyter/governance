@@ -4,10 +4,12 @@ Project Jupyter welcomes and encourages participation in our community by people
 We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning.
 We work together as a community to help each other live out these values.
 
-**The Jupyter Community Building Committee (JCB) is a
+:::{pull-quote}
+The Jupyter Community Building Committee (JCB) is a
 [Standing Committee](https://jupyter.org/governance/standing-committees-and-working-groups/#standing-committees)
-that grows, builds, connects, and sustains a diverse, equitable, and inclusive Jupyter
-community of users and contributors.**
+that **grows, builds, connects, and sustains a diverse, equitable, and inclusive Jupyter
+community** of users and contributors.
+:::
 
 For the long-term sustainability of our community, we champion efforts to build an open
 source environment where people feel respected, valued, and encouraged to continue
