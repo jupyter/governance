@@ -57,8 +57,6 @@ project:
               title: Media Strategy
             - file: charters/DocumentationCharter.md
               title: Documentation
-            - file: charters/DeiCharter.md
-              title: Diversity, Equity & Inclusion
         - file: distinguished_contributors.md
 
     # Policies and community standards
