@@ -28,7 +28,7 @@ authors:
     name: April Johnson
     github: https://github.com/aprilmj
     teams:
-      - team: community_building_working_group
+      - team: community_building_standing_committee
 
   - id: bigsur0
     name: Rus Pandey
@@ -142,7 +142,7 @@ authors:
         organization: Executive Council
         term: "2024-2025"
       - team: trademark_subcommittee
-      - team: community_building_working_group
+      - team: community_building_standing_committee
       - team: former_steering_council
         term: "2015-2022"
 
@@ -180,7 +180,7 @@ authors:
     name: Lahari Chowtoori
     github: https://github.com/LahariChowtoori
     teams:
-      - team: community_building_working_group
+      - team: community_building_standing_committee
 
   - id: LucyJimenez
     name: Lucy Jimenez
@@ -198,7 +198,7 @@ authors:
       - team: software_steering_council
         subproject: DEI Standing Committee
       - team: former_dei_working_group
-      - team: community_building_working_group
+      - team: community_building_standing_committee
 
   - id: martinRenou
     name: Martin Renou
@@ -219,7 +219,7 @@ authors:
     name: Matt Fisher
     github: https://github.com/mfisher87
     teams:
-      - team: community_building_working_group
+      - team: community_building_standing_committee
 
   - id: minrk
     name: Min Ragan-Kelley
@@ -264,7 +264,7 @@ authors:
     github: https://github.com/RRosio
     teams:
       - team: former_dei_working_group
-      - team: community_building_working_group
+      - team: community_building_standing_committee
 
   - id: rpwagner
     name: Rick Wagner

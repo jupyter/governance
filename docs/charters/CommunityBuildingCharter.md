@@ -1,4 +1,4 @@
-# Community Building Working Group
+# Community Building Standing Committee
 
 The Jupyter Community Building Working Group (JCB) acts on behalf of the Project
 Jupyter Executive Council with the objective of growing, building, and
@@ -76,5 +76,5 @@ body, subject to approval by the Executive Council.
 
 ### Current Members
 
-```{team-members} community_building_working_group
+```{team-members} community_building_standing_committee
 ```

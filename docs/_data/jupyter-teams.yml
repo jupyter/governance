@@ -19,8 +19,8 @@ teams:
     name: Trademark Subcommittee
     homepage: trademarks.md
 
-  - id: community_building_working_group
-    name: Community Building Working Group
+  - id: community_building_standing_committee
+    name: Community Building Standing Committee
     homepage: charters/CommunityBuildingCharter.md
 
   - id: media_strategy_working_group

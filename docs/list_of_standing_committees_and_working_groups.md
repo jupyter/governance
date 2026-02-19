@@ -35,7 +35,7 @@ Charter Summary: License, protect, and promote the trademarks and visual and tex
 
 **Members:**
 
-```{team-members} community_building_working_group
+```{team-members} community_building_standing_committee
 ```
 
 ### Jupyter Media Strategy
