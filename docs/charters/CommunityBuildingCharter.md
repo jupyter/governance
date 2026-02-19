@@ -1,72 +1,42 @@
-# Community Building Standing Committee
+# Jupyter Community Building (JCB) Standing Committee
 
-The Jupyter Community Building Working Group (JCB) acts on behalf of the Project
-Jupyter Executive Council with the objective of growing, building, and
-connecting the Jupyter community of users and contributors. A targeted outcome
-of this working group's efforts is to improve the diversity, equity, and
-inclusion of our community, in collaboration with the Jupyter Diversity, Equity,
-and Inclusion (DEI) standing committee.
+Project Jupyter welcomes and encourages participation in our community by people of all backgrounds and identities.
+We are committed to promoting and sustaining a culture that values mutual respect, tolerance, and learning.
+We work together as a community to help each other live out these values.
 
-The current members of the Jupyter Community Building Working Group are listed in the [Leadership Directory](people).
+**The Jupyter Community Building Committee (JCB) is a
+[Standing Committee](https://jupyter.org/governance/standing-committees-and-working-groups/#standing-committees)
+that grows, builds, connects, and sustains a diverse, equitable, and inclusive Jupyter
+community of users and contributors.**
 
-```{card} Click here for JCB reports and meeting minutes
-:link: https://executive-council-team-compass.readthedocs.io/en/latest/reports/communitybuilding/readme.html
-There is more information about meeting minutes and reports on group activities in the linked page.
-This page is the charter for the Jupyter Community Building Working Group.
-```
+For the long-term sustainability of our community, we champion efforts to build an open
+source environment where people feel respected, valued, and encouraged to continue
+participating in all Jupyter forums, including but not limited to software, working
+groups, standing committees, in-person and virtual meetings, social media, GitHub, the
+EC, and the SSC.
+
+Members of this committee will be elected by the existing committee members following
+the Jupyter guidelines for forming and perpetuating a decision-making body, subject to
+approval by the Executive Council.
+
 
 ## Areas of responsibility
 
-### Jupyter Community Workshops
+The responsibilities of the JCB include:
 
-The Jupyter Community Workshop program was established in 2018 to bring
-together small groups of Jupyter community members and core contributors for
-high-impact strategic work and community engagement on focused topics. These
-in-person events are particularly useful for tackling challenging development
-and design projects, growing the community of contributors, and strengthening
-collaborations.
+* *Programming:* Create and sustain initiatives to understand the needs of and benefit
+  the community.
+  These initiatives include virtual and in-person events, evaluating community health,
+  and more.
+  All community programming will be documented on the
+  [JCB Team Compass](https://jupyter.org/community-committee).
+* *Budget:* Decisions around how the community committee budget is spent.
+* *DEI:* Advocacy for increasing participation of underrepresented and disadvantaged groups.
+  Handle reporting of DEI concerns and flag to EC.
+* *Reporting:* The JCB regularly reports to the community and EC.
+  The JCB team practices and products are documented on the
+  [JCB Team Compass](https://jupyter.org/community-committee).
 
-This working group will manage the Jupyter Community Workshop program operations
-and budget.
-
-### JupyterCon
-
-Global JupyterCon conferences provide opportunities for the Jupyter community
-to come together to learn and share.
-
-This working group will champion the strategy and oversee broad operational
-aspects of JupyterCon, including event operations and community leadership for
-the event.
-
-### Operations and Budget
-
-This working group will collaborate with the Jupyter Executive Council to serve
-as stewards for Project Jupyter funds for events in this committee's purview.
-
-### Diversity, Equity, Inclusion
-
-Project Jupyter is an engaged and respectful community made up of people from
-all over the world. This working group pledges to foster a productive,
-harassment-free environment for everyone who participates in organizing or
-attending our events. We recognize our work is a highly visible and
-potentially impactful way for diversity, equity, and inclusion (DEI) efforts
-to be championed within our global community.
-
-In particular, this working group will:
-
-- Collaborate with the Jupyter Diversity, Equity, and Inclusion (DEI)
-  standing committee to find new ways to make a positive impact in
-  Project Jupyter.
-- Partner with the DEI standing committee to train and mentor community event
-  leadership in DEI efforts for their events.
-- Help the DEI standing committee measure impact of DEI efforts in Jupyter events where feasible.
-
-## Reporting
-
-This working group will report to the Executive Council quarterly on all areas of
-responsibility, including activities, finances, and DEI efforts. This
-working group will also publish an annual blog post for the broader global
-community.
 
 ## Membership
 
@@ -77,4 +47,12 @@ body, subject to approval by the Executive Council.
 ### Current Members
 
 ```{team-members} community_building_standing_committee
+```
+
+
+```{card} Jupyter Community Building (JCB) Committee Team Compass
+:link: https://jupyter.org/community-committee
+
+There is more information about meeting minutes JCB activities on their Team Compass.
+This page is the charter for the Jupyter Community Building Working Group.
 ```
