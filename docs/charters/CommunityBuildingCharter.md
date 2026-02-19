@@ -21,8 +21,7 @@ EC, and the SSC.
 ```{card} Jupyter Community Building (JCB) Committee Team Compass
 :link: https://jupyter.org/community-committee
 
-There is more information about meeting minutes JCB activities on their Team Compass.
-This page is the charter for the Jupyter Community Building Working Group.
+JCB meeting minutes and information activities on the JCB Team Compass.
 ```
 
 
