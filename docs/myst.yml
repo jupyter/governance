@@ -87,6 +87,12 @@ project:
             - file: bootstrapping_subproject_councils.md
             - file: bootstrapping_executive_council.md
 
+  error_rules:
+    - rule: "link-resolves"
+      keys:
+        - "https://google.com/"
+      severity: "warn"
+
 site:
   template: book-theme
   options:
