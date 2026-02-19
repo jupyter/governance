@@ -24,7 +24,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 ```{team-members} trademark_subcommittee
 ```
 
-### [Jupyter Community Building Working Group](charters/CommunityBuilding.md)
+### [Jupyter Community Building Working Group](charters/CommunityBuildingCharter.md)
 
 ```{team-members} community_building_working_group
 ```
