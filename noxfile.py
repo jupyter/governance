@@ -12,7 +12,7 @@ def docs(session):
     session.install("-r", "requirements.txt")
     session.chdir("docs")
     session.run("npm", "install", external=True)
-    session.run("myst", "build", "--html")
+    session.run("myst", "build", "--strict", "--html")
 
 
 @nox.session(name="docs-live")
