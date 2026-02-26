@@ -51,14 +51,12 @@ project:
         - file: standing_committees_and_working_groups.md
           title: Committees & Working Groups
           children:
-            - file: communitybuildingworkinggroup.md
+            - file: charters/CommunityBuildingCharter.md
               title: Community Building
             - file: charters/MediaStrategyCharter.md
               title: Media Strategy
             - file: charters/DocumentationCharter.md
               title: Documentation
-            - file: charters/DeiCharter.md
-              title: Diversity, Equity & Inclusion
         - file: distinguished_contributors.md
 
     # Policies and community standards
