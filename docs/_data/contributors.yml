@@ -131,6 +131,8 @@ authors:
       - team: executive_council
         term: "2026-2027"
       - team: media_strategy_working_group
+      - team: jupyter_foundation
+        organization: Executive Council
 
   - id: jasongrout
     name: Jason Grout
