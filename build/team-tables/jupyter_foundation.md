@@ -5,6 +5,7 @@
 | Celeste Horgan | [Snowflake](https://www.snowflake.com) | [`@celestehorgan`](https://github.com/celestehorgan) |
 | Chris Holdgraf | Executive Council | [`@choldgraf`](https://github.com/choldgraf) |
 | Eric Johnson | [Google](https://google.com) | [`@metrizable`](https://github.com/metrizable) |
+| Jacob Diamond-Reivich | Executive Council | [`@jake-stack`](https://github.com/jake-stack) |
 | Michał Krassowski | General Members | [`@krassowski`](https://github.com/krassowski) |
 | Rick Wagner | Executive Council | [`@rpwagner`](https://github.com/rpwagner) |
 | Rus Pandey | [Apple](https://www.apple.com) | [`@bigsur0`](https://github.com/bigsur0) |
