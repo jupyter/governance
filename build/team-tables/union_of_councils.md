@@ -11,6 +11,7 @@
 | Gabriel Fouasnon | [`@gabalafou`](https://github.com/gabalafou) |
 | Jacob Diamond-Reivich | [`@jake-stack`](https://github.com/jake-stack) |
 | Jason Grout | [`@jasongrout`](https://github.com/jasongrout) |
+| Jeremy Tuloup | [`@jtpio`](https://github.com/jtpio) |
 | Johan Mabille | [`@johanmabille`](https://github.com/johanmabille) |
 | Jupyter Security Representative |  |
 | Lahari Chowtoori | [`@LahariChowtoori`](https://github.com/LahariChowtoori) |
