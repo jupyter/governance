@@ -170,12 +170,17 @@ authors:
       - team: software_steering_council
         subproject: Jupyter Kernels
 
+  - id: jtpio
+    name: Jeremy Tuloup
+    github: https://github.com/jtpio
+    teams:
+      - team: software_steering_council
+        subproject: Jupyter Frontends
+
   - id: krassowski
     name: Michał Krassowski
     github: https://github.com/krassowski
     teams:
-      - team: software_steering_council
-        subproject: Jupyter Frontends
       - team: jupyter_foundation
         organization: General Members
 
