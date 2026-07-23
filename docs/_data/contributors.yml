@@ -206,7 +206,9 @@ authors:
       - team: software_steering_council
         subproject: DEI Standing Committee
       - team: dei_standing_committee
-      - team: community_building_working_group
+      - team: former_community_building_working_group
+        term: "2022-2026"
+
 
   - id: martinRenou
     name: Martin Renou

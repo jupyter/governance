@@ -34,4 +34,4 @@ any of the `.html` files that are created.
 ## Leadership Directory Data
 
 The Leadership Directory is generated from structured data in `docs/_data/`.
-See `docs/_data/README.md` for more information.
+See [`docs/_data/README.md`](docs/_data/README.md) for more information.
