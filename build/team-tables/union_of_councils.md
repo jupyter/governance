@@ -24,6 +24,7 @@
 | Rick Wagner | [`@rpwagner`](https://github.com/rpwagner) |
 | Rosio Reyes | [`@RRosio`](https://github.com/RRosio) |
 | Rus Pandey | [`@bigsur0`](https://github.com/bigsur0) |
+| Serena Bonaretti | [`@sbonaretti`](https://github.com/sbonaretti) |
 | Stephanie Stattel | [`@dharmaquark`](https://github.com/dharmaquark) |
 | Sylvain Corlay | [`@SylvainCorlay`](https://github.com/SylvainCorlay) |
 | Vidar Fauske | [`@vidartf`](https://github.com/vidartf) |
