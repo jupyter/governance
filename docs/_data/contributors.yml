@@ -144,8 +144,11 @@ authors:
         organization: Executive Council
         term: "2024-2025"
       - team: trademark_subcommittee
+        term: "2019-"
       - team: community_building_working_group
+        term: "2018-"
       - team: media_strategy_working_group
+        term: "2026-"
       - team: former_steering_council
         term: "2015-2022"
 
@@ -411,3 +414,9 @@ authors:
     teams:
       - team: software_steering_council
         subproject: Jupyter Security
+  - id: sbonaretti
+    name: Serena Bonaretti
+    github: https://github.com/sbonaretti
+    teams:
+      - team: community_building_working_group
+        term: "2026-"
