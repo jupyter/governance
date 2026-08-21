@@ -10,7 +10,7 @@ and Inclusion (DEI) standing committee.
 The current members of the Jupyter Community Building Working Group are listed in the [Leadership Directory](people).
 
 ```{card} Click here for JCB reports and meeting minutes
-:link: https://executive-council-team-compass.readthedocs.io/en/latest/reports/communitybuilding/readme.html
+:link: https://jupyter.org/community-committee/meeting-notes/
 There is more information about meeting minutes and reports on group activities in the linked page.
 This page is the charter for the Jupyter Community Building Working Group.
 ```
