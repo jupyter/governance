@@ -59,13 +59,13 @@ function getTeamMembers(authors, teamId, allTeams) {
   for (const author of authors) {
     if (!author.teams) continue;
 
+    // A member may have multiple matching team rows
     for (const team of author.teams) {
       if (team.team === teamId) {
         members.push({
           ...author,
           teamData: team,
         });
-        break;
       }
     }
   }
@@ -84,10 +84,11 @@ function getTeamMembers(authors, teamId, allTeams) {
  * Get Union of Councils members (SSC + all active committees/working groups)
  */
 function getUnionOfCouncilsMembers(authors, allTeams) {
-  // Find all team IDs that are NOT former teams
+  // Find all team IDs that are NOT former teams or foundation teams
   const activeTeamIds = allTeams.teams
     .filter(team => !team.id.startsWith('former_'))
     .filter(team => team.id !== 'union_of_councils')
+    .filter(team => team.id !== 'jupyter_foundation')
     .map(team => team.id);
 
   // Collect unique author IDs
@@ -171,6 +172,13 @@ function detectColumns(members) {
       render: (member) => member.name,
     },
   ];
+
+  if (members.some(m => m.teamData.role)) {
+    columns.push({
+      header: 'Role',
+      render: (member) => member.teamData.role || '',
+    });
+  }
 
   // Check if any member has subproject
   if (members.some(m => m.teamData.subproject)) {

@@ -1,5 +1,14 @@
 version: 1
 authors:
+  - id: 3coins
+    name: Piyush Jain
+    github: https://github.com/3coins
+    teams:
+      - team: jupyter_foundation
+        role: Governing Board Member
+        organization: AWS
+        term: "2026-"
+
   - id: afshin
     name: Afshin Darian
     github: https://github.com/afshin
@@ -7,6 +16,7 @@ authors:
       - team: executive_council
         term: "2023-2026"
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Executive Council
       - team: former_steering_council
         term: "2018-2022"
@@ -36,6 +46,7 @@ authors:
     affiliations: [apple]
     teams:
       - team: jupyter_foundation
+        role: Governing Board Chair
         organization: Apple
 
   - id: blink1073
@@ -65,6 +76,7 @@ authors:
     affiliations: [snowflake]
     teams:
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Snowflake
 
   - id: choldgraf
@@ -74,6 +86,7 @@ authors:
       - team: executive_council
         term: "2025-2026"
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Executive Council
 
   - id: damianavila
@@ -90,8 +103,14 @@ authors:
     teams:
       - team: former_executive_council
         term: "2023-2024"
-      - team: jupyter_foundation
+      - team: former_jupyter_foundation
+        role: Governing Board Member
+        organization: Executive Council
+        term: "2024"
+      - team: former_jupyter_foundation
+        role: Governing Board Member
         organization: AWS
+        term: "2025-2026"
       - team: former_trademark_subcommittee
         term: "2017-2025"
       - team: former_steering_council
@@ -132,6 +151,7 @@ authors:
         term: "2026-2027"
       - team: media_strategy_working_group
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Executive Council
 
   - id: jasongrout
@@ -141,6 +161,7 @@ authors:
       - team: former_executive_council
         term: "2023-2025"
       - team: former_jupyter_foundation
+        role: Governing Board Member
         organization: Executive Council
         term: "2024-2025"
       - team: trademark_subcommittee
@@ -185,6 +206,7 @@ authors:
     github: https://github.com/krassowski
     teams:
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: General Members
 
   - id: LahariChowtoori
@@ -226,6 +248,7 @@ authors:
     affiliations: [google]
     teams:
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Google
 
   - id: mfisher87
@@ -286,6 +309,7 @@ authors:
       - team: executive_council
         term: "2025-2026"
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Executive Council
 
   - id: Ruv7
@@ -295,6 +319,7 @@ authors:
       - team: former_executive_council
         term: "2023-2025"
       - team: former_jupyter_foundation
+        role: Governing Board Member
         organization: Executive Council
         term: "2024-2025"
       - team: former_steering_council
@@ -313,6 +338,11 @@ authors:
     affiliations: [snowflake]
     teams:
       - team: former_jupyter_foundation
+        role: Governing Board Member
+        organization: Snowflake
+        term: "2024-2025"
+      - team: former_jupyter_foundation
+        role: Treasurer
         organization: Snowflake
         term: "2024-2025"
 
@@ -322,6 +352,7 @@ authors:
     affiliations: [google]
     teams:
       - team: former_jupyter_foundation
+        role: Governing Board Member
         organization: Google
         term: "2024-2025"
 
@@ -383,6 +414,7 @@ authors:
     affiliations: [meta]
     teams:
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Meta
 
   - id: Yann-P
@@ -400,6 +432,7 @@ authors:
       - team: executive_council
         term: "2024-2027"
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Executive Council
 
   - id: JasonWeill
@@ -415,6 +448,7 @@ authors:
     affiliations: [bloomberg]
     teams:
       - team: jupyter_foundation
+        role: Governing Board Member
         organization: Bloomberg
 
   - id: sbonaretti
@@ -422,4 +456,13 @@ authors:
     github: https://github.com/sbonaretti
     teams:
       - team: community_building_working_group
+        term: "2026-"
+
+  - id: nsingl00
+    name: Neha Singla
+    github: https://github.com/nsingl00
+    teams:
+      - team: jupyter_foundation
+        role: Treasurer
+        organization: Apple
         term: "2026-"
