@@ -55,7 +55,7 @@ flowchart TB
         A4["Server"]
         A5["Widgets"]
         A6["Kernels"]
-        A7["Foundations and Standards"]
+        A7["Foundations & Standards"]
         A8["Security"]
         A9["Accessibility"]
         A10["Jupyter Book"]
