@@ -130,6 +130,13 @@ authors:
     name: Gabriel Fouasnon
     github: https://github.com/gabalafou
     teams:
+      - team: former_software_steering_council
+        subproject: Jupyter Accessibility
+
+  - id: isabelparedes
+    name: Isabel Paredes
+    github: https://github.com/isabelparedes
+    teams:
       - team: software_steering_council
         subproject: Jupyter Accessibility
 
@@ -228,12 +235,11 @@ authors:
     teams:
       - team: executive_council
         term: "2026-2027"
-      - team: software_steering_council
+      - team: former_software_steering_council
         subproject: DEI Standing Committee
       - team: dei_standing_committee
       - team: former_community_building_working_group
         term: "2022-2026"
-
 
   - id: martinRenou
     name: Martin Renou
