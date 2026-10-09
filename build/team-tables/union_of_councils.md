@@ -5,7 +5,7 @@
 | Angus Hollands | [`@agoose77`](https://github.com/agoose77) |
 | April Johnson | [`@aprilmj`](https://github.com/aprilmj) |
 | Chris Holdgraf | [`@choldgraf`](https://github.com/choldgraf) |
-| Gabriel Fouasnon | [`@gabalafou`](https://github.com/gabalafou) |
+| Isabel Paredes | [`@isabelparedes`](https://github.com/isabelparedes) |
 | Jacob Diamond-Reivich | [`@jake-stack`](https://github.com/jake-stack) |
 | Jason Grout | [`@jasongrout`](https://github.com/jasongrout) |
 | Jeremy Tuloup | [`@jtpio`](https://github.com/jtpio) |

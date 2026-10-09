@@ -1,0 +1,1 @@
+import{a}from"/governance/build/_shared/chunk-RWOZJQA6.js";import"/governance/build/_shared/chunk-QAB7VALF.js";import"/governance/build/_shared/chunk-IA6DDOHA.js";import"/governance/build/_shared/chunk-RAQ24GF6.js";export default a();
