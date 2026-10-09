@@ -53,6 +53,11 @@ The Union of Councils (UoC) is the union of the membership of all Subproject Cou
 ```{team-members} former_executive_council
 ```
 
+### Former Software Steering Council
+
+```{team-members} former_software_steering_council
+```
+
 ### Former DEI Working Group
 
 ```{team-members} former_dei_working_group

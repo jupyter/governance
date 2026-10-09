@@ -38,6 +38,9 @@ teams:
   - id: former_executive_council
     name: Former Executive Council
 
+  - id: former_software_steering_council
+    name: Former Sofwtare Steering Council
+
   - id: former_dei_working_group
     name: Former DEI Working Group
 
