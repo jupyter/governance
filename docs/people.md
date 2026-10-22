@@ -41,10 +41,30 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 
 ### [Union of Councils](executive_council.md#union-of-councils)
 
-The Union of Councils (UoC) is the union of the membership of all Subproject Councils, Standing Committees, and Working Groups. It makes up the voting body that elects members of the Executive Council, the union of council is comprised of at least the following people, though other may be part of the UoC as Councils membership maybe be tracked independently of the governance repo.
+The Union of Councils (UoC) is the voting body that elects members of the Executive Council. The UoC membership is the union of the membership of the EC, SSC, and all Subproject Councils, Standing Committees, and Working Groups. These are:
 
-```{team-members} union_of_councils
-```
+The following Project councils:
+* Executive Council
+* Software Steering Council
+
+The following Subproject Councils:
+* Accessibility Council
+* Jupyter Book Council
+* Jupyter Foundations Council
+* Jupyter Frontends Council
+* Jupyter Kernels Council
+* Jupyter Security Council
+* Jupyter Server Council
+* Jupyter Trademarks
+* Jupyter Voila Council
+* Jupyter Widgets Council
+* JupyterHub Council
+
+The following Standing Committees and Working Groups:
+* DEI Standing Committee
+* Jupyter Community Building Working Group
+* Jupyter Docs Working Group
+* Jupyter Media Strategy Working Group
 
 ## Former Project Jupyter Leadership
 
