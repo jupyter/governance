@@ -32,7 +32,8 @@ authors:
     name: Andrii Ieroshenko
     github: https://github.com/andrii-i
     teams:
-      - team: media_strategy_working_group
+      - team: former_media_strategy_working_group
+        term: "2022-2026"
 
   - id: aprilmj
     name: April Johnson
