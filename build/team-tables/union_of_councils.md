@@ -1,7 +1,6 @@
 | Name | GitHub |
 | --- | --- |
 | Afshin Darian | [`@afshin`](https://github.com/afshin) |
-| Andrii Ieroshenko | [`@andrii-i`](https://github.com/andrii-i) |
 | Angus Hollands | [`@agoose77`](https://github.com/agoose77) |
 | April Johnson | [`@aprilmj`](https://github.com/aprilmj) |
 | Chris Holdgraf | [`@choldgraf`](https://github.com/choldgraf) |
