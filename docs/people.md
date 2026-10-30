@@ -55,7 +55,6 @@ The following Subproject Councils:
 * Jupyter Kernels Council
 * Jupyter Security Council
 * Jupyter Server Council
-* Jupyter Trademarks
 * Jupyter Voila Council
 * Jupyter Widgets Council
 * JupyterHub Council
@@ -65,6 +64,7 @@ The following Standing Committees and Working Groups:
 * Jupyter Community Building Working Group
 * Jupyter Docs Working Group
 * Jupyter Media Strategy Working Group
+* Jupyter Trademarks
 
 ## Former Project Jupyter Leadership
 
