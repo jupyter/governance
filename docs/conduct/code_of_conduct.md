@@ -122,7 +122,6 @@ by e-mailing
 [*conduct@jupyter.org*](mailto:conduct@jupyter.org)
 within 24 hours.
 
-(reporting)=
 ## Reporting
 
 If you believe someone is violating the code of conduct, please report this in
