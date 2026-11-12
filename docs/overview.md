@@ -6,6 +6,117 @@ Jupyter transitioned from a [Benevolent Dictator For Life (BDFL) + Steering Coun
 This document provides a brief informational summary of the Project Jupyter governance model. In case of any substantive discrepancy with the official descriptions of each body, the underlying governance documents should be considered as the source of truth, and we will update this overview as needed.
 :::
 
+
+```mermaid
+---
+title: Jupyter Governance
+config:
+  themeVariables:
+    fontSize: 12px
+  flowchart:
+    nodeSpacing: 12
+    rankSpacing: 14
+    padding: 4
+    diagramPadding: 4
+    subGraphTitleMargin:
+      top: 0
+      bottom: 10
+---
+flowchart TB
+  NF["NumFOCUS"]
+
+  subgraph LFAM["Linux Foundation Ecosystem"]
+    LFC["LF Charities<br/><small>501(c)(3)</small>"]
+    LF["Linux Foundation<br/><small>&nbsp;501(c)(6)&nbsp;</small>"]
+  end
+
+  subgraph JF["Jupyter Foundation"]
+    PM["Premier Members"]
+    GM["General Members"]
+    AM["Associate Members"]
+    GB["Governing Board"]
+    FUND[("Funds")]
+  end
+
+  subgraph PJ["Project Jupyter"]
+    UOC(["Union of Councils"])
+    EC["Executive Council"]
+    SC["Standing Committees"]
+    WG["Working Groups"]
+    SSC["Software Steering Council"]
+
+    subgraph SP["Subprojects"]
+      direction LR
+      subgraph SPA[" "]
+        direction LR
+        A1["Frontends"]
+        A2["JupyterHub &amp; Binder"]
+        A3["Voilà"]
+        A4["Server"]
+        A5["Widgets"]
+        A6["Kernels"]
+        A7["Foundations & Standards"]
+        A8["Security"]
+        A9["Accessibility"]
+        A10["Jupyter Book"]
+      end
+      subgraph SPB[" "]
+        direction LR
+        B1["nbdime"]
+        B2["nbgrader"]
+        B3["nbviewer"]
+        B4["ipyparallel"]
+        B5["other repos"]
+      end
+    end
+  end
+
+  NF -.-> LFC
+  LFC ==> PJ
+  LF ===> JF
+
+  PM -->|"1 each"| GB
+  GM -->|"1 per 5 · max 3"| GB
+  AM -.-x|"none"| GB
+  EC ==>|"all"| GB
+  PM & GM -.-> FUND
+  GB ==> FUND
+  FUND ==> PJ
+
+  UOC --> EC
+  EC --> SC
+  EC --> WG
+  EC --> SSC
+  SC --> SSC
+  WG -.-> SSC
+  SSC <-->|"1 each"| SPA
+  SSC -->|"council"| SPB
+
+  classDef legal fill:#EEF2FF,stroke:#4F46E5,color:#1E1B4B
+  classDef money fill:#FEF3C7,stroke:#B45309,color:#451A03
+  classDef ec fill:#F37726,stroke:#B4501A,color:#FFFFFF,font-weight:bold
+  classDef ssc fill:#FFE3CC,stroke:#F37726,stroke-width:2px,color:#3B1D0A
+  classDef body fill:#FFF8F2,stroke:#E0A27A,color:#3B1D0A
+  classDef sp fill:#FFFFFF,stroke:#E0A27A,color:#3B1D0A
+  classDef old fill:#F3F4F6,stroke:#9CA3AF,stroke-dasharray:4 3,color:#6B7280
+
+  class LF,LFC legal
+  class PM,GM,AM,GB,FUND money
+  class EC ec
+  class SSC ssc
+  class UOC,SC,WG body
+  class A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,B1,B2,B3,B4,B5 sp
+  class NF old
+
+  style LFAM fill:#F8F9FF,stroke:#A5B4FC,color:#312E81
+  style JF fill:#FFFBEB,stroke:#F59E0B,color:#78350F
+  style PJ fill:#FFFDFB,stroke:#F37726,stroke-width:2px,color:#9A3412
+  style SP fill:#FFFFFF,stroke:#E0A27A,color:#9A3412
+  style SPA fill:#FFF8F2,stroke:#E0A27A
+  style SPB fill:#FFF8F2,stroke:#E0A27A,stroke-dasharray:4 3
+```
+
+
 Jupyter’s governance model is anchored on three bodies that complement each other:
 
 1. The [**Executive Council (EC)**](executive_council.md) is ultimately responsible for all dimensions of the Project (including, but not limited to, software, legal, financial, community, operations, inclusion and diversity, etc.). The members of the EC actively work to carry out the Project's mission in accordance with its values and to support operations through delegation to the Software Steering Council (SSC), Software Subprojects, Standing Committees, and Working Groups. These other bodies will report to the EC, and the EC is expected to support, oversee, manage, and ensure the success of operations across Jupyter. For more detail, see the [Executive Council document](executive_council.md).
