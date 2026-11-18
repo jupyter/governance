@@ -19,13 +19,9 @@ teams:
     name: Trademark Subcommittee
     homepage: trademarks.md
 
-  - id: dei_standing_committee
-    name: DEI Standing Committee
-    homepage: charters/DeiCharter.md
-
-  - id: community_building_working_group
-    name: Community Building Working Group
-    homepage: communitybuildingworkinggroup.md
+  - id: community_building_standing_committee
+    name: Community Building Standing Committee
+    homepage: charters/CommunityBuildingCharter.md
 
   - id: media_strategy_working_group
     name: Media Strategy Working Group
