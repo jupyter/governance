@@ -11,7 +11,7 @@ teams:
     team_compass: https://github.com/jupyter/software-steering-council-team-compass/
 
   - id: jupyter_foundation
-    name: Jupyter Foundation Governing Board
+    name: Jupyter Foundation
     homepage: jupyter_foundation.md
     team_compass: https://jupyter-governance.github.io/jupyter-foundation-governing-board
 
@@ -33,6 +33,9 @@ teams:
 
   - id: former_executive_council
     name: Former Executive Council
+
+  - id: former_software_steering_council
+    name: Former Sofwtare Steering Council
 
   - id: former_dei_working_group
     name: Former DEI Working Group

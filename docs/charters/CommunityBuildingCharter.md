@@ -19,9 +19,9 @@ EC, and the SSC.
 
 
 ```{card} Jupyter Community Building (JCB) Committee Team Compass
-:link: https://jupyter.org/community-committee
+:link: https://jupyter.org/community-committee/meeting-notes/
 
-JCB meeting minutes and information activities on the JCB Team Compass.
+JCB meeting minutes and information activities on the JCB Team Compass. 
 ```
 
 
