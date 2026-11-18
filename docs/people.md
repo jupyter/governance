@@ -48,7 +48,6 @@ The following Project councils:
 * Software Steering Council
 
 The following Subproject Councils:
-* Accessibility Council
 * Jupyter Book Council
 * Jupyter Foundations Council
 * Jupyter Frontends Council
@@ -63,6 +62,7 @@ The following Standing Committees and Working Groups:
 * DEI Standing Committee
 * Jupyter Community Building Working Group
 * Jupyter Docs Working Group
+* Accessibility Standing Committee
 * Jupyter Media Strategy Working Group
 * Jupyter Trademarks
 
