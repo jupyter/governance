@@ -31,6 +31,10 @@ teams:
     name: Media Strategy Working Group
     homepage: charters/MediaStrategyCharter.md
 
+  - id: security_committee
+    name: Security Standing Committee
+    homepage: charters/SecurityCharter.md
+
   - id: union_of_councils
     name: Union of Councils
     homepage: executive_council.md
