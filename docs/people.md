@@ -38,7 +38,7 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 ```{team-members} community_building_working_group
 ```
 
-### [Jupyter Docs Working Group](charters/DocumentationCharter.md)
+### [Jupyter Documentation Working Group](charters/DocumentationCharter.md)
 
 
 ### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
