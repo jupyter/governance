@@ -19,24 +19,11 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 ```{team-members} jupyter_foundation
 ```
 
-### [Trademark Subcommittee](trademarks.md)
-
-```{team-members} trademark_subcommittee
-```
+## Standing Committees
 
 ### [DEI Standing Committee](charters/DeiCharter.md)
 
 ```{team-members} dei_standing_committee
-```
-
-### [Jupyter Community Building Working Group](communitybuildingworkinggroup.md)
-
-```{team-members} community_building_working_group
-```
-
-### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
-
-```{team-members} media_strategy_working_group
 ```
 
 ### [Jupyter Security Standing Committee](charters/SecurityCharter.md)
@@ -44,7 +31,27 @@ Alphabetical by first name, names are followed by GitHub usernames and current e
 ```{team-members} security_committee
 ```
 
-### [Union of Councils](executive_council.md#union-of-councils)
+## Working Groups
+
+### [Jupyter Community Building Working Group](communitybuildingworkinggroup.md)
+
+```{team-members} community_building_working_group
+```
+
+### [Jupyter Docs Working Group](charters/DocumentationCharter.md)
+
+
+### [Jupyter Media Strategy Working Group](charters/MediaStrategyCharter.md)
+
+```{team-members} media_strategy_working_group
+```
+
+### [Trademark Subcommittee](trademarks.md)
+
+```{team-members} trademark_subcommittee
+```
+
+## [Union of Councils](executive_council.md#union-of-councils)
 
 The Union of Councils (UoC) is the voting body that elects members of the Executive Council. The UoC membership is the union of the membership of the EC, SSC, and all Subproject Councils, Standing Committees, and Working Groups. These are:
 
