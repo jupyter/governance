@@ -59,6 +59,8 @@ project:
               title: Documentation
             - file: charters/DeiCharter.md
               title: Diversity, Equity & Inclusion
+            - file: charters/SecurityCharter.md
+              title: Security
         - file: distinguished_contributors.md
 
     # Policies and community standards

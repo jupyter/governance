@@ -70,6 +70,8 @@ authors:
       - team: former_steering_council
         term: "Founding member, 2014-2022"
       - team: former_numfocus_subcommittee
+      - team: security_committee
+        term: "2026-"
 
   - id: celestehorgan
     name: Celeste Horgan
@@ -180,6 +182,8 @@ authors:
         term: "2026-"
       - team: former_steering_council
         term: "2015-2022"
+      - team: security_committee
+        term: "2026-"
 
   - id: jdfreder
     name: Jonathan Frederic
@@ -216,6 +220,8 @@ authors:
       - team: jupyter_foundation
         role: Governing Board Member
         organization: General Members
+      - team: security_committee
+        term: "2026-"
 
   - id: LahariChowtoori
     name: Lahari Chowtoori
@@ -431,6 +437,8 @@ authors:
       - team: software_steering_council
         subproject: Jupyter Security
         term: "2026-"
+      - team: security_committee
+        term: "2026-"
 
   - id: Zsailer
     name: Zach Sailer
@@ -472,4 +480,11 @@ authors:
       - team: jupyter_foundation
         role: Treasurer
         organization: Apple
+        term: "2026-"
+
+  - id: dlqqq
+    name: David Qiu
+    github: https://github.com/dlqqq
+    teams:
+      - team: security_committee
         term: "2026-"
